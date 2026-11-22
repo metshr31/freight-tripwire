@@ -2,8 +2,7 @@ name: Freight and STB Tripwire
 on:
   schedule:
     # Five-minute polling, 24/7. Off-hour offset avoids the busiest minute.
-    - cron: '2-59/5 * * * *'
-      timezone: 'America/New_York'
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
   workflow_dispatch:
     inputs:
       test_push:
