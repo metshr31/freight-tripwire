@@ -1,8 +1,11 @@
 name: Freight and STB Tripwire
 on:
   schedule:
-    # Five-minute polling, 24/7. Off-hour offset avoids the busiest minute.
-    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
+    # Weekdays every 20 minutes, 8:00 AM through 7:00 PM Eastern.
+    - cron: '0,20,40 8-18 * * 1-5'
+      timezone: 'America/New_York'
+    - cron: '0 19 * * 1-5'
+      timezone: 'America/New_York'
   workflow_dispatch:
     inputs:
       test_push:

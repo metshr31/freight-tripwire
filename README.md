@@ -14,7 +14,7 @@ Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisio
 
 ## Speed and alert handling
 
-- A five-minute schedule is configured **24/7**, including nights, weekends and holidays, at minutes 02, 07, 12, 17, 22, 27, 32, 37, 42, 47, 52 and 57.
+- A 20-minute schedule is configured **Monday–Friday, 8:00 a.m. through 7:00 p.m. Eastern**: 08:00, 08:20, 08:40, and every 20 minutes through the final 19:00 check (34 checks per weekday). America/New_York adjusts for daylight saving time. Holidays that fall on weekdays remain included.
 - Direct operational notices are fetched first; direct news/IR sources follow. Sources run concurrently with bounded workers and timeouts.
 - A new qualifying direct-company item is sent **as soon as that source finishes**, without waiting for slow social feeds. Some per-run delivery capacity is reserved for urgent items.
 - Source excerpts and original URLs accompany alerts; publication times are included when supplied. A registered company source supplies the company identity even when its headline omits the company name.
@@ -23,7 +23,7 @@ Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisio
 - Failed notifications remain queued for retry. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
 - HTTP 403/429 sources back off for 30 minutes. Repeated other direct-source failures back off for 15 minutes; failures remain visible.
 
-GitHub scheduled starts are **best effort**. A five-minute cron is not a guaranteed five-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
+GitHub scheduled starts are **best effort**. A 20-minute cron is not a guaranteed 20-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
 
 ## Live status and durable state
 

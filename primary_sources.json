@@ -5936,6 +5936,6 @@
     "Only current returned entries are inspected; first reads seed quietly.",
     "Company alias names can share one parent-company feed.",
     "Gaps are listed explicitly and do not count as operational direct coverage.",
-    "GitHub scheduled starts are best effort; five-minute cron is not a guaranteed five-minute delivery SLA."
+    "GitHub scheduled starts are best effort; 20-minute cron is not a guaranteed 20-minute delivery SLA."
   ]
 }
