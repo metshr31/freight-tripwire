@@ -1,0 +1,69 @@
+name: Freight and STB Tripwire
+on:
+  schedule:
+    # Every ten minutes on weekdays, 7:03 AM through 6:53 PM local Eastern time.
+    - cron: '3,13,23,33,43,53 7-18 * * 1-5'
+      timezone: 'America/New_York'
+    # Hourly all week, including nights, weekends and holidays.
+    - cron: '7 * * * *'
+      timezone: 'America/New_York'
+  workflow_dispatch:
+    inputs:
+      test_push:
+        description: 'Send a real test notification to ntfy (no baseline changes)'
+        required: false
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: freight-tripwire-state
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Check configuration
+        run: python watcher.py --check-config
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Run watcher or test notification
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          TEST_PUSH: ${{ inputs.test_push }}
+        run: |
+          if [[ "$TEST_PUSH" == 'true' ]]; then
+            python watcher.py --test-push
+          else
+            python watcher.py
+          fi
+      - name: Commit durable state and alert log
+        if: always()
+        run: |
+          git config user.name 'freight-tripwire[bot]'
+          git config user.email 'freight-tripwire[bot]@users.noreply.github.com'
+          for file in seen_items.json health.json alerts.jsonl; do
+            if [[ -f "$file" ]]; then git add -- "$file"; fi
+          done
+          if ! git diff --staged --quiet; then
+            git commit -m 'Save monitoring state and source health'
+            for n in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && exit 0
+              sleep "$((n * 2))"
+            done
+            echo 'State push failed after retries' >&2
+            exit 1
+          fi

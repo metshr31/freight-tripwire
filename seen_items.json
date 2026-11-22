@@ -1,0 +1,3919 @@
+{
+  "last_run_utc": "2026-11-22T19:01:12+00:00",
+  "seen": {
+    "013fde67d79a6025d313b6c7": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Notice of Petition for Extension of Waiver of Compliance"
+    },
+    "0283960e7449faadf40fc1ca": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "L'Oréal Paris rinde homenaje a las mujeres que marcan la diferencia en su gala anual Mujeres de Valor."
+    },
+    "0300679559154a9dd732227b": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. crude oil imports from Venezuela in July were highest since 2017"
+    },
+    "05c89ea5c431ff71ee468050": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Global Child \"Travel & Purpose\" celebra una nueva temporada con Andrea Bocelli, Isabela Merced y John Malkovich, filma en Miami Beach y lanza el Club de Viajes y Propósito."
+    },
+    "066c34653f2e2b24dfaf34d1": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Commercial Driver's License: Saia LTL Freight; Application for Exemption"
+    },
+    "0803bb5a5337726855fe7526": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Trucking groups press Congress for lame-duck action"
+    },
+    "080d5551e0b8afb9d4809db6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Qualification of Drivers; Exemption Applications; Implantable Cardioverter Defibrillators (ICD)"
+    },
+    "08a3870a0deb42487d6493d2": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Eastern International Ltd. Announces Closing of Approximately $4.5 Million Public Offering"
+    },
+    "0b870529a702207231ae6a17": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "TEN, Ltd. Reports Record Profits for the Nine Months and Third Quarter of 2026"
+    },
+    "109f7d64c8d9628cdb1057d1": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Mixed outlook for energy expenditures this winter"
+    },
+    "11274263ec4ec7aa15ad19bc": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. refineries have been running at very high rates in 2026"
+    },
+    "121d8be51366c09f6019c834": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "New England natural gas prices have been trading near record discounts to Henry Hub"
+    },
+    "1532845ab00618b6e84549c5": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Agency Information Collection Activities; Renewal of an Approved Information Collection: Generic Clearance of Customer Satisfaction Surveys"
+    },
+    "15c2bd28b112053151bc52a6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Monthly wind generation in ISO-NE is about 68% higher than last year"
+    },
+    "185e0027a03bd5e6411971d6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Denton County Transportation Authority's Request To Amend Its Positive Train Control Safety Plan and Positive Train Control System"
+    },
+    "19d3528ecaf8d3062e37ac80": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "DataBeyond Showcases AI Sorting Solutions for Circular Supply Chains at COP31"
+    },
+    "1cb6d1b158716bb44cf53a3c": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Eastern International Ltd. Announces Pricing of Approximately $4.5 Million Public Offering"
+    },
+    "207bf0c6d4cca97565ea6563": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. small-scale solar generation has quadrupled in the last decade"
+    },
+    "21526fd8b8e3fc887ececf63": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Norfolk Southern Railway Company-Abandonment Exemption-in Madison County, Ohio"
+    },
+    "2474a6edd8a20e4b6f123491": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Hydropower generation in the Southwest fell to record lows this summer"
+    },
+    "2723eabb445067bfc96eb779": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "DP World Marks Two Years of Logistics Operations in Colombia, Strengthening Regional and Global Trade Connectivity"
+    },
+    "2a2df85d76c0977021e6e8d2": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
+    },
+    "2a647be93e73790a4fec27a6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
+    },
+    "2ec70d43ca9c125d1bfe28ae": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Star Bulk Carriers Corp. Reports Net Profit of $141.9 Million for the Third Quarter of 2026, and Declares Quarterly Dividend of $1.00 Per Share, the Highest Since the Third Quarter"
+    },
+    "312ecd6a696d2a87caef2cc8": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. exports of propane reached records in the first half of 2026"
+    },
+    "36846a9746f08a10184cdf33": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Tesser Atomics and Samsung Heavy Industries Enter Exclusive Collaboration on a Nuclear-Powered LNG Carrier"
+    },
+    "36cc10a9cb1126e9390bb500": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Channel Pacific Railroad-Operation Exemption-In West Sacramento, Yolo County, Cal."
+    },
+    "37a6da6ff8911e18abd1de86": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Bogalusa Central Railroad LLC-Acquisition Exemption-Rail Lines of Illinois Central Railroad Company"
+    },
+    "37ad9fc361092bb7d114b831": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "MARTEN TRANSPORT DECLARES QUARTERLY DIVIDEND"
+    },
+    "390608e4af877df000fc91bc": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "ACT Expo 2027 to spotlight TCO, autonomous trucks"
+    },
+    "3993941242fcf8c5b02082c0": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Refineries have shifted production away from gasoline to middle distillates"
+    },
+    "3ca1bd1030e8a3faacc183dd": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "United States on track for record crude oil production in 2026"
+    },
+    "445ea0f5e42ca31e97506403": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Northern Indiana Commuter Transportation District's Request To Amend Its Positive Train Control System"
+    },
+    "46ceeb8bb19750c04b44f5bf": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "IEA says no going back to pre-Iran war's energy shock"
+    },
+    "4767acdec2212fc0f490291e": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Specialised Therapeutics and DKSH Partner to Expand Access to Cancer Medicines in Vietnam"
+    },
+    "47a658188b86e583eef17845": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against EyePoint, Inc. (NASDAQ: EYPT) -- Investors Who Suffered Losses Are Encouraged to Contact the Fir"
+    },
+    "514d2323caeb1f40ac980fa2": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "La APEC CEO Summit 2026 concluye con éxito en Shenzhen"
+    },
+    "520f7bbb86cc0ad7d9440af9": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Global Child \"Travel & Purpose\" Celebrates a New Season with Andrea Bocelli, Isabela Merced and John Malkovich, Films Miami Beach and Launches the Travel and Purpose Club"
+    },
+    "526cec034ccb484b91924a63": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Global refinery inputs fell sharply in the second quarter of 2026 before modest recovery"
+    },
+    "55bd1d887c2bf8376e8bd240": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Walmart raises outlook again after a solid quarter"
+    },
+    "60fe97f4f40f789ef2aaae72": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "How to Short Anthropic (ANT): Leverage Shares by Themes Explains ANDD and ANSS Inverse Anthropic ETFs, Short Selling and Put Options"
+    },
+    "6741dbd3c5d84cd61d9589e9": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Un abogado de Brayton Purcell aparece en un artículo de opinión del San Francisco Chronicle que respalda la prohibición de la piedra artificial en California e insta a otros estado"
+    },
+    "6d5f94b54e3e2bf7acf1f26b": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "LNG imports make up increasing share of Colombia's natural gas supply"
+    },
+    "6d686f7252a1240184703196": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "North Dakota drillers tap trucks during pipeline outage"
+    },
+    "72ce00c9a7cffa425815f1d7": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "TBL Group, Inc.-Acquisition of Control-Horizon Motor Coach, Inc."
+    },
+    "73998ce676150f5cf0a3c1ae": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Crude oil prices and refinery margins generally increased throughout the third quarter"
+    },
+    "767e9e82c4f8ad7540aef129": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Oil prices head higher on fears of more strikes on Iran"
+    },
+    "77ab5d7af2eff7b8db8f51d6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Category 2 Hurricane Isaias nears landfall, leading to production shut-ins"
+    },
+    "79336424c0353909c8fde051": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Notice of Petition for Extension of Waiver of Compliance"
+    },
+    "7a26fed28a38c84c3a69a4eb": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Fr8Tech AI Lab Publishes Two Studies on AI Negotiation and Voice Agents"
+    },
+    "7cef0bc70668d2fcca256670": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Kanawha River Railroad, L.L.C.-Lease Renewal and Operation Exemption With Interchange Commitment-Norfolk Southern Railway Company"
+    },
+    "7dd88225b4ad6945571af2ee": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Oil flows through Middle East chokepoints increased in the third quarter"
+    },
+    "805c3771b80ab43865022554": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Okeanis Eco Tankers Corp. – Ex Dividend Date"
+    },
+    "81839ba00cecaadeb880f78b": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Navios South American Logistics Inc. Reports Final Court Ruling Dismissing Former Executive’s Claim"
+    },
+    "8608005d8de7884210089ce0": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
+    },
+    "8a4d60a8a60ceb1c7c810628": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Саммит генеральных директоров АТЭС 2026 года успешно завершился в Шэньчжэне"
+    },
+    "8b9070c7d4f620b683c75007": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "AI takes the call"
+    },
+    "8cf08be1dff1199f4d435ad4": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Armada Powers Bojangles’ 8X Growth in Promotional Menu Capacity While Cutting 1,000 Weekly Shortages"
+    },
+    "94361e768aebc4778d7e6760": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Notice of Petition for Waiver of Compliance"
+    },
+    "94da43f89c4a20caa604793f": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182"
+    },
+    "97049e40bf314ccad5f114ff": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Commercial Driver's License: PAM Transport, Inc.; Application for Exemption"
+    },
+    "9b574b9b6d9a12cd61d4433d": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Hybrid sales rise while battery electric sales remain lower after tax credit expiration"
+    },
+    "9e0b658081576ac496ee1713": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Education Cannot Wait annonce un investissement de 52 millions de dollars pour permettre à 300 000 enfants de continuer à apprendre au Liban, au Myanmar et au Soudan du Sud"
+    },
+    "a148fadf946c26c24b755553": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. electricity use for electric vehicles increasing at a slower pace in 2026"
+    },
+    "a162d9e304063a49ce53ba6f": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Samit generálnych riaditeľov APEC 2026 v Shenzhene sa úspešne ukončil"
+    },
+    "a1bdb43bd9d916d69fc53219": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. natural gas production reached a record high in July 2026"
+    },
+    "a3882203fc7693802125f3b4": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "The share of solar generation with co-located battery storage is increasing"
+    },
+    "a4c390e9c48b4825355d9bf6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. natural gas inventories end injection season above normal levels"
+    },
+    "a4e5180b45c164b56f732131": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From R.B. Stewart Petroleum Products, Inc., USDOT # 1290158"
+    },
+    "a506241b933f4481c5ac3bca": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Education Cannot Wait anuncia 52 millones de dólares para que 300.000 niños sigan aprendiendo"
+    },
+    "a53c43eb1c5a46ccb06b48b1": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "테서 아토믹스·삼성중공업, 원자력 추진 LNG 운반선 개발 위한 독점 협력 체결"
+    },
+    "a729eae17ac4390b07da0716": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Canada gives Ford plant $324 million to protect auto jobs"
+    },
+    "a784d3b728af10c3134b4be3": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "ATRI puts trucking’s congestion cost at $128 billion"
+    },
+    "a815d9e0f8f94db4fff81c0b": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "AutoShop Answers Adds 9 New Dates for Key2Key Weekends"
+    },
+    "aa6979c4c99abd0495ce8c03": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Elevated crack spreads and crude oil prices contribute to higher prices at the pump"
+    },
+    "abe2c6dff347a4b1ed7dc764": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Lawmakers near deal to ban Chinese cars, spare Mercedes"
+    },
+    "ae6de6ca053ec362e2028246": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Summit generálních ředitelů APEC 2026 v Šen-čenu úspěšně skončil"
+    },
+    "b09b874b4f5bae1654d68c9a": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption Renewal From Loomis Armored US, LLC"
+    },
+    "b1560b912ae1329d56e516a6": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Labor Department finalizes independent contractor rule"
+    },
+    "b647b7143faf3148069f5930": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Xos Enters Energy Generation with the Xos Solar System, Bringing Grid-Independent Power to Any Site in Days"
+    },
+    "b84dd1a90e3d19ce8c2fd4d2": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Release of Waybill Data"
+    },
+    "b8de568ac0b5c5e7604ab543": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Policy Statement on Jurisdiction and Preemption Under the ICC Termination Act"
+    },
+    "b9b1dbb35bdc6562fe0996b4": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "How does EIA account for small differences between energy supply and demand data?"
+    },
+    "ba7151f92a77a99918ef68ba": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Tesla shareholders urged to vote against board Chair Denholm"
+    },
+    "bdbc5a011686f9f646fa0ec1": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Robin Energy Announces Reverse Stock Split to be Effective November 24, 2026"
+    },
+    "becfb45a459ae5cb357f40c4": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Henry Hub natural gas prices this summer were 6% lower than last summer"
+    },
+    "c1b05e454f519718ba0422e9": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Oil prices drop on robust supply"
+    },
+    "c23b3abb6d8077b0cfe85236": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Safety Advisory 2026-02: Advanced Chemistry Battery Hazards in Passenger Railcar Operations"
+    },
+    "c5db93cb08cd71105bebac69": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Amazon threatens to move out of NYC over delivery legislation"
+    },
+    "c7714ddb52208b022fccbfd0": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Safety Vision, LLC"
+    },
+    "c927d56cdd4fa4fe8e7c7e29": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Dynagas LNG Partners LP Reports Results for the Three and Nine Months Ended September 30, 2026"
+    },
+    "c96105efa2fbbfe8635d2f48": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Wilkes-Barre Terminal Railway Company-Acquisition, Operation and Change of Operator Exemption-Luzerne County Redevelopment Authority and Luzerne County Rail Corporation, and R.J. C"
+    },
+    "ca4fc2326798e0670b742708": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Petro-Canada Lubricants unveils next-generation Duron oils"
+    },
+    "cb5890d031cd055d66cdc7cf": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "PJM, ERCOT, and SWPP all set peak load records this summer"
+    },
+    "cbe6e619093df424320976e5": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "60-Day Notice of Intent To Seek Extension of Approval: Appeals of Decisions Issued Under Delegated Authorities and Labor Arbitration Decisions"
+    },
+    "ce11da5d9326d70549a5b002": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Federal and Provincial governments announce $250 million to build new Port of Sault Ste. Marie"
+    },
+    "ce83f844804c1bd07631308b": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
+    },
+    "d2c038be85396ab2dad6dd25": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "TARGET Study Demonstrates Sustained Performance and Favorable Safety Profile of the Cardiovalve TR System in High-Risk Patients with Severe Tricuspid Regurgitation"
+    },
+    "d5974437c26e7af3a617f004": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
+    },
+    "d5b166b152066e00b9e30d77": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Corpus Christi LNG expansion makes facility the second-largest in the United States"
+    },
+    "d6518602f64b9b77da16840a": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
+    },
+    "d6672a02d3a9196e6fa64b9c": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Smart Logistics Global Limited Reports First Half of 2026 Financial Results"
+    },
+    "d7b4c446a0be859893b47055": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "NYC lawmakers weigh overhaul of Amazon delivery worker bill"
+    },
+    "d93b79d8a31424411ea288ec": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "EPA’s revised 2027 NOx rule enters final review"
+    },
+    "d9e69d4f4d5302e27c237a96": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Truck sales jump 59% on replacement momentum in October"
+    },
+    "ddc4d7a8713badb0124664b7": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Weekly average load in ERCOT continues near record high"
+    },
+    "de4730107af4d062b3697068": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Build-A-Bear Workshop, Inc. (NYSE: BBW) -- Investors Who Suffered Losses Are Encouraged to Conta"
+    },
+    "dec98c8111666d6422474928": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Agency Information Collection Activities; Renewal of a New Information Collection Request: Request for Revocation of Authority Granted"
+    },
+    "df368bc8805534c073daf596": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "DHL survey finds small business optimism for 2027"
+    },
+    "df9b7b5c05d2d2a6e3024c89": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Notice of Petition for Waiver of Compliance"
+    },
+    "e0e70cabf6c7a7a03e02d9a5": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "What goes into diesel prices?"
+    },
+    "e24888412756a5d8bda5c3cd": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Ajman Government Media Office hosts Foreign Affairs Undersecretary at THE SIGNAL with a clear message: 'The UAE does not seek the signal - it creates it'"
+    },
+    "e273dc2fdef77cde79012885": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Amtrak's Request To Amend Its Positive Train Control Safety Plan and Positive Train Control System"
+    },
+    "e3f23c3f0faa7979a64467b0": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "EIA forecasts Alaskan crude oil production to grow 13% in 2027"
+    },
+    "e3fa271dd1749df3693fcfde": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Ladera Medical Presents Full FASTEN Results Showing Rapid Hemostasis and a Strong Safety Profile with its Large Bore Closure System"
+    },
+    "e87f4cb3f4e19d80cb91a530": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Mullen Group Ltd. Announces Declaration of Monthly Dividend"
+    },
+    "eb506ee49f714d91b5057c28": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Hours of Service (HOS) of Drivers; American Pyrotechnics Association (APA); Request To Include an Additional Member Company to Current APA HOS Exemptions"
+    },
+    "ec74a94635bb4c8fcc3b3a54": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Le sommet des PDG de l'APEC 2026 s'est conclu avec succès à Shenzhen."
+    },
+    "ed3ae80d9ad23e1354fb2256": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Stolt-Nielsen Limited Board Declares Interim Dividend of $1.00 per Common Share"
+    },
+    "ef1fbfcafe49f74decf62b3d": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Agency Information Collection Activities; Renewal of an Approved Information Collection Request: Hazardous Materials Safety Permits"
+    },
+    "ef8aa6a0cae1430ebb3eecd8": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Walmart, like Costco, sees rise in 'doomsday prepping' sales"
+    },
+    "efb6e1c53f5f61d954279aac": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Parts and Accessories Necessary for Safe Operation; Metronet Application for Exemption"
+    },
+    "efe0105def03ae8a6cf7976f": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Patriot Rail Company LLC, SteelRiver Transport Ventures LLC, Global Diversified Infrastructure Fund (North America) LP, First State Infrastructure Managers (International) Limited,"
+    },
+    "fba9a5c69501fa573d5806a9": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Release of Waybill Data"
+    },
+    "fc0b10505a387c84a741b296": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Nordic American Tankers Ltd (NYSE: NAT) – Results of its 2026 Annual General Meeting"
+    },
+    "fcdc5fa84a432ec44f7e11a9": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Public companies produce most U.S. crude oil and natural gas"
+    },
+    "ffc269866eb3d92621ba8d65": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Ladera Medical Presents Full FASTEN Results Showing Rapid Hemostasis and a Strong Safety Profile with its Large Bore Closure System"
+    },
+    "ffda70c20a7584dc75132218": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "U.S. LNG exports rose 23% in the first half of 2026 because of higher capacity"
+    },
+    "stb:decision:52786": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52786: 12/19/2025 52786 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWA"
+    },
+    "stb:decision:52856": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52856: 1/2/2026 52856 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY "
+    },
+    "stb:decision:52877": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52877: 1/16/2026 52877 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:52925": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52925: 2/11/2026 52925 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:52939": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52939: 3/17/2026 52939 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:52944": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52944: 3/4/2026 52944 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY "
+    },
+    "stb:decision:52947": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52947: 3/18/2026 52947 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:52999": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 52999: 4/30/2026 52999 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53015": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53015: 4/20/2026 53015 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53029": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53029: 4/30/2026 53029 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53033": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53033: 4/30/2026 53033 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53037": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53037: 5/1/2026 53037 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPANY"
+    },
+    "stb:decision:53042": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53042: 5/5/2026 53042 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY "
+    },
+    "stb:decision:53052": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53052: 5/28/2026 53052 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPAN"
+    },
+    "stb:decision:53053": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53053: 5/12/2026 53053 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53082": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53082: 5/28/2026 53082 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53134": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53134: 6/18/2026 53134 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53135": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53135: 6/18/2026 53135 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53153": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53153: 7/8/2026 53153 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY "
+    },
+    "stb:decision:53161": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53161: 7/16/2026 53161 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53165": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53165: 7/28/2026 53165 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53166": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53166: 7/17/2026 53166 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53168": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53168: 7/22/2026 53168 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53195": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53195: 8/18/2026 53195 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPAN"
+    },
+    "stb:decision:53207": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53207: 8/19/2026 53207 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53210": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53210: 8/21/2026 53210 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53222": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53222: 8/27/2026 53222 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53223": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53223: 8/27/2026 53223 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53225": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53225: 8/31/2026 53225 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPAN"
+    },
+    "stb:decision:53236": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53236: 9/3/2026 53236 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY "
+    },
+    "stb:decision:53244": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53244: 9/18/2026 53244 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPAN"
+    },
+    "stb:decision:53245": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53245: 9/22/2026 53245 FD_36873_1 UNION PACIFIC CORPORATION, UNION PACIFIC RAILROAD COMPANY, NORFOLK SOUTHERN CORPORATION, AND NORFOLK SOUTHERN RAILWAY COMPAN"
+    },
+    "stb:decision:53275": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53275: 10/1/2026 53275 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53280": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53280: 10/6/2026 53280 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53286": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53286: 10/8/2026 53286 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53296": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53296: 10/16/2026 53296 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWA"
+    },
+    "stb:decision:53302": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53302: 11/4/2026 53302 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53305": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53305: 10/23/2026 53305 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWA"
+    },
+    "stb:decision:53312": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53312: 11/4/2026 53312 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53313": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53313: 11/4/2026 53313 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWAY"
+    },
+    "stb:decision:53319": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 decision 53319: 11/18/2026 53319 FD_36873 UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK SOUTHERN RAILWA"
+    },
+    "stb:decision:53329": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new decision 53329, 11/20/2026"
+    },
+    "stb:filing:312680": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312680: 10/13/2026 FD_36873 312680 BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:312692": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312692: 10/14/2026 FD_36873 312692 AC Logistics Inc Notice Of Intent To Participate (With Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—"
+    },
+    "stb:filing:312693": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312693: 10/14/2026 FD_36873 312693 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Discovery UNION PACIFIC CORPORATION AND"
+    },
+    "stb:filing:312694": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312694: 10/14/2026 FD_36873 312694 Atlantic Railways Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMP"
+    },
+    "stb:filing:312695": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312695: 10/14/2026 FD_36873 312695 CPKC, CSXT, BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312696": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312696: 10/14/2026 FD_36873 312696 Iowa Interstate Railroad, LLC, Foresight Energy, LLC, Commuter Rail Division of the Northern Illinois Transit Authority d/b/a"
+    },
+    "stb:filing:312697": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312697: 10/14/2026 FD_36873 312697 Canadian Pacific Railway Company dba CPKC Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312698": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312698: 10/14/2026 FD_36873 312698 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compa"
+    },
+    "stb:filing:312702": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312702: 10/15/2026 FD_36873 312702 Village of Voorheesville, N.Y. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312704": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312704: 10/15/2026 FD_36873 312704 Alliance for Chemical Distribution, American Chemistry Council, American Fuel & Petrochemical Manufacturers, The National Ind"
+    },
+    "stb:filing:312706": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312706: 10/15/2026 FD_36873 312706 BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:312708": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312708: 10/15/2026 FD_36873 312708 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Discovery UNION PACIFIC CORPORATION AND"
+    },
+    "stb:filing:312710": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312710: 10/16/2026 FD_36873 312710 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compa"
+    },
+    "stb:filing:312711": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312711: 10/16/2026 FD_36873 312711 Surface Transportation Board Miscellaneous UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312712": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312712: 10/16/2026 FD_36873 312712 Surface Transportation Board Miscellaneous UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312715": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312715: 10/16/2026 FD_36873 312715 Texas Office of the Attorney General Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PA"
+    },
+    "stb:filing:312716": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312716: 10/16/2026 FD_36873 312716 Canadian Pacific Railway Company dba CPKC Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312717": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312717: 10/16/2026 FD_36873 312717 CSX Transportation, Inc. Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312718": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312718: 10/19/2026 FD_36873 312718 M4 Railcar Group Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION "
+    },
+    "stb:filing:312721": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312721: 10/19/2026 FD_36873 312721 Richard A. Cornell, PE Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORA"
+    },
+    "stb:filing:312726": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312726: 10/21/2026 FD_36873 312726 St. Louis Regional Freightway Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN "
+    },
+    "stb:filing:312730": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312730: 10/22/2026 FD_36873 312730 Union Pacific Corporation and Union Pacific Railroad Company Modify/Supplement Prior Filing Or The Record UNION PACIFIC CORPO"
+    },
+    "stb:filing:312731": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312731: 10/22/2026 FD_36873 312731 CSX Transportation, Inc. Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312734": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312734: 10/23/2026 FD_36873 312734 The WayMaker Project LLC Request For Merger Condition(s) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL"
+    },
+    "stb:filing:312736": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312736: 10/26/2026 FD_36873 312736 Allied Rail Unions (BMWED,BRS, IAM#19, TCU, TWU) and BLET Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PA"
+    },
+    "stb:filing:312737": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312737: 10/26/2026 FD_36873 312737 Associated Industries of Florida Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CO"
+    },
+    "stb:filing:312738": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312738: 10/26/2026 FD_36873 312738 Associated Industries of Florida Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIFI"
+    },
+    "stb:filing:312739": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312739: 10/26/2026 FD_36873 312739 HF Sinclair Refining & Marketing LLC Substitution/Withdrawal Of Counsel UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD "
+    },
+    "stb:filing:312745": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312745: 10/27/2026 FD_36873 312745 Surface Transportation Board Miscellaneous UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312746": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312746: 10/27/2026 FD_36873 312746 Surface Transportation Board Miscellaneous UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312747": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312747: 10/27/2026 FD_36873 312747 City of Decatur, Illinois, City of Decatur, Illinois, City of Decatur, Illinois Notice Of Intent To Participate (With Comment"
+    },
+    "stb:filing:312748": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312748: 10/27/2026 FD_36873 312748 City of Decatur, Illinois, City of Decatur, Illinois, City of Decatur, Illinois Discovery UNION PACIFIC CORPORATION AND UNION"
+    },
+    "stb:filing:312750": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312750: 10/27/2026 FD_36873 312750 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Discovery UNION PACIFIC CORPORATION AND"
+    },
+    "stb:filing:312751": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312751: 10/27/2026 FD_36873 312751 Union Pacific Corporation and Union Pacific Railroad Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD C"
+    },
+    "stb:filing:312753": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312753: 10/26/2026 FD_36873 312753 Bicycle Colorado Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION A"
+    },
+    "stb:filing:312755": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312755: 10/28/2026 FD_36873 312755 CSX Transportation, Inc., Canadian Pacific Railway Company dba CPKC, BNSF Railway Company Discovery UNION PACIFIC CORPORATION"
+    },
+    "stb:filing:312761": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312761: 10/29/2026 FD_36873 312761 BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:312764": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312764: 10/30/2026 FD_36873 312764 Canadian Pacific Railway Company dba CPKC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFO"
+    },
+    "stb:filing:312768": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312768: 10/30/2026 FD_36873 312768 Neil Maunu, Executive Director of the Pacific Northwest Waterways Association Comments UNION PACIFIC CORPORATION AND UNION PA"
+    },
+    "stb:filing:312771": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312771: 10/30/2026 FD_36873 312771 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compa"
+    },
+    "stb:filing:312774": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312774: 11/2/2026 FD_36873 312774 M4 Railcar Group Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION A"
+    },
+    "stb:filing:312775": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312775: 11/2/2026 FD_36873 312775 Canadian Pacific Railway Company dba CPKC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312776": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312776: 10/30/2026 FD_36873 312776 Union Pacific Corporation and Union Pacific Railroad Company Petition For Stay UNION PACIFIC CORPORATION AND UNION PACIFIC RA"
+    },
+    "stb:filing:312777": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312777: 10/30/2026 FD_36873 312777 CSX Transportation, Inc. Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312778": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312778: 10/30/2026 FD_36873 312778 Canadian Pacific Railway Company dba CPKC Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312780": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312780: 10/30/2026 FD_36873 312780 Union Pacific Railroad Motion/Petition/Request UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK S"
+    },
+    "stb:filing:312784": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312784: 11/2/2026 FD_36873 312784 BNSF Railway Company Reply UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION A"
+    },
+    "stb:filing:312787": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312787: 11/2/2026 FD_36873 312787 The Joint Shipper Associations Reply UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN COR"
+    },
+    "stb:filing:312788": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312788: 11/2/2026 FD_36873 312788 CSX Transportation, Inc. Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312792": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312792: 11/2/2026 FD_36873 312792 Union Pacific Corporation and Union Pacific Railroad Company Reply UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPAN"
+    },
+    "stb:filing:312793": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312793: 11/3/2026 FD_36873 312793 Ruth L. Tines Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND N"
+    },
+    "stb:filing:312798": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312798: 11/3/2026 FD_36873 312798 Lindsay Williams Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AN"
+    },
+    "stb:filing:312802": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312802: 11/5/2026 FD_36873 312802 Union Pacific Corporation and Union Pacific Railroad Company Verified Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RA"
+    },
+    "stb:filing:312804": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312804: 11/5/2026 FD_36873 312804 Brian S. Smith Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND"
+    },
+    "stb:filing:312805": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312805: 11/5/2026 FD_36873 312805 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compan"
+    },
+    "stb:filing:312806": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312806: 11/5/2026 FD_36873 312806 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compan"
+    },
+    "stb:filing:312807": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312807: 11/5/2026 FD_36873 312807 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compan"
+    },
+    "stb:filing:312810": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312810: 11/6/2026 FD_36873 312810 Canadian Pacific Railway Company dba CPKC Modify/Supplement Prior Filing Or The Record UNION PACIFIC CORPORATION AND UNION PAC"
+    },
+    "stb:filing:312811": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312811: 11/6/2026 FD_36873 312811 Honorable Troy A. Carter, Sr. Letter UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN COR"
+    },
+    "stb:filing:312812": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312812: 11/6/2026 FD_36873 312812 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compan"
+    },
+    "stb:filing:312818": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312818: 11/12/2026 FD_36873 312818 BMWED, BRS, IAM#19, TCU,TWU, BLET Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUT"
+    },
+    "stb:filing:312820": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312820: 11/9/2026 FD_36873 312820 M4 Railcar Group Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION A"
+    },
+    "stb:filing:312822": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312822: 11/6/2026 FD_36873 312822 Town of Rossville, Rossville, TN Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHER"
+    },
+    "stb:filing:312823": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312823: 11/6/2026 FD_36873 312823 River Currents LLC Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMP"
+    },
+    "stb:filing:312825": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312825: 11/6/2026 FD_36873 312825 River Currents LLC Motion/Petition/Request UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHE"
+    },
+    "stb:filing:312826": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312826: 11/6/2026 FD_36873 312826 River Currents LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION "
+    },
+    "stb:filing:312828": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312828: 11/9/2026 FD_36873 312828 All Aboard Minnesota Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATIO"
+    },
+    "stb:filing:312830": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312830: 11/10/2026 FD_36873 312830 SMART-TD, Illinois Legislative Board Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SO"
+    },
+    "stb:filing:312831": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312831: 11/10/2026 FD_36873 312831 Norfolk Southern Corporation and Norfolk Southern Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILR"
+    },
+    "stb:filing:312832": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312832: 11/10/2026 FD_36873 312832 BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:312833": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312833: 11/10/2026 FD_36873 312833 Canadian Pacific Railway Company dba CPKC Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312834": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312834: 11/10/2026 FD_36873 312834 CSX Transportation, Inc. Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312835": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312835: 11/12/2026 FD_36873 312835 Spearpoint Logistics, LLC Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—N"
+    },
+    "stb:filing:312836": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312836: 11/12/2026 FD_36873 312836 Canadian Pacific Railway Company dba CPKC Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNI"
+    },
+    "stb:filing:312838": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312838: 11/12/2026 FD_36873 312838 Brian S. Smith Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AN"
+    },
+    "stb:filing:312839": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312839: 11/12/2026 FD_36873 312839 Schneider National Carriers, Inc. Support Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312841": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312841: 11/12/2026 FD_36873 312841 BMWED, BRS, IAM #19, TCU, TWU, BLET Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SO"
+    },
+    "stb:filing:312842": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312842: 11/12/2026 FD_36873 312842 Association of North Dakota Agribusiness Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312843": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312843: 11/12/2026 FD_36873 312843 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compa"
+    },
+    "stb:filing:312844": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312844: 11/12/2026 FD_36873 312844 Commuter Rail Coalition Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPOR"
+    },
+    "stb:filing:312846": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312846: 11/12/2026 FD_36873 312846 CPKC, CSXT, BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312849": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312849: 11/12/2026 FD_36873 312849 Canton Railroad Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312850": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312850: 11/12/2026 FD_36873 312850 Ruth L. Tines Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND "
+    },
+    "stb:filing:312851": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312851: 11/13/2026 FD_36873 312851 Illinois Farm Bureau Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATI"
+    },
+    "stb:filing:312853": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312853: 11/13/2026 FD_36873 312853 BNSF Railway Company Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:312854": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312854: 11/13/2026 FD_36873 312854 Wyoming Attorney General's Office Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIF"
+    },
+    "stb:filing:312855": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312855: 11/13/2026 FD_36873 312855 North Dakota Soybean Growers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312856": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312856: 11/13/2026 FD_36873 312856 PBF Energy Inc. Notice UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND "
+    },
+    "stb:filing:312857": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312857: 11/13/2026 FD_36873 312857 Florida East Coast Railway, Texas Pacifico Transportation Ltd., Copper Basin Railway Substitution/Withdrawal Of Counsel UNION"
+    },
+    "stb:filing:312858": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312858: 11/13/2026 FD_36873 312858 Illinois State Legislative Board- Brotherhood of Locomotive Engineers and Trainmen Comments UNION PACIFIC CORPORATION AND UNI"
+    },
+    "stb:filing:312860": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312860: 11/13/2026 FD_36873 312860 Illinois State Legislative Board-Brotherhood of Locomotive Engineers and Trainmen Comments UNION PACIFIC CORPORATION AND UNIO"
+    },
+    "stb:filing:312862": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312862: 11/13/2026 FD_36873 312862 Canadian Pacific Railway Company dba CPKC Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312863": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312863: 11/13/2026 FD_36873 312863 HighLine Grain Growers, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN C"
+    },
+    "stb:filing:312864": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312864: 11/13/2026 FD_36873 312864 CSX Transportation, Inc. Discovery UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312865": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312865: 11/13/2026 FD_36873 312865 Kansas Department of Agriculture Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHE"
+    },
+    "stb:filing:312867": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312867: 11/13/2026 FD_36873 312867 Union Pacific Corporation and Union Pacific Railroad Company, Norfolk Southern Corporation and Norfolk Southern Railway Compa"
+    },
+    "stb:filing:312868": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312868: 11/16/2026 FD_36873 312868 Peeples Industries Inc. Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312869": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312869: 11/16/2026 FD_36873 312869 Western Chicagoland Merger Oversight Alliance Opening Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—"
+    },
+    "stb:filing:312871": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312871: 11/16/2026 FD_36873 312871 North America Freight Car Association Opening Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—"
+    },
+    "stb:filing:312872": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312872: 11/16/2026 FD_36873 312872 Colorado Pacific Rio Grande Railroad LLC, Colorado Pacific Railroad LLC, Colorado Pacific San Luis Railroad LLC Comments UNIO"
+    },
+    "stb:filing:312873": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312873: 11/16/2026 FD_36873 312873 Cornerstone Chemical Co LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:312874": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312874: 11/16/2026 FD_36873 312874 Surface Transportation Board Letter UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN COR"
+    },
+    "stb:filing:312876": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312876: 11/16/2026 FD_36873 312876 Honorable Adam Schnelting Letter UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPOR"
+    },
+    "stb:filing:312877": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312877: 11/16/2026 FD_36873 312877 Pittsburg Unified School District Notice Of Intent To Participate (With Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC "
+    },
+    "stb:filing:312881": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312881: 11/16/2026 FD_36873 312881 SMART Transportation Division General Committee GO-769 Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—"
+    },
+    "stb:filing:312882": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312882: 11/16/2026 FD_36873 312882 Roanoke County, Virginia Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312883": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312883: 11/16/2026 FD_36873 312883 The Port of New Orleans Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPOR"
+    },
+    "stb:filing:312884": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312884: 11/16/2026 FD_36873 312884 Rail Passengers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:312886": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312886: 11/16/2026 FD_36873 312886 SMART-TD Nebraska Safety and Legislative Board Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—"
+    },
+    "stb:filing:312887": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312887: 11/16/2026 FD_36873 312887 Honorable Maureen Fraser Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312888": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312888: 11/16/2026 FD_36873 312888 National Coal Transportation Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312889": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312889: 11/16/2026 FD_36873 312889 Honorable Brian C. Wahler Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312890": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312890: 11/16/2026 FD_36873 312890 Genesee Valley Transportation Co. Reply UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312891": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312891: 11/16/2026 FD_36873 312891 City of Fort Worth, Tex. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312892": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312892: 11/16/2026 FD_36873 312892 John Stephen Thorne Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATIO"
+    },
+    "stb:filing:312894": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312894: 11/17/2026 FD_36873 312894 County Line Railroad Interests, LLC and Sabine River & Northern Railroad, LLC Comments UNION PACIFIC CORPORATION AND UNION PA"
+    },
+    "stb:filing:312895": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312895: 11/16/2026 FD_36873 312895 North Dakota Wheat Commission Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN "
+    },
+    "stb:filing:312896": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312896: 11/17/2026 FD_36873 312896 Briess Industries, Inc. and Unity Line, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312897": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312897: 11/17/2026 FD_36873 312897 SMART TD Louisiana State Safety and Legislative Board Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—C"
+    },
+    "stb:filing:312898": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312898: 11/17/2026 FD_36873 312898 Intermodal Motor Carriers Conference Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SO"
+    },
+    "stb:filing:312899": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312899: 11/17/2026 FD_36873 312899 Agricultural Retailers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUT"
+    },
+    "stb:filing:312900": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312900: 11/16/2026 FD_36873 312900 CPKC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORFOLK S"
+    },
+    "stb:filing:312901": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312901: 11/17/2026 FD_36873 312901 Attorney General, State of Mississippi Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK "
+    },
+    "stb:filing:312902": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312902: 11/17/2026 FD_36873 312902 The Washington Utilities & Transportation Commission Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORAT"
+    },
+    "stb:filing:312903": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312903: 11/17/2026 FD_36873 312903 International Longshore and Warehouse Union Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312904": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312904: 11/17/2026 FD_36873 312904 SMART Transportation--Iowa Safety and Legislative Board Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY"
+    },
+    "stb:filing:312905": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312905: 11/17/2026 FD_36873 312905 Robert Granatelli Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION "
+    },
+    "stb:filing:312906": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312906: 11/17/2026 FD_36873 312906 Maryland Department of Transportation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK S"
+    },
+    "stb:filing:312907": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312907: 11/17/2026 FD_36873 312907 National Association of Wheat Growers and U.S. Wheat Associates Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD"
+    },
+    "stb:filing:312908": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312908: 11/17/2026 FD_36873 312908 California State Safety and Legislative Board Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—N"
+    },
+    "stb:filing:312909": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312909: 11/17/2026 FD_36873 312909 SMART-TD General Committee 680 Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312910": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312910: 11/18/2026 FD_36873 312910 City of Dayton, Texas Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD "
+    },
+    "stb:filing:312911": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312911: 11/17/2026 FD_36873 312911 Highroad Consulting, Ltd. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312912": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312912: 11/17/2026 FD_36873 312912 Dairyland Power Cooperative Notice Of Intent To Participate (Without Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC RAI"
+    },
+    "stb:filing:312913": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312913: 11/17/2026 FD_36873 312913 Dairyland Power Cooperative Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:312914": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312914: 11/17/2026 FD_36873 312914 City of Dayton, Tex. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATI"
+    },
+    "stb:filing:312916": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312916: 11/17/2026 FD_36873 312916 City of Portland, Oregon Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312917": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312917: 11/17/2026 FD_36873 312917 States of Montana and Iowa Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN COR"
+    },
+    "stb:filing:312918": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312918: 11/17/2026 FD_36873 312918 The National Grain and Feed Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK"
+    },
+    "stb:filing:312919": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312919: 11/17/2026 FD_36873 312919 Hub Group, Inc. Support Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312920": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312920: 11/17/2026 FD_36873 312920 US Army Transportation Command Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312921": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312921: 11/17/2026 FD_36873 312921 New Jersey Department of Transportation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK"
+    },
+    "stb:filing:312922": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312922: 11/17/2026 FD_36873 312922 The Lubrizol Corporation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312923": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312923: 11/17/2026 FD_36873 312923 County of Will, Illinois Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312924": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312924: 11/17/2026 FD_36873 312924 Marathon Petroleum Corporation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312925": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312925: 11/17/2026 FD_36873_57 312925 New Orleans Terminal Railroad, LLC Responsive Or Inconsistent Application RESPONSIVE APPLICATION OF NEW ORLEANS TERMINAL R"
+    },
+    "stb:filing:312926": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312926: 11/17/2026 FD_36873 312926 The Schuylkill River Passenger Rail Authority Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—N"
+    },
+    "stb:filing:312927": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312927: 11/17/2026 FD_36873 312927 City of Roanoke, Virginia Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312928": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312928: 11/17/2026 FD_36873 312928 Valley Regional Transit Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPOR"
+    },
+    "stb:filing:312929": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312929: 11/18/2026 FD_36873 312929 Ruth L. Tines Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND "
+    },
+    "stb:filing:312930": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312930: 11/17/2026 FD_36873 312930 American Honda Motor Co., Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312931": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312931: 11/17/2026 FD_36873 312931 New Jersey Transit Corporation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312932": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312932: 11/17/2026 FD_36873 312932 Nedim Filipovic Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AN"
+    },
+    "stb:filing:312933": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312933: 11/17/2026 FD_36873 312933 Mooresville Elkin & Southern Railway LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312934": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312934: 11/18/2026 FD_36873 312934 West Virginia Coal Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312935": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312935: 11/18/2026 FD_36873 312935 BNSF Railway Company Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOL"
+    },
+    "stb:filing:312936": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312936: 11/18/2026 FD_36873 312936 Private Railcar Food and Beverage Association, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CON"
+    },
+    "stb:filing:312937": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312937: 11/17/2026 FD_36873 312937 Dennis C. Opferman Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION"
+    },
+    "stb:filing:312938": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312938: 11/17/2026 FD_36873 312938 Honorable Chris Kelley Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORA"
+    },
+    "stb:filing:312939": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312939: 11/18/2026 FD_36873 312939 Transportation for America Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN COR"
+    },
+    "stb:filing:312940": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312940: 11/18/2026 FD_36873 312940 Susquehanna Union Railroad Company Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUT"
+    },
+    "stb:filing:312941": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312941: 11/18/2026 FD_36873 312941 Missouri Corn Growers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:312942": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312942: 11/18/2026 FD_36873 312942 William Boyle Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND "
+    },
+    "stb:filing:312943": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312943: 11/18/2026 FD_36873 312943 Public Rail Now Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AN"
+    },
+    "stb:filing:312944": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312944: 11/18/2026 FD_36873 312944 Kansas Corn Growers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHER"
+    },
+    "stb:filing:312945": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312945: 11/18/2026 FD_36873 312945 The National Corn Growers Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK S"
+    },
+    "stb:filing:312946": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312946: 11/18/2026 FD_36873 312946 BMWED, BRS, IAM #19, TCU/IAM, TWU and BLET, Brotherhood of Locomotive Engineers and Trainmen, a Division of the Rail Conferen"
+    },
+    "stb:filing:312947": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312947: 11/18/2026 FD_36873 312947 The Port Authority of New York and New Jersey Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—N"
+    },
+    "stb:filing:312948": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312948: 11/18/2026 FD_36873 312948 American Train Dispatcher Association (ATDA) Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NO"
+    },
+    "stb:filing:312949": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312949: 11/18/2026 FD_36873 312949 SMART-TD Indiana State Safety and Legislative Board Support Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD CO"
+    },
+    "stb:filing:312950": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312950: 11/18/2026 FD_36873 312950 Honorable John Hoeven, Honorable Steve Daines, Honorable Roger Marshall, M.D., Honorable Martin Heinrich, Honorable Amy Klobu"
+    },
+    "stb:filing:312951": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312951: 11/18/2026 FD_36873 312951 Foresight Energy LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATI"
+    },
+    "stb:filing:312952": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312952: 11/18/2026 FD_36873 312952 Prime Inc Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND NORF"
+    },
+    "stb:filing:312953": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312953: 11/18/2026 FD_36873 312953 North Carolina Poultry Federation, North Carolina Egg Association, and North Carolina Pork Counsel Comments UNION PACIFIC COR"
+    },
+    "stb:filing:312955": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312955: 11/18/2026 FD_36873 312955 Michigan Department of Transportation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK S"
+    },
+    "stb:filing:312956": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312956: 11/18/2026 FD_36873 312956 Southeastern Pennsylvania Transportation Authority Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONT"
+    },
+    "stb:filing:312957": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312957: 11/18/2026 FD_36873 312957 The Village of River Forest, Illinois Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK S"
+    },
+    "stb:filing:312958": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312958: 11/18/2026 FD_36873 312958 New York State Department of Transportation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312959": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312959: 11/18/2026 FD_36873 312959 American Cement Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:312960": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312960: 11/18/2026 FD_36873 312960 Olin Corporation Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SO"
+    },
+    "stb:filing:312961": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312961: 11/18/2026 FD_36873_57 312961 New Orleans Terminal Railroad, LLC Support Statement RESPONSIVE APPLICATION OF NEW ORLEANS TERMINAL RAILROAD, LLC 312961.p"
+    },
+    "stb:filing:312962": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312962: 11/18/2026 FD_36873 312962 Western Coal Traffic League Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:312963": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312963: 11/18/2026 FD_36873 312963 Moving Forward Network and 42 Organizational Signatories Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPAN"
+    },
+    "stb:filing:312964": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312964: 11/18/2026 FD_36873 312964 Illinois Commerce Commission, Illinois Commerce Commission Request For Merger Condition(s) UNION PACIFIC CORPORATION AND UNIO"
+    },
+    "stb:filing:312965": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312965: 11/18/2026 FD_36873 312965 Chevron Phillips Chemical Company LP Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SO"
+    },
+    "stb:filing:312966": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312966: 11/17/2026 FD_36873 312966 Ten D, Inc., Merchants White Line Warehousing, Inc. d/b/a Merchants Distribution Service Notice Of Intent To Participate (Wit"
+    },
+    "stb:filing:312967": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312967: 11/18/2026 FD_36873 312967 Ten D, Inc., Merchants White Line Warehousing, Inc. d/b/a Merchants Distribution Service Modify/Supplement Prior Filing Or Th"
+    },
+    "stb:filing:312968": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312968: 11/18/2026 FD_36873 312968 Southern Company Services, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHER"
+    },
+    "stb:filing:312969": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312969: 11/18/2026 FD_36873 312969 Wi-Tronix, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND"
+    },
+    "stb:filing:312970": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312970: 11/18/2026 FD_36873 312970 Freight Rail Customer Alliance Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN"
+    },
+    "stb:filing:312971": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312971: 11/18/2026 FD_36873 312971 International Association of Sheet Metal, Air, Rail, & Transportation Workers, Transportation Division (\"SMART-TD\") Comments "
+    },
+    "stb:filing:312972": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312972: 11/18/2026 FD_36873 312972 Smart Sand, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION A"
+    },
+    "stb:filing:312973": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312973: 11/18/2026 FD_36873 312973 Central Eastside Industrial Council Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOU"
+    },
+    "stb:filing:312974": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312974: 11/18/2026 FD_36873 312974 Alabama Port Authority Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORA"
+    },
+    "stb:filing:312975": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312975: 11/18/2026 FD_36873 312975 Eastern Berks Gateway Railroad Company Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK "
+    },
+    "stb:filing:312976": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312976: 11/18/2026 FD_36873 312976 Northeast Ohio Areawide Coordinating Agency Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312977": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312977: 11/18/2026 FD_36873 312977 American Short Line and Regional Railroad Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—C"
+    },
+    "stb:filing:312978": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312978: 11/18/2026 FD_36873 312978 Washoe County, NV Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION "
+    },
+    "stb:filing:312979": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312979: 11/18/2026 FD_36873 312979 Commuter Rail Division of the Northern Illinois Transit Authority d/b/a Metra Comments UNION PACIFIC CORPORATION AND UNION PA"
+    },
+    "stb:filing:312980": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312980: 11/18/2026 FD_36873 312980 Progressive Policy Institute Protest/Opposition Statement UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTRO"
+    },
+    "stb:filing:312981": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312981: 11/18/2026 FD_36873 312981 Shipping Association of New York and New Jersey Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL"
+    },
+    "stb:filing:312982": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312982: 11/18/2026 FD_36873 312982 Riverside County Transportation Commission Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORF"
+    },
+    "stb:filing:312983": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312983: 11/18/2026 FD_36873 312983 City of Redlands, CA Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATI"
+    },
+    "stb:filing:312984": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312984: 11/18/2026 FD_36873 312984 National Conference of Firemen and Oilers (“NCFO”) Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONT"
+    },
+    "stb:filing:312985": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312985: 11/18/2026 FD_36873 312985 North Carolina Railroad Company Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHER"
+    },
+    "stb:filing:312986": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312986: 11/18/2026 FD_36873 312986 Philadelphia Belt Line Railroad Company (\"PBL\") Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL"
+    },
+    "stb:filing:312987": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312987: 11/18/2026 FD_36873 312987 Railway Supply Institute Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312988": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312988: 11/18/2026 FD_36873 312988 Agricultural Transportation Working Group Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFO"
+    },
+    "stb:filing:312989": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312989: 11/18/2026 FD_36873 312989 Southern California Regional Rail Authority Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:312990": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312990: 11/18/2026 FD_36873 312990 Westwood Ag Exchange ULC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312991": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312991: 11/18/2026 FD_36873 312991 SMART-TD OHIO STATE SAFETY & LEGISLATIVE BOARD Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—"
+    },
+    "stb:filing:312992": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312992: 11/18/2026 FD_36873 312992 National League of Cities Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:312993": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312993: 11/18/2026 FD_36873 312993 The Township of Metuchen Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:312994": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312994: 11/18/2026 FD_36873 312994 Virginia Port Authority, Virginia International Terminals, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD "
+    },
+    "stb:filing:312995": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312995: 11/18/2026 FD_36873 312995 Harris County Attorney's Office, Harris County Attorney's Office Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROA"
+    },
+    "stb:filing:312997": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312997: 11/18/2026 FD_36873_37 312997 Iowa Interstate Railroad, LLC Responsive Or Inconsistent Application IOWA INTERSTATE RAILROAD, LLC – TRACKAGE RIGHTS OVER "
+    },
+    "stb:filing:312998": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312998: 11/18/2026 FD_36873_11 312998 Shenandoah Valley Battlefields Foundation and Manassas Gap Railroad LLC Responsive Or Inconsistent Application SHENANDOAH "
+    },
+    "stb:filing:312999": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 312999: 11/18/2026 FD_36873 312999 DeKalb County, Georgia Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORA"
+    },
+    "stb:filing:313000": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313000: 11/18/2026 FD_36873 313000 Iowa Interstate Railroad, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN "
+    },
+    "stb:filing:313001": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313001: 11/18/2026 FD_36873_32 313001 Virginia Port Authority, Virginia International Terminals, LLC Responsive Or Inconsistent Application VIRGINIA PORT AUTHOR"
+    },
+    "stb:filing:313002": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313002: 11/18/2026 FD_36873 313002 Washington State Department of Transportation Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—N"
+    },
+    "stb:filing:313003": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313003: 11/18/2026 FD_36873 313003 City of Reno, Nevada Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATI"
+    },
+    "stb:filing:313004": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313004: 11/18/2026 FD_36873 313004 Columbia Grain International, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:313005": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313005: 11/18/2026 FD_36873 313005 Huntsville-Madison County Airport Authority Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NOR"
+    },
+    "stb:filing:313006": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313006: 11/18/2026 FD_36873 313006 South Heidelberg Township Berks County Pennsylvania Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CON"
+    },
+    "stb:filing:313007": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313007: 11/18/2026 FD_36873 313007 Southern Rail Commission Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPO"
+    },
+    "stb:filing:313008": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313008: 11/18/2026 FD_36873 313008 North Carolina Farm Bureau Federation, Inc., North Carolina Farm Bureau Federation, Inc. Notice Of Intent To Participate (Wit"
+    },
+    "stb:filing:313009": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313009: 11/18/2026 FD_36873 313009 Chicago Metropolitan Agency for Planning (CMAP) Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL"
+    },
+    "stb:filing:313010": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313010: 11/18/2026 FD_36873 313010 National Mining Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:313011": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313011: 11/18/2026 FD_36873 313011 City of Chicago Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AN"
+    },
+    "stb:filing:313012": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313012: 11/18/2026 FD_36873 313012 Honorable Troy A. Carter, Sr. Letter UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:313013": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313013: 11/18/2026 FD_36873 313013 Shenandoah Valley Battlefields Foundation, Manassas Gap Railroad, LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RA"
+    },
+    "stb:filing:313014": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313014: 11/18/2026 FD_36873 313014 LyondellBasell Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION AND"
+    },
+    "stb:filing:313015": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313015: 11/18/2026 FD_36873 313015 International Brotherhood of Electrical Workers (IBEW), AFL-CIO Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD"
+    },
+    "stb:filing:313016": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313016: 11/18/2026 FD_36873 313016 United Parcel Service, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CO"
+    },
+    "stb:filing:313017": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313017, 11/18/2026"
+    },
+    "stb:filing:313019": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313019, 11/18/2026"
+    },
+    "stb:filing:313020": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313020: 11/18/2026 FD_36873 313020 National Railroad Passenger Corp. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTH"
+    },
+    "stb:filing:313021": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313021, 11/18/2026"
+    },
+    "stb:filing:313022": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313022, 11/18/2026"
+    },
+    "stb:filing:313023": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313023, 11/18/2026"
+    },
+    "stb:filing:313024": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313024, 11/18/2026"
+    },
+    "stb:filing:313025": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313025, 11/18/2026"
+    },
+    "stb:filing:313026": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313026, 11/18/2026"
+    },
+    "stb:filing:313027": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313027: 11/18/2026 FD_36873_41 313027 Chicago South Shore & South Bend Railroad Company Responsive Or Inconsistent Application CHICAGO SOUTH SHORE & SOUTH BEND "
+    },
+    "stb:filing:313028": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313028, 11/18/2026"
+    },
+    "stb:filing:313029": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313029, 11/18/2026"
+    },
+    "stb:filing:313031": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313031, 11/18/2026"
+    },
+    "stb:filing:313032": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313032, 11/18/2026"
+    },
+    "stb:filing:313033": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313033, 11/18/2026"
+    },
+    "stb:filing:313034": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313034, 11/18/2026"
+    },
+    "stb:filing:313035": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313035: 11/17/2026 FD_36873 313035 Morristown & Erie Railway Inc. Request For Merger Condition(s) UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—C"
+    },
+    "stb:filing:313036": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313036, 11/18/2026"
+    },
+    "stb:filing:313037": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313037, 11/18/2026"
+    },
+    "stb:filing:313038": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313038, 11/18/2026"
+    },
+    "stb:filing:313039": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313039, 11/18/2026"
+    },
+    "stb:filing:313040": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313040, 11/18/2026"
+    },
+    "stb:filing:313041": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313041, 11/18/2026"
+    },
+    "stb:filing:313042": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313042, 11/18/2026"
+    },
+    "stb:filing:313043": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313043: 11/18/2026 FD_36873 313043 Reading Blue Mountain & Northern Railroad Company Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTR"
+    },
+    "stb:filing:313044": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313044, 11/18/2026"
+    },
+    "stb:filing:313045": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313045, 11/18/2026"
+    },
+    "stb:filing:313046": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313046, 11/19/2026"
+    },
+    "stb:filing:313047": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313047, 11/18/2026"
+    },
+    "stb:filing:313048": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313048, 11/18/2026"
+    },
+    "stb:filing:313049": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313049, 11/18/2026"
+    },
+    "stb:filing:313050": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313050, 11/18/2026"
+    },
+    "stb:filing:313051": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313051, 11/18/2026"
+    },
+    "stb:filing:313052": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313052, 11/18/2026"
+    },
+    "stb:filing:313053": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313053: 11/18/2026 FD_36873 313053 J.B. Hunt Transport, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:313054": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313054: 11/18/2026 FD_36873_54 313054 Wheeling & Lake Erie Railway Company, LLC Responsive Or Inconsistent Application WHEELING & LAKE ERIE RAILWAY COMPANY, LLC"
+    },
+    "stb:filing:313055": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313055: 11/18/2026 FD_36873_12 313055 Chicago, Ft. Wayne & Eastern Railroad, a division of Central Railroad Company of Indianapolis Responsive Or Inconsistent A"
+    },
+    "stb:filing:313056": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313056: 11/19/2026 FD_36873_49 313056 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application CANADIAN PACIFICAL RAILWAY COMPANY, AND S"
+    },
+    "stb:filing:313057": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313057, 11/18/2026"
+    },
+    "stb:filing:313058": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313058: 11/18/2026 FD_36873_51 313058 CSX Transportation, Inc. Responsive Or Inconsistent Application CSX TRANSPORTATION, INC. —PARTIAL ACQUISITION, LEASE, AND "
+    },
+    "stb:filing:313059": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313059: 11/18/2026 FD_36873_36 313059 Reading Blue Mountain & Northern Railway, Inc. Responsive Or Inconsistent Application READING BLUE MOUNTAIN & NORTHERN RAI"
+    },
+    "stb:filing:313060": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313060: 11/18/2026 FD_36873_44 313060 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY "
+    },
+    "stb:filing:313061": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313061: 11/18/2026 FD_36873_53 313061 CSX Transportation, Inc. Responsive Or Inconsistent Application CSX TRANSPORTATION, INC.- TRACKAGE RIGHTS- NORFOLK SOUTHER"
+    },
+    "stb:filing:313062": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313062: 11/18/2026 FD_36873_45 313062 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY "
+    },
+    "stb:filing:313063": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313063, 11/18/2026"
+    },
+    "stb:filing:313064": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313064: 11/18/2026 FD_36873_52 313064 CSX Transportation, Inc. Responsive Or Inconsistent Application CSX TRANSPORTATION, INC. — TRACKAGE RIGHTS — NORFOLK SOUTH"
+    },
+    "stb:filing:313065": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313065: 11/18/2026 FD_36873_46 313065 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application SOO LINE RAILROAD COMPANY, THE KANSAS CIT"
+    },
+    "stb:filing:313066": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313066: 11/18/2026 FD_36873 313066 South Dakota Soybean Association Notice Of Intent To Participate (With Comment) UNION PACIFIC CORPORATION AND UNION PACIFIC R"
+    },
+    "stb:filing:313067": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313067: 11/18/2026 FD_36873_43 313067 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY-"
+    },
+    "stb:filing:313068": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313068: 11/18/2026 FD_36873 313068 Northwestern Indiana Regional Planning Commission Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTR"
+    },
+    "stb:filing:313069": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313069: 11/18/2026 FD_36873 313069 General Motors LLC Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION"
+    },
+    "stb:filing:313070": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313070: 11/19/2026 FD_36873 313070 City of Sharonville, Ohio Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORP"
+    },
+    "stb:filing:313071": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313071: 11/19/2026 FD_36873 313071 Warrior Met Coal, Inc. Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORA"
+    },
+    "stb:filing:313072": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313072: 11/19/2026 FD_36873 313072 HeritageRail Alliance Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORAT"
+    },
+    "stb:filing:313074": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313074: 11/18/2026 FD_36873_31 313074 New Orleans Public Belt Railroad Commission for the Port of New Orleans Responsive Or Inconsistent Application NEW ORLEANS"
+    },
+    "stb:filing:313075": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313075: 11/18/2026 FD_36873_35 313075 Reading Blue Mountain & Northern Railroad Company Responsive Or Inconsistent Application READING BLUE MOUNTAIN & NORTHERN "
+    },
+    "stb:filing:313076": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313076: 11/18/2026 FD_36873_48 313076 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY "
+    },
+    "stb:filing:313077": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313077: 11/18/2026 FD_36873_47 313077 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY-"
+    },
+    "stb:filing:313078": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313078: 11/19/2026 FD_36873 313078 City of Cleveland Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATION "
+    },
+    "stb:filing:313079": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313079: 11/18/2026 FD_36873 313079 Phillips 66 Company Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHERN CORPORATIO"
+    },
+    "stb:filing:313080": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313080: 11/18/2026 FD_36873_2 313080 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Responsive Or Inconsistent Applicatio"
+    },
+    "stb:filing:313081": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313081: 11/18/2026 FD_36873_15 313081 The Columbus & Ohio River Rail Road Company Responsive Or Inconsistent Application THE COLUMBUS & OHIO RIVER RAIL ROAD COM"
+    },
+    "stb:filing:313082": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313082: 11/18/2026 FD_36873_17 313082 Georgia Southwestern Railroad, Inc. Responsive Or Inconsistent Application GEORGIA SOUTHWESTERN RAILROAD, INC. - TRACKAGE "
+    },
+    "stb:filing:313083": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313083: 11/18/2026 FD_36873_42 313083 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application THE KANSAS CITY SOUTHERN RAILWAY COMPANY-"
+    },
+    "stb:filing:313084": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313084: 11/18/2026 FD_36873_18 313084 Heart of Georgia Railroad, Inc. Responsive Or Inconsistent Application HEART OF GEORGIA RAILROAD, INC. - TRACKAGE RIGHTS B"
+    },
+    "stb:filing:313085": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313085: 11/18/2026 FD_36873_5 313085 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Responsive Or Inconsistent Applicatio"
+    },
+    "stb:filing:313086": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313086: 11/19/2026 FD_36873 313086 Pennsylvania Anthracite Council Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHER"
+    },
+    "stb:filing:313087": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313087: 11/18/2026 FD_36873_9 313087 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Responsive Or Inconsistent Applicatio"
+    },
+    "stb:filing:313088": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313088: 11/19/2026 FD_36873 313088 National Propane Gas Association Comments UNION PACIFIC CORPORATION AND UNION PACIFIC RAILROAD COMPANY—CONTROL—NORFOLK SOUTHE"
+    },
+    "stb:filing:313089": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313089: 11/18/2026 FD_36873_33 313089 BNSF Railway Company Responsive Or Inconsistent Application BNSF RAILWAY COMPANY —TRACKAGE RIGHTS— NORFOLK SOUTHERN CORPOR"
+    },
+    "stb:filing:313090": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313090: 11/18/2026 FD_36873_10 313090 Grand Trunk Corporation, on behalf of itself and its U.S. rail operating subsidiaries Responsive Or Inconsistent Applicati"
+    },
+    "stb:filing:313091": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "STB FD 36873 filing 313091: 11/18/2026 FD_36873_50 313091 Canadian Pacific Railway Company dba CPKC Responsive Or Inconsistent Application SOO LINE RAILROAD COMPANY RESPONSIVE APPL"
+    },
+    "stb:filing:313092": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313092, 11/18/2026"
+    },
+    "stb:filing:313093": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313093, 11/18/2026"
+    },
+    "stb:filing:313094": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313094, 11/18/2026"
+    },
+    "stb:filing:313095": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313095, 11/18/2026"
+    },
+    "stb:filing:313096": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313096, 11/18/2026"
+    },
+    "stb:filing:313097": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313097, 11/18/2026"
+    },
+    "stb:filing:313098": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313098, 11/18/2026"
+    },
+    "stb:filing:313099": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313099, 11/18/2026"
+    },
+    "stb:filing:313100": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313100, 11/18/2026"
+    },
+    "stb:filing:313101": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313101, 11/18/2026"
+    },
+    "stb:filing:313102": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313102, 11/18/2026"
+    },
+    "stb:filing:313103": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313103, 11/18/2026"
+    },
+    "stb:filing:313104": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313104, 11/18/2026"
+    },
+    "stb:filing:313105": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313105, 11/18/2026"
+    },
+    "stb:filing:313107": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 (Sub-No. 19) — new filing 313107, 11/18/2026"
+    },
+    "stb:filing:313108": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 (Sub-No. 24) — new filing 313108, 11/18/2026"
+    },
+    "stb:filing:313109": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 (Sub-No. 26) — new filing 313109, 11/18/2026"
+    },
+    "stb:filing:313110": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 (Sub-No. 27) — new filing 313110, 11/18/2026"
+    },
+    "stb:filing:313111": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 (Sub-No. 29) — new filing 313111, 11/18/2026"
+    },
+    "stb:filing:313112": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313112, 11/19/2026"
+    },
+    "stb:filing:313113": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313113, 11/18/2026"
+    },
+    "stb:filing:313114": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313114, 11/18/2026"
+    },
+    "stb:filing:313116": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313116, 11/18/2026"
+    },
+    "stb:filing:313117": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313117, 11/18/2026"
+    },
+    "stb:filing:313118": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313118, 11/18/2026"
+    },
+    "stb:filing:313120": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313120, 11/18/2026"
+    },
+    "stb:filing:313121": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313121, 11/18/2026"
+    },
+    "stb:filing:313122": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313122, 11/18/2026"
+    },
+    "stb:filing:313123": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313123, 11/18/2026"
+    },
+    "stb:filing:313124": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313124, 11/19/2026"
+    },
+    "stb:filing:313125": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313125, 11/18/2026"
+    },
+    "stb:filing:313126": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313126, 11/18/2026"
+    },
+    "stb:filing:313127": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313127, 11/18/2026"
+    },
+    "stb:filing:313128": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313128, 11/18/2026"
+    },
+    "stb:filing:313129": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313129, 11/18/2026"
+    },
+    "stb:filing:313131": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313131, 11/18/2026"
+    },
+    "stb:filing:313132": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313132, 11/18/2026"
+    },
+    "stb:filing:313133": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313133, 11/18/2026"
+    },
+    "stb:filing:313134": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313134, 11/18/2026"
+    },
+    "stb:filing:313135": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313135, 11/18/2026"
+    },
+    "stb:filing:313136": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313136, 11/18/2026"
+    },
+    "stb:filing:313137": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313137, 11/18/2026"
+    },
+    "stb:filing:313138": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313138, 11/18/2026"
+    },
+    "stb:filing:313139": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313139, 11/19/2026"
+    },
+    "stb:filing:313140": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313140, 11/18/2026"
+    },
+    "stb:filing:313141": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313141, 11/19/2026"
+    },
+    "stb:filing:313142": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313142, 11/19/2026"
+    },
+    "stb:filing:313143": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313143, 11/19/2026"
+    },
+    "stb:filing:313144": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313144, 11/19/2026"
+    },
+    "stb:filing:313145": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313145, 11/20/2026"
+    },
+    "stb:filing:313146": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313146, 11/18/2026"
+    },
+    "stb:filing:313147": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313147, 11/18/2026"
+    },
+    "stb:filing:313148": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313148, 11/18/2026"
+    },
+    "stb:filing:313149": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313149, 11/18/2026"
+    },
+    "stb:filing:313150": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313150, 11/18/2026"
+    },
+    "stb:filing:313151": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313151, 11/18/2026"
+    },
+    "stb:filing:313152": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313152, 11/18/2026"
+    },
+    "stb:filing:313153": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313153, 11/18/2026"
+    },
+    "stb:filing:313154": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313154, 11/18/2026"
+    },
+    "stb:filing:313155": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313155, 11/18/2026"
+    },
+    "stb:filing:313156": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313156, 11/18/2026"
+    },
+    "stb:filing:313157": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:01:12+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "FD 36873 — new filing 313157, 11/18/2026"
+    }
+  },
+  "sources": {
+    "docket:https://docketyard.org/d/FD-36873/feed": {
+      "error": "",
+      "failures": 0,
+      "last_count": 100,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRWQ==": {
+      "error": "No RSS/Atom entries found (check feed validity and endpoint)",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.eia.gov/rss/todayinenergy.xml": {
+      "error": "",
+      "failures": 0,
+      "last_count": 30,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-motor-carrier-safety-administration": {
+      "error": "",
+      "failures": 0,
+      "last_count": 15,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-railroad-administration": {
+      "error": "",
+      "failures": 0,
+      "last_count": 10,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=surface-transportation-board": {
+      "error": "",
+      "failures": 0,
+      "last_count": 11,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.globenewswire.com/RssFeed/industry/2770-Transportation%20Services/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Transportation%20Services": {
+      "error": "",
+      "failures": 0,
+      "last_count": 20,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.prnewswire.com/rss/supply-chain-logistics-latest-news/supply-chain-logistics-latest-news-list.rss": {
+      "error": "",
+      "failures": 0,
+      "last_count": 20,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.prnewswire.com/rss/transportation-trucking-railroad-latest-news/transportation-trucking-railroad-latest-news-list.rss": {
+      "error": "",
+      "failures": 0,
+      "last_count": 20,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "https://www.reddit.com/r/FreightBrokers/new/.rss": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.reddit.com/r/Truckers/new/.rss": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.reddit.com/r/logistics/new/.rss": {
+      "error": "HTTP Error 429: Too Many Requests",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.reddit.com/r/railroading/new/.rss": {
+      "error": "HTTP Error 404: Not Found",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.truckingboards.com/bb/forums/-/index.rss": {
+      "error": "no element found: line 1, column 0",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "https://www.ttnews.com/rss.xml": {
+      "error": "",
+      "failures": 0,
+      "last_count": 20,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "official:https://www.stb.gov/proceedings-actions/decisions/": {
+      "error": "",
+      "failures": 0,
+      "last_count": 48,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "official:https://www.stb.gov/proceedings-actions/environmental-comments/": {
+      "error": "",
+      "failures": 0,
+      "last_count": 0,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "official:https://www.stb.gov/proceedings-actions/filings/": {
+      "error": "",
+      "failures": 0,
+      "last_count": 393,
+      "last_success": "2026-11-22T19:01:12+00:00",
+      "seeded": true
+    },
+    "sec:0": {
+      "error": "SEC_USER_AGENT missing: configure the Actions secret",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "sec:100": {
+      "error": "SEC_USER_AGENT missing: configure the Actions secret",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    },
+    "sec:200": {
+      "error": "SEC_USER_AGENT missing: configure the Actions secret",
+      "failures": 1,
+      "last_error": "2026-11-22T19:01:12+00:00",
+      "seeded": false
+    }
+  },
+  "version": 2
+}
