@@ -13,6 +13,7 @@ def main():
             "url": "https://example.org/alerts", "kind": "html", "track_updates": True}
     baseline = '<main><article><a href="/alerts/baseline">TEST ONLY: existing baseline item</a></article></main>'
     update = baseline.replace('</main>', '<article><a href="/alerts/new">TEST ONLY: primary-source detection and delivery check; no real freight event</a><p>Synthetic test of direct monitoring, saved state, and duplicate suppression.</p></article></main>')
+    update = update.replace("</article></main>", f'<time datetime="{watcher.now()}"></time></article></main>')
     with tempfile.TemporaryDirectory() as directory:
         with patch.object(watcher, "STATE_FILE", Path(directory, "state.json")), patch.object(watcher, "HEALTH_FILE", Path(directory, "health.json")), patch.object(watcher, "LOG_FILE", Path(directory, "alerts.jsonl")), patch.object(watcher, "expanded_sources", return_value=[("primary:synthetic-primary-test", spec["url"], spec)]):
             with patch.object(watcher, "fetch", return_value=baseline):

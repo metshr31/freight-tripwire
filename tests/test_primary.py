@@ -8,11 +8,64 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import watcher
-from primary import html_items, decorate, inline_items, document_items, central_items
+from primary import html_items, decorate, inline_items, document_items, central_items, notice_items, lazaro_items
 from test_watcher import CONFIG
 
 
 class PrimarySourceTests(unittest.TestCase):
+    def test_spanish_and_french_events_use_live_configuration(self):
+        config = json.loads((Path(__file__).resolve().parents[1] / "watchlist.json").read_text())
+        for title, priority in [
+            ("Transportista inaugura nueva terminal en Monterrey", "P2"),
+            ("Puerto anuncia nueva ruta de contenedores", "P2"),
+            ("Huelga provoca suspensión de operaciones", "P1"),
+            ("Ouverture d'un nouveau centre de service à Montréal", "P2"),
+            ("Grève au port: fermeture de terminal", "P1"),
+        ]:
+            item = {"primary_company": "Test Carrier", "primary_role": "news", "title": title,
+                    "summary": "", "link": "https://carrier.example/release"}
+            self.assertEqual(watcher.label_item(item, config)[0], priority, title)
+        self.assertIsNone(watcher.label_item({**item, "title": "Conseils pour préparer vos marchandises"}, config))
+
+    def test_multilingual_navigation_is_not_news(self):
+        html = '<main><a href="/aviso-de-privacidad">Aviso de Privacidad</a><a href="/fr/confidentialite">Politique de confidentialité</a><article><h2><a href="/noticias/nueva-terminal">Inaugura nueva terminal en Monterrey</a></h2></article></main>'
+        result = html_items(html, {"url": "https://carrier.example/noticias"})
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["title"], "Inaugura nueva terminal en Monterrey")
+
+    def test_inline_operational_notice_has_real_page_url_and_stable_identity(self):
+        spec = {"url": "https://carrier.example/", "selector": ".notice", "include_text_regex": "apertura"}
+        html = '<div class="notice"><h2>Gran apertura</h2><h3>Mazatlán</h3><p>Nuevo centro disponible desde septiembre.</p></div><div class="notice">Contacte con nuestro equipo comercial.</div>'
+        first = notice_items(html, spec)
+        self.assertEqual(len(first), 1)
+        self.assertEqual(first[0]["link"], spec["url"])
+        self.assertEqual(watcher.item_key(first[0]), watcher.item_key(notice_items(html, spec)[0]))
+        changed = notice_items(html.replace("septiembre", "octubre"), spec)[0]
+        self.assertNotEqual(watcher.item_key(first[0]), watcher.item_key(changed))
+        with self.assertRaises(ValueError):
+            notice_items('<main>JavaScript required</main>', spec)
+
+    def test_port_reader_excludes_passenger_headlines_and_labels_owner(self):
+        spec = {"company": "Port Example", "role": "news", "id": "port", "source_label": "Official port authority",
+                "exclude_headline_regex": "cruise|crucero|croisière"}
+        items = decorate([{"title": "New cruise terminal opens"}, {"title": "New container service launches"}], spec)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["primary_source_label"], "Official port authority")
+
+    def test_port_public_json_reader_validates_schema_and_keeps_original_id(self):
+        spec = {"url": "https://port.example/plc25/noticias"}
+        item = lazaro_items(json.dumps({"data": [{"id": 301, "title": "Nueva línea naviera de carga", "content_text": "Nuevo servicio semanal", "published": "2026-11-22T15:00:00-06:00"}]}), spec)[0]
+        self.assertEqual(item["link"], "https://port.example/noticia/301")
+        self.assertEqual(item["published"], "2026-11-22T15:00:00-06:00")
+        with self.assertRaises(ValueError):
+            lazaro_items('{"error": "Unavailable"}', spec)
+
+    def test_official_pdf_title_comes_from_its_own_card(self):
+        spec = {"url": "https://carrier.example/eventos", "card_class": "release", "title_from_card": True, "link_pattern": r"\.pdf$"}
+        html = '<div class="release"><p>Transportista anuncia nueva ruta</p><a href="/assets/release.pdf">Leer más</a></div>'
+        item = html_items(html, spec)[0]
+        self.assertEqual(item["title"], "Transportista anuncia nueva ruta")
+
     def test_central_public_api_empty_success_and_schema_validation(self):
         spec = {"url": "https://centraltransport.com/company/news.aspx"}
         self.assertEqual(central_items('{"d": []}', spec), [])

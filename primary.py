@@ -20,9 +20,9 @@ def canonical(url):
     return urlunsplit((p.scheme.lower(), p.netloc.lower(), p.path.rstrip("/"), urlencode(query), ""))
 
 
-GENERIC = re.compile(r"^(read more|learn more|view more|more|details|continue reading|click here|download|news|newsroom|(?:20\d\d\s+)?press releases|service bulletins|bargaining updates|media|blog|investor relations|next|previous|all news|view all|rss|subscribe|company announcements|news media contacts|corporate fact sheet|corporate profile|contact our press department|optimize supply chain|read safety news|delivery notification)$", re.I)
-ARTICLE = re.compile(r"news|press|releases?|articles?|blogs?|alerts?|advisories|announcements?|notifications?|stories|insights?|updates?|bulletins?|/20\d\d/", re.I)
-REJECT = re.compile(r"privacy|cookies|terms-of|/tag/|/category/|/author/|/page/\d|javascript:|mailto:|tel:|login|sign-in|subscribe|email-alert|/search", re.I)
+GENERIC = re.compile(r"^(leer m[aá]s|ver m[aá]s|m[aá]s informaci[oó]n|noticias|prensa|comunicados|nouvelles|actualit[eé]s|en savoir plus|lire la suite|voir tout|voir plus|siguiente|anterior|suivant|pr[eé]c[eé]dent|read more|learn more|view more|more|details|continue reading|click here|download|news|newsroom|(?:20\d\d\s+)?press releases|service bulletins|bargaining updates|media|blog|investor relations|next|previous|all news|view all|rss|subscribe|company announcements|news media contacts|corporate fact sheet|corporate profile|contact our press department|optimize supply chain|read safety news|delivery notification)$", re.I)
+ARTICLE = re.compile(r"news|press|releases?|articles?|blogs?|alerts?|advisories|announcements?|notifications?|stories|insights?|updates?|bulletins?|notici|prensa|comunicad|bolet[ií]n|avisos?|nouvell|actualit|communiqu|/20\d\d/", re.I)
+REJECT = re.compile(r"privacy|privacidad|confidentialit|cookies|/careers|recrutement|offres-emploi|terms-of|/tag/|/category/|/author/|/page/\d|javascript:|mailto:|tel:|login|sign-in|subscribe|email-alert|/search", re.I)
 
 
 def html_items(payload, spec):
@@ -60,6 +60,11 @@ def html_items(payload, spec):
             continue
         title = clean((headline or anchor).get_text(" ", strip=True)).strip(" >›»→…")
         card = anchor.find_parent(["article", "li"]) or anchor.parent
+        if spec.get("card_class"):
+            card = anchor.find_parent(class_=spec["card_class"])
+        if spec.get("title_from_card") and card:
+            # Some official IR indexes label every PDF only 'Leer más' or 'Download'.
+            title = clean(card.get_text(" ", strip=True).replace(anchor.get_text(" ", strip=True), ""))
         if GENERIC.fullmatch(title) or len(title) < 15:
             heading = card.find(["h2", "h3", "h4"]) if card else None
             if not heading:
@@ -94,14 +99,53 @@ def html_items(payload, spec):
 
 
 def decorate(items, spec):
+    if spec.get("exclude_headline_regex"):
+        items = [item for item in items if not re.search(spec["exclude_headline_regex"], item.get("title", ""), re.I)]
     for item in items:
         item.update({"primary_company": spec["company"], "primary_role": spec["role"],
-                     "primary_source_id": spec["id"], "require_freight_context": spec.get("require_freight_context", False)})
+                     "primary_source_id": spec["id"], "require_freight_context": spec.get("require_freight_context", False),
+                     "primary_source_label": spec.get("source_label", "Official company source")})
         if spec.get("track_updates"):
             # Updates at an unchanged advisory URL must remain detectable.
             # Use exact headline/summary, never a relative-time label or fetch timestamp.
             item["revision"] = hashlib.sha256((item["title"] + "|" + item.get("summary", "")).encode()).hexdigest()[:16]
     return items
+
+
+def notice_items(payload, spec):
+    """Explicitly selected inline company notices with no separate article URL."""
+    soup = BeautifulSoup(payload, "html.parser")
+    result = {}
+    for card in soup.select(spec["selector"]):
+        text = clean(card.get_text(" ", strip=True))
+        if not 25 <= len(text) <= 5000:
+            continue
+        if spec.get("include_text_regex") and not re.search(spec["include_text_regex"], text, re.I):
+            continue
+        headings = card.find_all(["h1", "h2", "h3", "h4", "h5"])
+        title = clean(" ".join(h.get_text(" ", strip=True) for h in headings)) or text[:180]
+        identity = spec["url"] + "|" + hashlib.sha256(text.encode()).hexdigest()
+        result[identity] = {"title": title[:500], "summary": text[:1200],
+                            "link": spec["url"], "source": spec["url"],
+                            "published": "", "primary_item_id": identity}
+    if not result:
+        raise ValueError("No readable notices in the configured page section")
+    return list(result.values())[:100]
+
+
+def lazaro_items(payload, spec):
+    """Public news JSON used by ASIPONA Lazaro Cardenas's own news page."""
+    data = json.loads(payload)
+    if not isinstance(data, dict) or not isinstance(data.get("data"), list):
+        raise ValueError("Lazaro Cardenas public news schema changed")
+    result = []
+    for row in data["data"]:
+        if not row.get("title") or not isinstance(row.get("id"), int):
+            raise ValueError("Port news lacks a title or numeric article ID")
+        result.append({"title": clean(row["title"]), "summary": clean(row.get("content_text", ""))[:1200],
+                       "link": urljoin(spec["url"], "/noticia/" + str(row["id"])),
+                       "source": spec["url"], "published": str(row.get("published") or "")})
+    return result[:100]
 
 
 def inline_items(payload, spec):

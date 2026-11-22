@@ -222,7 +222,16 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 10,
-      "verification_sample_title": "CPKC's President and CEO Keith Creel to address the 2026 UBS Global Industrials and Transportation Conference"
+      "verification_sample_title": "CPKC's President and CEO Keith Creel to address the 2026 UBS Global Industrials and Transportation Conference",
+      "country": "CA",
+      "countries": [
+        "CA",
+        "MX"
+      ],
+      "modes": [
+        "rail",
+        "intermodal"
+      ]
     },
     {
       "url": "https://www.cn.ca/en/media/news/",
@@ -239,7 +248,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 97,
-      "verification_sample_title": "TCRC Bargaining Updates"
+      "verification_sample_title": "TCRC Bargaining Updates",
+      "country": "CA",
+      "modes": [
+        "rail",
+        "intermodal"
+      ]
     },
     {
       "url": "https://www.cn.ca/en/media/",
@@ -256,7 +270,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 9,
-      "verification_sample_title": "TCRC Bargaining Updates"
+      "verification_sample_title": "TCRC Bargaining Updates",
+      "country": "CA",
+      "modes": [
+        "rail",
+        "intermodal"
+      ]
     },
     {
       "url": "https://investors.ups.com/news-events/press-releases/rss",
@@ -413,7 +432,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 93,
-      "verification_sample_title": "TFI International Announces Renewal of Normal Course Issuer Bid"
+      "verification_sample_title": "TFI International Announces Renewal of Normal Course Issuer Bid",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://investors.ryder.com/rss/pressrelease.aspx",
@@ -840,7 +864,11 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 10,
-      "verification_sample_title": "Changes to European Union (EU) import requirements for low-value business-to-consumer shipments Effective November 1, 2026, businesses selling and shipping goods valued at €150 or less directly to consumers in the Europe"
+      "verification_sample_title": "Changes to European Union (EU) import requirements for low-value business-to-consumer shipments Effective November 1, 2026, businesses selling and shipping goods valued at €150 or less directly to consumers in the Europe",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ]
     },
     {
       "url": "https://www.purolator.com/en/news-updates",
@@ -857,7 +885,11 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 14,
-      "verification_sample_title": "Featured Stories Purolator and YCH partner to strengthen trade connections between Canada and Southeast Asia Purolator and YCH Group today announced a strategic partnership designed to strengthen supply chain connectivit"
+      "verification_sample_title": "Featured Stories Purolator and YCH partner to strengthen trade connections between Canada and Southeast Asia Purolator and YCH Group today announced a strategic partnership designed to strengthen supply chain connectivit",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ]
     },
     {
       "url": "https://www.purolator.com/en",
@@ -874,7 +906,11 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 6,
-      "verification_sample_title": "Global Trade Research Report"
+      "verification_sample_title": "Global Trade Research Report",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ]
     },
     {
       "url": "https://www.thekag.com/feed/",
@@ -968,7 +1004,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 18,
-      "verification_sample_title": "Day & Ross Announces Strategic Sales Leadership Changes to Support Continued Growth and Customer Experience Excellence"
+      "verification_sample_title": "Day & Ross Announces Strategic Sales Leadership Changes to Support Continued Growth and Customer Experience Excellence",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://dayross.com",
@@ -985,7 +1026,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 1,
-      "verification_sample_title": "New Executive Appointments Reinforce our Commitment to Technology and Customer Experience"
+      "verification_sample_title": "New Executive Appointments Reinforce our Commitment to Technology and Customer Experience",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://www.universallogistics.com/en-US/resources",
@@ -1395,7 +1441,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 10,
-      "verification_sample_title": "Mullen Group Ltd. Announces Declaration of Monthly Dividend"
+      "verification_sample_title": "Mullen Group Ltd. Announces Declaration of Monthly Dividend",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://bridgewayconnects.com/feed/",
@@ -1446,7 +1497,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 12,
-      "verification_sample_title": "When Export Demand Disappears: 5 Ways to Reposition Inventory"
+      "verification_sample_title": "When Export Demand Disappears: 5 Ways to Reposition Inventory",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://daytonfreight.com/news/",
@@ -1684,7 +1740,11 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 12,
-      "verification_sample_title": "Customer Advisory – Western Canada Weather"
+      "verification_sample_title": "Customer Advisory – Western Canada Weather",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ]
     },
     {
       "url": "https://www.bisontransport.com/blog",
@@ -1701,7 +1761,11 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 12,
-      "verification_sample_title": "Fewer Trucks, Higher Rates? The Forces Reshaping the Trucking Market"
+      "verification_sample_title": "Fewer Trucks, Higher Rates? The Forces Reshaping the Trucking Market",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ]
     },
     {
       "url": "https://www.stevenstransport.com/feed/",
@@ -1752,7 +1816,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 10,
-      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://manitoulintransport.com/news/",
@@ -1769,7 +1838,12 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 34,
-      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
     },
     {
       "url": "https://hirschbach.com/blog",
@@ -1956,7 +2030,13 @@
       "require_freight_context": false,
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 1,
-      "verification_sample_title": "PDF FastFrate BOL E FrateExpress"
+      "verification_sample_title": "PDF FastFrate BOL E FrateExpress",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ]
     },
     {
       "url": "https://foodliner.com/feed/",
@@ -4159,7 +4239,1244 @@
       "verification_status": "workspace_verified_pending_GitHub_runtime",
       "verified_at_utc": "2026-11-22T21:05:32Z",
       "verification_entry_count": 3,
-      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ]
+    },
+    {
+      "company": "Groupe Robert",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.robert.ca/en/news",
+      "kind": "html",
+      "id": "na-b5d722650a4a",
+      "enabled": true,
+      "aliases": [
+        "Groupe Robert"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:31.744370+00:00",
+      "verification_entry_count": 11,
+      "verification_sample_title": "2026 Holiday Schedule"
+    },
+    {
+      "company": "Groupe Robert",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.robert.ca/fr/nouvelles",
+      "kind": "html",
+      "id": "na-52f9fe563c7a",
+      "enabled": true,
+      "aliases": [
+        "Groupe Robert"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:31.973076+00:00",
+      "verification_entry_count": 11,
+      "verification_sample_title": "Horaire des Fêtes 2026"
+    },
+    {
+      "company": "Groupe Guilbault",
+      "country": "CA",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.groupeguilbault.com/fr/articles/",
+      "kind": "html",
+      "id": "na-c2be1ee00624",
+      "enabled": true,
+      "aliases": [
+        "Groupe Guilbault"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:33.013935+00:00",
+      "verification_entry_count": 4,
+      "verification_sample_title": "VOIR LES DETAILS"
+    },
+    {
+      "company": "GLS Canada",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://gls-group.com/CA/en/news/",
+      "kind": "html",
+      "id": "na-8388ea1cd494",
+      "enabled": true,
+      "aliases": [
+        "GLS Canada"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:33.006038+00:00",
+      "verification_entry_count": 24,
+      "verification_sample_title": "GLS strengthens its footprint in North America with the acquisition of AltiMax Courier"
+    },
+    {
+      "company": "GLS Canada",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://gls-group.com/CA/fr/nouvelles/",
+      "kind": "html",
+      "id": "na-fb3a3c2ac5b8",
+      "enabled": true,
+      "aliases": [
+        "GLS Canada"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:32.712211+00:00",
+      "verification_entry_count": 24,
+      "verification_sample_title": "GLS renforce sa présence en Amérique du Nord avec l'acquisition d'AltiMax Courier"
+    },
+    {
+      "company": "Challenger",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.challenger.com/resources/?category=news",
+      "kind": "html",
+      "id": "na-6a97c21b83aa",
+      "enabled": true,
+      "aliases": [
+        "Challenger"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:33.544687+00:00",
+      "verification_entry_count": 15,
+      "verification_sample_title": "U.S. Modifies Section 338 Tariffs on Canadian Products Effective October 30, 2026"
+    },
+    {
+      "company": "C.A.T.",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://cat.ca/feed/",
+      "kind": "rss",
+      "id": "na-dd992a0a4f16",
+      "enabled": true,
+      "aliases": [
+        "C.A.T."
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:32.355843+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "C.A.T. Inc. Named One of the Best TOP 20 Fleets to Drive For in 2025"
+    },
+    {
+      "company": "Armour Transportation",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://armour.ca/feed/",
+      "kind": "rss",
+      "id": "na-26d56b650386",
+      "enabled": true,
+      "aliases": [
+        "Armour Transportation"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:33.228639+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Brandon"
+    },
+    {
+      "company": "Midland Transport",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.midlandtransport.com/en/our-difference/from-the-newsroom/",
+      "kind": "html",
+      "id": "na-e62e740e32f3",
+      "enabled": true,
+      "aliases": [
+        "Midland Transport"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:33.264043+00:00",
+      "verification_entry_count": 7,
+      "verification_sample_title": "More than $25,000 Raised at the 10th Annual Pulling for the United Way Truck Pull"
+    },
+    {
+      "company": "Polaris Transportation",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://polaristransport.com/portal/news",
+      "kind": "html",
+      "id": "na-af569dceea10",
+      "enabled": true,
+      "aliases": [
+        "Polaris Transportation"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:35.902270+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Polaris Recognized with 2026 Achievement of Inclusive Workplace Award"
+    },
+    {
+      "company": "Trimac",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.trimac.com/news-releases/",
+      "kind": "html",
+      "id": "na-0da39f15127f",
+      "enabled": true,
+      "aliases": [
+        "Trimac"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:32.507866+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Trimac President Matt Faure receives Business in Calgary Leaders Award"
+    },
+    {
+      "company": "Kriska",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.kriska.com/feed/",
+      "kind": "rss",
+      "id": "na-13ffafc0b7d2",
+      "enabled": true,
+      "aliases": [
+        "Kriska"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:32.622604+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Kriska’s 45th Anniversary Top Tenure and High Milers"
+    },
+    {
+      "company": "Port of Vancouver Canada",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.portvancouver.com/news?created=&topic=All&article_type=media_release",
+      "kind": "html",
+      "id": "na-ef81aef09b05",
+      "enabled": true,
+      "aliases": [
+        "Port of Vancouver Canada"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:40.455465+00:00",
+      "verification_entry_count": 15,
+      "verification_sample_title": "The Vancouver Fraser Port Authority and Musqueam Indian Band mark five-year anniversary of relationship agreement Nov 5, 2026 arrow_forward"
+    },
+    {
+      "company": "Port of Vancouver Canada",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "service",
+      "allow_headline_links": true,
+      "url": "https://www.portvancouver.com/news?created=&topic=All&article_type=notice",
+      "kind": "html",
+      "id": "na-8acc63a806fa",
+      "enabled": true,
+      "aliases": [
+        "Port of Vancouver Canada"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:40.484505+00:00",
+      "verification_entry_count": 15,
+      "verification_sample_title": "Notice of amendment to Port Information Guide Nov 5, 2026 arrow_forward"
+    },
+    {
+      "company": "Port of Prince Rupert",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.rupertport.com/news/",
+      "kind": "html",
+      "id": "na-e3c5e8a900d8",
+      "enabled": true,
+      "aliases": [
+        "Port of Prince Rupert"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:37.155177+00:00",
+      "verification_entry_count": 6,
+      "verification_sample_title": "PRPA Contributes $227,800 to New Commercial Kitchen to Support Enhanced Lunch Program"
+    },
+    {
+      "company": "Port of Prince Rupert",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.rupertport.com/fr/nouvelles/",
+      "kind": "html",
+      "id": "na-1159eb78abae",
+      "enabled": true,
+      "aliases": [
+        "Port of Prince Rupert"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:37.179457+00:00",
+      "verification_entry_count": 6,
+      "verification_sample_title": "L’APPR contribue 227,800 $ à une nouvelle cuisine commerciale afin de soutenir le programme de déjeuner dynamisé"
+    },
+    {
+      "company": "Port of Montreal",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.port-montreal.com/en/the-port-of-montreal/news/news?format=feed&type=rss",
+      "kind": "rss",
+      "id": "na-3b45437dd707",
+      "enabled": true,
+      "aliases": [
+        "Port of Montreal"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:37.499446+00:00",
+      "verification_entry_count": 288,
+      "verification_sample_title": "Nathalie Forcier appointed to the Montreal Port Authority’s Board of Directors"
+    },
+    {
+      "company": "Port of Montreal",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.port-montreal.com/fr/le-port-de-montreal/nouvelles-et-evenements/nouvelles",
+      "kind": "html",
+      "id": "na-5193863dd280",
+      "enabled": true,
+      "aliases": [
+        "Port of Montreal"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:40.123955+00:00",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Nathalie Forcier nommée au conseil d’administration de l’Administration portuaire de Montréal"
+    },
+    {
+      "company": "Port Saint John",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.sjport.com/news",
+      "kind": "html",
+      "id": "na-a2143a6ff06b",
+      "enabled": true,
+      "aliases": [
+        "Port Saint John"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:36.860235+00:00",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Port Saint John Celebrates Award-Winning Cruise Season & Major Infrastructure Investment"
+    },
+    {
+      "company": "Port of Quebec",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.portquebec.ca/actualites/",
+      "kind": "html",
+      "id": "na-87de4ed8a6ff",
+      "enabled": true,
+      "aliases": [
+        "Port of Quebec"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:37.501887+00:00",
+      "verification_entry_count": 13,
+      "verification_sample_title": "QUÉBEC CONFIRME SON POSITIONNEMENT STRATÉGIQUE DANS L’INDUSTRIE DES CROISIÈRES AU CANADA"
+    },
+    {
+      "company": "Port of Quebec",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.portquebec.ca/en/news/",
+      "kind": "html",
+      "id": "na-53f2abbe6d6c",
+      "enabled": true,
+      "aliases": [
+        "Port of Quebec"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:36.744647+00:00",
+      "verification_entry_count": 13,
+      "verification_sample_title": "QUÉBEC CITY REAFFIRMS ITS STRATEGIC ROLE IN CANADA’S CRUISE INDUSTRY"
+    },
+    {
+      "company": "Port of Trois-Rivieres",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://porttr.com/en/feed/",
+      "kind": "rss",
+      "id": "na-85fd775cb3ac",
+      "enabled": true,
+      "aliases": [
+        "Port of Trois-Rivieres"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:38.891977+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Port of Trois-Rivières Invests $100,000 in Green and Sustainable Technology Research at UQTR"
+    },
+    {
+      "company": "Port of Trois-Rivieres",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://porttr.com/communiques-de-presse/",
+      "kind": "html",
+      "id": "na-489f08e2ece8",
+      "enabled": true,
+      "aliases": [
+        "Port of Trois-Rivieres"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:39.474265+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Le Port de Trois-Rivières investit 100 000 $ dans la recherche sur les technologies vertes et durables à l’UQTR"
+    },
+    {
+      "company": "HOPA Ports",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.hopaports.ca/feed/",
+      "kind": "rss",
+      "id": "na-3b5254558936",
+      "enabled": true,
+      "aliases": [
+        "HOPA Ports"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:39.408164+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Federal and Provincial governments announce $250 million to build new Port of Sault Ste. Marie"
+    },
+    {
+      "company": "Port of Sept-Iles",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.portsi.com/newsroom/press-releases/?lang=en",
+      "kind": "html",
+      "id": "na-fe50493b8065",
+      "enabled": true,
+      "aliases": [
+        "Port of Sept-Iles"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:42.327966+00:00",
+      "verification_entry_count": 12,
+      "verification_sample_title": "2027 Notice of Tariff Revision"
+    },
+    {
+      "company": "Port of Sept-Iles",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.portsi.com/salle-de-presse/communiques/",
+      "kind": "html",
+      "id": "na-503cfcc0f224",
+      "enabled": true,
+      "aliases": [
+        "Port of Sept-Iles"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:41.740943+00:00",
+      "verification_entry_count": 14,
+      "verification_sample_title": "Salle de presse"
+    },
+    {
+      "company": "Ferromex",
+      "country": "MX",
+      "modes": [
+        "intermodal",
+        "rail"
+      ],
+      "role": "service",
+      "allow_headline_links": true,
+      "url": "https://ferromex.mx/comunicados-a-clientes/",
+      "kind": "html",
+      "id": "na-f22e8e8ce042",
+      "enabled": true,
+      "aliases": [
+        "Ferromex"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:41.860218+00:00",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Facturación con complemento carta porte"
+    },
+    {
+      "company": "Ferromex",
+      "country": "MX",
+      "modes": [
+        "intermodal",
+        "rail"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://ferromex.mx/informacion-financiera",
+      "kind": "html",
+      "id": "na-aa24a673a41d",
+      "enabled": true,
+      "aliases": [
+        "Ferromex"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:45.270123+00:00",
+      "verification_entry_count": 57,
+      "verification_sample_title": "Reporte 1er trimestre"
+    },
+    {
+      "company": "Port of Veracruz",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.puertodeveracruz.com.mx/",
+      "kind": "html",
+      "id": "na-e1c9b7acca77",
+      "enabled": true,
+      "aliases": [
+        "Port of Veracruz"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:41.702652+00:00",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Vinculación Puerto-Ciudad Instituto Tecnológico de Veracruz"
+    },
+    {
+      "company": "Port of Veracruz",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "service",
+      "allow_headline_links": true,
+      "url": "https://www.puertodeveracruz.com.mx/tramites-y-servicios/avisos-a-la-comunidad-portuaria/",
+      "kind": "html",
+      "id": "na-c7b37c39b033",
+      "enabled": true,
+      "aliases": [
+        "Port of Veracruz"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:41.818211+00:00",
+      "verification_entry_count": 25,
+      "verification_sample_title": "AVISO DE HORARIO DE CAJA, MIERCOLES 16 DE SEPTIEMBRE 2026. NUEVO"
+    },
+    {
+      "company": "Port of Altamira",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.puertoaltamira.com.mx/feed/",
+      "kind": "rss",
+      "id": "na-345f02099d17",
+      "enabled": true,
+      "aliases": [
+        "Port of Altamira"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:44.072521+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "EL PUERTO DE ALTAMIRA FORTALECE SU PARTICIPACIÓN EN EL MOVIMIENTO DE CARGA MINERAL"
+    },
+    {
+      "company": "Port of Ensenada",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://es.puertoensenada.com.mx/",
+      "kind": "html",
+      "id": "na-4b0af62fbfd7",
+      "enabled": true,
+      "aliases": [
+        "Port of Ensenada"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:42.972124+00:00",
+      "verification_entry_count": 4,
+      "verification_sample_title": "Modificación de Horarios de Atención"
+    },
+    {
+      "company": "Port of Progreso",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.puertosyucatan.com/cgi-bin/news.cgi?lang=sp",
+      "kind": "html",
+      "id": "na-1b91c119bb0e",
+      "enabled": true,
+      "aliases": [
+        "Port of Progreso"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:46.553972+00:00",
+      "verification_entry_count": 100,
+      "verification_sample_title": "1021.- ASIPONA Progreso recibe a participantes de la XVII Jornada Internacional del Concreto Armado."
+    },
+    {
+      "company": "Port of Coatzacoalcos",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://www.puertocoatzacoalcos.com.mx/ultimas-noticias",
+      "kind": "html",
+      "id": "na-e811ef2ce40c",
+      "enabled": true,
+      "aliases": [
+        "Port of Coatzacoalcos"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:45.574196+00:00",
+      "verification_entry_count": 13,
+      "verification_sample_title": "ASIPONA COATZACOALCOS FORTALECE LA SEGURIDAD Y PROTECCIÓN PORTUARIA"
+    },
+    {
+      "company": "Port of Manzanillo",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://puertomanzanillo.com.mx/espi/0000001/historial.php",
+      "kind": "html",
+      "id": "na-c5e33948b622",
+      "enabled": true,
+      "aliases": [
+        "Port of Manzanillo"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:44.277030+00:00",
+      "verification_entry_count": 100,
+      "verification_sample_title": "MARINA CONTRIBUYE A LA RECUPERACIÓN DE ESPACIOS EDUCATIVOS Y CULTURALES EN MANZANILLO"
+    },
+    {
+      "company": "Port of Salina Cruz",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://puertosalinacruz.com.mx/wp/feed/",
+      "kind": "rss",
+      "id": "na-2f62450a9cae",
+      "enabled": true,
+      "aliases": [
+        "Port of Salina Cruz"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:46.137353+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Movimiento Portuario Anual"
+    },
+    {
+      "company": "Port of Tuxpan",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://puertotuxpan.com.mx/",
+      "kind": "html",
+      "id": "na-d667123a380c",
+      "enabled": true,
+      "aliases": [
+        "Port of Tuxpan"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:45.807278+00:00",
+      "verification_entry_count": 2,
+      "verification_sample_title": "BOLETÍN INFORMATIVO"
+    },
+    {
+      "company": "Trancasa",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://trancasa.online/feed/",
+      "kind": "rss",
+      "id": "na-0e1ed16efb18",
+      "enabled": true,
+      "aliases": [
+        "Trancasa"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:45.879369+00:00",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Trancasa Strengthens Cross-Border Connections at the 3rd Pharr Truck Expo"
+    },
+    {
+      "company": "CANACAR",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://canacar.com.mx/category/comunicados/",
+      "kind": "html",
+      "id": "na-9dda7faf81f8",
+      "enabled": true,
+      "aliases": [
+        "CANACAR"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Industry association statement",
+      "entity_type": "association",
+      "verified_at_utc": "2026-11-22T21:22:45.846972+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR"
+    },
+    {
+      "company": "CANACAR",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://canacar.com.mx/comunicacion/noticias/",
+      "kind": "html",
+      "id": "na-924f759ddd32",
+      "enabled": true,
+      "aliases": [
+        "CANACAR"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Industry association statement",
+      "entity_type": "association",
+      "verified_at_utc": "2026-11-22T21:22:45.762846+00:00",
+      "verification_entry_count": 10,
+      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR"
+    },
+    {
+      "company": "Canadian Trucking Alliance",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "role": "news",
+      "allow_headline_links": true,
+      "url": "https://cantruck.ca/news/",
+      "kind": "html",
+      "id": "na-ff224a8d6557",
+      "enabled": true,
+      "aliases": [
+        "Canadian Trucking Alliance"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Industry association statement",
+      "entity_type": "association",
+      "verified_at_utc": "2026-11-22T21:22:48.446729+00:00",
+      "verification_entry_count": 9,
+      "verification_sample_title": "APTA Celebrates Completion of Quebec’s Highway 85, a Major Milestone for Atlantic Canadian Trade"
+    },
+    {
+      "company": "Grupo Traxión",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "url": "https://api.traxion.global/reportes",
+      "kind": "html",
+      "role": "news",
+      "link_pattern": "/assets/assets/.*\\.pdf$",
+      "id": "na-4ee4208c9235",
+      "enabled": true,
+      "aliases": [
+        "Grupo Traxión",
+        "Traxion",
+        "TRAXION"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:46.440262+00:00",
+      "verification_entry_count": 29,
+      "verification_sample_title": "Reporte trimestral"
+    },
+    {
+      "company": "Grupo Traxión",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "url": "https://api.traxion.global/eventos",
+      "kind": "html",
+      "role": "news",
+      "link_pattern": "/assets/assets/.*\\.pdf$",
+      "card_class": "evento-relevante-card",
+      "title_from_card": true,
+      "id": "na-da9506a44cb7",
+      "enabled": true,
+      "aliases": [
+        "Grupo Traxión",
+        "Traxion",
+        "TRAXION"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:46.303526+00:00",
+      "verification_entry_count": 3,
+      "verification_sample_title": "TRAXION anuncia intención de lanzar oferta por acciones"
+    },
+    {
+      "company": "Grupo Mexico Transportes",
+      "country": "MX",
+      "modes": [
+        "rail",
+        "intermodal"
+      ],
+      "url": "https://gmxt.mx/es/informacion-cnbv-y-bmv/",
+      "kind": "html",
+      "role": "news",
+      "selector": ".wpb_wrapper a[href]",
+      "link_pattern": "\\.pdf$",
+      "card_class": "wpb_wrapper",
+      "title_from_card": true,
+      "id": "na-3fb1010c26b5",
+      "enabled": true,
+      "aliases": [
+        "Grupo Mexico Transportes",
+        "GMXT",
+        "Ferromex",
+        "Ferrosur"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:48.624387+00:00",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Reporte 3T26 GMXT"
+    },
+    {
+      "company": "Paquetexpress",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "url": "https://www.paquetexpress.com.mx/",
+      "kind": "notices",
+      "role": "news",
+      "selector": ".Home__Slide__Text",
+      "include_text_regex": "apertura|nuevo centro|suspensi[oó]n|cierre|nueva ruta",
+      "id": "na-64f759595642",
+      "enabled": true,
+      "aliases": [
+        "Paquetexpress"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:49.547953+00:00",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Gran apertura Mazatlán, Sinaloa"
+    },
+    {
+      "company": "Port of Lazaro Cardenas",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "url": "https://www.puertolazarocardenas.com.mx/plc25/noticias",
+      "request_url": "https://www.puertolazarocardenas.com.mx/api/noteListPublic?type=1&published=true&page=1",
+      "kind": "lazaro",
+      "role": "news",
+      "id": "na-aaf572e9cdc3",
+      "enabled": true,
+      "aliases": [
+        "Port of Lazaro Cardenas"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:49.647951+00:00",
+      "verification_entry_count": 9,
+      "verification_sample_title": "ASIPONA LÁZARO CÁRDENAS PARTICIPA EN EL TERCER FORO DE TRANSPORTE MARÍTIMO Y PUERTOS SUSTENTABLES"
+    },
+    {
+      "company": "Intermodal Mexico",
+      "country": "MX",
+      "modes": [
+        "intermodal"
+      ],
+      "url": "https://www.intermodalmexico.com.mx/portal/Comunicado/Index",
+      "kind": "notices",
+      "role": "service",
+      "selector": ".portfolio-single-content",
+      "include_text_regex": "carta porte|servicio|intermodal",
+      "id": "na-f9b85cd39894",
+      "enabled": true,
+      "aliases": [
+        "Intermodal Mexico"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:50.070683+00:00",
+      "verification_entry_count": 1,
+      "verification_sample_title": "COMPLEMENTO CARTA PORTE"
+    },
+    {
+      "company": "Port of Montreal",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "url": "https://www.port-montreal.com/en/goods/operations/notices-goods",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "na-0e93479ded32",
+      "enabled": true,
+      "aliases": [
+        "Port of Montreal"
+      ],
+      "track_updates": false,
+      "language": "en/fr",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
+      "verified_at_utc": "2026-11-22T21:22:50.023192+00:00",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Subscribe to our Newsletter"
+    },
+    {
+      "company": "Grupo Castores",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "url": "https://castores.com.mx/",
+      "kind": "notices",
+      "role": "service",
+      "selector": ".c-home-promotions__card-info",
+      "include_text_regex": "nueva apertura|nueva sucursal",
+      "source_label": "Official company expansion notice",
+      "id": "na-74bd03c8f2c8",
+      "enabled": true,
+      "aliases": [
+        "Grupo Castores"
+      ],
+      "track_updates": false,
+      "language": "es",
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "entity_type": "carrier",
+      "verified_at_utc": "2026-11-22T21:22:49.125663+00:00",
+      "verification_entry_count": 2,
+      "verification_sample_title": "Agencia Chiapa de Corzo"
     }
   ],
   "coverage": [
@@ -4472,19 +5789,10 @@
       "official_homepage": "https://www.thekag.com/"
     },
     {
-      "company": "KAG Logistics",
-      "source_ids": [
-        "kenan-advantage-0fb28d72"
-      ],
-      "status": "direct_sources_verified",
-      "note": "",
-      "official_homepage": "https://www.thekag.com/"
-    },
-    {
       "company": "Evans Network",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://evansdelivery.com"
     },
     {
@@ -4554,16 +5862,6 @@
     },
     {
       "company": "Anderson Trucking",
-      "source_ids": [
-        "anderson-trucking-f6358c03",
-        "anderson-trucking-97c02d68"
-      ],
-      "status": "direct_sources_verified",
-      "note": "",
-      "official_homepage": "https://www.atsinc.com/"
-    },
-    {
-      "company": "ATS Logistics",
       "source_ids": [
         "anderson-trucking-f6358c03",
         "anderson-trucking-97c02d68"
@@ -4729,7 +6027,7 @@
       "company": "Atlas World Group",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.atlasworldgroupinc.com/"
     },
     {
@@ -4793,7 +6091,7 @@
       "company": "Western Express",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://westernexp.com"
     },
     {
@@ -4906,7 +6204,7 @@
       "company": "PAMT Corp",
       "source_ids": [],
       "status": "gap",
-      "note": "No readable public page: PAM Transport; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -4960,14 +6258,14 @@
       "company": "Roehl Transport",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
       "company": "Koch Companies",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No meaningful article entries",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://kochtrucking.com"
     },
     {
@@ -5012,7 +6310,7 @@
       "company": "Oak Harbor Freight",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://oakh.com"
     },
     {
@@ -5029,7 +6327,7 @@
       "company": "Trans-System",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5045,7 +6343,7 @@
       "company": "United Vision Logistics",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5062,7 +6360,7 @@
       "company": "United Petroleum Transports",
       "source_ids": [],
       "status": "gap",
-      "note": "No readable public page: United Petroleum Transports - Seamless Delivery... Every Time",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5108,7 +6406,7 @@
       "company": "Cassens Transport",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5144,35 +6442,35 @@
       "company": "May Trucking",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://maytrucking.com"
     },
     {
       "company": "Gulf Winds",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
       "company": "CrossCountry Freight",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory ",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.ccfs.com:443/"
     },
     {
       "company": "National Carriers",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.nationalcarriers.com/default.aspx"
     },
     {
       "company": "Highlight Motor",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://highlightmotor.com"
     },
     {
@@ -5188,7 +6486,7 @@
       "company": "Blackhawk Transport",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.blackhawktransport.com/"
     },
     {
@@ -5244,7 +6542,7 @@
       "company": "AAA Cooper",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://aaacooper.com"
     },
     {
@@ -5260,14 +6558,14 @@
       "company": "North Park Transportation",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://nopk.com"
     },
     {
       "company": "TGR Logistics",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.tgrlogistics.com/"
     },
     {
@@ -5381,7 +6679,7 @@
       "company": "Beon",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5497,7 +6795,7 @@
       "company": "PSA BDP",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5597,7 +6895,7 @@
       "company": "Ryan Transportation",
       "source_ids": [],
       "status": "gap",
-      "note": "<urlopen error timed out>; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5640,7 +6938,7 @@
       "company": "Metro Supply Chain",
       "source_ids": [],
       "status": "gap",
-      "note": "<urlopen error timed out>",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5701,7 +6999,7 @@
       "company": "Saddle Creek",
       "source_ids": [],
       "status": "gap",
-      "note": "<urlopen error timed out>",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
@@ -5780,16 +7078,22 @@
     },
     {
       "company": "Grupo Traxión",
-      "source_ids": [],
-      "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "source_ids": [
+        "na-4ee4208c9235",
+        "na-da9506a44cb7"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
       "official_homepage": "https://traxion.global/es/"
     },
     {
       "company": "Traxion",
-      "source_ids": [],
-      "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "source_ids": [
+        "na-4ee4208c9235",
+        "na-da9506a44cb7"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
       "official_homepage": "https://traxion.global/es/"
     },
     {
@@ -5830,10 +7134,20 @@
       "official_homepage": "https://www.logisticsplus.com/"
     },
     {
+      "company": "ATS Logistics",
+      "source_ids": [
+        "anderson-trucking-f6358c03",
+        "anderson-trucking-97c02d68"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.atsinc.com/"
+    },
+    {
       "company": "De Well Group",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://dewell.com"
     },
     {
@@ -5869,7 +7183,7 @@
       "company": "Steam Logistics",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://www.steamlogistics.com/"
     },
     {
@@ -5895,21 +7209,21 @@
       "company": "Logistic Dynamics",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
       "company": "Evans Transportation",
       "source_ids": [],
       "status": "gap",
-      "note": "HTTP Error 503: Service Unavailable",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": null
     },
     {
       "company": "Venture Logistics",
       "source_ids": [],
       "status": "gap",
-      "note": "No article/advisory links parsed; source is not verified operational",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity.",
       "official_homepage": "https://venturelogistics.com"
     },
     {
@@ -5932,6 +7246,15 @@
       "official_homepage": "https://www.rpmmoves.com/"
     },
     {
+      "company": "KAG Logistics",
+      "source_ids": [
+        "kenan-advantage-0fb28d72"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.thekag.com/"
+    },
+    {
       "company": "FLS Transportation",
       "source_ids": [
         "fls-transportation-f8c19db1"
@@ -5948,13 +7271,1033 @@
       "status": "direct_sources_verified",
       "note": "",
       "official_homepage": "https://www.odwlogistics.com/"
+    },
+    {
+      "company": "Groupe Robert",
+      "official_homepage": "https://www.robert.ca/en/news",
+      "source_ids": [
+        "na-b5d722650a4a",
+        "na-52f9fe563c7a"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Groupe Guilbault",
+      "official_homepage": "https://www.groupeguilbault.com/",
+      "source_ids": [
+        "na-c2be1ee00624"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "GLS Canada",
+      "official_homepage": "https://gls-group.com/CA/en/news/",
+      "source_ids": [
+        "na-8388ea1cd494",
+        "na-fb3a3c2ac5b8"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Challenger",
+      "official_homepage": "https://www.challenger.com/",
+      "source_ids": [
+        "na-6a97c21b83aa"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "C.A.T.",
+      "official_homepage": "https://www.cat.ca/",
+      "source_ids": [
+        "na-dd992a0a4f16"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Armour Transportation",
+      "official_homepage": "https://armour.ca/",
+      "source_ids": [
+        "na-26d56b650386"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Midland Transport",
+      "official_homepage": "https://www.midlandtransport.com/",
+      "source_ids": [
+        "na-e62e740e32f3"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Rosenau Transport",
+      "official_homepage": "https://www.rosenau.ca/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Maritime-Ontario",
+      "official_homepage": "https://www.m-o.com/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Polaris Transportation",
+      "official_homepage": "https://polaristransport.com/",
+      "source_ids": [
+        "na-af569dceea10"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Trimac",
+      "official_homepage": "https://trimac.com/",
+      "source_ids": [
+        "na-0da39f15127f"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Kriska",
+      "official_homepage": "https://www.kriska.com/",
+      "source_ids": [
+        "na-13ffafc0b7d2"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Vancouver Canada",
+      "official_homepage": "https://www.portvancouver.com/",
+      "source_ids": [
+        "na-ef81aef09b05",
+        "na-8acc63a806fa"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Prince Rupert",
+      "official_homepage": "https://www.rupertport.com/news/",
+      "source_ids": [
+        "na-e3c5e8a900d8",
+        "na-1159eb78abae"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Montreal",
+      "official_homepage": "https://www.port-montreal.com/en/the-port-of-montreal/news/news",
+      "source_ids": [
+        "na-3b45437dd707",
+        "na-5193863dd280",
+        "na-0e93479ded32"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Halifax",
+      "official_homepage": "https://www.porthalifax.ca/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Port Saint John",
+      "official_homepage": "https://www.sjport.com/",
+      "source_ids": [
+        "na-a2143a6ff06b"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Quebec",
+      "official_homepage": "https://www.portquebec.ca/actualites/",
+      "source_ids": [
+        "na-87de4ed8a6ff",
+        "na-53f2abbe6d6c"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Trois-Rivieres",
+      "official_homepage": "https://porttr.com/en/press-releases/",
+      "source_ids": [
+        "na-85fd775cb3ac",
+        "na-489f08e2ece8"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "HOPA Ports",
+      "official_homepage": "https://www.hopaports.ca/latest-news/",
+      "source_ids": [
+        "na-3b5254558936"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Sept-Iles",
+      "official_homepage": "https://www.portsi.com/newsroom/press-releases/?lang=en",
+      "source_ids": [
+        "na-fe50493b8065",
+        "na-503cfcc0f224"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Nanaimo",
+      "official_homepage": "https://npa.ca/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Tresguerras",
+      "official_homepage": "https://www.tresguerras.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Grupo Castores",
+      "official_homepage": "https://castores.com.mx/",
+      "source_ids": [
+        "na-74bd03c8f2c8"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Potosinos",
+      "official_homepage": "https://potosinos.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Paquetexpress",
+      "official_homepage": "https://www.paquetexpress.com.mx/",
+      "source_ids": [
+        "na-64f759595642"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Transportes Pitic",
+      "official_homepage": "https://www.transportespitic.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Fletes Mexico",
+      "official_homepage": "https://fletes-mexico.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Frio Express",
+      "official_homepage": "https://www.frioexpress.com/site/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Transportes TUM",
+      "official_homepage": "https://www.tum.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Grupo SID",
+      "official_homepage": "https://www.gruposid.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Grupo Mexico Transportes",
+      "official_homepage": "https://gmxt.mx/es/informacion-cnbv-y-bmv/",
+      "source_ids": [
+        "na-3fb1010c26b5"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Ferromex",
+      "official_homepage": "https://ferromex.mx/",
+      "source_ids": [
+        "na-f22e8e8ce042",
+        "na-aa24a673a41d",
+        "na-3fb1010c26b5"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Intermodal Mexico",
+      "official_homepage": "https://www.intermodalmexico.com.mx/portal/",
+      "source_ids": [
+        "na-f9b85cd39894"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Manzanillo",
+      "official_homepage": "https://puertomanzanillo.com.mx/espi/0000001/inicio.php",
+      "source_ids": [
+        "na-c5e33948b622"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Lazaro Cardenas",
+      "official_homepage": "https://www.puertolazarocardenas.com.mx/",
+      "source_ids": [
+        "na-aaf572e9cdc3"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Veracruz",
+      "official_homepage": "https://www.puertodeveracruz.com.mx/",
+      "source_ids": [
+        "na-e1c9b7acca77",
+        "na-c7b37c39b033"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Altamira",
+      "official_homepage": "https://www.puertoaltamira.com.mx/",
+      "source_ids": [
+        "na-345f02099d17"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Ensenada",
+      "official_homepage": "https://es.puertoensenada.com.mx/",
+      "source_ids": [
+        "na-4b0af62fbfd7"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Progreso",
+      "official_homepage": "https://www.puertosyucatan.com/",
+      "source_ids": [
+        "na-1b91c119bb0e"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Coatzacoalcos",
+      "official_homepage": "https://www.puertocoatzacoalcos.com.mx/",
+      "source_ids": [
+        "na-e811ef2ce40c"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Salina Cruz",
+      "official_homepage": "https://www.puertosalinacruz.com.mx/wp/index.php",
+      "source_ids": [
+        "na-2f62450a9cae"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Port of Tuxpan",
+      "official_homepage": "https://puertotuxpan.com.mx/",
+      "source_ids": [
+        "na-d667123a380c"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Fletes Mexico Carga Express",
+      "official_homepage": "https://cargaexpress.com/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Trayecto",
+      "official_homepage": "https://trayecto.com/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Transportes Monroy Schiavon",
+      "official_homepage": "https://tms.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Grupo Marva",
+      "official_homepage": "https://www.marva.com.mx/",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No verified readable direct channel; shared feeds may still contain this entity."
+    },
+    {
+      "company": "Trancasa",
+      "official_homepage": "https://trancasa.online/news/",
+      "source_ids": [
+        "na-0e1ed16efb18"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "CANACAR",
+      "official_homepage": "https://canacar.com.mx/",
+      "source_ids": [
+        "na-9dda7faf81f8",
+        "na-924f759ddd32"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Canadian Trucking Alliance",
+      "official_homepage": "https://cantruck.ca/",
+      "source_ids": [
+        "na-ff224a8d6557"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "Ferrosur",
+      "official_homepage": "https://gmxt.mx/es/informacion-cnbv-y-bmv/",
+      "source_ids": [
+        "na-3fb1010c26b5"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "TRAXION",
+      "official_homepage": null,
+      "source_ids": [
+        "na-4ee4208c9235",
+        "na-da9506a44cb7"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
+    },
+    {
+      "company": "GMXT",
+      "official_homepage": null,
+      "source_ids": [
+        "na-3fb1010c26b5"
+      ],
+      "status": "direct_sources_verified",
+      "note": ""
     }
   ],
   "limits": [
-    "Sources are explicitly verified public company news/IR/advisory endpoints; no authenticated customer portals are polled.",
     "Only current returned entries are inspected; first reads seed quietly.",
     "Company alias names can share one parent-company feed.",
     "Gaps are listed explicitly and do not count as operational direct coverage.",
-    "GitHub scheduled starts are best effort; 20-minute cron is not a guaranteed 20-minute delivery SLA."
+    "GitHub scheduled starts are best effort; 20-minute cron is not a guaranteed 20-minute delivery SLA.",
+    "Regional readers are workspace-verified until a GitHub runner successfully polls them. Associations are supplementary sources, not direct coverage of every member.",
+    "Strict freshness: publication time must be timezone-qualified and within 120 minutes; undated/date-only stories are held. No discovery-time substitution."
+  ],
+  "regional_targets": [
+    {
+      "company": "Groupe Robert",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.robert.ca/en/news"
+    },
+    {
+      "company": "Groupe Guilbault",
+      "country": "CA",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "official_homepage": "https://www.groupeguilbault.com/"
+    },
+    {
+      "company": "GLS Canada",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": "https://gls-group.com/CA/en/news/"
+    },
+    {
+      "company": "Challenger",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.challenger.com/"
+    },
+    {
+      "company": "C.A.T.",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.cat.ca/"
+    },
+    {
+      "company": "Armour Transportation",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": "https://armour.ca/"
+    },
+    {
+      "company": "Midland Transport",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": "https://www.midlandtransport.com/"
+    },
+    {
+      "company": "Rosenau Transport",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": "https://www.rosenau.ca/"
+    },
+    {
+      "company": "Maritime-Ontario",
+      "country": "CA",
+      "modes": [
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.m-o.com/"
+    },
+    {
+      "company": "Polaris Transportation",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": "https://polaristransport.com/"
+    },
+    {
+      "company": "Trimac",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://trimac.com/"
+    },
+    {
+      "company": "Kriska",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://www.kriska.com/"
+    },
+    {
+      "company": "Port of Vancouver Canada",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://www.portvancouver.com/"
+    },
+    {
+      "company": "Port of Prince Rupert",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.rupertport.com/news/"
+    },
+    {
+      "company": "Port of Montreal",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.port-montreal.com/en/the-port-of-montreal/news/news"
+    },
+    {
+      "company": "Port of Halifax",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.porthalifax.ca/"
+    },
+    {
+      "company": "Port Saint John",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.sjport.com/"
+    },
+    {
+      "company": "Port of Quebec",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://www.portquebec.ca/actualites/"
+    },
+    {
+      "company": "Port of Trois-Rivieres",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://porttr.com/en/press-releases/"
+    },
+    {
+      "company": "HOPA Ports",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://www.hopaports.ca/latest-news/"
+    },
+    {
+      "company": "Port of Sept-Iles",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://www.portsi.com/newsroom/press-releases/?lang=en"
+    },
+    {
+      "company": "Port of Nanaimo",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://npa.ca/"
+    },
+    {
+      "company": "Grupo Traxión",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": "https://api.traxion.global/eventos"
+    },
+    {
+      "company": "Tresguerras",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "official_homepage": "https://www.tresguerras.com.mx/"
+    },
+    {
+      "company": "Grupo Castores",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "official_homepage": "https://castores.com.mx/"
+    },
+    {
+      "company": "Potosinos",
+      "country": "MX",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": "https://potosinos.com.mx/"
+    },
+    {
+      "company": "Paquetexpress",
+      "country": "MX",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": "https://www.paquetexpress.com.mx/"
+    },
+    {
+      "company": "Transportes Pitic",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "official_homepage": "https://www.transportespitic.com.mx/"
+    },
+    {
+      "company": "Fletes Mexico",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://fletes-mexico.com.mx/"
+    },
+    {
+      "company": "Frio Express",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://www.frioexpress.com/site/"
+    },
+    {
+      "company": "Transportes TUM",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": "https://www.tum.com.mx/"
+    },
+    {
+      "company": "Grupo SID",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://www.gruposid.com.mx/"
+    },
+    {
+      "company": "Grupo Mexico Transportes",
+      "country": "MX",
+      "modes": [
+        "rail",
+        "intermodal"
+      ],
+      "official_homepage": "https://gmxt.mx/es/informacion-cnbv-y-bmv/"
+    },
+    {
+      "company": "Ferromex",
+      "country": "MX",
+      "modes": [
+        "intermodal",
+        "rail"
+      ],
+      "official_homepage": "https://ferromex.mx/"
+    },
+    {
+      "company": "Intermodal Mexico",
+      "country": "MX",
+      "modes": [
+        "intermodal"
+      ],
+      "official_homepage": "https://www.intermodalmexico.com.mx/portal/"
+    },
+    {
+      "company": "Port of Manzanillo",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://puertomanzanillo.com.mx/espi/0000001/inicio.php"
+    },
+    {
+      "company": "Port of Lazaro Cardenas",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.puertolazarocardenas.com.mx/"
+    },
+    {
+      "company": "Port of Veracruz",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.puertodeveracruz.com.mx/"
+    },
+    {
+      "company": "Port of Altamira",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.puertoaltamira.com.mx/"
+    },
+    {
+      "company": "Port of Ensenada",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://es.puertoensenada.com.mx/"
+    },
+    {
+      "company": "Port of Progreso",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://www.puertosyucatan.com/"
+    },
+    {
+      "company": "Port of Coatzacoalcos",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.puertocoatzacoalcos.com.mx/"
+    },
+    {
+      "company": "Port of Salina Cruz",
+      "country": "MX",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "official_homepage": "https://www.puertosalinacruz.com.mx/wp/index.php"
+    },
+    {
+      "company": "Port of Tuxpan",
+      "country": "MX",
+      "modes": [
+        "ports"
+      ],
+      "official_homepage": "https://puertotuxpan.com.mx/"
+    },
+    {
+      "company": "Fletes Mexico Carga Express",
+      "country": "MX",
+      "modes": [
+        "LTL",
+        "truckload"
+      ],
+      "official_homepage": "https://cargaexpress.com/"
+    },
+    {
+      "company": "Trayecto",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "intermodal"
+      ],
+      "official_homepage": "https://trayecto.com/"
+    },
+    {
+      "company": "Transportes Monroy Schiavon",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": "https://tms.com.mx/"
+    },
+    {
+      "company": "Grupo Marva",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://www.marva.com.mx/"
+    },
+    {
+      "company": "Trancasa",
+      "country": "MX",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": "https://trancasa.online/news/"
+    },
+    {
+      "company": "CANACAR",
+      "country": "MX",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": "https://canacar.com.mx/"
+    },
+    {
+      "company": "Canadian Trucking Alliance",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": "https://cantruck.ca/"
+    },
+    {
+      "company": "TFI International",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Day & Ross",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Mullen Group",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Canada Cartage",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Bison Transport",
+      "country": "CA",
+      "modes": [
+        "truckload"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Fastfrate",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Manitoulin",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Canadian National",
+      "country": "CA",
+      "modes": [
+        "rail",
+        "intermodal"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Purolator",
+      "country": "CA",
+      "modes": [
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Highlight Motor",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Metro Supply Chain",
+      "country": "CA",
+      "modes": [
+        "intermodal"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "CPKC",
+      "country": "CA",
+      "modes": [
+        "rail",
+        "intermodal"
+      ],
+      "official_homepage": null
+    },
+    {
+      "company": "Ferrosur",
+      "country": "MX",
+      "modes": [
+        "rail",
+        "intermodal"
+      ],
+      "official_homepage": "https://gmxt.mx/es/informacion-cnbv-y-bmv/"
+    }
   ]
 }

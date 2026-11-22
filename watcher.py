@@ -20,7 +20,9 @@ from pathlib import Path
 
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
-from primary import html_items as primary_html_items, decorate as decorate_primary, inline_items, document_items, central_items
+from primary import html_items as primary_html_items, decorate as decorate_primary, inline_items, document_items, central_items, notice_items, lazaro_items
+
+from freshness import verdict as freshness_verdict, timestamp as publication_timestamp, resolve as resolve_publication_time
 
 BASE = Path(__file__).resolve().parent
 STATE_FILE = BASE / "seen_items.json"
@@ -132,7 +134,7 @@ def rss_items(payload, source):
             "title": normal(fields.get("title", "")),
             "link": (fields.get("link", "") or fields.get("guid", "") or fields.get("id", "")).strip(),
             "summary": normal(fields.get("description", "") or fields.get("summary", "") or fields.get("content", ""))[:1200],
-            "published": fields.get("pubDate", "") or fields.get("published", "") or fields.get("updated", ""),
+            "published": fields.get("pubDate", "") or fields.get("published", ""),
             "source": source,
             "community": any(p in source.lower() for p in ("reddit.com", "truckingboards.com")),
         }
@@ -249,6 +251,7 @@ def label_item(item, config):
         if item.get("require_freight_context") and not freight:
             return None
         name = item["primary_company"]
+        source_label = item.get("primary_source_label", "Official company source")
         headline = item.get("title", "")
         service = item.get("primary_role") == "service"
         if not service and re.search(r"^(?:how to\b|a guide to\b|the guide to\b|fleet recall campaigns:)", headline, re.I):
@@ -257,9 +260,9 @@ def label_item(item, config):
         # News cards can contain unrelated neighboring text. Require the event
         # in the headline; service notices retain their body-level signals.
         if headline_urgent or (service and urgent):
-            return ("P1", name, "Official company source")
+            return ("P1", name, source_label)
         if service or matcher(config["material_event_keywords"]).search(headline):
-            return ("P2", name, "Official company source")
+            return ("P2", name, source_label)
         return None
     is_sec = "sec.gov" in item.get("source", "")
     community = item.get("community", False)
@@ -368,7 +371,7 @@ def collect_source(source):
             raw = fetch(spec.get("request_url", url), timeout=12, attempts=1, data=body,
                         request_headers={"Content-Type": "application/json"} if body else None)
             parsers = {"rss": lambda raw, spec: rss_items(raw, spec["url"]), "html": primary_html_items,
-                       "inline": inline_items, "documents": document_items, "central": central_items}
+                       "inline": inline_items, "documents": document_items, "central": central_items, "notices": notice_items, "lazaro": lazaro_items}
             items = parsers[spec["kind"]](raw, spec)
             entries = decorate_primary(items, spec)
         elif is_html:
@@ -414,6 +417,9 @@ def run(cfg, dry_run=False):
     errors = []
     queue = []
     total = 0
+    freshness_holds = {}
+    timestamp_lookups = 0
+    max_age = cfg.get("max_alert_age_minutes", 120)
     source_specs = expanded_sources(cfg)
     for sid, url, spec in source_specs:
         sources.setdefault(sid, {"seeded": False, "failures": 0})
@@ -430,16 +436,33 @@ def run(cfg, dry_run=False):
             source_count += 1
             health.update({"last_success": now(), "last_count": len(entries), "failures": 0, "error": "", "next_check_epoch": 0})
             if isinstance(is_html, dict):
-                health.update({"company": is_html["company"], "role": is_html["role"], "url": url, "kind": is_html["kind"]})
+                health.update({"company": is_html["company"], "role": is_html["role"], "url": url, "kind": is_html["kind"],
+                               "country": is_html.get("country"), "modes": is_html.get("modes", [])})
             for item in entries:
                 key = item_key(item)
                 if key in seen:
                     continue
                 total += 1
                 label = label_item(item, cfg)
+                hold_reason = None
+                if health["seeded"] and label:
+                    reason = freshness_verdict(item, max_age)
+                    if reason == "unverified_publication_time" and item.get("primary_company") and timestamp_lookups < 10:
+                        timestamp_lookups += 1
+                        hosts = {urllib.parse.urlsplit(url).netloc.lower().removeprefix("www.")}
+                        if isinstance(is_html, dict):
+                            hosts.update(is_html.get("allowed_hosts", []))
+                        resolve_publication_time(item, fetch, hosts)
+                        reason = freshness_verdict(item, max_age)
+                    if reason != "fresh":
+                        hold_reason = reason
+                        freshness_holds[reason] = freshness_holds.get(reason, 0) + 1
+                        label = None
                 record = {"first_seen": now(), "title": item["title"][:180],
                           "status": "pending" if label else "ignored", "entry": item if label else None,
                           "label": label}
+                if hold_reason:
+                    record["freshness_hold"] = hold_reason
                 seen[key] = record
                 if health["seeded"] and label:
                     queue.append((key, record))
@@ -478,6 +501,13 @@ def run(cfg, dry_run=False):
     for key, record in seen.items():
         if record.get("status") == "pending" and key not in queued_keys:
             queue.append((key, record))
+    # A previously queued alert must still be fresh at delivery time.
+    for _, record in queue:
+        if record.get("status") == "pending":
+            reason = freshness_verdict(record["entry"], max_age)
+            if reason != "fresh":
+                record.update(status="expired", entry=None, freshness_hold=reason)
+                freshness_holds[reason] = freshness_holds.get(reason, 0) + 1
     queue = [(key, record) for key, record in queue if record.get("status") == "pending"]
     queue.sort(key=lambda p: (0 if p[1]["label"][0] == "P1" else 1, p[1]["first_seen"]))
     # Batch routine docket filings to avoid turning heavy filing days into 100+ pushes.
@@ -545,7 +575,24 @@ def run(cfg, dry_run=False):
         h = sources[sid]
         if isinstance(spec, dict) and h.get("seeded") and h.get("failures", 0) == 0:
             covered_names.update(spec.get("aliases", [spec["company"]]))
-    health_doc = {"last_run_utc": now(), "successful_sources": source_count,
+    regional = {}
+    for sid, _, spec in source_specs:
+        if not isinstance(spec, dict) or not (spec.get("country") or spec.get("countries")):
+            continue
+        operational = sources[sid].get("seeded") and sources[sid].get("failures", 0) == 0
+        for country_code in spec.get("countries", [spec.get("country")]):
+            country = regional.setdefault(country_code, {})
+            for mode in spec.get("modes", []):
+                bucket = country.setdefault(mode, {"registered": set(), "operational": set()})
+                bucket["registered"].add(spec["company"])
+                if operational:
+                    bucket["operational"].add(spec["company"])
+    regional = {country: {mode: {"registered_entities": sorted(b["registered"]),
+                                "operational_entities": sorted(b["operational"]),
+                                "entities_without_working_reader": sorted(b["registered"] - b["operational"])}
+                         for mode, b in modes.items()} for country, modes in regional.items()}
+    health_doc = {"last_run_utc": now(), "regional_coverage": regional,
+                  "freshness_holds": freshness_holds, "max_alert_age_minutes": max_age, "successful_sources": source_count,
                   "source_count": len(active_sources), "queued_alerts": sum(r.get("status") == "pending" for r in seen.values()),
                   "notification_batches_sent": delivered, "source_errors": len(errors), "sources": active_sources,
                   "checked_sources": len(due_specs), "backoff_sources": len(source_specs) - len(due_specs),

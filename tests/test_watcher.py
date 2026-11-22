@@ -10,6 +10,7 @@ import watcher
 
 
 CONFIG = {
+    "max_alert_age_minutes": 0,
     "companies": ["Union Pacific", "Amazon"],
     "priority_keywords": ["bankruptcy", "strike", "terminal closure"],
     "material_event_keywords": ["intermodal", "freight", "new service"],

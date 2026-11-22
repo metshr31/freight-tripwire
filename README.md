@@ -6,11 +6,18 @@ Direct company news, investor-relations releases, customer advisories, and freig
 
 ## Coverage
 
+Canada/Mexico expansion and gaps: [NORTH_AMERICA.md](NORTH_AMERICA.md). Added readers and English/French/Spanish event detection cover Canadian regional carriers, Mexican carriers, rail/intermodal providers and port authorities. Runtime verification is reported separately from local reader checks.
+
+
 [**COVERAGE.md**](COVERAGE.md) maps every watched company name/alias to its verified direct endpoints and explicitly lists remaining gaps. [**primary_sources.json**](primary_sources.json) contains the actual endpoints, parser types, source roles, verification dates and sample headlines. Some aliases and subsidiaries share parent-company releases. A company-name match in a shared news feed is additional coverage, and does not count as a working direct company source.
 
 Direct sources include all six Class I railroads, major public truckload/LTL carriers, private carriers, brokers and logistics companies. The railroad readers cover BNSF customer notifications; UP intermodal/pricing and customer announcements; CSX investor releases (customer news/service bulletins currently return HTTP 403); NS customer alerts/news releases; CN news including gate-hour notices; and CPKC's official investor-relations release feed. CPKC's authenticated customer portal is outside the public reader's reach.
 
 Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisions and environmental comments; STB/FMCSA/FRA Federal Register feeds; EIA; PR Newswire; Business Wire; GlobeNewswire; Transport Topics; and attempted community/forum RSS feeds. FreightWaves/SONAR mentions are excluded. Community posts are labeled unverified tips. Reddit/TruckingBoards access can fail; see runtime health. SEC checks remain unconfigured until an identified contact is approved and stored as a secret.
+
+## Freshness
+
+News pushes require a timezone-qualified publication time within the previous **120 minutes**. Discovery time is never treated as publication time. Undated, date-only, stale and future-dated stories are held; original-page publication metadata is checked when available. An Atom update time or page modification time alone does not make an old story new. Previously queued stories expire when they age out. First reads still seed quietly. Health reports include freshness holds. This conservative rule reduces alerts from sources that omit precise publication times.
 
 ## Speed and alert handling
 
@@ -18,16 +25,16 @@ Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisio
 - Direct operational notices are fetched first; direct news/IR sources follow. Sources run concurrently with bounded workers and timeouts.
 - A new qualifying direct-company item is sent **as soon as that source finishes**, without waiting for slow social feeds. Some per-run delivery capacity is reserved for urgent items.
 - Source excerpts and original URLs accompany alerts; publication times are included when supplied. A registered company source supplies the company identity even when its headline omits the company name.
-- Content revisions at the same advisory URL can trigger an update. Other items are deduplicated by their canonical original URL. Separate URLs for syndicated versions can still generate duplicates.
+- Content revisions at the same advisory URL can be detected, but a push still requires a qualifying fresh publication timestamp. Other items are deduplicated by their canonical original URL. Separate URLs for syndicated versions can still generate duplicates.
 - Every new source gets a **quiet initial baseline**. Adding sources does not send a backlog of old stories.
-- Failed notifications remain queued for retry. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
+- Failed notifications remain queued for retry while still within the freshness window. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
 - HTTP 403/429 sources back off for 30 minutes. Repeated other direct-source failures back off for 15 minutes; failures remain visible.
 
 GitHub scheduled starts are **best effort**. A 20-minute cron is not a guaranteed 20-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
 
 ## Live status and durable state
 
-Latest live check: November 22, 2026, 3:55 p.m. Eastern. 234 direct endpoints succeeded, covering 161 of 195 company names/aliases. Automatic scheduled starts have not yet been observed; successful manual runs alone do not prove unattended operation. All 19 unit tests and the isolated primary-source/real-ntfy pipeline test passed. SEC remains unconfigured; Reddit and TruckingBoards checks failed.
+Latest live check: November 22, 2026, 3:55 p.m. Eastern. 234 direct endpoints succeeded, covering 161 of 195 company names/aliases. Automatic scheduled starts have not yet been observed; successful manual runs alone do not prove unattended operation. All 30 unit tests and the isolated primary-source/real-ntfy pipeline test passed. SEC remains unconfigured; Reddit and TruckingBoards checks failed.
 
 [**health.json**](health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
 
