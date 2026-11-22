@@ -4104,6 +4104,91 @@
       "verified_at_utc": "2026-11-22T19:46:03Z",
       "verification_entry_count": 1,
       "verification_sample_title": "How to Evaluate E-Commerce Fulfillment Partners: A 2026 Decision Guide for Growing DTC Brands"
+    },
+    {
+      "id": "csx-2b244dcc",
+      "company": "CSX",
+      "aliases": [
+        "CSX"
+      ],
+      "url": "https://investors.csx.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "enabled": true,
+      "allow_headline_links": true,
+      "allowed_hosts": [
+        "csx.com"
+      ],
+      "track_updates": false,
+      "verification_status": "pending GitHub runtime validation"
+    },
+    {
+      "id": "xpo-51951df2",
+      "company": "XPO",
+      "aliases": [
+        "XPO"
+      ],
+      "url": "https://news.xpo.com/",
+      "kind": "html",
+      "role": "news",
+      "enabled": true,
+      "allow_headline_links": true,
+      "allowed_hosts": [
+        "investors.xpo.com"
+      ],
+      "track_updates": false,
+      "verification_status": "pending GitHub runtime validation"
+    },
+    {
+      "id": "hub-group-26dd44a0",
+      "company": "Hub Group",
+      "aliases": [
+        "Hub Group"
+      ],
+      "url": "https://www.hubgroup.com/about-us/news/",
+      "kind": "html",
+      "role": "news",
+      "enabled": true,
+      "allow_headline_links": true,
+      "allowed_hosts": [
+        "investors.hubgroup.com"
+      ],
+      "track_updates": false,
+      "verification_status": "pending GitHub runtime validation"
+    },
+    {
+      "id": "matson-logistics-9652dd43",
+      "company": "Matson Logistics",
+      "aliases": [
+        "Matson Logistics"
+      ],
+      "url": "https://www.matson.com/",
+      "kind": "html",
+      "role": "news",
+      "enabled": true,
+      "allow_headline_links": true,
+      "allowed_hosts": [
+        "investor.matson.com"
+      ],
+      "track_updates": false,
+      "verification_status": "pending GitHub runtime validation"
+    },
+    {
+      "id": "saia-1a6a260e",
+      "company": "Saia",
+      "aliases": [
+        "Saia"
+      ],
+      "url": "https://www.saia.com/about-us/investor-relations/financial-releases",
+      "kind": "html",
+      "role": "news",
+      "enabled": true,
+      "allow_headline_links": true,
+      "allowed_hosts": [
+        "saia.gcs-web.com"
+      ],
+      "track_updates": false,
+      "verification_status": "pending GitHub runtime validation"
     }
   ],
   "coverage": [
