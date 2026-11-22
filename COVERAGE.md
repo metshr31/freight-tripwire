@@ -1,6 +1,8 @@
 # Direct company coverage
 
-Verified public source registry: 240 endpoints, covering 163 of 195 watched company names/aliases.
+Verified public source registry: 242 endpoints, covering 163 of 195 watched company names/aliases.
+
+Latest live check (November 22, 2026, 3:55 p.m. Eastern): 234 primary endpoints succeeded, covering 161 of 195 company names/aliases. The 34 names without a working direct reader are listed in health.json. CSX news/IR works; its customer-advisory pages returned HTTP 403.
 
 Discovery verification does not guarantee continued access. [health.json](health.json) records runtime success/failure and `company_names_without_live_primary`. Aliases and subsidiaries can share a parent-company feed. First reads seed quietly.
 
@@ -8,7 +10,7 @@ Discovery verification does not guarantee continued access. [health.json](health
 |---|---|
 | BNSF | [service / html](https://bnsf.com/customer-notifications) |
 | Union Pacific | [news / html](https://www.up.com/press-releases); [news / html](https://www.up.com/news); [service / html](https://www.up.com/announcements/intermodal); [service / html](https://www.up.com/announcements/customer-news) |
-| CSX | [news / html](https://www.csx.com/index.cfm/about-us/media/press-releases/); [service / html](https://www.csx.com/index.cfm/customers/news/service-bulletins1/); [service / html](https://www.csx.com/index.cfm/customers/news/customer-news/); [news / html](https://www.csx.com/) |
+| CSX | [news / html](https://www.csx.com/index.cfm/about-us/media/press-releases/); [service / html](https://www.csx.com/index.cfm/customers/news/service-bulletins1/); [service / html](https://www.csx.com/index.cfm/customers/news/customer-news/); [news / html](https://www.csx.com/); [news / rss](https://investors.csx.com/rss/pressrelease.aspx) |
 | Norfolk Southern | [service / html](https://www.norfolksouthern.com/en/customer-alerts); [news / html](https://www.norfolksouthern.com/en/newsroom/news-releases); [news / html](https://norfolksouthern.com) |
 | CPKC | [news / rss](https://investor.cpkcr.com/rss/pressrelease.aspx) |
 | Canadian Pacific | [news / rss](https://investor.cpkcr.com/rss/pressrelease.aspx) |
@@ -188,7 +190,7 @@ Discovery verification does not guarantee continued access. [health.json](health
 | RJW Logistics | [news / html](https://rjwgroup.com) |
 | Logistics Plus | [news / rss](https://www.logisticsplus.com/feed/) |
 | De Well Group | **Gap: no verified readable news/advisory source yet** |
-| Matson Logistics | [news / rss](https://investor.matson.com/rss/news-releases.xml) |
+| Matson Logistics | [news / rss](https://investor.matson.com/rss/news-releases.xml); [news / html](https://www.matson.com/) |
 | Neovia Logistics | [news / rss](https://neovialogistics.com/feed/); [news / html](https://neovialogistics.com/news/) |
 | Kintetsu World | [news / html](https://www.kwe.com/news/) |
 | Steam Logistics | **Gap: no verified readable news/advisory source yet** |

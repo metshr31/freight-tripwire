@@ -4120,41 +4120,9 @@
         "csx.com"
       ],
       "track_updates": false,
-      "verification_status": "pending GitHub runtime validation"
-    },
-    {
-      "id": "xpo-51951df2",
-      "company": "XPO",
-      "aliases": [
-        "XPO"
-      ],
-      "url": "https://news.xpo.com/",
-      "kind": "html",
-      "role": "news",
-      "enabled": true,
-      "allow_headline_links": true,
-      "allowed_hosts": [
-        "investors.xpo.com"
-      ],
-      "track_updates": false,
-      "verification_status": "pending GitHub runtime validation"
-    },
-    {
-      "id": "hub-group-26dd44a0",
-      "company": "Hub Group",
-      "aliases": [
-        "Hub Group"
-      ],
-      "url": "https://www.hubgroup.com/about-us/news/",
-      "kind": "html",
-      "role": "news",
-      "enabled": true,
-      "allow_headline_links": true,
-      "allowed_hosts": [
-        "investors.hubgroup.com"
-      ],
-      "track_updates": false,
-      "verification_status": "pending GitHub runtime validation"
+      "verification_status": "runtime_verified",
+      "verified_at_utc": "2026-11-22T20:55:59Z",
+      "verification_entry_count": 10
     },
     {
       "id": "matson-logistics-9652dd43",
@@ -4171,24 +4139,9 @@
         "investor.matson.com"
       ],
       "track_updates": false,
-      "verification_status": "pending GitHub runtime validation"
-    },
-    {
-      "id": "saia-1a6a260e",
-      "company": "Saia",
-      "aliases": [
-        "Saia"
-      ],
-      "url": "https://www.saia.com/about-us/investor-relations/financial-releases",
-      "kind": "html",
-      "role": "news",
-      "enabled": true,
-      "allow_headline_links": true,
-      "allowed_hosts": [
-        "saia.gcs-web.com"
-      ],
-      "track_updates": false,
-      "verification_status": "pending GitHub runtime validation"
+      "verification_status": "runtime_verified",
+      "verified_at_utc": "2026-11-22T20:55:59Z",
+      "verification_entry_count": 3
     }
   ],
   "coverage": [
@@ -4219,7 +4172,8 @@
         "csx-e3a2c40c",
         "csx-01c0a656",
         "csx-beee7146",
-        "csx-3964eb71"
+        "csx-3964eb71",
+        "csx-2b244dcc"
       ],
       "status": "direct_sources_verified",
       "note": "",
@@ -5866,7 +5820,8 @@
     {
       "company": "Matson Logistics",
       "source_ids": [
-        "matson-logistics-a07fca73"
+        "matson-logistics-a07fca73",
+        "matson-logistics-9652dd43"
       ],
       "status": "direct_sources_verified",
       "note": "",
