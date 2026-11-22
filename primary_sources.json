@@ -4265,11 +4265,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:31.744370+00:00",
       "verification_entry_count": 11,
-      "verification_sample_title": "2026 Holiday Schedule"
+      "verification_sample_title": "2026 Holiday Schedule",
+      "runtime_verified_at_utc": "2026-11-22T21:26:18+00:00"
     },
     {
       "company": "Groupe Robert",
@@ -4290,11 +4291,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:31.973076+00:00",
       "verification_entry_count": 11,
-      "verification_sample_title": "Horaire des Fêtes 2026"
+      "verification_sample_title": "Horaire des Fêtes 2026",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Groupe Guilbault",
@@ -4314,11 +4316,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:33.013935+00:00",
       "verification_entry_count": 4,
-      "verification_sample_title": "VOIR LES DETAILS"
+      "verification_sample_title": "VOIR LES DETAILS",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "GLS Canada",
@@ -4337,11 +4340,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:33.006038+00:00",
       "verification_entry_count": 24,
-      "verification_sample_title": "GLS strengthens its footprint in North America with the acquisition of AltiMax Courier"
+      "verification_sample_title": "GLS strengthens its footprint in North America with the acquisition of AltiMax Courier",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "GLS Canada",
@@ -4360,11 +4364,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:32.712211+00:00",
       "verification_entry_count": 24,
-      "verification_sample_title": "GLS renforce sa présence en Amérique du Nord avec l'acquisition d'AltiMax Courier"
+      "verification_sample_title": "GLS renforce sa présence en Amérique du Nord avec l'acquisition d'AltiMax Courier",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Challenger",
@@ -4385,11 +4390,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:33.544687+00:00",
       "verification_entry_count": 15,
-      "verification_sample_title": "U.S. Modifies Section 338 Tariffs on Canadian Products Effective October 30, 2026"
+      "verification_sample_title": "U.S. Modifies Section 338 Tariffs on Canadian Products Effective October 30, 2026",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "C.A.T.",
@@ -4409,11 +4415,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:32.355843+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "C.A.T. Inc. Named One of the Best TOP 20 Fleets to Drive For in 2025"
+      "verification_sample_title": "C.A.T. Inc. Named One of the Best TOP 20 Fleets to Drive For in 2025",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Armour Transportation",
@@ -4434,11 +4441,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:33.228639+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Brandon"
+      "verification_sample_title": "Brandon",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Midland Transport",
@@ -4458,11 +4466,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:33.264043+00:00",
       "verification_entry_count": 7,
-      "verification_sample_title": "More than $25,000 Raised at the 10th Annual Pulling for the United Way Truck Pull"
+      "verification_sample_title": "More than $25,000 Raised at the 10th Annual Pulling for the United Way Truck Pull",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Polaris Transportation",
@@ -4481,11 +4490,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:35.902270+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Polaris Recognized with 2026 Achievement of Inclusive Workplace Award"
+      "verification_sample_title": "Polaris Recognized with 2026 Achievement of Inclusive Workplace Award",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Trimac",
@@ -4504,11 +4514,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:32.507866+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Trimac President Matt Faure receives Business in Calgary Leaders Award"
+      "verification_sample_title": "Trimac President Matt Faure receives Business in Calgary Leaders Award",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Kriska",
@@ -4527,11 +4538,12 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:32.622604+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Kriska’s 45th Anniversary Top Tenure and High Milers"
+      "verification_sample_title": "Kriska’s 45th Anniversary Top Tenure and High Milers",
+      "runtime_error": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "company": "Port of Vancouver Canada",
@@ -4550,13 +4562,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:40.455465+00:00",
       "verification_entry_count": 15,
-      "verification_sample_title": "The Vancouver Fraser Port Authority and Musqueam Indian Band mark five-year anniversary of relationship agreement Nov 5, 2026 arrow_forward"
+      "verification_sample_title": "The Vancouver Fraser Port Authority and Musqueam Indian Band mark five-year anniversary of relationship agreement Nov 5, 2026 arrow_forward",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "Port of Vancouver Canada",
@@ -4575,13 +4588,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:40.484505+00:00",
       "verification_entry_count": 15,
-      "verification_sample_title": "Notice of amendment to Port Information Guide Nov 5, 2026 arrow_forward"
+      "verification_sample_title": "Notice of amendment to Port Information Guide Nov 5, 2026 arrow_forward",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "Port of Prince Rupert",
@@ -4601,13 +4615,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:37.155177+00:00",
       "verification_entry_count": 6,
-      "verification_sample_title": "PRPA Contributes $227,800 to New Commercial Kitchen to Support Enhanced Lunch Program"
+      "verification_sample_title": "PRPA Contributes $227,800 to New Commercial Kitchen to Support Enhanced Lunch Program",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Prince Rupert",
@@ -4627,13 +4642,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:37.179457+00:00",
       "verification_entry_count": 6,
-      "verification_sample_title": "L’APPR contribue 227,800 $ à une nouvelle cuisine commerciale afin de soutenir le programme de déjeuner dynamisé"
+      "verification_sample_title": "L’APPR contribue 227,800 $ à une nouvelle cuisine commerciale afin de soutenir le programme de déjeuner dynamisé",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Montreal",
@@ -4653,13 +4669,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:37.499446+00:00",
       "verification_entry_count": 288,
-      "verification_sample_title": "Nathalie Forcier appointed to the Montreal Port Authority’s Board of Directors"
+      "verification_sample_title": "Nathalie Forcier appointed to the Montreal Port Authority’s Board of Directors",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "Port of Montreal",
@@ -4679,13 +4696,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:40.123955+00:00",
       "verification_entry_count": 20,
-      "verification_sample_title": "Nathalie Forcier nommée au conseil d’administration de l’Administration portuaire de Montréal"
+      "verification_sample_title": "Nathalie Forcier nommée au conseil d’administration de l’Administration portuaire de Montréal",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "Port Saint John",
@@ -4705,13 +4723,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:36.860235+00:00",
       "verification_entry_count": 20,
-      "verification_sample_title": "Port Saint John Celebrates Award-Winning Cruise Season & Major Infrastructure Investment"
+      "verification_sample_title": "Port Saint John Celebrates Award-Winning Cruise Season & Major Infrastructure Investment",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Quebec",
@@ -4730,13 +4749,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:37.501887+00:00",
       "verification_entry_count": 13,
-      "verification_sample_title": "QUÉBEC CONFIRME SON POSITIONNEMENT STRATÉGIQUE DANS L’INDUSTRIE DES CROISIÈRES AU CANADA"
+      "verification_sample_title": "QUÉBEC CONFIRME SON POSITIONNEMENT STRATÉGIQUE DANS L’INDUSTRIE DES CROISIÈRES AU CANADA",
+      "runtime_verified_at_utc": "2026-11-22T21:26:19+00:00"
     },
     {
       "company": "Port of Quebec",
@@ -4755,13 +4775,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:36.744647+00:00",
       "verification_entry_count": 13,
-      "verification_sample_title": "QUÉBEC CITY REAFFIRMS ITS STRATEGIC ROLE IN CANADA’S CRUISE INDUSTRY"
+      "verification_sample_title": "QUÉBEC CITY REAFFIRMS ITS STRATEGIC ROLE IN CANADA’S CRUISE INDUSTRY",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Trois-Rivieres",
@@ -4780,13 +4801,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:38.891977+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Port of Trois-Rivières Invests $100,000 in Green and Sustainable Technology Research at UQTR"
+      "verification_sample_title": "Port of Trois-Rivières Invests $100,000 in Green and Sustainable Technology Research at UQTR",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Port of Trois-Rivieres",
@@ -4805,13 +4827,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:39.474265+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Le Port de Trois-Rivières investit 100 000 $ dans la recherche sur les technologies vertes et durables à l’UQTR"
+      "verification_sample_title": "Le Port de Trois-Rivières investit 100 000 $ dans la recherche sur les technologies vertes et durables à l’UQTR",
+      "runtime_verified_at_utc": "2026-11-22T21:26:22+00:00"
     },
     {
       "company": "HOPA Ports",
@@ -4830,13 +4853,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:39.408164+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Federal and Provincial governments announce $250 million to build new Port of Sault Ste. Marie"
+      "verification_sample_title": "Federal and Provincial governments announce $250 million to build new Port of Sault Ste. Marie",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Sept-Iles",
@@ -4855,13 +4879,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:42.327966+00:00",
       "verification_entry_count": 12,
-      "verification_sample_title": "2027 Notice of Tariff Revision"
+      "verification_sample_title": "2027 Notice of Tariff Revision",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Port of Sept-Iles",
@@ -4880,13 +4905,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:41.740943+00:00",
       "verification_entry_count": 14,
-      "verification_sample_title": "Salle de presse"
+      "verification_sample_title": "Salle de presse",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Ferromex",
@@ -4906,11 +4932,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:41.860218+00:00",
       "verification_entry_count": 8,
-      "verification_sample_title": "Facturación con complemento carta porte"
+      "verification_sample_title": "Facturación con complemento carta porte",
+      "runtime_verified_at_utc": "2026-11-22T21:26:11+00:00"
     },
     {
       "company": "Ferromex",
@@ -4930,11 +4957,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:45.270123+00:00",
       "verification_entry_count": 57,
-      "verification_sample_title": "Reporte 1er trimestre"
+      "verification_sample_title": "Reporte 1er trimestre",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Port of Veracruz",
@@ -4954,13 +4982,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:41.702652+00:00",
       "verification_entry_count": 12,
-      "verification_sample_title": "Vinculación Puerto-Ciudad Instituto Tecnológico de Veracruz"
+      "verification_sample_title": "Vinculación Puerto-Ciudad Instituto Tecnológico de Veracruz",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Veracruz",
@@ -4980,13 +5009,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:41.818211+00:00",
       "verification_entry_count": 25,
-      "verification_sample_title": "AVISO DE HORARIO DE CAJA, MIERCOLES 16 DE SEPTIEMBRE 2026. NUEVO"
+      "verification_sample_title": "AVISO DE HORARIO DE CAJA, MIERCOLES 16 DE SEPTIEMBRE 2026. NUEVO",
+      "runtime_verified_at_utc": "2026-11-22T21:26:11+00:00"
     },
     {
       "company": "Port of Altamira",
@@ -5006,13 +5036,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:44.072521+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "EL PUERTO DE ALTAMIRA FORTALECE SU PARTICIPACIÓN EN EL MOVIMIENTO DE CARGA MINERAL"
+      "verification_sample_title": "EL PUERTO DE ALTAMIRA FORTALECE SU PARTICIPACIÓN EN EL MOVIMIENTO DE CARGA MINERAL",
+      "runtime_verified_at_utc": "2026-11-22T21:26:22+00:00"
     },
     {
       "company": "Port of Ensenada",
@@ -5031,13 +5062,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:42.972124+00:00",
       "verification_entry_count": 4,
-      "verification_sample_title": "Modificación de Horarios de Atención"
+      "verification_sample_title": "Modificación de Horarios de Atención",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Progreso",
@@ -5056,13 +5088,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:46.553972+00:00",
       "verification_entry_count": 100,
-      "verification_sample_title": "1021.- ASIPONA Progreso recibe a participantes de la XVII Jornada Internacional del Concreto Armado."
+      "verification_sample_title": "1021.- ASIPONA Progreso recibe a participantes de la XVII Jornada Internacional del Concreto Armado.",
+      "runtime_verified_at_utc": "2026-11-22T21:26:23+00:00"
     },
     {
       "company": "Port of Coatzacoalcos",
@@ -5082,13 +5115,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:45.574196+00:00",
       "verification_entry_count": 13,
-      "verification_sample_title": "ASIPONA COATZACOALCOS FORTALECE LA SEGURIDAD Y PROTECCIÓN PORTUARIA"
+      "verification_sample_title": "ASIPONA COATZACOALCOS FORTALECE LA SEGURIDAD Y PROTECCIÓN PORTUARIA",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Manzanillo",
@@ -5108,13 +5142,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:44.277030+00:00",
       "verification_entry_count": 100,
-      "verification_sample_title": "MARINA CONTRIBUYE A LA RECUPERACIÓN DE ESPACIOS EDUCATIVOS Y CULTURALES EN MANZANILLO"
+      "verification_sample_title": "MARINA CONTRIBUYE A LA RECUPERACIÓN DE ESPACIOS EDUCATIVOS Y CULTURALES EN MANZANILLO",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Port of Salina Cruz",
@@ -5134,13 +5169,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:46.137353+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "Movimiento Portuario Anual"
+      "verification_sample_title": "Movimiento Portuario Anual",
+      "runtime_verified_at_utc": "2026-11-22T21:26:22+00:00"
     },
     {
       "company": "Port of Tuxpan",
@@ -5159,13 +5195,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:45.807278+00:00",
       "verification_entry_count": 2,
-      "verification_sample_title": "BOLETÍN INFORMATIVO"
+      "verification_sample_title": "BOLETÍN INFORMATIVO",
+      "runtime_verified_at_utc": "2026-11-22T21:26:20+00:00"
     },
     {
       "company": "Trancasa",
@@ -5184,11 +5221,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:45.879369+00:00",
       "verification_entry_count": 6,
-      "verification_sample_title": "Trancasa Strengthens Cross-Border Connections at the 3rd Pharr Truck Expo"
+      "verification_sample_title": "Trancasa Strengthens Cross-Border Connections at the 3rd Pharr Truck Expo",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "CANACAR",
@@ -5208,12 +5246,13 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Industry association statement",
       "entity_type": "association",
       "verified_at_utc": "2026-11-22T21:22:45.846972+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR"
+      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "CANACAR",
@@ -5233,12 +5272,13 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Industry association statement",
       "entity_type": "association",
       "verified_at_utc": "2026-11-22T21:22:45.762846+00:00",
       "verification_entry_count": 10,
-      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR"
+      "verification_sample_title": "TRANSPORTISTAS AVANZAN EN 29 ACUERDOS PARA FORTALECER LA SEGURIDAD Y COMPETITIVIDAD DEL SECTOR",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Canadian Trucking Alliance",
@@ -5258,12 +5298,13 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Industry association statement",
       "entity_type": "association",
       "verified_at_utc": "2026-11-22T21:22:48.446729+00:00",
       "verification_entry_count": 9,
-      "verification_sample_title": "APTA Celebrates Completion of Quebec’s Highway 85, a Major Milestone for Atlantic Canadian Trade"
+      "verification_sample_title": "APTA Celebrates Completion of Quebec’s Highway 85, a Major Milestone for Atlantic Canadian Trade",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Grupo Traxión",
@@ -5286,11 +5327,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:46.440262+00:00",
       "verification_entry_count": 29,
-      "verification_sample_title": "Reporte trimestral"
+      "verification_sample_title": "Reporte trimestral",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Grupo Traxión",
@@ -5315,11 +5357,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:46.303526+00:00",
       "verification_entry_count": 3,
-      "verification_sample_title": "TRAXION anuncia intención de lanzar oferta por acciones"
+      "verification_sample_title": "TRAXION anuncia intención de lanzar oferta por acciones",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Grupo Mexico Transportes",
@@ -5345,11 +5388,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:48.624387+00:00",
       "verification_entry_count": 1,
-      "verification_sample_title": "Reporte 3T26 GMXT"
+      "verification_sample_title": "Reporte 3T26 GMXT",
+      "runtime_verified_at_utc": "2026-11-22T21:26:22+00:00"
     },
     {
       "company": "Paquetexpress",
@@ -5370,11 +5414,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:49.547953+00:00",
       "verification_entry_count": 1,
-      "verification_sample_title": "Gran apertura Mazatlán, Sinaloa"
+      "verification_sample_title": "Gran apertura Mazatlán, Sinaloa",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Port of Lazaro Cardenas",
@@ -5394,13 +5439,14 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:49.647951+00:00",
       "verification_entry_count": 9,
-      "verification_sample_title": "ASIPONA LÁZARO CÁRDENAS PARTICIPA EN EL TERCER FORO DE TRANSPORTE MARÍTIMO Y PUERTOS SUSTENTABLES"
+      "verification_sample_title": "ASIPONA LÁZARO CÁRDENAS PARTICIPA EN EL TERCER FORO DE TRANSPORTE MARÍTIMO Y PUERTOS SUSTENTABLES",
+      "runtime_verified_at_utc": "2026-11-22T21:26:21+00:00"
     },
     {
       "company": "Intermodal Mexico",
@@ -5420,11 +5466,12 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:50.070683+00:00",
       "verification_entry_count": 1,
-      "verification_sample_title": "COMPLEMENTO CARTA PORTE"
+      "verification_sample_title": "COMPLEMENTO CARTA PORTE",
+      "runtime_verified_at_utc": "2026-11-22T21:26:10+00:00"
     },
     {
       "company": "Port of Montreal",
@@ -5444,13 +5491,14 @@
       ],
       "track_updates": false,
       "language": "en/fr",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_failed",
       "source_label": "Official port authority",
       "entity_type": "port",
       "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|plaisance|charity|golf|scholarship",
       "verified_at_utc": "2026-11-22T21:22:50.023192+00:00",
       "verification_entry_count": 1,
-      "verification_sample_title": "Subscribe to our Newsletter"
+      "verification_sample_title": "Subscribe to our Newsletter",
+      "runtime_error": "HTTP Error 403: Forbidden"
     },
     {
       "company": "Grupo Castores",
@@ -5472,11 +5520,87 @@
       ],
       "track_updates": false,
       "language": "es",
-      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verification_status": "runtime_verified",
       "entity_type": "carrier",
       "verified_at_utc": "2026-11-22T21:22:49.125663+00:00",
       "verification_entry_count": 2,
-      "verification_sample_title": "Agencia Chiapa de Corzo"
+      "verification_sample_title": "Agencia Chiapa de Corzo",
+      "runtime_verified_at_utc": "2026-11-22T21:26:10+00:00"
+    },
+    {
+      "company": "Port of Vancouver Canada",
+      "country": "CA",
+      "modes": [
+        "ports"
+      ],
+      "url": "https://www.portvancouver.com/",
+      "kind": "html",
+      "role": "news",
+      "link_pattern": "/article/",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re|yacht|scholarship",
+      "id": "na-5f8ebf570495",
+      "aliases": [
+        "Port of Vancouver Canada"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "allow_headline_links": false,
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verified_at_utc": "2026-11-22T21:27:27.183931+00:00",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Strong commodity exports drive record cargo volumes"
+    },
+    {
+      "company": "Port of Montreal",
+      "country": "CA",
+      "modes": [
+        "ports",
+        "intermodal"
+      ],
+      "url": "https://www.port-montreal.com/en/the-port-of-montreal/news/news",
+      "kind": "html",
+      "role": "news",
+      "source_label": "Official port authority",
+      "entity_type": "port",
+      "exclude_headline_regex": "cruise|crucero|croisi[eè]re",
+      "id": "na-ac36ec94458c",
+      "aliases": [
+        "Port of Montreal"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "allow_headline_links": false,
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verified_at_utc": "2026-11-22T21:27:31.898643+00:00",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Nathalie Forcier appointed to the Montreal Port Authority’s Board of Directors"
+    },
+    {
+      "company": "Challenger",
+      "country": "CA",
+      "modes": [
+        "truckload",
+        "LTL",
+        "intermodal"
+      ],
+      "url": "https://www.challenger.com/",
+      "kind": "html",
+      "role": "news",
+      "link_pattern": "/resources/news/",
+      "entity_type": "carrier",
+      "id": "na-a4f27c8173fe",
+      "aliases": [
+        "Challenger"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "allow_headline_links": false,
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verified_at_utc": "2026-11-22T21:27:27.181301+00:00",
+      "verification_entry_count": 7,
+      "verification_sample_title": "U.S. Modifies Section 338 Tariffs on Canadian Products Effective October 30, 2026"
     }
   ],
   "coverage": [
@@ -7305,7 +7429,8 @@
       "company": "Challenger",
       "official_homepage": "https://www.challenger.com/",
       "source_ids": [
-        "na-6a97c21b83aa"
+        "na-6a97c21b83aa",
+        "na-a4f27c8173fe"
       ],
       "status": "direct_sources_verified",
       "note": ""
@@ -7383,7 +7508,8 @@
       "official_homepage": "https://www.portvancouver.com/",
       "source_ids": [
         "na-ef81aef09b05",
-        "na-8acc63a806fa"
+        "na-8acc63a806fa",
+        "na-5f8ebf570495"
       ],
       "status": "direct_sources_verified",
       "note": ""
@@ -7404,7 +7530,8 @@
       "source_ids": [
         "na-3b45437dd707",
         "na-5193863dd280",
-        "na-0e93479ded32"
+        "na-0e93479ded32",
+        "na-ac36ec94458c"
       ],
       "status": "direct_sources_verified",
       "note": ""

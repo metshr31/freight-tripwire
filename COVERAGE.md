@@ -1,6 +1,6 @@
 # Direct company and port coverage
 
-Registered public source inventory: 292 endpoints for 248 watched company/port/association names and aliases. Some subsidiaries share parent-company readers.
+Registered public source inventory: 295 endpoints for 248 watched company/port/association names and aliases. Some subsidiaries share parent-company readers.
 
 Source verification means the reader returned identifiable public records. It does not prove complete coverage of an entity, recent publication, or a working GitHub schedule. See [health.json](health.json) for runtime failures and [NORTH_AMERICA.md](NORTH_AMERICA.md) for Canada/Mexico coverage.
 
@@ -206,7 +206,7 @@ Source verification means the reader returned identifiable public records. It do
 | Groupe Robert | [news / html](https://www.robert.ca/en/news); [news / html](https://www.robert.ca/fr/nouvelles) |
 | Groupe Guilbault | [news / html](https://www.groupeguilbault.com/fr/articles/) |
 | GLS Canada | [news / html](https://gls-group.com/CA/en/news/); [news / html](https://gls-group.com/CA/fr/nouvelles/) |
-| Challenger | [news / html](https://www.challenger.com/resources/?category=news) |
+| Challenger | [news / html](https://www.challenger.com/resources/?category=news); [news / html](https://www.challenger.com/) |
 | C.A.T. | [news / rss](https://cat.ca/feed/) |
 | Armour Transportation | [news / rss](https://armour.ca/feed/) |
 | Midland Transport | [news / html](https://www.midlandtransport.com/en/our-difference/from-the-newsroom/) |
@@ -215,9 +215,9 @@ Source verification means the reader returned identifiable public records. It do
 | Polaris Transportation | [news / html](https://polaristransport.com/portal/news) |
 | Trimac | [news / html](https://www.trimac.com/news-releases/) |
 | Kriska | [news / rss](https://www.kriska.com/feed/) |
-| Port of Vancouver Canada | [news / html](https://www.portvancouver.com/news?created=&topic=All&article_type=media_release); [service / html](https://www.portvancouver.com/news?created=&topic=All&article_type=notice) |
+| Port of Vancouver Canada | [news / html](https://www.portvancouver.com/news?created=&topic=All&article_type=media_release); [service / html](https://www.portvancouver.com/news?created=&topic=All&article_type=notice); [news / html](https://www.portvancouver.com/) |
 | Port of Prince Rupert | [news / html](https://www.rupertport.com/news/); [news / html](https://www.rupertport.com/fr/nouvelles/) |
-| Port of Montreal | [news / rss](https://www.port-montreal.com/en/the-port-of-montreal/news/news?format=feed&type=rss); [news / html](https://www.port-montreal.com/fr/le-port-de-montreal/nouvelles-et-evenements/nouvelles); [service / html](https://www.port-montreal.com/en/goods/operations/notices-goods) |
+| Port of Montreal | [news / rss](https://www.port-montreal.com/en/the-port-of-montreal/news/news?format=feed&type=rss); [news / html](https://www.port-montreal.com/fr/le-port-de-montreal/nouvelles-et-evenements/nouvelles); [service / html](https://www.port-montreal.com/en/goods/operations/notices-goods); [news / html](https://www.port-montreal.com/en/the-port-of-montreal/news/news) |
 | Port of Halifax | **Gap — no verified direct reader** |
 | Port Saint John | [news / html](https://www.sjport.com/news) |
 | Port of Quebec | [news / html](https://www.portquebec.ca/actualites/); [news / html](https://www.portquebec.ca/en/news/) |

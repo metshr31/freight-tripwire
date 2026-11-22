@@ -1,10 +1,34 @@
 from datetime import datetime, timedelta, timezone
 import unittest
+import json
+import tempfile
+from pathlib import Path
+from unittest.mock import patch
 
 from freshness import timestamp, verdict, publication_from_page
 
 
 class FreshnessTests(unittest.TestCase):
+    def test_late_old_story_and_old_retry_never_publish(self):
+        import watcher
+        from test_watcher import CONFIG
+        config = {**CONFIG, "max_alert_age_minutes": 120}
+        old = {"title": "Union Pacific launches new service", "published": "2020-01-01T12:00:00Z",
+               "source": "https://carrier.example/rss", "link": "https://carrier.example/old"}
+        for queued in [False, True]:
+            with self.subTest(queued=queued), tempfile.TemporaryDirectory() as directory:
+                state_file = Path(directory, "state.json")
+                seen = {"old-retry": {"status": "pending", "first_seen": watcher.now(), "entry": old,
+                                      "label": ["P2", "Union Pacific", "Official company source"]}} if queued else {}
+                watcher.atomic_save(state_file, {"version": 2, "seen": seen, "sources": {"test": {"seeded": True, "failures": 0}}})
+                source = ("test", old["source"], False)
+                with patch.object(watcher, "STATE_FILE", state_file), patch.object(watcher, "HEALTH_FILE", Path(directory, "health.json")), patch.object(watcher, "LOG_FILE", Path(directory, "alerts.jsonl")), patch.object(watcher, "expanded_sources", return_value=[source]), patch.object(watcher, "collect_completed", return_value=iter([(source, ([old], None))])), patch.object(watcher, "publish") as publish:
+                    self.assertEqual(watcher.run(config), 0)
+                    publish.assert_not_called()
+                    health = json.loads(watcher.HEALTH_FILE.read_text())
+                    self.assertGreaterEqual(health["freshness_holds"]["stale"], 1)
+                    self.assertEqual(health["queued_alerts"], 0)
+
     def test_publication_not_discovery_controls_delivery(self):
         at = datetime(2026, 11, 22, 20, tzinfo=timezone.utc)
         for age in [2*24*60, 7*24*60, 14*24*60, 121]:
