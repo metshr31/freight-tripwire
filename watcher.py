@@ -3,7 +3,8 @@
 from __future__ import annotations
 
 import argparse
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from email.header import Header
 import hashlib
 import json
 import logging
@@ -19,13 +20,14 @@ from pathlib import Path
 
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
+from primary import html_items as primary_html_items, decorate as decorate_primary, inline_items, document_items, central_items
 
 BASE = Path(__file__).resolve().parent
 STATE_FILE = BASE / "seen_items.json"
 HEALTH_FILE = BASE / "health.json"
 LOG_FILE = BASE / "alerts.jsonl"
 WATCHLIST_FILE = BASE / "watchlist.json"
-MAX_SEEN = 16000
+MAX_SEEN = 100000
 MAX_ALERTS_PER_RUN = 20
 LOG = logging.getLogger("freight-tripwire")
 UTC = timezone.utc
@@ -51,7 +53,7 @@ def atomic_save(path: Path, data):
     temp.replace(path)
 
 
-def fetch(url: str, sec=False, timeout=23, data=None):
+def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_headers=None):
     # Explicit SEC contact is required by SEC access policy; configure via Actions secret.
     ua = os.environ.get("SEC_USER_AGENT", "").strip() if sec else USER_AGENT
     if not ua:
@@ -60,16 +62,18 @@ def fetch(url: str, sec=False, timeout=23, data=None):
         "User-Agent": ua,
         "Accept": "application/atom+xml, application/rss+xml, application/xml, text/html;q=0.9, */*;q=0.7",
         "Accept-Encoding": "identity",
+        "Cache-Control": "no-cache",
+        **(request_headers or {}),
     })
-    for attempt in range(3):
+    for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read(7_000_000).decode("utf-8", errors="replace")
         except urllib.error.HTTPError as exc:
-            if exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == attempts - 1:
                 raise
         except (TimeoutError, urllib.error.URLError):
-            if attempt == 2:
+            if attempt == attempts - 1:
                 raise
         time.sleep(1 + attempt * 2)
     raise RuntimeError("Fetch retries exhausted")
@@ -100,7 +104,9 @@ def item_key(entry):
         return f"stb:{entry['stb_kind']}:{entry['stb_id']}"
     if m:
         return f"stb:{m.group(1).lower()}:{m.group(2)}"
-    seed = canonical_url(link) or entry.get("title", "") + "|" + entry.get("published", "")
+    seed = entry.get("primary_item_id") or canonical_url(link) or entry.get("title", "") + "|" + entry.get("published", "")
+    if entry.get("revision"):
+        seed += "|revision:" + entry["revision"]
     return hashlib.sha256(seed.encode("utf-8")).hexdigest()[:24]
 
 
@@ -239,6 +245,16 @@ def label_item(item, config):
     urgent = matcher(config["priority_keywords"]).search(searchable)
     event = matcher(config["material_event_keywords"]).search(searchable)
     freight = matcher(config.get("freight_context_keywords", [])).search(searchable)
+    if item.get("primary_company"):
+        if item.get("require_freight_context") and not freight:
+            return None
+        name = item["primary_company"]
+        if urgent:
+            return ("P1", name, "Official company source")
+        # Customer notices need no redundant company-name mention or event keyword.
+        if item.get("primary_role") == "service" or event:
+            return ("P2", name, "Official company source")
+        return None
     is_sec = "sec.gov" in item.get("source", "")
     community = item.get("community", False)
     # Short/ambiguous names should not fire on, e.g., Amazon entertainment news.
@@ -272,7 +288,7 @@ def publish(title, message, link, priority=3, attempts=3):
     if link and urllib.parse.urlsplit(link).scheme not in ("https", "http"):
         link = ""
     headers = {
-        "Title": title[:110], "Priority": str(priority),
+        "Title": title[:110] if title[:110].isascii() else Header(title[:110], "utf-8").encode(), "Priority": str(priority),
         "Tags": "warning" if priority >= 4 else "memo", "Content-Type": "text/plain; charset=utf-8"
     }
     if link:
@@ -294,7 +310,9 @@ def publish(title, message, link, priority=3, attempts=3):
 def log_delivery(entry, label):
     event = {"at_utc": now(), "priority": label[0], "tag": label[1],
              "title": entry["title"], "link": entry.get("link", ""),
-             "source": entry["source"], "note": label[2]}
+             "source": entry["source"], "note": label[2],
+             "published": entry.get("published", ""), "excerpt": entry.get("summary", "")[:500],
+             "primary_source_id": entry.get("primary_source_id")}
     with LOG_FILE.open("a", encoding="utf-8") as handle:
         handle.write(json.dumps(event, ensure_ascii=False) + "\n")
 
@@ -316,13 +334,38 @@ def expanded_sources(cfg):
         sources.append((url, url, False))
     for url in cfg["stb_official_pages"]:
         sources.append(("official:" + url, url, True))
-    return sources
+    if cfg.get("primary_sources_file"):
+        registry = load_json(BASE / cfg["primary_sources_file"], None)
+        if not isinstance(registry, dict) or not registry.get("sources"):
+            raise ValueError("Primary source registry is missing or empty")
+        for spec in registry["sources"]:
+            if spec.get("enabled", True):
+                sources.append(("primary:" + spec["id"], spec["url"], spec))
+    if len({s[0] for s in sources}) != len(sources):
+        raise ValueError("Source IDs must be unique")
+    def priority(source):
+        sid, _, spec = source
+        if isinstance(spec, dict):
+            return 0 if spec["role"] == "service" else 1
+        if sid.startswith(("docket:", "official:")):
+            return 2
+        return 4 if any(host in sid for host in ("reddit.com", "truckingboards.com")) else 3
+    return sorted(sources, key=priority)
 
 
 def collect_source(source):
     source_id, url, is_html = source
     try:
-        if is_html:
+        if isinstance(is_html, dict):
+            spec = is_html
+            body = json.dumps(spec["post_json"]).encode() if spec.get("post_json") is not None else None
+            raw = fetch(spec.get("request_url", url), timeout=12, attempts=1, data=body,
+                        request_headers={"Content-Type": "application/json"} if body else None)
+            parsers = {"rss": lambda raw, spec: rss_items(raw, spec["url"]), "html": primary_html_items,
+                       "inline": inline_items, "documents": document_items, "central": central_items}
+            items = parsers[spec["kind"]](raw, spec)
+            entries = decorate_primary(items, spec)
+        elif is_html:
             entries = load_official_stb(url)
         elif "businesswire.com/newsroom/" in url:
             entries = businesswire_items(fetch(url), url)
@@ -333,7 +376,29 @@ def collect_source(source):
         return None, exc
 
 
+def collect_completed(source_specs):
+    """Yield the fastest finished source first, independent of slow social feeds."""
+    with ThreadPoolExecutor(max_workers=16) as pool:
+        futures = {pool.submit(collect_source, spec): spec for spec in source_specs}
+        for future in as_completed(futures):
+            entries, error = future.result()
+            yield futures[future], (entries, error)
+
+
+def deliver_record(record):
+    entry, label = record["entry"], record["label"]
+    message = f"{entry['title']}\nPublished: {entry.get('published') or 'Not provided'}\nSource: {label[2]}\nOriginal: {entry.get('link', '')}"
+    if entry.get("summary"):
+        message += "\nSource excerpt: " + entry["summary"][:500]
+    publish(f"{label[0]} | {label[1]}", message, entry.get("link", ""),
+            priority=4 if label[0] == "P1" else 3)
+    log_delivery(entry, label)
+    record["status"] = "sent"
+    record["entry"] = None
+
+
 def run(cfg, dry_run=False):
+    started = time.monotonic()
     state = load_json(STATE_FILE, {"version": 2, "seen": {}, "sources": {}})
     if state.get("version") != 2:
         raise ValueError("Unsupported seen_items.json version; do not silently discard history")
@@ -344,10 +409,12 @@ def run(cfg, dry_run=False):
     queue = []
     total = 0
     source_specs = expanded_sources(cfg)
-    # Bound concurrency so a few slow endpoints cannot exhaust the Actions timeout.
-    with ThreadPoolExecutor(max_workers=6) as pool:
-        fetched = list(pool.map(collect_source, source_specs))
-    for (source_id, url, is_html), (entries, error) in zip(source_specs, fetched):
+    for sid, url, spec in source_specs:
+        sources.setdefault(sid, {"seeded": False, "failures": 0})
+    due_specs = [s for s in source_specs if sources[s[0]].get("next_check_epoch", 0) <= time.time()]
+    delivered = 0
+    push_failed = False
+    for (source_id, url, is_html), (entries, error) in collect_completed(due_specs):
         health = sources.setdefault(source_id, {"seeded": False, "failures": 0})
         try:
             if error:
@@ -355,7 +422,9 @@ def run(cfg, dry_run=False):
             if not entries and not is_html:
                 raise ValueError("No parseable entries (feed may have been retired or blocked)")
             source_count += 1
-            health.update({"last_success": now(), "last_count": len(entries), "failures": 0, "error": ""})
+            health.update({"last_success": now(), "last_count": len(entries), "failures": 0, "error": "", "next_check_epoch": 0})
+            if isinstance(is_html, dict):
+                health.update({"company": is_html["company"], "role": is_html["role"], "url": url, "kind": is_html["kind"]})
             for item in entries:
                 key = item_key(item)
                 if key in seen:
@@ -369,6 +438,16 @@ def run(cfg, dry_run=False):
                 if health["seeded"] and label:
                     queue.append((key, record))
                     new_count += 1
+                    # Notify on a direct company update as soon as it is parsed.
+                    send_now = delivered < (MAX_ALERTS_PER_RUN if label[0] == "P1" else MAX_ALERTS_PER_RUN // 2)
+                    if item.get("primary_company") and not dry_run and not push_failed and send_now:
+                        try:
+                            deliver_record(record)
+                            delivered += 1
+                            atomic_save(STATE_FILE, state)
+                        except RuntimeError as exc:
+                            errors.append(("ntfy", str(exc)))
+                            push_failed = True
                 else:
                     # On a source's first successful read, seed existing entries quietly.
                     record["status"] = "baseline" if not health["seeded"] else "ignored"
@@ -381,6 +460,11 @@ def run(cfg, dry_run=False):
             health["failures"] = health.get("failures", 0) + 1
             health["error"] = str(exc)[:260]
             health["last_error"] = now()
+            # Public access restrictions are reported, never retried every five minutes.
+            if isinstance(exc, urllib.error.HTTPError) and exc.code in (403, 429):
+                health["next_check_epoch"] = time.time() + 1800
+            elif isinstance(is_html, dict) and health["failures"] >= 3:
+                health["next_check_epoch"] = time.time() + 900
             errors.append((source_id, str(exc)))
             LOG.warning("Source failed: %s: %s", source_id, exc)
     # Recover notification attempts from previous runs. Failures stay pending.
@@ -388,8 +472,8 @@ def run(cfg, dry_run=False):
     for key, record in seen.items():
         if record.get("status") == "pending" and key not in queued_keys:
             queue.append((key, record))
+    queue = [(key, record) for key, record in queue if record.get("status") == "pending"]
     queue.sort(key=lambda p: (0 if p[1]["label"][0] == "P1" else 1, p[1]["first_seen"]))
-    delivered = 0
     # Batch routine docket filings to avoid turning heavy filing days into 100+ pushes.
     docket = [(k, r) for k, r in queue if r["label"][0] == "P2" and r["label"][1] == "STB FD 36873"]
     others = [(k, r) for k, r in queue if (k, r) not in docket]
@@ -413,7 +497,7 @@ def run(cfg, dry_run=False):
             except RuntimeError as exc:
                 errors.append(("ntfy", str(exc)))
                 LOG.error("STB notification failure (will retry): %s", exc)
-    for key, record in others[:MAX_ALERTS_PER_RUN]:
+    for key, record in others[:max(0, MAX_ALERTS_PER_RUN - delivered)]:
         entry, label = record["entry"], record["label"]
         title = f"{label[0]} | {label[1]}"
         message = f"{entry['title']}\nPublished: {entry.get('published') or 'Not provided'}\nSource: {label[2]}\nOriginal: {entry.get('link', '')}"
@@ -421,10 +505,7 @@ def run(cfg, dry_run=False):
             LOG.info("[DRY RUN] %s: %s", title, message)
             continue
         try:
-            publish(title, message, entry.get("link", ""), priority=4 if label[0] == "P1" else 3)
-            log_delivery(entry, label)
-            record["status"] = "sent"
-            record["entry"] = None
+            deliver_record(record)
             delivered += 1
         except RuntimeError as exc:
             errors.append(("ntfy", str(exc)))
@@ -453,16 +534,27 @@ def run(cfg, dry_run=False):
         for k in eligible[:max(0, len(seen) - MAX_SEEN)]:
             del seen[k]
     state["last_run_utc"] = now()
+    covered_names = set()
+    for sid, _, spec in source_specs:
+        h = sources[sid]
+        if isinstance(spec, dict) and h.get("seeded") and h.get("failures", 0) == 0:
+            covered_names.update(spec.get("aliases", [spec["company"]]))
     health_doc = {"last_run_utc": now(), "successful_sources": source_count,
                   "source_count": len(active_sources), "queued_alerts": sum(r.get("status") == "pending" for r in seen.values()),
-                  "notification_batches_sent": delivered, "source_errors": len(errors), "sources": active_sources}
+                  "notification_batches_sent": delivered, "source_errors": len(errors), "sources": active_sources,
+                  "checked_sources": len(due_specs), "backoff_sources": len(source_specs) - len(due_specs),
+                  "elapsed_seconds": round(time.monotonic() - started, 2),
+                  "primary_sources": sum(isinstance(s[2], dict) for s in source_specs),
+                  "primary_sources_successful": sum(sid.startswith("primary:") and h.get("failures") == 0 and h.get("seeded") for sid, h in active_sources.items()),
+                  "direct_company_names_covered": len(covered_names),
+                  "company_names_without_live_primary": sorted(set(cfg["companies"]) - covered_names) if cfg.get("primary_sources_file") else []}
     if not dry_run:
         atomic_save(STATE_FILE, state)
         atomic_save(HEALTH_FILE, health_doc)
     LOG.info("Completed: %s sources OK; %s new qualifying items; %s pushes; %s pending; %s errors",
              source_count, new_count, delivered, health_doc["queued_alerts"], len(errors))
     # Fail visibly if *all* sources failed. Partial failures are recorded in health.json.
-    return 1 if source_count == 0 else 0
+    return 1 if source_count == 0 or push_failed else 0
 
 
 def main():
@@ -479,6 +571,7 @@ def main():
         print(json.dumps({"company_alias_entries": len(cfg["companies"]),
                           "rss_feeds": len(cfg["rss_feeds"]),
                           "html_feeds": len(cfg.get("html_feeds", [])),
+                          "primary_sources": sum(isinstance(s[2], dict) for s in expanded_sources(cfg)),
                           "stb_pages": len(cfg["stb_official_pages"]),
                           "docket_feed": cfg["stb_docket_feed"]}, indent=2))
         return 0

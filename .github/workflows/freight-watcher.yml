@@ -1,16 +1,18 @@
 name: Freight and STB Tripwire
 on:
   schedule:
-    # Every ten minutes on weekdays, 7:03 AM through 6:53 PM local Eastern time.
-    - cron: '3,13,23,33,43,53 7-18 * * 1-5'
-      timezone: 'America/New_York'
-    # Hourly all week, including nights, weekends and holidays.
-    - cron: '7 * * * *'
+    # Five-minute polling, 24/7. Off-hour offset avoids the busiest minute.
+    - cron: '2-59/5 * * * *'
       timezone: 'America/New_York'
   workflow_dispatch:
     inputs:
       test_push:
         description: 'Send a real test notification to ntfy (no baseline changes)'
+        required: false
+        type: boolean
+        default: false
+      pipeline_test:
+        description: 'Run an isolated synthetic primary-source detection and real ntfy delivery test'
         required: false
         type: boolean
         default: false
@@ -27,6 +29,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          # Queued runs must read the last committed monitoring state.
+          ref: main
           persist-credentials: true
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,8 +48,11 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
           TEST_PUSH: ${{ inputs.test_push }}
+          PIPELINE_TEST: ${{ inputs.pipeline_test }}
         run: |
-          if [[ "$TEST_PUSH" == 'true' ]]; then
+          if [[ "$PIPELINE_TEST" == 'true' ]]; then
+            python smoke_test.py
+          elif [[ "$TEST_PUSH" == 'true' ]]; then
             python watcher.py --test-push
           else
             python watcher.py

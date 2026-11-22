@@ -1,0 +1,5901 @@
+{
+  "version": 1,
+  "verified_at_utc": "2026-11-22T19:46:03Z",
+  "sources": [
+    {
+      "url": "https://bnsf.com/customer-notifications",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "bnsf-5d31692a",
+      "company": "BNSF",
+      "aliases": [
+        "BNSF"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Agriculture and Energy Network Update for Friday, November 20, 2026"
+    },
+    {
+      "url": "https://www.up.com/press-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "union-pacific-c5624f2c",
+      "company": "Union Pacific",
+      "aliases": [
+        "Union Pacific"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Union Pacific and Norfolk Southern Look Forward to a Full Evaluation of Merger Application"
+    },
+    {
+      "url": "https://www.up.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "union-pacific-9b06e9a4",
+      "company": "Union Pacific",
+      "aliases": [
+        "Union Pacific"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Helping American Farmers Compete in Global Markets"
+    },
+    {
+      "url": "https://www.up.com/announcements/intermodal",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "union-pacific-8b677772",
+      "company": "Union Pacific",
+      "aliases": [
+        "Union Pacific"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 50,
+      "verification_sample_title": "Domestic Weekly Intermodal Fuel Surcharge - November 23, 2026"
+    },
+    {
+      "url": "https://www.up.com/announcements/customer-news",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "union-pacific-a18e2195",
+      "company": "Union Pacific",
+      "aliases": [
+        "Union Pacific"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Moving Forward Together This November"
+    },
+    {
+      "url": "https://www.csx.com/index.cfm/about-us/media/press-releases/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "csx-e3a2c40c",
+      "company": "CSX",
+      "aliases": [
+        "CSX"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "CSX Executive Vice President and Chief Financial Officer to Address Baird Global Industrial Conference"
+    },
+    {
+      "url": "https://www.csx.com/index.cfm/customers/news/service-bulletins1/",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "csx-01c0a656",
+      "company": "CSX",
+      "aliases": [
+        "CSX"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "CSX Customer Advisory: Update on Microsoft Global Outage"
+    },
+    {
+      "url": "https://www.csx.com/index.cfm/customers/news/customer-news/",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "csx-beee7146",
+      "company": "CSX",
+      "aliases": [
+        "CSX"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "CSXT HDF Fuel Index Rate Adjustment Update for December 1, 2026"
+    },
+    {
+      "url": "https://www.csx.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "csx-3964eb71",
+      "company": "CSX",
+      "aliases": [
+        "CSX"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "November 4, 2026 - CSX Executive Vice President and Chief Financial Officer to Address Baird Global Industrial Conference"
+    },
+    {
+      "url": "https://www.norfolksouthern.com/en/customer-alerts",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "norfolk-southern-42aa72fd",
+      "company": "Norfolk Southern",
+      "aliases": [
+        "Norfolk Southern"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Intermodal November 17, 2026 Atlanta/Austell EMP Announcement Effective 3:00pm today, and until further notice, empty 53’ EMP container returns will only be accepted at the Atlanta (Inman) Intermodal Facility. This chang"
+    },
+    {
+      "url": "https://www.norfolksouthern.com/en/newsroom/news-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "norfolk-southern-ea909e93",
+      "company": "Norfolk Southern",
+      "aliases": [
+        "Norfolk Southern"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "November 18, 2026 Norfolk Southern celebrates 200 years of railroading, unveils anniversary campaign and commemorative locomotives Community invited to join the celebration through several planned public events across th"
+    },
+    {
+      "url": "https://norfolksouthern.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "norfolk-southern-ed33758c",
+      "company": "Norfolk Southern",
+      "aliases": [
+        "Norfolk Southern"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Delivering a safer and more resilient railroad"
+    },
+    {
+      "url": "https://investor.cpkcr.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "cpkc-84eeccef",
+      "company": "CPKC",
+      "aliases": [
+        "CPKC",
+        "Canadian Pacific"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "CPKC's President and CEO Keith Creel to address the 2026 UBS Global Industrials and Transportation Conference"
+    },
+    {
+      "url": "https://www.cn.ca/en/media/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "canadian-national-6a37d191",
+      "company": "Canadian National",
+      "aliases": [
+        "Canadian National"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 97,
+      "verification_sample_title": "TCRC Bargaining Updates"
+    },
+    {
+      "url": "https://www.cn.ca/en/media/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "canadian-national-689a453f",
+      "company": "Canadian National",
+      "aliases": [
+        "Canadian National"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "TCRC Bargaining Updates"
+    },
+    {
+      "url": "https://investors.ups.com/news-events/press-releases/rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "ups-91e316fb",
+      "company": "UPS",
+      "aliases": [
+        "UPS"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "UPS Announces Agreement to Acquire Smartways Logistics"
+    },
+    {
+      "url": "https://investors.ups.com/news-events",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ups-20704754",
+      "company": "UPS",
+      "aliases": [
+        "UPS"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "Read press release"
+    },
+    {
+      "url": "https://newsroom.fedex.com/index.rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "fedex-524dfc77",
+      "company": "FedEx",
+      "aliases": [
+        "FedEx",
+        "FedEx Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Katherine M. Boyle, General Partner, Andreessen Horowitz, Elected to FedEx Board of Directors"
+    },
+    {
+      "url": "https://newsroom.fedex.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "fedex-4ddf7f6b",
+      "company": "FedEx",
+      "aliases": [
+        "FedEx",
+        "FedEx Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Global (English)"
+    },
+    {
+      "url": "https://www.jbhunt.com/our-company/newsroom",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "j-b-hunt-6540d6c4",
+      "company": "J.B. Hunt",
+      "aliases": [
+        "J.B. Hunt",
+        "JB Hunt"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Groundtruth Launches with J.B. Hunt To Address Industry-wide Billing Challenges"
+    },
+    {
+      "url": "https://www.jbhunt.com/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "j-b-hunt-bd418213",
+      "company": "J.B. Hunt",
+      "aliases": [
+        "J.B. Hunt",
+        "JB Hunt"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Capacity to Deliver"
+    },
+    {
+      "url": "https://investors.xpo.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "xpo-00a3e99d",
+      "company": "XPO",
+      "aliases": [
+        "XPO"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "XPO Recognized as a Top Military Friendly® Employer for 2027"
+    },
+    {
+      "url": "https://investors.xpo.com/news-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "xpo-da8332c5",
+      "company": "XPO",
+      "aliases": [
+        "XPO"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "XPO Recognized as a Top Military Friendly® Employer for 2027"
+    },
+    {
+      "url": "https://www.tfiintl.com/en/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "tfi-international-f05fff1e",
+      "company": "TFI International",
+      "aliases": [
+        "TFI International"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 93,
+      "verification_sample_title": "TFI International Announces Renewal of Normal Course Issuer Bid"
+    },
+    {
+      "url": "https://investors.ryder.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ryder-f1d3bde1",
+      "company": "Ryder",
+      "aliases": [
+        "Ryder"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Three Ryder Leaders Named Top Women in Supply Chain"
+    },
+    {
+      "url": "https://www.ryder.com/en-us/newsroom",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ryder-bb89d7c0",
+      "company": "Ryder",
+      "aliases": [
+        "Ryder"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Download All Press Resources"
+    },
+    {
+      "url": "https://investor.knight-swift.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "knight-swift-749c262e",
+      "company": "Knight-Swift",
+      "aliases": [
+        "Knight-Swift"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Knight-Swift Transportation Holdings Inc. Announces Quarterly Cash Dividend"
+    },
+    {
+      "url": "https://www.estes-express.com/newsroom/#tab-awards",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "estes-express-ca79a6c3",
+      "company": "Estes Express",
+      "aliases": [
+        "Estes Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 100,
+      "verification_sample_title": "Estes Successfully Tests Renewable Diesel Pilot successfully integrates renewable diesel into Texas fleet without equipment modifications."
+    },
+    {
+      "url": "https://www.estes-express.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "estes-express-942c3ab5",
+      "company": "Estes Express",
+      "aliases": [
+        "Estes Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "Read more about Estes Successfully Tests Renewable Diesel in Three-Month Pilot"
+    },
+    {
+      "url": "https://investors.schneider.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "schneider-228b0989",
+      "company": "Schneider",
+      "aliases": [
+        "Schneider"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Schneider National, Inc. announces participation in upcoming conference"
+    },
+    {
+      "url": "https://schneider.com/company/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "schneider-3e9173cb",
+      "company": "Schneider",
+      "aliases": [
+        "Schneider"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Schneider and Norfolk Southern partner to expand domestic intermodal capacity across the eastern U.S."
+    },
+    {
+      "url": "https://ir.odfl.com/news-events/press-releases/rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "old-dominion-97f95ba7",
+      "company": "Old Dominion",
+      "aliases": [
+        "Old Dominion"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Old Dominion Freight Line Reports Third Quarter 2026 Earnings Per Diluted Share of $1.65"
+    },
+    {
+      "url": "https://ir.odfl.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "old-dominion-e1d164c4",
+      "company": "Old Dominion",
+      "aliases": [
+        "Old Dominion"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Old Dominion Freight Line Reports Third Quarter 2026 Earnings Per Diluted Share of $1.65"
+    },
+    {
+      "url": "https://investor.landstar.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "landstar-8792bdf2",
+      "company": "Landstar",
+      "aliases": [
+        "Landstar"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Landstar System Reports Third Quarter Revenue of $1.512B and Earnings Per Share of $1.42"
+    },
+    {
+      "url": "https://www.landstar.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "landstar-89bf7434",
+      "company": "Landstar",
+      "aliases": [
+        "Landstar"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "A Firsthand Look at Specialized Freight"
+    },
+    {
+      "url": "https://www.penskelogistics.com/feeds/feed.rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "penske-logistics-f2d9894f",
+      "company": "Penske Logistics",
+      "aliases": [
+        "Penske Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 30,
+      "verification_sample_title": "How To Build a Resilient Supply Chain Before Disruption Strikes"
+    },
+    {
+      "url": "https://www.penskelogistics.com/feeds/press-releases.rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "penske-logistics-9a30138b",
+      "company": "Penske Logistics",
+      "aliases": [
+        "Penske Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 30,
+      "verification_sample_title": "State of Logistics Report Finds Volatility is the New Normal Shaping Global Supply Chains, Requiring Continuous Adaptation"
+    },
+    {
+      "url": "https://investors.arcb.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "arcbest-f787a7fa",
+      "company": "ArcBest",
+      "aliases": [
+        "ArcBest",
+        "ABF Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "ArcBest Announces Third Quarter 2026 Results"
+    },
+    {
+      "url": "https://arcb.com/insights",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "arcbest-2810f625",
+      "company": "ArcBest",
+      "aliases": [
+        "ArcBest",
+        "ABF Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 21,
+      "verification_sample_title": "Advanced Strategies for LTL Pricing and Cost Control"
+    },
+    {
+      "url": "https://investors.hubgroup.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "hub-group-ff00223b",
+      "company": "Hub Group",
+      "aliases": [
+        "Hub Group"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Hub Group Declares Quarterly Dividend"
+    },
+    {
+      "url": "https://investors.hubgroup.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "hub-group-5b7d8717",
+      "company": "Hub Group",
+      "aliases": [
+        "Hub Group"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Hub Group Declares Quarterly Dividend"
+    },
+    {
+      "url": "https://www.rlcarriers.com/company/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "r-l-carriers-8a8077d5",
+      "company": "R+L Carriers",
+      "aliases": [
+        "R+L Carriers"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "R+L Carriers Wins Univar Solutions Superior Excellence in Service and Partnership Award"
+    },
+    {
+      "url": "https://www.nfiindustries.com/about-nfi/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "nfi-a5378003",
+      "company": "NFI",
+      "aliases": [
+        "NFI"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Continue reading NFI Appoints Erin Salinger as Chief Human Resources Officer"
+    },
+    {
+      "url": "https://saia.gcs-web.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "saia-745d7e50",
+      "company": "Saia",
+      "aliases": [
+        "Saia"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Saia Named Tyson’s LTL Carrier of the Year"
+    },
+    {
+      "url": "https://saia.gcs-web.com/news-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "saia-c3199bd9",
+      "company": "Saia",
+      "aliases": [
+        "Saia"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 23,
+      "verification_sample_title": "Saia Named Tyson’s LTL Carrier of the Year"
+    },
+    {
+      "url": "https://investor.werner.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "werner-enterprises-c12a4f96",
+      "company": "Werner Enterprises",
+      "aliases": [
+        "Werner Enterprises"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "2026 Sustainability Brief Highlights Emissions Reporting, Fleet Efficiency and Investments in People as Werner® Marks 70 Years of Service"
+    },
+    {
+      "url": "https://werner.com/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "werner-enterprises-64fbca68",
+      "company": "Werner Enterprises",
+      "aliases": [
+        "Werner Enterprises"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Supply Chain Mythbusters: Debunking the “Rate Shopping” Playbook"
+    },
+    {
+      "url": "https://www.primeinc.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "prime-inc-a8032ea5",
+      "company": "Prime Inc",
+      "aliases": [
+        "Prime Inc"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Highway Diamonds – Volume 11 Issue 2"
+    },
+    {
+      "url": "https://www.purolator.com/en/resources-support/service-alerts-updates",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "purolator-6c78c114",
+      "company": "Purolator",
+      "aliases": [
+        "Purolator"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Changes to European Union (EU) import requirements for low-value business-to-consumer shipments Effective November 1, 2026, businesses selling and shipping goods valued at €150 or less directly to consumers in the Europe"
+    },
+    {
+      "url": "https://www.purolator.com/en/news-updates",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "purolator-51a2d1eb",
+      "company": "Purolator",
+      "aliases": [
+        "Purolator"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 14,
+      "verification_sample_title": "Featured Stories Purolator and YCH partner to strengthen trade connections between Canada and Southeast Asia Purolator and YCH Group today announced a strategic partnership designed to strengthen supply chain connectivit"
+    },
+    {
+      "url": "https://www.purolator.com/en",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "purolator-dbca4d8a",
+      "company": "Purolator",
+      "aliases": [
+        "Purolator"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Global Trade Research Report"
+    },
+    {
+      "url": "https://www.thekag.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "kenan-advantage-0fb28d72",
+      "company": "Kenan Advantage",
+      "aliases": [
+        "Kenan Advantage",
+        "KAG Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "KAG’s People Earn the Company’s First Grand Award in NTTC Personnel Safety Contest"
+    },
+    {
+      "url": "https://www.sefl.com/seflWebsite/new/releases.jsp",
+      "kind": "inline",
+      "role": "news",
+      "selector": "p.bold[id]",
+      "allow_headline_links": true,
+      "id": "southeastern-freight-468cdb72",
+      "company": "Southeastern Freight",
+      "aliases": [
+        "Southeastern Freight"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 87,
+      "verification_sample_title": "Southeastern Freight Lines' Valdosta Service Center Celebrates 45 Years of Service"
+    },
+    {
+      "url": "https://centraltransport.com/company/news.aspx",
+      "kind": "central",
+      "role": "news",
+      "allow_headline_links": true,
+      "request_url": "https://centraltransport.com/company/news.aspx/GetArticles",
+      "post_json": {
+        "data": "{\"articleId\":\"\"}",
+        "headers": {
+          "Content-Type": "application/json"
+        }
+      },
+      "id": "central-transport-81c70b86",
+      "company": "Central Transport",
+      "aliases": [
+        "Central Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 0,
+      "verification_sample_title": "(No currently published articles)"
+    },
+    {
+      "url": "https://www.pslogistics.com/media/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ps-logistics-ee624230",
+      "company": "PS Logistics",
+      "aliases": [
+        "PS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "PS Logistics Acquires Roane Transportation"
+    },
+    {
+      "url": "https://dayross.com/Press-Releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "day-ross-48c1c9f4",
+      "company": "Day & Ross",
+      "aliases": [
+        "Day & Ross"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Day & Ross Announces Strategic Sales Leadership Changes to Support Continued Growth and Customer Experience Excellence"
+    },
+    {
+      "url": "https://dayross.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "day-ross-9c2bd60e",
+      "company": "Day & Ross",
+      "aliases": [
+        "Day & Ross"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "New Executive Appointments Reinforce our Commitment to Technology and Customer Experience"
+    },
+    {
+      "url": "https://www.universallogistics.com/en-US/resources",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "universal-logistics-9d069192",
+      "company": "Universal Logistics",
+      "aliases": [
+        "Universal Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "Universal Logistics Holdings, Inc. Reports Third Quarter 2026 Financial Results; Declares Dividend"
+    },
+    {
+      "url": "https://www.averitt.com/news/rss.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "averitt-express-1031df77",
+      "company": "Averitt Express",
+      "aliases": [
+        "Averitt Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "2027 Military Friendly Awards Recognize Averitt"
+    },
+    {
+      "url": "https://www.averitt.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "averitt-express-01307e5d",
+      "company": "Averitt Express",
+      "aliases": [
+        "Averitt Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Averitt Recognized With Multiple 2027 Military Friendly® Awards"
+    },
+    {
+      "url": "https://www.ruan.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "ruan-8f65669a",
+      "company": "Ruan",
+      "aliases": [
+        "Ruan"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Nov 6, 2026 Ruan Included as 2026 Top Companies for Women to Work in Trucking Ruan is proudly recognized as one of the 2026 Top Companies for Women to Work in Trucking by the Women in Trucking (WIT) Ass... Read More"
+    },
+    {
+      "url": "https://www.atsinc.com/learning-hub",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "anderson-trucking-f6358c03",
+      "company": "Anderson Trucking",
+      "aliases": [
+        "Anderson Trucking",
+        "ATS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "How Much Does Dry Van Shipping Cost?"
+    },
+    {
+      "url": "https://www.atsinc.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "anderson-trucking-97c02d68",
+      "company": "Anderson Trucking",
+      "aliases": [
+        "Anderson Trucking",
+        "ATS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "How Much Does Dry Van Shipping Cost?"
+    },
+    {
+      "url": "https://cretecarrier.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "crete-carrier-9c5a60a3",
+      "company": "Crete Carrier",
+      "aliases": [
+        "Crete Carrier"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "October 2026 Drivers of the Month"
+    },
+    {
+      "url": "https://cretecarrier.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "crete-carrier-26a4d728",
+      "company": "Crete Carrier",
+      "aliases": [
+        "Crete Carrier"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "STRONGER TOGETHER"
+    },
+    {
+      "url": "https://www.stgusa.com/news-notices/type/blog/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "stg-logistics-d3e8f632",
+      "company": "STG Logistics",
+      "aliases": [
+        "STG Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Chinese New Year 2027 Arrives Early: Is Your Supply Chain Ready?"
+    },
+    {
+      "url": "https://www.stgusa.com/news-notices/type/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "stg-logistics-eabf0cf8",
+      "company": "STG Logistics",
+      "aliases": [
+        "STG Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Back to News & Insights"
+    },
+    {
+      "url": "https://www.stgusa.com/news-notices/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "stg-logistics-b00f3f8d",
+      "company": "STG Logistics",
+      "aliases": [
+        "STG Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "Chinese New Year 2027 Arrives Early: Is Your Supply Chain Ready?"
+    },
+    {
+      "url": "https://info.lynden.com/blog/rss.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lynden-ac5da67c",
+      "company": "Lynden",
+      "aliases": [
+        "Lynden"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Alaska West Express and AML move big CATs to Alaska"
+    },
+    {
+      "url": "https://www.crengland.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "c-r-england-86adfc1c",
+      "company": "C.R. England",
+      "aliases": [
+        "C.R. England"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Partnership Value: Building a Stronger Freight Supply Chain Together"
+    },
+    {
+      "url": "https://www.crengland.com/category/news/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "c-r-england-0b035196",
+      "company": "C.R. England",
+      "aliases": [
+        "C.R. England"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Yard Provider of the Year, Middle Mile Food Provider of the Year Awarded to C.R. England"
+    },
+    {
+      "url": "https://www.crst.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "crst-9f26f1e5",
+      "company": "CRST",
+      "aliases": [
+        "CRST"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Winter driving preparation for truck drivers: What to pack, check and watch for"
+    },
+    {
+      "url": "https://www.crst.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "crst-0689885f",
+      "company": "CRST",
+      "aliases": [
+        "CRST"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Winter driving preparation for truck drivers: What to pack, check and watch for"
+    },
+    {
+      "url": "https://ir.forwardaircorp.com/news-events/press-releases/rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "forward-air-5ad42123",
+      "company": "Forward Air",
+      "aliases": [
+        "Forward Air"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Forward Air Corporation Reports Third Quarter 2026 Results"
+    },
+    {
+      "url": "https://ir.forwardaircorp.com/news-events/press-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "forward-air-96821b78",
+      "company": "Forward Air",
+      "aliases": [
+        "Forward Air"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 11,
+      "verification_sample_title": "Forward Air Corporation Reports Third Quarter 2026 Results"
+    },
+    {
+      "url": "https://omnilogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "omni-logistics-46fc3456",
+      "company": "Omni Logistics",
+      "aliases": [
+        "Omni Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Some Medical Shipments Cannot Wait for a Boat"
+    },
+    {
+      "url": "https://www.bennettig.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "bennett-family-fc3abc6c",
+      "company": "Bennett Family",
+      "aliases": [
+        "Bennett Family"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Bennett Affiliated Companies Announce Three Key Leadership Promotions"
+    },
+    {
+      "url": "https://www.bennettig.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "bennett-family-a8b68b7d",
+      "company": "Bennett Family",
+      "aliases": [
+        "Bennett Family"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "You Qualify For"
+    },
+    {
+      "url": "https://www.covenantlogistics.com/investors/news-press-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "covenant-logistics-de07dc80",
+      "company": "Covenant Logistics",
+      "aliases": [
+        "Covenant Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 11,
+      "verification_sample_title": "Covenant Logistics Group Announces Third Quarter Financial and Operating Results"
+    },
+    {
+      "url": "https://www.covenantlogistics.com/insights",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "covenant-logistics-d942a688",
+      "company": "Covenant Logistics",
+      "aliases": [
+        "Covenant Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "From Aircraft Parts to a Foreign Trade Zone: A Logistics Partnership Built to Evolve"
+    },
+    {
+      "url": "https://www.mullen-group.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "mullen-group-f506f825",
+      "company": "Mullen Group",
+      "aliases": [
+        "Mullen Group"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Mullen Group Ltd. Announces Declaration of Monthly Dividend"
+    },
+    {
+      "url": "https://bridgewayconnects.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "bridgeway-connects-8f7cb95f",
+      "company": "Bridgeway Connects",
+      "aliases": [
+        "Bridgeway Connects"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "RFPs, Done Strategically: How Smarter RFPs Help Shippers Get Better Service"
+    },
+    {
+      "url": "https://bridgewayconnects.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "bridgeway-connects-400f273f",
+      "company": "Bridgeway Connects",
+      "aliases": [
+        "Bridgeway Connects"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "RFPs, Done Strategically: How Smarter RFPs Help Shippers Get Better Service"
+    },
+    {
+      "url": "https://www.canadacartage.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "canada-cartage-e284ae81",
+      "company": "Canada Cartage",
+      "aliases": [
+        "Canada Cartage"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "When Export Demand Disappears: 5 Ways to Reposition Inventory"
+    },
+    {
+      "url": "https://daytonfreight.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "dayton-freight-5c9a638f",
+      "company": "Dayton Freight",
+      "aliases": [
+        "Dayton Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Brownsburg, IN Now Open"
+    },
+    {
+      "url": "https://pittohio.com/myPittOhio/news/recent-press-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "pitt-ohio-97e0a0f2",
+      "company": "Pitt Ohio",
+      "aliases": [
+        "Pitt Ohio"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Archives by year: 2025 , 2024 , 2023 , 2022 , 2021 , 2020 , 2019 , 2018 , 2017 , 2016 , 2015 , 2014 , 2013 , 2012 , 2011 , 2010 , 2009"
+    },
+    {
+      "url": "https://www.kllm.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "kllm-75c3243a",
+      "company": "KLLM",
+      "aliases": [
+        "KLLM"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "KLLM Transport Services Acquires Quest Global Inc."
+    },
+    {
+      "url": "https://www.unigroup.com/newsroom",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "unigroup-4dc10430",
+      "company": "UniGroup",
+      "aliases": [
+        "UniGroup"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "UniGroup Elects New Board Members"
+    },
+    {
+      "url": "https://www.marten.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "marten-transport-dc63a513",
+      "company": "Marten Transport",
+      "aliases": [
+        "Marten Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "MARTEN TRANSPORT, LTD. CLOSED ON THE PREVIOUSLY ANNOUNCED AGREEMENT TO SELL ASSETS RELATED TO ITS INTERMODAL BUSINESS TO HUB GROUP, INC., EFFECTIVE SEPTEMBER 30, 2025."
+    },
+    {
+      "url": "https://www.marten.com/investors/#governance",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "marten-transport-4d6944d3",
+      "company": "Marten Transport",
+      "aliases": [
+        "Marten Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Corporate Governance"
+    },
+    {
+      "url": "https://www.quantixscs.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "quantix-2617e9dc",
+      "company": "Quantix",
+      "aliases": [
+        "Quantix"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Quantix Strengthens Capital Structure and Appoints New Board of Directors"
+    },
+    {
+      "url": "https://www.quantixscs.com/newsroom/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "quantix-b9ab7ad1",
+      "company": "Quantix",
+      "aliases": [
+        "Quantix"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 13,
+      "verification_sample_title": "Read more : Quantix Announces Planned CEO Transition Following Successful Financial Restructuring"
+    },
+    {
+      "url": "https://news.imcc.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "imc-logistics-66f63da7",
+      "company": "IMC Logistics",
+      "aliases": [
+        "IMC Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "IMC Hopes to Expand 50 Tesla Trucks to 100 in the Future"
+    },
+    {
+      "url": "https://aduiepyle.com/newsroom/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "a-duie-pyle-3db154fe",
+      "company": "A. Duie Pyle",
+      "aliases": [
+        "A. Duie Pyle"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "View How to Choose Between FTL and LTL Shipping: Insights from A. Duie Pyle’s Craig Lough"
+    },
+    {
+      "url": "https://aduiepyle.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "a-duie-pyle-3c2fa364",
+      "company": "A. Duie Pyle",
+      "aliases": [
+        "A. Duie Pyle"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "View Your Home Is Ready For Winter. Is Your Supply Chain?"
+    },
+    {
+      "url": "https://qualitycarriers.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "quality-carriers-aec5b45f",
+      "company": "Quality Carriers",
+      "aliases": [
+        "Quality Carriers"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 20,
+      "verification_sample_title": "Quality Carriers Named a Quest for Quality Award Winner"
+    },
+    {
+      "url": "https://www.heartlandexpress.com/news",
+      "kind": "documents",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "heartland-express-e6c5207c",
+      "company": "Heartland Express",
+      "aliases": [
+        "Heartland Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Heartland Express to Ring NASDAQ Closing Bell"
+    },
+    {
+      "url": "https://www.bisontransport.com/feed",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "bison-transport-7ed4ed58",
+      "company": "Bison Transport",
+      "aliases": [
+        "Bison Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Customer Advisory – Western Canada Weather"
+    },
+    {
+      "url": "https://www.bisontransport.com/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "bison-transport-97d9376e",
+      "company": "Bison Transport",
+      "aliases": [
+        "Bison Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Fewer Trucks, Higher Rates? The Forces Reshaping the Trucking Market"
+    },
+    {
+      "url": "https://www.stevenstransport.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "stevens-transport-c18d61e0",
+      "company": "Stevens Transport",
+      "aliases": [
+        "Stevens Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "From Command Sergeant Major to Stevens Transport Driver: Meet Gary W. Williams"
+    },
+    {
+      "url": "https://www.stevenstransport.com/company/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "stevens-transport-4d1ea9bd",
+      "company": "Stevens Transport",
+      "aliases": [
+        "Stevens Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "From Command Sergeant Major to Stevens Transport Driver: Meet Gary W. Williams Image"
+    },
+    {
+      "url": "https://manitoulintransport.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "manitoulin-01d65954",
+      "company": "Manitoulin",
+      "aliases": [
+        "Manitoulin"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
+    },
+    {
+      "url": "https://manitoulintransport.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "manitoulin-1b9c564b",
+      "company": "Manitoulin",
+      "aliases": [
+        "Manitoulin"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 34,
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
+    },
+    {
+      "url": "https://hirschbach.com/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "hirschbach-e7164a5f",
+      "company": "Hirschbach",
+      "aliases": [
+        "Hirschbach"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Honoring Heroes: Custom Military Truck Wrap Celebrates Air Force Veteran Brian Kepner"
+    },
+    {
+      "url": "https://www.roadone.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "roadone-74ed0ba7",
+      "company": "RoadOne",
+      "aliases": [
+        "RoadOne"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "RoadOne Appoints Executive Industry Veterans Ed Aldridge, Jim Newsome, and Cliff Pyron to Executive Advisory Board"
+    },
+    {
+      "url": "https://www.roadone.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "roadone-a8fe5934",
+      "company": "RoadOne",
+      "aliases": [
+        "RoadOne"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "RoadOne Appoints Executive Industry Veterans Ed Aldridge, Jim Newsome, and Cliff Pyron to Executive Advisory Board"
+    },
+    {
+      "url": "https://www.tmctrans.com:443/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "tmc-transportation-83b2c9eb",
+      "company": "TMC Transportation",
+      "aliases": [
+        "TMC Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Maggie Boers Named Logistics Employee-Owner of the Quarter"
+    },
+    {
+      "url": "https://www.tmctrans.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "tmc-transportation-92c46e3b",
+      "company": "TMC Transportation",
+      "aliases": [
+        "TMC Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Maggie Boers Named Logistics Employee-Owner of the Quarter"
+    },
+    {
+      "url": "https://m-v-t.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "mesilla-valley-f0b78148",
+      "company": "Mesilla Valley",
+      "aliases": [
+        "Mesilla Valley"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "MVT Rundown | November 2026"
+    },
+    {
+      "url": "https://m-v-t.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "mesilla-valley-81ec3bf1",
+      "company": "Mesilla Valley",
+      "aliases": [
+        "Mesilla Valley"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 30,
+      "verification_sample_title": "MVT Rundown | November 2026"
+    },
+    {
+      "url": "https://www.transervice.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "transervice-logistics-5d6c133b",
+      "company": "Transervice Logistics",
+      "aliases": [
+        "Transervice Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Pre-Holiday Fleet Maintenance Checklist: Reduce Roadside Breakdowns Before Peak Season"
+    },
+    {
+      "url": "https://lily.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lily-transportation-8496108d",
+      "company": "Lily Transportation",
+      "aliases": [
+        "Lily Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "How Dedicated Fleets Protect Service Levels During Peak Season"
+    },
+    {
+      "url": "https://mercer-trans.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "mercer-transportation-e92ccdcf",
+      "company": "Mercer Transportation",
+      "aliases": [
+        "Mercer Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "What Is Freight Factoring and How Does It Help Carriers Get Paid?"
+    },
+    {
+      "url": "https://www.fastfrate.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "fastfrate-58e3347f",
+      "company": "Fastfrate",
+      "aliases": [
+        "Fastfrate"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "PDF FastFrate BOL E FrateExpress"
+    },
+    {
+      "url": "https://foodliner.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "foodliner-ec25cb9f",
+      "company": "Foodliner",
+      "aliases": [
+        "Foodliner"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "McCoy Group announces Jon Sarrazin as President, Transportation Division"
+    },
+    {
+      "url": "https://foodliner.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "foodliner-b3f4294d",
+      "company": "Foodliner",
+      "aliases": [
+        "Foodliner"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "McCoy Group announces Jon Sarrazin as President, Transportation Division"
+    },
+    {
+      "url": "https://questliner.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "quest-liner-0674fcc0",
+      "company": "Quest Liner",
+      "aliases": [
+        "Quest Liner"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "McCoy Group companies build career connections at National FFA Convention & Expo"
+    },
+    {
+      "url": "https://www.pgttrucking.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "pgt-holdings-197edb1e",
+      "company": "PGT Holdings",
+      "aliases": [
+        "PGT Holdings"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 95,
+      "verification_sample_title": "A Closer Look at PGT Trucking Cross-Border Shipments"
+    },
+    {
+      "url": "https://beemactrucking.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "beemac-a1623343",
+      "company": "Beemac",
+      "aliases": [
+        "Beemac"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Beemac Trucking Is Hiring CDL-A Drivers and Owner-Operators — Start With Virtual Orientation From Home"
+    },
+    {
+      "url": "https://beemactrucking.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "beemac-0fe8415c",
+      "company": "Beemac",
+      "aliases": [
+        "Beemac"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 100,
+      "verification_sample_title": "Beemac Trucking Is Hiring CDL-A Drivers and Owner-Operators — Start With Virtual Orientation From Home"
+    },
+    {
+      "url": "https://maverick-transportation.webflow.io/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "maverick-transportation-1c6b4298",
+      "company": "Maverick Transportation",
+      "aliases": [
+        "Maverick Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 11,
+      "verification_sample_title": "Congratulations to Travis Harris, Newest Driver of Maverick’s “Salute” Veteran Tribute Truck"
+    },
+    {
+      "url": "https://www.shiproadrunnerfreight.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "roadrunner-freight-7aa6a124",
+      "company": "Roadrunner Freight",
+      "aliases": [
+        "Roadrunner Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 33,
+      "verification_sample_title": "Roadrunner Ranked #2 Nationally in Logistics Management’s Quest for Quality Awards"
+    },
+    {
+      "url": "https://freight.rrts.com/Pages/Home.aspx",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "roadrunner-freight-0d2ddc20",
+      "company": "Roadrunner Freight",
+      "aliases": [
+        "Roadrunner Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Tracking Subscriptions"
+    },
+    {
+      "url": "https://bayandbay.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "bay-and-bay-39c27712",
+      "company": "Bay and Bay",
+      "aliases": [
+        "Bay and Bay"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Preparing Your Supply Chain for the Fall Shipping Surge"
+    },
+    {
+      "url": "https://meltontruck.com/press/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "melton-truck-lines-1486f0dd",
+      "company": "Melton Truck Lines",
+      "aliases": [
+        "Melton Truck Lines"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 34,
+      "verification_sample_title": "Melton Truck Lines Honors Veterans at Tulsa Veterans Day Parade"
+    },
+    {
+      "url": "https://meltontruck.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "melton-truck-lines-1c20b5a2",
+      "company": "Melton Truck Lines",
+      "aliases": [
+        "Melton Truck Lines"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Insights on Flatbed Trucking, Freight, and the Road Ahead"
+    },
+    {
+      "url": "https://www.dylt.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "daylight-transport-b8cbf614",
+      "company": "Daylight Transport",
+      "aliases": [
+        "Daylight Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Daylight Transport Earns Top Rating"
+    },
+    {
+      "url": "https://tcitransportation.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "tci-transportation-1f7a0221",
+      "company": "TCI Transportation",
+      "aliases": [
+        "TCI Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "How to Plan Reefer LTL Capacity for the Holiday Rush"
+    },
+    {
+      "url": "https://tcitransportation.com/newsroom/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "tci-transportation-d5a0c386",
+      "company": "TCI Transportation",
+      "aliases": [
+        "TCI Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 26,
+      "verification_sample_title": "20 TCI Transportation Drivers Recognized in California Trucking Association’s 2026 Driver of the Month Program Recognition highlights exceptional safety records, professionalism, and a company-wide commitment to excellen"
+    },
+    {
+      "url": "https://www.redclassic.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "red-classic-4f6b2ee6",
+      "company": "Red Classic",
+      "aliases": [
+        "Red Classic"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Red Classic Receives Rand McNally Safety Program of the Year Award for Outstanding Commitment to Fleet Safety"
+    },
+    {
+      "url": "https://arturexpress.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "artur-express-d483af65",
+      "company": "Artur Express",
+      "aliases": [
+        "Artur Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Read More about Artur Express Expands Industry-Leading Compensation with Automatic Market Adjustment Program"
+    },
+    {
+      "url": "https://arturexpress.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "artur-express-25f2c568",
+      "company": "Artur Express",
+      "aliases": [
+        "Artur Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Read More about Artur Express Expands Industry-Leading Compensation with Automatic Market Adjustment Program"
+    },
+    {
+      "url": "https://www.wardtlc.com/ward-tlc-news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ward-transport-a89ba397",
+      "company": "Ward Transport",
+      "aliases": [
+        "Ward Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Ward Transport & Logistics Celebrates Its 2026 Employee Award Winners"
+    },
+    {
+      "url": "https://www.leonardsexpress.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "leonard-s-express-3b962d64",
+      "company": "Leonard's Express",
+      "aliases": [
+        "Leonard's Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Leonard’s Express Celebrates 25 Years of Success Through Service"
+    },
+    {
+      "url": "https://www.leonardsexpress.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "leonard-s-express-5e7535cc",
+      "company": "Leonard's Express",
+      "aliases": [
+        "Leonard's Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Leonard’s Express Celebrates 25 Years of Success Through Service"
+    },
+    {
+      "url": "https://www.duprelogistics.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "dupr-logistics-6bcc34ca",
+      "company": "Dupré Logistics",
+      "aliases": [
+        "Dupré Logistics",
+        "Dupre Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Dupré Logistics Rises to No. 85 on the 2026 Transport Topics Top 100 For-Hire Carriers List"
+    },
+    {
+      "url": "https://www.duprelogistics.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "dupr-logistics-259a52a6",
+      "company": "Dupré Logistics",
+      "aliases": [
+        "Dupré Logistics",
+        "Dupre Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Dupré Logistics Rises to No. 85 on the 2026 Transport Topics Top 100 For-Hire Carriers List"
+    },
+    {
+      "url": "https://www.acmetruck.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "acme-truck-line-a7402ecf",
+      "company": "Acme Truck Line",
+      "aliases": [
+        "Acme Truck Line"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Reading Time Out"
+    },
+    {
+      "url": "https://www.acmetruck.com/about/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "acme-truck-line-a48c7db3",
+      "company": "Acme Truck Line",
+      "aliases": [
+        "Acme Truck Line"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Reading Time Out"
+    },
+    {
+      "url": "https://groendyke.com/press-and-news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "groendyke-6070b7b4",
+      "company": "Groendyke",
+      "aliases": [
+        "Groendyke"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 37,
+      "verification_sample_title": "Chairman of the Board John D. Groendyke Passes at 81"
+    },
+    {
+      "url": "https://www.papertransport.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "paper-transport-98516079",
+      "company": "Paper Transport",
+      "aliases": [
+        "Paper Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "PTI Helps Bring Scope 3 Ambitions into Daily Freight Operations"
+    },
+    {
+      "url": "https://www.papertransport.com/about-us/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "paper-transport-642e5c9f",
+      "company": "Paper Transport",
+      "aliases": [
+        "Paper Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "PTI Helps Bring Scope 3 Ambitions into Daily Freight Operations"
+    },
+    {
+      "url": "https://speedeedelivery.com/service-updates/",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "spee-dee-delivery-8ad9e4bf",
+      "company": "Spee-Dee Delivery",
+      "aliases": [
+        "Spee-Dee Delivery"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 26,
+      "verification_sample_title": "2026 Rate Announcement Letter"
+    },
+    {
+      "url": "https://magnumlog.com/feed",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "magnum-ltd-67402bd1",
+      "company": "Magnum Ltd",
+      "aliases": [
+        "Magnum Ltd",
+        "Magnum LTL"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Faces of Magnum: Regina Singler"
+    },
+    {
+      "url": "https://magnumlog.com/about-us/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "magnum-ltd-8d9d3c01",
+      "company": "Magnum Ltd",
+      "aliases": [
+        "Magnum Ltd",
+        "Magnum LTL"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 21,
+      "verification_sample_title": "Faces of Magnum: Regina Singler"
+    },
+    {
+      "url": "https://continentalexpressinc.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "continental-express-3b36bbdc",
+      "company": "Continental Express",
+      "aliases": [
+        "Continental Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 31,
+      "verification_sample_title": "Continental Express’ Kiera Sullivan named 56th Chair of the Ohio Trucking Association"
+    },
+    {
+      "url": "https://continentalexpressinc.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "continental-express-4b4a4020",
+      "company": "Continental Express",
+      "aliases": [
+        "Continental Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Continental Express’ Kiera Sullivan named 56th Chair of the Ohio Trucking Association"
+    },
+    {
+      "url": "https://www.pridetransport.com/news-and-events",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "pride-transport-9100438c",
+      "company": "Pride Transport",
+      "aliases": [
+        "Pride Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "How To Become A Truck Driver by Pride Transport | Nov 14, 2022"
+    },
+    {
+      "url": "https://systemfreight.net/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "system-freight-a2bbc4be",
+      "company": "System Freight",
+      "aliases": [
+        "System Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "System Freight Inc. is selected as Georgia Pacific’s Dedicated Carrier of The Year for a 2nd consecutive year for 2019"
+    },
+    {
+      "url": "https://systemfreight.net/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "system-freight-71c2aef5",
+      "company": "System Freight",
+      "aliases": [
+        "System Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "System Freight Inc. is selected as Georgia Pacific’s Dedicated Carrier of The Year for a 2nd consecutive year for 2019"
+    },
+    {
+      "url": "https://www.peninsulatruck.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "peninsula-truck-lines-0ca78b91",
+      "company": "Peninsula Truck Lines",
+      "aliases": [
+        "Peninsula Truck Lines"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Peninsula Truck Lines Announces Pacific Northwest Compliance Surcharge"
+    },
+    {
+      "url": "https://www.aboutamazon.com/rss/feed.rss",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "amazon-d0c96b0c",
+      "company": "Amazon",
+      "aliases": [
+        "Amazon"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": true,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Watch the teaser trailer for 'Invincible' Season 5, coming to Prime Video February 17"
+    },
+    {
+      "url": "https://www.aboutamazon.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "amazon-869e4acf",
+      "company": "Amazon",
+      "aliases": [
+        "Amazon"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": true,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "6 tips to help you spot and avoid scams impersonating Amazon"
+    },
+    {
+      "url": "https://investor.chrobinson.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "c-h-robinson-df033a34",
+      "company": "C.H. Robinson",
+      "aliases": [
+        "C.H. Robinson",
+        "CH Robinson"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "C.H. Robinson Increases Quarterly Cash Dividend"
+    },
+    {
+      "url": "https://investors.gxo.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "gxo-logistics-b2c2bd0c",
+      "company": "GXO Logistics",
+      "aliases": [
+        "GXO Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "GXO Announces Accelerated Deployment of Adaptive Technology Solutions in the U.S."
+    },
+    {
+      "url": "https://gxo.com/news-and-insights/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "gxo-logistics-5ed1b601",
+      "company": "GXO Logistics",
+      "aliases": [
+        "GXO Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "News and Insights"
+    },
+    {
+      "url": "https://info.expeditors.com/operational-impact/rss.xml",
+      "kind": "rss",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "expeditors-37eb5d63",
+      "company": "Expeditors",
+      "aliases": [
+        "Expeditors"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Middle East Operational Update - Saudi Arabia Transportation Disruptions | November 18, 2026"
+    },
+    {
+      "url": "https://info.expeditors.com/newsflash",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "expeditors-35659e4a",
+      "company": "Expeditors",
+      "aliases": [
+        "Expeditors"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 25,
+      "verification_sample_title": "UK Introduces Melt and Pour Reporting Requirements for Steel Imports"
+    },
+    {
+      "url": "https://newsroom.kuehne-nagel.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "kuehne-nagel-c8929d28",
+      "company": "Kuehne + Nagel",
+      "aliases": [
+        "Kuehne + Nagel"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "Kuehne+Nagel appoints new National Managers in Germany, Spain and the United States of America"
+    },
+    {
+      "url": "https://www.kuehne-nagel.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "kuehne-nagel-93c10c22",
+      "company": "Kuehne + Nagel",
+      "aliases": [
+        "Kuehne + Nagel"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "Sea Logistics knowledge hub"
+    },
+    {
+      "url": "https://www.dsv.com/en/about-dsv/press",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "dsv-9760f42b",
+      "company": "DSV",
+      "aliases": [
+        "DSV"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "DSV collaborates with Google Cloud on sustainable aviation fuel to deliver 25,000 tonnes of CO₂e emissions reductions in air freight"
+    },
+    {
+      "url": "https://www.dsv.com/en",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "dsv-0123a986",
+      "company": "DSV",
+      "aliases": [
+        "DSV"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "DSV collaborates with Google Cloud on sustainable aviation fuel to deliver 25,000 tonnes of CO₂e emissions reductions in air freight"
+    },
+    {
+      "url": "https://investors.rxo.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "rxo-a1a52b3c",
+      "company": "RXO",
+      "aliases": [
+        "RXO"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "RXO’s Latest Curve Freight Market Forecast Marks the Tenth Consecutive Quarter of Spot Rate Inflation"
+    },
+    {
+      "url": "https://rxo.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "rxo-4d27b736",
+      "company": "RXO",
+      "aliases": [
+        "RXO"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "RXO’s Latest Curve Freight Market Forecast Marks the Tenth Consecutive Quarter of Spot Rate Inflation"
+    },
+    {
+      "url": "https://group.dhl.com/en/investors.html",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "dhl-supply-chain-fffde361",
+      "company": "DHL Supply Chain",
+      "aliases": [
+        "DHL Supply Chain"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "Documents and key figures Q3/9M 2026 Reporting"
+    },
+    {
+      "url": "https://www.dhl.com/us-en/home.html?locale=true",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "dhl-supply-chain-936ae5b3",
+      "company": "DHL Supply Chain",
+      "aliases": [
+        "DHL Supply Chain"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Explore DHL Express"
+    },
+    {
+      "url": "https://ir.onelineage.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lineage-709f201a",
+      "company": "Lineage",
+      "aliases": [
+        "Lineage"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Lineage, Inc. Reports Third-Quarter 2026 Financial Results"
+    },
+    {
+      "url": "https://ir.onelineage.com/overview/default.aspx",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lineage-0448a859",
+      "company": "Lineage",
+      "aliases": [
+        "Lineage"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Earnings Release of Q3 2026, aspx file, (opens in new window)"
+    },
+    {
+      "url": "https://www.wwex.com/press-room",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "wwex-d345b3e4",
+      "company": "WWEX",
+      "aliases": [
+        "WWEX"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 20,
+      "verification_sample_title": "WWEX Group and Auctane Complete Merger, Creating Leading Logistics Provider ShipStation Global"
+    },
+    {
+      "url": "https://transportationinsight.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "transportation-insight-588d48df",
+      "company": "Transportation Insight",
+      "aliases": [
+        "Transportation Insight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Transportation Industry Trends: November 16-20, 2026"
+    },
+    {
+      "url": "https://ntgfreight.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "nolan-transportation-f18e2566",
+      "company": "Nolan Transportation",
+      "aliases": [
+        "Nolan Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Weekly Freight Trends: November 16-20, 2026"
+    },
+    {
+      "url": "https://ntgfreight.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "nolan-transportation-999f2552",
+      "company": "Nolan Transportation",
+      "aliases": [
+        "Nolan Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Stay in the Know: Carrier Trends & Market Updates"
+    },
+    {
+      "url": "https://www.uberfreight.com/en-US/rss.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "uber-freight-44f447b5",
+      "company": "Uber Freight",
+      "aliases": [
+        "Uber Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 100,
+      "verification_sample_title": "How nearshoring to Mexico is reshaping North American freight demand"
+    },
+    {
+      "url": "https://www.uberfreight.com/en-US",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "uber-freight-fb950c5b",
+      "company": "Uber Freight",
+      "aliases": [
+        "Uber Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "The Wall Street Journal highlights Uber Freight CEO Rebecca Tinucci’s strategy for growth and logistics innovation"
+    },
+    {
+      "url": "https://www.aitworldwide.com/newsroom/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ait-worldwide-89c9d40c",
+      "company": "AIT Worldwide",
+      "aliases": [
+        "AIT Worldwide"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "AIT Worldwide Logistics expands global footprint to Oceania with acquisition of Australia-based forwarder Connor Anderson International"
+    },
+    {
+      "url": "https://www.cevalogistics.com/en/news-and-media",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ceva-logistics-56151743",
+      "company": "Ceva Logistics",
+      "aliases": [
+        "Ceva Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "11/17/2026 Press release CEVA Logistics and SIT Jointly Launch Innovation Lab to Bring Flexible Automation from Research to the Warehouse Floor 11/17/2026 Five-year collaboration will develop and validate robotics and AI"
+    },
+    {
+      "url": "https://www.cevalogistics.com/en",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "ceva-logistics-41622e13",
+      "company": "Ceva Logistics",
+      "aliases": [
+        "Ceva Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Special highlights"
+    },
+    {
+      "url": "https://geodis.com/us-en/newsroom",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "geodis-a225ae37",
+      "company": "Geodis",
+      "aliases": [
+        "Geodis"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "GEODIS expands its intermodal transport network with a new dedicated railway line that directly connects Vicenza (Italy) and Noisy-le-Sec..."
+    },
+    {
+      "url": "https://geodis.com/blog-resources/customer-advisory",
+      "kind": "html",
+      "role": "service",
+      "allow_headline_links": true,
+      "id": "geodis-05460e9d",
+      "company": "Geodis",
+      "aliases": [
+        "Geodis"
+      ],
+      "enabled": true,
+      "track_updates": true,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 2,
+      "verification_sample_title": "GLOBAL MICROSOFT DISRUPTION: POTENTIAL IMPACT ON SHIPMENTS"
+    },
+    {
+      "url": "https://geodis.com/us-en",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "geodis-3a24588f",
+      "company": "Geodis",
+      "aliases": [
+        "Geodis"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "GEODIS expands its intermodal transport network with a new dedicated railway line that directly connects Vicenza (Italy) and Noisy-le-Sec (France, Par..."
+    },
+    {
+      "url": "https://www.arrivelogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "arrive-logistics-9f37a331",
+      "company": "Arrive Logistics",
+      "aliases": [
+        "Arrive Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Protected: Arrive Logistics Earns Rising Star Award from OFI"
+    },
+    {
+      "url": "https://www.arrivelogistics.com/category/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "arrive-logistics-949172e4",
+      "company": "Arrive Logistics",
+      "aliases": [
+        "Arrive Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "Mubadala Capital to Acquire Majority Equity Interest in Arrive Logistics"
+    },
+    {
+      "url": "https://www.americold.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "americold-a7401156",
+      "company": "Americold",
+      "aliases": [
+        "Americold"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "National Customer Service Week: Three Associate Stories, One Commitment to Customer Trust"
+    },
+    {
+      "url": "https://ir.americold.com/rss/pressrelease.aspx",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "americold-178f26a3",
+      "company": "Americold",
+      "aliases": [
+        "Americold"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Americold Earns Second Consecutive GRESB Sector Leader Recognition"
+    },
+    {
+      "url": "https://www.maersk.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "maersk-logistics-8fae0471",
+      "company": "Maersk Logistics",
+      "aliases": [
+        "Maersk Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 19,
+      "verification_sample_title": "Maersk expands integrated logistics capabilities in Uruguay with new Montevideo facility"
+    },
+    {
+      "url": "https://www.maersk.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "maersk-logistics-8d3a763f",
+      "company": "Maersk Logistics",
+      "aliases": [
+        "Maersk Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "Latest insights"
+    },
+    {
+      "url": "https://www.flexport.com/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "flexport-9423fe74",
+      "company": "Flexport",
+      "aliases": [
+        "Flexport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "LA and Long Beach Port Strike Averted With Tentative Deal"
+    },
+    {
+      "url": "https://www.flexport.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "flexport-74b22272",
+      "company": "Flexport",
+      "aliases": [
+        "Flexport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "LA and Long Beach Port Strike Averted With Tentative Deal"
+    },
+    {
+      "url": "https://www.modeglobal.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "mode-global-51a7d366",
+      "company": "Mode Global",
+      "aliases": [
+        "Mode Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "MODE Insight – November 2026"
+    },
+    {
+      "url": "https://www.modeglobal.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "mode-global-eb5c6c68",
+      "company": "Mode Global",
+      "aliases": [
+        "Mode Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "SUBSCRIBE TO OUR NEWSLETTER"
+    },
+    {
+      "url": "https://www.kln.com:443/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "kln-40343fb9",
+      "company": "KLN",
+      "aliases": [
+        "KLN"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "2025-08-15 Suspicious SMS Alert : KLN Logistics Group Limited (formerly known as Kerry Logistics Network Limited) wishes to alert its customers and members of the public to a suspicious SMS message claiming to be from “K"
+    },
+    {
+      "url": "https://www.capstonelogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "capstone-logistics-d1b4ac61",
+      "company": "Capstone Logistics",
+      "aliases": [
+        "Capstone Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Capstone Logistics named a 2026 Top 100 3PL Provider by Inbound Logistics"
+    },
+    {
+      "url": "https://www.capstonelogistics.com/resources/blog/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "capstone-logistics-b21bc99a",
+      "company": "Capstone Logistics",
+      "aliases": [
+        "Capstone Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Warehousing Thankful for the Associates and Partners Driving 3PL Performance Read More"
+    },
+    {
+      "url": "https://www.scotlynn.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "scotlynn-9ab5de9e",
+      "company": "Scotlynn",
+      "aliases": [
+        "Scotlynn"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 50,
+      "verification_sample_title": "Scotlynn Expands Footprint with New Greenville, South Carolina Office"
+    },
+    {
+      "url": "https://kencogroup.com/category/news/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "kenco-a7aa135c",
+      "company": "Kenco",
+      "aliases": [
+        "Kenco"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Kenco Honored with Proctor & Gamble’s 2025 Constructive Disruptor Award"
+    },
+    {
+      "url": "https://kencogroup.com/category/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "kenco-c48d12b1",
+      "company": "Kenco",
+      "aliases": [
+        "Kenco"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 14,
+      "verification_sample_title": "Featured in Inc: Why Successful Companies Miss Their Next Growth Opportunity"
+    },
+    {
+      "url": "https://www.sekologistics.com/en/resource-hub/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "seko-logistics-67580ade",
+      "company": "Seko Logistics",
+      "aliases": [
+        "Seko Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Air Freight Market Update: November 2026 Peak Season & Disruption Advisory Client Advisories, Freight Forwarding November 19, 2026"
+    },
+    {
+      "url": "https://www.its4logistics.com/resources/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "its-logistics-a906fb36",
+      "company": "ITS Logistics",
+      "aliases": [
+        "ITS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Caraway Home Feeds Modern Demand While Cutting Parcel Costs 20%"
+    },
+    {
+      "url": "https://www.its4logistics.com/resources/press-releases",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "its-logistics-b049b3f9",
+      "company": "ITS Logistics",
+      "aliases": [
+        "ITS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Caraway Home Feeds Modern Demand While Cutting Parcel Costs 20%"
+    },
+    {
+      "url": "https://www.armstrongtransport.com/blog/rss.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "armstrong-transport-2629e63e",
+      "company": "Armstrong Transport",
+      "aliases": [
+        "Armstrong Transport"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "What is a Freight Brokerage?"
+    },
+    {
+      "url": "https://www.allenlund.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "allen-lund-ddf900b3",
+      "company": "Allen Lund",
+      "aliases": [
+        "Allen Lund"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "USDA $8B Harvest Fuel Relief Program"
+    },
+    {
+      "url": "https://www.priority1.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "priority-1-3def7fc7",
+      "company": "Priority-1",
+      "aliases": [
+        "Priority-1"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "EMPLOYEE OF THE QUARTER: EMILY JONES"
+    },
+    {
+      "url": "https://www.redwoodlogistics.com/insights",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "redwood-logistics-aac3454d",
+      "company": "Redwood Logistics",
+      "aliases": [
+        "Redwood Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 15,
+      "verification_sample_title": "Cold Weather Shipments: Winter Shipping Best Practices"
+    },
+    {
+      "url": "https://www.traffix.com/feed",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "traffix-56b9c477",
+      "company": "Traffix",
+      "aliases": [
+        "Traffix"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "Expedited Freight Equipment Guide"
+    },
+    {
+      "url": "https://axlelogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "axle-logistics-858e0062",
+      "company": "Axle Logistics",
+      "aliases": [
+        "Axle Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "The Work Behind Every Opportunity: Jarrod Kelly’s Team Success Story"
+    },
+    {
+      "url": "https://trinitylogistics.com/feed",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "trinity-logistics-fdb8a0e6",
+      "company": "Trinity Logistics",
+      "aliases": [
+        "Trinity Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Trinity Logistics Expands Minneapolis Office Amid Continued Growth"
+    },
+    {
+      "url": "https://ascentlogistics.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "ascent-global-4750c431",
+      "company": "Ascent Global",
+      "aliases": [
+        "Ascent Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Ascent Global Logistics Names Gal Dayan Chief Operating Officer Effective October 1"
+    },
+    {
+      "url": "https://america.cjlogistics.com/resources?source=News",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "cj-logistics-70bfb05f",
+      "company": "CJ Logistics",
+      "aliases": [
+        "CJ Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 100,
+      "verification_sample_title": "Build Faster, Leaner Supply Chains for 2027"
+    },
+    {
+      "url": "https://mybluegrace.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "bluegrace-82e731b5",
+      "company": "BlueGrace",
+      "aliases": [
+        "BlueGrace"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "BlueGrace Logistics Freight Market Update – November 2026"
+    },
+    {
+      "url": "https://www.megacorplogistics.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "megacorp-logistics-e109e10b",
+      "company": "MegaCorp Logistics",
+      "aliases": [
+        "MegaCorp Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 100,
+      "verification_sample_title": "MegaCorp Market Pulse: November 16–22, 2026"
+    },
+    {
+      "url": "https://www.odysseylogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "odyssey-logistics-0980b388",
+      "company": "Odyssey Logistics",
+      "aliases": [
+        "Odyssey Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Odyssey Consolidated Policy Compendium"
+    },
+    {
+      "url": "https://ielfreight.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "integrity-express-1603bd78",
+      "company": "Integrity Express",
+      "aliases": [
+        "Integrity Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "November Freight Market Update: Holiday Demand and Winter Pressure Build"
+    },
+    {
+      "url": "https://spotinc.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "spot-inc-e288e8e4",
+      "company": "Spot Inc",
+      "aliases": [
+        "Spot Inc"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Logistics Market Update: November 2026"
+    },
+    {
+      "url": "https://www.nipponexpress.com/press/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "nippon-express-f5cfe0b9",
+      "company": "Nippon Express",
+      "aliases": [
+        "Nippon Express"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 28,
+      "verification_sample_title": "2026/11/18 JAPAN Officer Assignments (Nippon Express Holdings and Nippon Express)"
+    },
+    {
+      "url": "https://www.craneww.com/insights/industry-insight-news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "crane-worldwide-5ead39a9",
+      "company": "Crane Worldwide",
+      "aliases": [
+        "Crane Worldwide"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 13,
+      "verification_sample_title": "Service Advisory: U.S. Flight Groundings and Potential Air Freight Delays"
+    },
+    {
+      "url": "https://www.plslogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "pls-logistics-9ab2f658",
+      "company": "PLS Logistics",
+      "aliases": [
+        "PLS Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "CAPE Phase 3 Is Live. Here’s Who It’s For (and What Everyone Else Should Check)"
+    },
+    {
+      "url": "https://radiantdelivers.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "radiant-logistics-2d1b8979",
+      "company": "Radiant Logistics",
+      "aliases": [
+        "Radiant Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "Radiant Logistics Announces Results For The First Fiscal Quarter Ended September 30, 2026"
+    },
+    {
+      "url": "https://www.scangl.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "scan-global-8f32592d",
+      "company": "Scan Global",
+      "aliases": [
+        "Scan Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 8,
+      "verification_sample_title": "News 13 Nov, 2026 Widespread Microsoft Outlook and Microsoft 365 service disruption currently affecting users worldwide We want to make you aware of a widespread Microsoft Outlook and Microsoft 365 service disruption cur"
+    },
+    {
+      "url": "https://www.scangl.com/investor/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "scan-global-2a59cacb",
+      "company": "Scan Global",
+      "aliases": [
+        "Scan Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Company Announcement 44"
+    },
+    {
+      "url": "https://www.hellmann.com/en/news-press",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "hellmann-worldwide-a20e3777",
+      "company": "Hellmann Worldwide",
+      "aliases": [
+        "Hellmann Worldwide"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "Hellmann marks 25 years in Mexico and targets further growth in key global market"
+    },
+    {
+      "url": "https://www.id-logistics.com/en/id-news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "id-logistics-61b218ac",
+      "company": "ID Logistics",
+      "aliases": [
+        "ID Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 12,
+      "verification_sample_title": "News 16.11.2026 Disability: ID Logistics breaks down barriers to employment in logistics"
+    },
+    {
+      "url": "https://www.id-logistics.com/fr/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "id-logistics-729e0032",
+      "company": "ID Logistics",
+      "aliases": [
+        "ID Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 4,
+      "verification_sample_title": "Actualité 16.11.2026 Handicap : ID Logistics fait tomber les barrières à l’emploi dans la logistique"
+    },
+    {
+      "url": "https://www.radial.com/resources/press-room",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "paxon-d8591759",
+      "company": "Paxon",
+      "aliases": [
+        "Paxon"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 14,
+      "verification_sample_title": "Read More Radial, Staci Americas and Base Logistics Become Paxon, Creating a Stronger Global Platform for Customers"
+    },
+    {
+      "url": "https://www.oiaglobal.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "oia-global-fcd46d7e",
+      "company": "OIA Global",
+      "aliases": [
+        "OIA Global"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 16,
+      "verification_sample_title": "Scan Global Logistics signs agreement to acquire OIA Global"
+    },
+    {
+      "url": "https://www.lazerlogistics.com/resources/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lazer-logistics-ed5cd36c",
+      "company": "Lazer Logistics",
+      "aliases": [
+        "Lazer Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 46,
+      "verification_sample_title": "Lazer Logistics Recognized by CIO Bulletin as an Innovator of the Year 2026"
+    },
+    {
+      "url": "https://www.lazerlogistics.com/resources/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "lazer-logistics-9b508722",
+      "company": "Lazer Logistics",
+      "aliases": [
+        "Lazer Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 50,
+      "verification_sample_title": "It Started With One Truck and A Napkin"
+    },
+    {
+      "url": "https://rjwgroup.com",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "rjw-logistics-5f87247e",
+      "company": "RJW Logistics",
+      "aliases": [
+        "RJW Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "RJW Logistics Group Expands in Minneapolis to Advance Target Partnership"
+    },
+    {
+      "url": "https://www.logisticsplus.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "logistics-plus-15025da8",
+      "company": "Logistics Plus",
+      "aliases": [
+        "Logistics Plus"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 9,
+      "verification_sample_title": "Logistics Plus Named Finalist for Tech 50 Award in Company Culture Category"
+    },
+    {
+      "url": "https://investor.matson.com/rss/news-releases.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "matson-logistics-a07fca73",
+      "company": "Matson Logistics",
+      "aliases": [
+        "Matson Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "MATSON TO PARTICIPATE AT STEPHENS 2026 ANNUAL INVESTMENT CONFERENCE"
+    },
+    {
+      "url": "https://neovialogistics.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "neovia-logistics-4419b7af",
+      "company": "Neovia Logistics",
+      "aliases": [
+        "Neovia Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Neovia Logistics to Join LOGISTEED, Expanding Global Reach for Customers Across the Americas, Europe, and Asia-Pacific"
+    },
+    {
+      "url": "https://neovialogistics.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "neovia-logistics-a51a7d8f",
+      "company": "Neovia Logistics",
+      "aliases": [
+        "Neovia Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 7,
+      "verification_sample_title": "Neovia Logistics to Join LOGISTEED, Expanding Global Reach for Customers Across the Americas, Europe, and Asia-Pacific"
+    },
+    {
+      "url": "https://www.kwe.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "kintetsu-world-93fbccc6",
+      "company": "Kintetsu World",
+      "aliases": [
+        "Kintetsu World"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 18,
+      "verification_sample_title": "Nov. 10, 2026 News Release KWE to Participate in Tokyo Metropolitan Government Seminar on Scope 3 Emissions Reduction in Logistics"
+    },
+    {
+      "url": "https://www.taservices.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "ta-services-afb06bdf",
+      "company": "TA Services",
+      "aliases": [
+        "TA Services"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "TA Services Acquires Carmen Pacheco Transportation and Interload Forwarding, Expanding U.S.–Mexico Cross-Border Capabilities"
+    },
+    {
+      "url": "https://www.taservices.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "ta-services-210c0c62",
+      "company": "TA Services",
+      "aliases": [
+        "TA Services"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 5,
+      "verification_sample_title": "TA Services Acquires Carmen Pacheco Transportation and Interload Forwarding, Expanding U.S.–Mexico Cross-Border Capabilities"
+    },
+    {
+      "url": "https://www.watco.com/news/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "watco-0333b7d5",
+      "company": "Watco",
+      "aliases": [
+        "Watco"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 11,
+      "verification_sample_title": "Watco Unveils Patriotic Locomotive Honoring America’s 250th Anniversary"
+    },
+    {
+      "url": "https://circledelivers.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "circle-logistics-ef788ca9",
+      "company": "Circle Logistics",
+      "aliases": [
+        "Circle Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "The October Freight Market at a Glance"
+    },
+    {
+      "url": "https://www.rpmmoves.com/news",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "rpm-freight-910745f5",
+      "company": "RPM Freight",
+      "aliases": [
+        "RPM Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 6,
+      "verification_sample_title": "RPM Welcomes Joe Bojaj as Chief Financial Officer 11 May 2026"
+    },
+    {
+      "url": "https://www.rpmmoves.com/blog",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "rpm-freight-384a953c",
+      "company": "RPM Freight",
+      "aliases": [
+        "RPM Freight"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Oversized Freight Shipping: When a Load Goes Oversize and How to Ship It"
+    },
+    {
+      "url": "https://www.flstransport.com/feed/",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": false,
+      "id": "fls-transportation-f8c19db1",
+      "company": "FLS Transportation",
+      "aliases": [
+        "FLS Transportation"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 10,
+      "verification_sample_title": "Perfect North-South Combination Creates New Top 3PL"
+    },
+    {
+      "url": "https://www.odwlogistics.com/blog/rss.xml",
+      "kind": "rss",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "odw-logistics-28c10cc5",
+      "company": "ODW Logistics",
+      "aliases": [
+        "ODW Logistics"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verified_at_utc": "2026-11-22T19:46:03Z",
+      "verification_entry_count": 1,
+      "verification_sample_title": "How to Evaluate E-Commerce Fulfillment Partners: A 2026 Decision Guide for Growing DTC Brands"
+    }
+  ],
+  "coverage": [
+    {
+      "company": "BNSF",
+      "source_ids": [
+        "bnsf-5d31692a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://bnsf.com"
+    },
+    {
+      "company": "Union Pacific",
+      "source_ids": [
+        "union-pacific-c5624f2c",
+        "union-pacific-9b06e9a4",
+        "union-pacific-8b677772",
+        "union-pacific-a18e2195"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.up.com/"
+    },
+    {
+      "company": "CSX",
+      "source_ids": [
+        "csx-e3a2c40c",
+        "csx-01c0a656",
+        "csx-beee7146",
+        "csx-3964eb71"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.csx.com/"
+    },
+    {
+      "company": "Norfolk Southern",
+      "source_ids": [
+        "norfolk-southern-42aa72fd",
+        "norfolk-southern-ea909e93",
+        "norfolk-southern-ed33758c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://norfolksouthern.com"
+    },
+    {
+      "company": "CPKC",
+      "source_ids": [
+        "cpkc-84eeccef"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Canadian Pacific",
+      "source_ids": [
+        "cpkc-84eeccef"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Canadian National",
+      "source_ids": [
+        "canadian-national-6a37d191",
+        "canadian-national-689a453f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.cn.ca/en/"
+    },
+    {
+      "company": "UPS",
+      "source_ids": [
+        "ups-91e316fb",
+        "ups-20704754"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://about.ups.com/us/en/home.html"
+    },
+    {
+      "company": "FedEx",
+      "source_ids": [
+        "fedex-524dfc77",
+        "fedex-4ddf7f6b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://newsroom.fedex.com"
+    },
+    {
+      "company": "FedEx Freight",
+      "source_ids": [
+        "fedex-524dfc77",
+        "fedex-4ddf7f6b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://newsroom.fedex.com"
+    },
+    {
+      "company": "J.B. Hunt",
+      "source_ids": [
+        "j-b-hunt-6540d6c4",
+        "j-b-hunt-bd418213"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.jbhunt.com/"
+    },
+    {
+      "company": "JB Hunt",
+      "source_ids": [
+        "j-b-hunt-6540d6c4",
+        "j-b-hunt-bd418213"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.jbhunt.com/"
+    },
+    {
+      "company": "XPO",
+      "source_ids": [
+        "xpo-00a3e99d",
+        "xpo-da8332c5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.xpo.com/"
+    },
+    {
+      "company": "TFI International",
+      "source_ids": [
+        "tfi-international-f05fff1e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Ryder",
+      "source_ids": [
+        "ryder-f1d3bde1",
+        "ryder-bb89d7c0"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.ryder.com/en-us"
+    },
+    {
+      "company": "Knight-Swift",
+      "source_ids": [
+        "knight-swift-749c262e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Estes Express",
+      "source_ids": [
+        "estes-express-ca79a6c3",
+        "estes-express-942c3ab5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.estes-express.com/"
+    },
+    {
+      "company": "Schneider",
+      "source_ids": [
+        "schneider-228b0989",
+        "schneider-3e9173cb"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://schneider.com"
+    },
+    {
+      "company": "Old Dominion",
+      "source_ids": [
+        "old-dominion-97f95ba7",
+        "old-dominion-e1d164c4"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.odfl.com/"
+    },
+    {
+      "company": "Landstar",
+      "source_ids": [
+        "landstar-8792bdf2",
+        "landstar-89bf7434"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.landstar.com/"
+    },
+    {
+      "company": "Penske Logistics",
+      "source_ids": [
+        "penske-logistics-f2d9894f",
+        "penske-logistics-9a30138b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.penskelogistics.com/"
+    },
+    {
+      "company": "ArcBest",
+      "source_ids": [
+        "arcbest-f787a7fa",
+        "arcbest-2810f625"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://arcb.com"
+    },
+    {
+      "company": "ABF Freight",
+      "source_ids": [
+        "arcbest-f787a7fa",
+        "arcbest-2810f625"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://arcb.com"
+    },
+    {
+      "company": "Hub Group",
+      "source_ids": [
+        "hub-group-ff00223b",
+        "hub-group-5b7d8717"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.hubgroup.com/"
+    },
+    {
+      "company": "R+L Carriers",
+      "source_ids": [
+        "r-l-carriers-8a8077d5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.rlcarriers.com/"
+    },
+    {
+      "company": "NFI",
+      "source_ids": [
+        "nfi-a5378003"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Saia",
+      "source_ids": [
+        "saia-745d7e50",
+        "saia-c3199bd9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Werner Enterprises",
+      "source_ids": [
+        "werner-enterprises-c12a4f96",
+        "werner-enterprises-64fbca68"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://werner.com"
+    },
+    {
+      "company": "Prime Inc",
+      "source_ids": [
+        "prime-inc-a8032ea5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.primeinc.com/"
+    },
+    {
+      "company": "Purolator",
+      "source_ids": [
+        "purolator-6c78c114",
+        "purolator-51a2d1eb",
+        "purolator-dbca4d8a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.purolator.com/en"
+    },
+    {
+      "company": "Kenan Advantage",
+      "source_ids": [
+        "kenan-advantage-0fb28d72"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.thekag.com/"
+    },
+    {
+      "company": "KAG Logistics",
+      "source_ids": [
+        "kenan-advantage-0fb28d72"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.thekag.com/"
+    },
+    {
+      "company": "Evans Network",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://evansdelivery.com"
+    },
+    {
+      "company": "Southeastern Freight",
+      "source_ids": [
+        "southeastern-freight-468cdb72"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Central Transport",
+      "source_ids": [
+        "central-transport-81c70b86"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://centraltransport.com"
+    },
+    {
+      "company": "PS Logistics",
+      "source_ids": [
+        "ps-logistics-ee624230"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.pslogistics.com/"
+    },
+    {
+      "company": "Day & Ross",
+      "source_ids": [
+        "day-ross-48c1c9f4",
+        "day-ross-9c2bd60e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://dayross.com"
+    },
+    {
+      "company": "Universal Logistics",
+      "source_ids": [
+        "universal-logistics-9d069192"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.universallogistics.com/en-US"
+    },
+    {
+      "company": "Averitt Express",
+      "source_ids": [
+        "averitt-express-1031df77",
+        "averitt-express-01307e5d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.averitt.com/"
+    },
+    {
+      "company": "Ruan",
+      "source_ids": [
+        "ruan-8f65669a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.ruan.com/"
+    },
+    {
+      "company": "Anderson Trucking",
+      "source_ids": [
+        "anderson-trucking-f6358c03",
+        "anderson-trucking-97c02d68"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.atsinc.com/"
+    },
+    {
+      "company": "ATS Logistics",
+      "source_ids": [
+        "anderson-trucking-f6358c03",
+        "anderson-trucking-97c02d68"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.atsinc.com/"
+    },
+    {
+      "company": "Crete Carrier",
+      "source_ids": [
+        "crete-carrier-9c5a60a3",
+        "crete-carrier-26a4d728"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://cretecarrier.com"
+    },
+    {
+      "company": "STG Logistics",
+      "source_ids": [
+        "stg-logistics-d3e8f632",
+        "stg-logistics-eabf0cf8",
+        "stg-logistics-b00f3f8d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.stgusa.com/"
+    },
+    {
+      "company": "Lynden",
+      "source_ids": [
+        "lynden-ac5da67c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "C.R. England",
+      "source_ids": [
+        "c-r-england-86adfc1c",
+        "c-r-england-0b035196"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.crengland.com/"
+    },
+    {
+      "company": "CRST",
+      "source_ids": [
+        "crst-9f26f1e5",
+        "crst-0689885f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.crst.com/"
+    },
+    {
+      "company": "Forward Air",
+      "source_ids": [
+        "forward-air-5ad42123",
+        "forward-air-96821b78"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.forwardair.com/about"
+    },
+    {
+      "company": "Omni Logistics",
+      "source_ids": [
+        "omni-logistics-46fc3456"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://omnilogistics.com"
+    },
+    {
+      "company": "Bennett Family",
+      "source_ids": [
+        "bennett-family-fc3abc6c",
+        "bennett-family-a8b68b7d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.bennettig.com/"
+    },
+    {
+      "company": "Covenant Logistics",
+      "source_ids": [
+        "covenant-logistics-de07dc80",
+        "covenant-logistics-d942a688"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.covenantlogistics.com/"
+    },
+    {
+      "company": "Mullen Group",
+      "source_ids": [
+        "mullen-group-f506f825"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.mullen-group.com/"
+    },
+    {
+      "company": "Bridgeway Connects",
+      "source_ids": [
+        "bridgeway-connects-8f7cb95f",
+        "bridgeway-connects-400f273f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://bridgewayconnects.com"
+    },
+    {
+      "company": "Canada Cartage",
+      "source_ids": [
+        "canada-cartage-e284ae81"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.canadacartage.com/"
+    },
+    {
+      "company": "Dayton Freight",
+      "source_ids": [
+        "dayton-freight-5c9a638f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://daytonfreight.com"
+    },
+    {
+      "company": "Pitt Ohio",
+      "source_ids": [
+        "pitt-ohio-97e0a0f2"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "KLLM",
+      "source_ids": [
+        "kllm-75c3243a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.kllm.com/"
+    },
+    {
+      "company": "UniGroup",
+      "source_ids": [
+        "unigroup-4dc10430"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.unigroup.com:443/"
+    },
+    {
+      "company": "Atlas World Group",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://www.atlasworldgroupinc.com/"
+    },
+    {
+      "company": "Marten Transport",
+      "source_ids": [
+        "marten-transport-dc63a513",
+        "marten-transport-4d6944d3"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.marten.com/"
+    },
+    {
+      "company": "Quantix",
+      "source_ids": [
+        "quantix-2617e9dc",
+        "quantix-b9ab7ad1"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.quantixscs.com/"
+    },
+    {
+      "company": "IMC Logistics",
+      "source_ids": [
+        "imc-logistics-66f63da7"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.imcc.com/"
+    },
+    {
+      "company": "A. Duie Pyle",
+      "source_ids": [
+        "a-duie-pyle-3db154fe",
+        "a-duie-pyle-3c2fa364"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://aduiepyle.com"
+    },
+    {
+      "company": "Quality Carriers",
+      "source_ids": [
+        "quality-carriers-aec5b45f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Heartland Express",
+      "source_ids": [
+        "heartland-express-e6c5207c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.heartlandexpress.com/"
+    },
+    {
+      "company": "Western Express",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://westernexp.com"
+    },
+    {
+      "company": "Bison Transport",
+      "source_ids": [
+        "bison-transport-7ed4ed58",
+        "bison-transport-97d9376e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.bisontransport.com/"
+    },
+    {
+      "company": "Stevens Transport",
+      "source_ids": [
+        "stevens-transport-c18d61e0",
+        "stevens-transport-4d1ea9bd"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.stevenstransport.com/"
+    },
+    {
+      "company": "Manitoulin",
+      "source_ids": [
+        "manitoulin-01d65954",
+        "manitoulin-1b9c564b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://manitoulintransport.com"
+    },
+    {
+      "company": "Hirschbach",
+      "source_ids": [
+        "hirschbach-e7164a5f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://hirschbach.com"
+    },
+    {
+      "company": "RoadOne",
+      "source_ids": [
+        "roadone-74ed0ba7",
+        "roadone-a8fe5934"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.roadone.com/"
+    },
+    {
+      "company": "TMC Transportation",
+      "source_ids": [
+        "tmc-transportation-83b2c9eb",
+        "tmc-transportation-92c46e3b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.tmctrans.com:443/"
+    },
+    {
+      "company": "Mesilla Valley",
+      "source_ids": [
+        "mesilla-valley-f0b78148",
+        "mesilla-valley-81ec3bf1"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://m-v-t.com"
+    },
+    {
+      "company": "Transervice Logistics",
+      "source_ids": [
+        "transervice-logistics-5d6c133b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Lily Transportation",
+      "source_ids": [
+        "lily-transportation-8496108d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Mercer Transportation",
+      "source_ids": [
+        "mercer-transportation-e92ccdcf"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Fastfrate",
+      "source_ids": [
+        "fastfrate-58e3347f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.fastfrate.com/"
+    },
+    {
+      "company": "PAMT Corp",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No readable public page: PAM Transport; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": null
+    },
+    {
+      "company": "Foodliner",
+      "source_ids": [
+        "foodliner-ec25cb9f",
+        "foodliner-b3f4294d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://foodliner.com"
+    },
+    {
+      "company": "Quest Liner",
+      "source_ids": [
+        "quest-liner-0674fcc0"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://questliner.com"
+    },
+    {
+      "company": "PGT Holdings",
+      "source_ids": [
+        "pgt-holdings-197edb1e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Beemac",
+      "source_ids": [
+        "beemac-a1623343",
+        "beemac-0fe8415c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://beemactrucking.com/"
+    },
+    {
+      "company": "Maverick Transportation",
+      "source_ids": [
+        "maverick-transportation-1c6b4298"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.maverickusa.com/"
+    },
+    {
+      "company": "Roehl Transport",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Koch Companies",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No meaningful article entries",
+      "official_homepage": "https://kochtrucking.com"
+    },
+    {
+      "company": "Roadrunner Freight",
+      "source_ids": [
+        "roadrunner-freight-7aa6a124",
+        "roadrunner-freight-0d2ddc20"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://freight.rrts.com/Pages/Home.aspx"
+    },
+    {
+      "company": "Bay and Bay",
+      "source_ids": [
+        "bay-and-bay-39c27712"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://bayandbay.com"
+    },
+    {
+      "company": "Melton Truck Lines",
+      "source_ids": [
+        "melton-truck-lines-1486f0dd",
+        "melton-truck-lines-1c20b5a2"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://meltontruck.com"
+    },
+    {
+      "company": "Daylight Transport",
+      "source_ids": [
+        "daylight-transport-b8cbf614"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.dylt.com/"
+    },
+    {
+      "company": "Oak Harbor Freight",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://oakh.com"
+    },
+    {
+      "company": "TCI Transportation",
+      "source_ids": [
+        "tci-transportation-1f7a0221",
+        "tci-transportation-d5a0c386"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://tcitransportation.com"
+    },
+    {
+      "company": "Trans-System",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": null
+    },
+    {
+      "company": "Red Classic",
+      "source_ids": [
+        "red-classic-4f6b2ee6"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.redclassic.com/"
+    },
+    {
+      "company": "United Vision Logistics",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Artur Express",
+      "source_ids": [
+        "artur-express-d483af65",
+        "artur-express-25f2c568"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://arturexpress.com"
+    },
+    {
+      "company": "United Petroleum Transports",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No readable public page: United Petroleum Transports - Seamless Delivery... Every Time",
+      "official_homepage": null
+    },
+    {
+      "company": "Ward Transport",
+      "source_ids": [
+        "ward-transport-a89ba397"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.wardtlc.com/"
+    },
+    {
+      "company": "Leonard's Express",
+      "source_ids": [
+        "leonard-s-express-3b962d64",
+        "leonard-s-express-5e7535cc"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.leonardsexpress.com/"
+    },
+    {
+      "company": "Dupré Logistics",
+      "source_ids": [
+        "dupr-logistics-6bcc34ca",
+        "dupr-logistics-259a52a6"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.duprelogistics.com/"
+    },
+    {
+      "company": "Dupre Logistics",
+      "source_ids": [
+        "dupr-logistics-6bcc34ca",
+        "dupr-logistics-259a52a6"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.duprelogistics.com/"
+    },
+    {
+      "company": "Cassens Transport",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Acme Truck Line",
+      "source_ids": [
+        "acme-truck-line-a7402ecf",
+        "acme-truck-line-a48c7db3"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.acmetruck.com/"
+    },
+    {
+      "company": "Groendyke",
+      "source_ids": [
+        "groendyke-6070b7b4"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://groendyke.com"
+    },
+    {
+      "company": "Paper Transport",
+      "source_ids": [
+        "paper-transport-98516079",
+        "paper-transport-642e5c9f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.papertransport.com/"
+    },
+    {
+      "company": "May Trucking",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://maytrucking.com"
+    },
+    {
+      "company": "Gulf Winds",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "CrossCountry Freight",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory ",
+      "official_homepage": "https://www.ccfs.com:443/"
+    },
+    {
+      "company": "National Carriers",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://www.nationalcarriers.com/default.aspx"
+    },
+    {
+      "company": "Highlight Motor",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://highlightmotor.com"
+    },
+    {
+      "company": "Spee-Dee Delivery",
+      "source_ids": [
+        "spee-dee-delivery-8ad9e4bf"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://speedeedelivery.com"
+    },
+    {
+      "company": "Blackhawk Transport",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://www.blackhawktransport.com/"
+    },
+    {
+      "company": "Magnum Ltd",
+      "source_ids": [
+        "magnum-ltd-67402bd1",
+        "magnum-ltd-8d9d3c01"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://magnumlog.com"
+    },
+    {
+      "company": "Magnum LTL",
+      "source_ids": [
+        "magnum-ltd-67402bd1",
+        "magnum-ltd-8d9d3c01"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://magnumlog.com"
+    },
+    {
+      "company": "Continental Express",
+      "source_ids": [
+        "continental-express-3b36bbdc",
+        "continental-express-4b4a4020"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://continentalexpressinc.com"
+    },
+    {
+      "company": "Pride Transport",
+      "source_ids": [
+        "pride-transport-9100438c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.pridetransport.com/"
+    },
+    {
+      "company": "System Freight",
+      "source_ids": [
+        "system-freight-a2bbc4be",
+        "system-freight-71c2aef5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://systemfreight.net"
+    },
+    {
+      "company": "AAA Cooper",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://aaacooper.com"
+    },
+    {
+      "company": "Peninsula Truck Lines",
+      "source_ids": [
+        "peninsula-truck-lines-0ca78b91"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.peninsulatruck.com/"
+    },
+    {
+      "company": "North Park Transportation",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://nopk.com"
+    },
+    {
+      "company": "TGR Logistics",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://www.tgrlogistics.com/"
+    },
+    {
+      "company": "Amazon",
+      "source_ids": [
+        "amazon-d0c96b0c",
+        "amazon-869e4acf"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.aboutamazon.com:443/"
+    },
+    {
+      "company": "C.H. Robinson",
+      "source_ids": [
+        "c-h-robinson-df033a34"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "CH Robinson",
+      "source_ids": [
+        "c-h-robinson-df033a34"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "GXO Logistics",
+      "source_ids": [
+        "gxo-logistics-b2c2bd0c",
+        "gxo-logistics-5ed1b601"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://gxo.com"
+    },
+    {
+      "company": "Expeditors",
+      "source_ids": [
+        "expeditors-37eb5d63",
+        "expeditors-35659e4a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.expeditors.com/"
+    },
+    {
+      "company": "Kuehne + Nagel",
+      "source_ids": [
+        "kuehne-nagel-c8929d28",
+        "kuehne-nagel-93c10c22"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.kuehne-nagel.com/"
+    },
+    {
+      "company": "DSV",
+      "source_ids": [
+        "dsv-9760f42b",
+        "dsv-0123a986"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.dsv.com/en"
+    },
+    {
+      "company": "RXO",
+      "source_ids": [
+        "rxo-a1a52b3c",
+        "rxo-4d27b736"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://rxo.com"
+    },
+    {
+      "company": "DHL Supply Chain",
+      "source_ids": [
+        "dhl-supply-chain-fffde361",
+        "dhl-supply-chain-936ae5b3"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.dhl.com/us-en/home.html?locale=true"
+    },
+    {
+      "company": "Lineage",
+      "source_ids": [
+        "lineage-709f201a",
+        "lineage-0448a859"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.onelineage.com/"
+    },
+    {
+      "company": "WWEX",
+      "source_ids": [
+        "wwex-d345b3e4"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.wwex.com/"
+    },
+    {
+      "company": "Beon",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Transportation Insight",
+      "source_ids": [
+        "transportation-insight-588d48df"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://transportationinsight.com"
+    },
+    {
+      "company": "Nolan Transportation",
+      "source_ids": [
+        "nolan-transportation-f18e2566",
+        "nolan-transportation-999f2552"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://ntgfreight.com"
+    },
+    {
+      "company": "Uber Freight",
+      "source_ids": [
+        "uber-freight-44f447b5",
+        "uber-freight-fb950c5b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.uberfreight.com/en-US"
+    },
+    {
+      "company": "AIT Worldwide",
+      "source_ids": [
+        "ait-worldwide-89c9d40c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.aitworldwide.com:443/"
+    },
+    {
+      "company": "Ceva Logistics",
+      "source_ids": [
+        "ceva-logistics-56151743",
+        "ceva-logistics-41622e13"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.cevalogistics.com/en"
+    },
+    {
+      "company": "Geodis",
+      "source_ids": [
+        "geodis-a225ae37",
+        "geodis-05460e9d",
+        "geodis-3a24588f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://geodis.com/us-en"
+    },
+    {
+      "company": "Arrive Logistics",
+      "source_ids": [
+        "arrive-logistics-9f37a331",
+        "arrive-logistics-949172e4"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.arrivelogistics.com/"
+    },
+    {
+      "company": "Americold",
+      "source_ids": [
+        "americold-a7401156",
+        "americold-178f26a3"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.americold.com/"
+    },
+    {
+      "company": "Maersk Logistics",
+      "source_ids": [
+        "maersk-logistics-8fae0471",
+        "maersk-logistics-8d3a763f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.maersk.com/"
+    },
+    {
+      "company": "Flexport",
+      "source_ids": [
+        "flexport-9423fe74",
+        "flexport-74b22272"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.flexport.com/"
+    },
+    {
+      "company": "Mode Global",
+      "source_ids": [
+        "mode-global-51a7d366",
+        "mode-global-eb5c6c68"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.modeglobal.com/"
+    },
+    {
+      "company": "PSA BDP",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "KLN",
+      "source_ids": [
+        "kln-40343fb9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.kln.com:443/"
+    },
+    {
+      "company": "Capstone Logistics",
+      "source_ids": [
+        "capstone-logistics-d1b4ac61",
+        "capstone-logistics-b21bc99a"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.capstonelogistics.com/"
+    },
+    {
+      "company": "Scotlynn",
+      "source_ids": [
+        "scotlynn-9ab5de9e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Kenco",
+      "source_ids": [
+        "kenco-a7aa135c",
+        "kenco-c48d12b1"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://kencogroup.com"
+    },
+    {
+      "company": "Seko Logistics",
+      "source_ids": [
+        "seko-logistics-67580ade"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "ITS Logistics",
+      "source_ids": [
+        "its-logistics-a906fb36",
+        "its-logistics-b049b3f9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.its4logistics.com/"
+    },
+    {
+      "company": "Armstrong Transport",
+      "source_ids": [
+        "armstrong-transport-2629e63e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.armstrongtransport.com/"
+    },
+    {
+      "company": "Allen Lund",
+      "source_ids": [
+        "allen-lund-ddf900b3"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Priority-1",
+      "source_ids": [
+        "priority-1-3def7fc7"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Redwood Logistics",
+      "source_ids": [
+        "redwood-logistics-aac3454d"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Ryan Transportation",
+      "source_ids": [],
+      "status": "gap",
+      "note": "<urlopen error timed out>; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": null
+    },
+    {
+      "company": "Traffix",
+      "source_ids": [
+        "traffix-56b9c477"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Axle Logistics",
+      "source_ids": [
+        "axle-logistics-858e0062"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Trinity Logistics",
+      "source_ids": [
+        "trinity-logistics-fdb8a0e6"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Ascent Global",
+      "source_ids": [
+        "ascent-global-4750c431"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Metro Supply Chain",
+      "source_ids": [],
+      "status": "gap",
+      "note": "<urlopen error timed out>",
+      "official_homepage": null
+    },
+    {
+      "company": "CJ Logistics",
+      "source_ids": [
+        "cj-logistics-70bfb05f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "BlueGrace",
+      "source_ids": [
+        "bluegrace-82e731b5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "MegaCorp Logistics",
+      "source_ids": [
+        "megacorp-logistics-e109e10b"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Odyssey Logistics",
+      "source_ids": [
+        "odyssey-logistics-0980b388"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Integrity Express",
+      "source_ids": [
+        "integrity-express-1603bd78"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Spot Inc",
+      "source_ids": [
+        "spot-inc-e288e8e4"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Saddle Creek",
+      "source_ids": [],
+      "status": "gap",
+      "note": "<urlopen error timed out>",
+      "official_homepage": null
+    },
+    {
+      "company": "Nippon Express",
+      "source_ids": [
+        "nippon-express-f5cfe0b9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Crane Worldwide",
+      "source_ids": [
+        "crane-worldwide-5ead39a9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "PLS Logistics",
+      "source_ids": [
+        "pls-logistics-9ab2f658"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Radiant Logistics",
+      "source_ids": [
+        "radiant-logistics-2d1b8979"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://radiantdelivers.com"
+    },
+    {
+      "company": "Scan Global",
+      "source_ids": [
+        "scan-global-8f32592d",
+        "scan-global-2a59cacb"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.scangl.com/"
+    },
+    {
+      "company": "Hellmann Worldwide",
+      "source_ids": [
+        "hellmann-worldwide-a20e3777"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "ID Logistics",
+      "source_ids": [
+        "id-logistics-61b218ac",
+        "id-logistics-729e0032"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.id-logistics.com/fr/"
+    },
+    {
+      "company": "Paxon",
+      "source_ids": [
+        "paxon-d8591759"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://paxon.com/en-US"
+    },
+    {
+      "company": "Grupo Traxión",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://traxion.global/es/"
+    },
+    {
+      "company": "Traxion",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://traxion.global/es/"
+    },
+    {
+      "company": "OIA Global",
+      "source_ids": [
+        "oia-global-fcd46d7e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.oiaglobal.com/"
+    },
+    {
+      "company": "Lazer Logistics",
+      "source_ids": [
+        "lazer-logistics-ed5cd36c",
+        "lazer-logistics-9b508722"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.lazerlogistics.com/"
+    },
+    {
+      "company": "RJW Logistics",
+      "source_ids": [
+        "rjw-logistics-5f87247e"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://rjwgroup.com"
+    },
+    {
+      "company": "Logistics Plus",
+      "source_ids": [
+        "logistics-plus-15025da8"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.logisticsplus.com/"
+    },
+    {
+      "company": "De Well Group",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 404: Not Found; HTTP Error 404: Not Found; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://dewell.com"
+    },
+    {
+      "company": "Matson Logistics",
+      "source_ids": [
+        "matson-logistics-a07fca73"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Neovia Logistics",
+      "source_ids": [
+        "neovia-logistics-4419b7af",
+        "neovia-logistics-a51a7d8f"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://neovialogistics.com"
+    },
+    {
+      "company": "Kintetsu World",
+      "source_ids": [
+        "kintetsu-world-93fbccc6"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": null
+    },
+    {
+      "company": "Steam Logistics",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational; No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://www.steamlogistics.com/"
+    },
+    {
+      "company": "TA Services",
+      "source_ids": [
+        "ta-services-afb06bdf",
+        "ta-services-210c0c62"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.taservices.com/"
+    },
+    {
+      "company": "Watco",
+      "source_ids": [
+        "watco-0333b7d5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.watco.com/"
+    },
+    {
+      "company": "Logistic Dynamics",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Evans Transportation",
+      "source_ids": [],
+      "status": "gap",
+      "note": "HTTP Error 503: Service Unavailable",
+      "official_homepage": null
+    },
+    {
+      "company": "Venture Logistics",
+      "source_ids": [],
+      "status": "gap",
+      "note": "No article/advisory links parsed; source is not verified operational",
+      "official_homepage": "https://venturelogistics.com"
+    },
+    {
+      "company": "Circle Logistics",
+      "source_ids": [
+        "circle-logistics-ef788ca9"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://circledelivers.com"
+    },
+    {
+      "company": "RPM Freight",
+      "source_ids": [
+        "rpm-freight-910745f5",
+        "rpm-freight-384a953c"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.rpmmoves.com/"
+    },
+    {
+      "company": "FLS Transportation",
+      "source_ids": [
+        "fls-transportation-f8c19db1"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.flstransport.com/"
+    },
+    {
+      "company": "ODW Logistics",
+      "source_ids": [
+        "odw-logistics-28c10cc5"
+      ],
+      "status": "direct_sources_verified",
+      "note": "",
+      "official_homepage": "https://www.odwlogistics.com/"
+    }
+  ],
+  "limits": [
+    "Sources are explicitly verified public company news/IR/advisory endpoints; no authenticated customer portals are polled.",
+    "Only current returned entries are inspected; first reads seed quietly.",
+    "Company alias names can share one parent-company feed.",
+    "Gaps are listed explicitly and do not count as operational direct coverage.",
+    "GitHub scheduled starts are best effort; five-minute cron is not a guaranteed five-minute delivery SLA."
+  ]
+}

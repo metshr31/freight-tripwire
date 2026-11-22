@@ -1,83 +1,58 @@
-# Freight Tripwire — deployment package (2026-11-22)
+# Freight Tripwire
 
-A public-source lead monitor for trucking, LTL, intermodal, rail, ports, airfreight, regulatory notices, and the UP–NS merger docket, **FD 36873**. Deliveries use [ntfy](https://ntfy.sh), with GitHub Actions as the scheduler.
+Direct company news, investor-relations releases, customer advisories, and freight/regulatory leads, delivered through ntfy.
 
-**Important:** This is a lead detector, not an independently verified fact-checker or a comprehensive crawler of every watched company's website. It cannot guarantee alerts before other news publications. Treat community/forum posts as **unverified tips**. Always verify underlying documents before publication.
+[![Freight and STB Tripwire](https://github.com/metshr31/freight-tripwire/workflows/Freight%20and%20STB%20Tripwire/badge.svg)](https://github.com/metshr31/freight-tripwire/actions/workflows/freight-watcher.yml)
 
-## Contents
+## Coverage
 
-- `watchlist.json`: 195 supplied company-name/alias entries, 14 RSS URLs and the Business Wire transport newsroom, official STB pages, FD 36873's dedicated docket feed, signal terms and source exclusions.
-- `watcher.py`: polling, RSS/Atom parsing, official STB docket filtering, per-source quiet baseline, duplicate handling, alert triage, queue-and-retry, deliveries, health status.
-- `.github/workflows/freight-watcher.yml`: timezone-aware schedule, permissions, non-overlapping runs, Python setup, manual test-push option and durable commit.
-- `tests/test_watcher.py`: offline unit tests.
-- `requirements.txt`: Beautiful Soup for parsing HTML.
+[**COVERAGE.md**](COVERAGE.md) maps every watched company name/alias to its verified direct endpoints and explicitly lists remaining gaps. [**primary_sources.json**](primary_sources.json) contains the actual endpoints, parser types, source roles, verification dates and sample headlines. Some aliases and subsidiaries share parent-company releases. A company-name match in a shared news feed is additional coverage, and does not count as a working direct company source.
 
-## Setup in GitHub Work/browser
+Direct sources include all six Class I railroads, major public truckload/LTL carriers, private carriers, brokers and logistics companies. The railroad readers cover BNSF customer notifications; UP intermodal/pricing and customer announcements; CSX customer news/service bulletins; NS customer alerts/news releases; CN news including gate-hour notices; and CPKC's official investor-relations release feed. CPKC's authenticated customer portal is outside the public reader's reach.
 
-1. Create the **public** repository `metshr31/freight-tripwire`, initialized with a README, or use a repository you intentionally select. Do not publish your ntfy topic or credentials in repository files.
-2. Upload the package contents to the repository root, preserving `.github/workflows/freight-watcher.yml` and replacing the initialized README.
-3. Go to **Settings → Secrets and variables → Actions → New repository secret**. Create:
-   - `NTFY_TOPIC` = the private-by-obscurity topic name already subscribed to on the phone. (No `https://ntfy.sh/` prefix.)
-   - `SEC_USER_AGENT` = an identified, real SEC user agent, for example `Freight Pulse (your-email@example.com)` **but replace the example with a working newsroom contact address**. The value is kept out of the public repository. See the SEC's fair-access policy.
-4. Under **Actions → Freight and STB Tripwire → Run workflow**, select `test_push = true` and run. Confirm the workflow finishes and the **notification appears on the phone**. GitHub success means ntfy accepted the request; only the user can confirm device delivery.
-5. Run workflow again with `test_push = false`. The **first successful fetch of each individual source** seeds older items without notifications. The repository should gain `seen_items.json` and `health.json`; `alerts.jsonl` starts after a real new qualifying lead is successfully published.
-6. Check `health.json` and the Actions logs for bad/retired feeds, SEC blocks, access restrictions, malformed responses and source failures. Replace broken sources only after checking their actual current endpoints.
-7. Wait for a genuine new source event, or perform a deliberate controlled test in a temporary test source. Do not claim full end-to-end monitoring is validated until a new item is detected, delivered, logged and survives a subsequent run without duplication.
+Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisions and environmental comments; STB/FMCSA/FRA Federal Register feeds; EIA; PR Newswire; Business Wire; GlobeNewswire; Transport Topics; and attempted community/forum RSS feeds. FreightWaves/SONAR mentions are excluded. Community posts are labeled unverified tips. Reddit/TruckingBoards access can fail; see runtime health. SEC checks remain unconfigured until an identified contact is approved and stored as a secret.
 
-## Schedule
+## Speed and alert handling
 
-- **Every 10 minutes** Monday–Friday, 7:03 a.m. through 6:53 p.m. Eastern.
-- **Hourly** around the clock including weekends, for some overnight/weekend coverage.
-- GitHub's `timezone` field adjusts for Eastern daylight-saving changes.
-- Scheduled GitHub Actions jobs are **best effort**, not guaranteed to start precisely on time. Monitor workflow failures. A stopped GitHub schedule cannot alert on its own; a separate external heartbeat is required for that level of assurance.
+- A five-minute schedule runs **24/7**, including nights, weekends and holidays, at minutes 02, 07, 12, 17, 22, 27, 32, 37, 42, 47, 52 and 57.
+- Direct operational notices are fetched first; direct news/IR sources follow. Sources run concurrently with bounded workers and timeouts.
+- A new qualifying direct-company item is sent **as soon as that source finishes**, without waiting for slow social feeds. Some per-run delivery capacity is reserved for urgent items.
+- Source excerpts and original URLs accompany alerts; publication times are included when supplied. A registered company source supplies the company identity even when its headline omits the company name.
+- Content revisions at the same advisory URL can trigger an update. Other items are deduplicated by their canonical original URL. Separate URLs for syndicated versions can still generate duplicates.
+- Every new source gets a **quiet initial baseline**. Adding sources does not send a backlog of old stories.
+- Failed notifications remain queued for retry. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
+- HTTP 403/429 sources back off for 30 minutes. Repeated other direct-source failures back off for 15 minutes; failures remain visible.
 
-## Alert logic
+GitHub scheduled starts are **best effort**. A five-minute cron is not a guaranteed five-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
 
-- **P1 (priority 4)**: major event signal involving a named company; STB merger docket decisions.
-- **P2 (priority 3)**: material event or watched-company SEC 8-K; regulatory notice. Routine FD 36873 filings are batched to reduce notification noise.
-- **TIP (priority 3)**: company + major freight event discussed on social/forum sources, **explicitly unverified**.
-- Company mention alone is not generally sufficient. Common-name matches such as `Amazon` require freight context. News mentioning FreightWaves or SONAR is filtered. These heuristics are imperfect, and false positives/negatives remain possible.
-- Each successful publish is saved to `alerts.jsonl` with an original link and UTC notification timestamp.
-- **Failed pushes remain queued** until later runs. Push success means ntfy server acceptance, not guaranteed handset delivery; deduplication can still fail if a GitHub commit fails after a successful push.
-- Source-specific quiet seeding prevents a new source from generating an old-item alert storm.
-- After three consecutive failed checks of a source, the watcher attempts a consolidated warning no more frequently than once every 12 hours.
+## Live status and durable state
 
-## Regulatory coverage and caveats
+[**health.json**](health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
 
-- FD 36873: purpose-built Docket Yard Atom feed, plus official STB filings, decisions and environmental comments pages. The reader loads each page’s public dynamic table endpoint and checks its latest 500 records, including subdockets. This is a bounded recent-record check; long outages or exceptionally busy periods can leave gaps. Docket Yard is independent and the underlying STB filing is authoritative. Docket Yard itself notes coverage can vary and recommends the live feed for changes.
-- SEC 8-K: polls 3 pages of the general SEC Atom feed each run (up to 300 entries), matching the company names in headlines/summaries. **This is not guaranteed comprehensive EDGAR coverage**. To monitor all relevant 8-Ks, add verified CIK identifiers and per-filer submissions monitoring in a future iteration.
-- Federal Register: supplied STB, FMCSA and FRA RSS URLs. Verify their current validity in Actions; feed endpoints can change.
-- Business Wire: the public transport newsroom’s latest release cards replace the retired supplied RSS channel. This bounded first-page check can miss releases during busy periods or long outages. EIA, other press releases, trucker forums and Reddit use RSS feeds, subject to their respective availability, filtering and rate policies. A working feed does not independently verify any claim made in an item.
-- The 195 entries include spelling/name variants, **not 195 independently polled company websites**. For truly primary-source coverage of each carrier, add separately verified IR/press/operational URLs and test each one.
+`seen_items.json` preserves baselines, deduplication, delivery queues and advisory revisions. `alerts.jsonl` records delivered news leads when there are any. Runs are serialized and checkout the current `main` branch so a queued run does not replay stale monitoring state. Source-health notifications are throttled to once per 12 hours.
 
-## Local commands
+## Secrets
+
+The public repository contains no ntfy topic or credentials. Repository Actions secrets:
+
+- `NTFY_TOPIC`: the subscribed topic name, with no URL prefix.
+- `SEC_USER_AGENT`: an identified requester/contact, configured only with the account owner's approval.
+
+The ephemeral `GITHUB_TOKEN` handles state commits. Fork pull requests do not run this scheduled/manual workflow or receive its secrets.
+
+## Validation and manual controls
 
 ```bash
 python -m pip install -r requirements.txt
 python watcher.py --check-config
 python -m unittest discover -s tests -v
-# Test push only when NTFY_TOPIC is deliberately set in your own environment:
-python watcher.py --test-push
-# Read live sources without saving state or sending alerts:
 python watcher.py --dry-run
 ```
 
-### Troubleshooting
+Under **Actions → Freight and STB Tripwire → Run workflow**:
 
-- **No notification at baseline:** expected. Baseline is deliberately quiet. Use manual `test_push = true` for a real push.
-- **`SEC_USER_AGENT missing`:** add the secret using an identified contact. SEC coverage will show a failure until then.
-- **Repeated RSS 403/429:** remote service blocked or throttled access; check conditions of use. Do not aggressively retry or circumvent restrictions.
-- **Bad STB HTML table:** site layout changed. Docket Yard feed provides an independent secondary alerting path; adapt the official STB parser after inspecting live HTML.
-- **Workflow doesn't run on schedule:** confirm Actions are enabled, the workflow is on the default branch, scheduled workflows haven't been auto-disabled, and check GitHub's scheduling delays.
-- **Duplicate pushes:** inspect whether the bot failed to commit `seen_items.json` after delivery.
-- **Public repo privacy:** alert history, watched entities and detection terms will be visible publicly. Secrets are not included in files. Public ntfy.sh topics are not access-controlled merely by a hard-to-guess name.
+- Default inputs: poll live sources, quietly seed new sources, deliver new qualifying leads, and commit state.
+- `test_push=true`: send a real ntfy delivery test without changing monitoring baselines.
+- `pipeline_test=true`: use an isolated synthetic source to test the real primary parser, quiet baseline, new-item detection, ntfy delivery, persistence and duplicate suppression. Exactly one clearly labeled test notification is expected. Live news baselines are untouched.
 
-## Source reference URLs
-
-- GitHub: https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax
-- SEC EDGAR access: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data
-- STB filings: https://www.stb.gov/proceedings-actions/filings/
-- STB decisions: https://www.stb.gov/proceedings-actions/decisions/
-- Docket Yard FD 36873 Atom feed: https://docketyard.org/d/FD-36873/feed
-- Docket Yard API/coverage: https://docketyard.org/api
-- ntfy publishing: https://docs.ntfy.sh/publish/
+Phone receipt has been confirmed by the subscriber for the original GitHub delivery test. A later server-accepted publish is not independent proof that a particular handset displayed it.

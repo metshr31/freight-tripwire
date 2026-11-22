@@ -99,7 +99,25 @@
     "recall",
     "receivership",
     "authority revoked",
-    "cease and desist"
+    "cease and desist",
+    "gate hours",
+    "holiday plan",
+    "operating plan",
+    "terminal reservation",
+    "transactional rates",
+    "operating data",
+    "service center",
+    "service centre",
+    "new facilities",
+    "surcharge",
+    "customer advisory",
+    "network update",
+    "capacity expansion",
+    "network expansion",
+    "network growth",
+    "results",
+    "reports",
+    "appoints"
   ],
   "exclude_terms": [
     "freightwaves",
@@ -347,5 +365,6 @@
   ],
   "html_feeds": [
     "https://www.businesswire.com/newsroom/industry/transport"
-  ]
+  ],
+  "primary_sources_file": "primary_sources.json"
 }
