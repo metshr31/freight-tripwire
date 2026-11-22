@@ -13,15 +13,15 @@ The watcher checks public truckload, LTL, intermodal/rail and port sources in En
 
 ## Country and mode runtime status
 
-Latest live check: 2026-11-22T21:26:26+00:00. These counts describe source access, not the number of fresh alerts.
+Latest live check: 2026-11-22T21:29:33+00:00. These counts describe source access, not the number of fresh alerts.
 
 | Country | Mode | Entities with working readers | Registered entities |
 |---|---|---:|---:|
-| CA | LTL | 12 | 15 |
+| CA | LTL | 13 | 15 |
 | CA | intermodal | 8 | 10 |
-| CA | ports | 6 | 8 |
+| CA | ports | 5 | 8 |
 | CA | rail | 2 | 2 |
-| CA | truckload | 12 | 16 |
+| CA | truckload | 13 | 16 |
 | MX | LTL | 4 | 4 |
 | MX | intermodal | 11 | 11 |
 | MX | ports | 9 | 9 |
@@ -36,7 +36,7 @@ Latest live check: 2026-11-22T21:26:26+00:00. These counts describe source acces
 | CA | Bison Transport | truckload | 2 working GitHub readers |
 | CA | C.A.T. | truckload, intermodal | 1 working GitHub readers |
 | CA | CPKC | rail, intermodal | 1 working GitHub readers |
-| CA | Canada Cartage | truckload, LTL | 1 readers registered; runtime success unverified or currently failing |
+| CA | Canada Cartage | truckload, LTL | 1 working GitHub readers |
 | CA | Canadian National | rail, intermodal | 2 working GitHub readers |
 | CA | Canadian Trucking Alliance | truckload, LTL | 1 working GitHub readers; association, not member-by-member coverage |
 | CA | Challenger | truckload, LTL, intermodal | 2 readers registered; runtime success unverified or currently failing |
@@ -45,7 +45,7 @@ Latest live check: 2026-11-22T21:26:26+00:00. These counts describe source acces
 | CA | GLS Canada | LTL | 2 working GitHub readers |
 | CA | Groupe Guilbault | LTL, truckload | 1 working GitHub readers |
 | CA | Groupe Robert | truckload, LTL, intermodal | 2 working GitHub readers |
-| CA | HOPA Ports | ports | 1 working GitHub readers |
+| CA | HOPA Ports | ports | 1 readers registered; runtime success unverified or currently failing |
 | CA | Highlight Motor | truckload, LTL | **Gap — no verified direct reader** |
 | CA | Kriska | truckload | 1 readers registered; runtime success unverified or currently failing |
 | CA | Manitoulin | truckload, LTL | 3 readers registered; runtime success unverified or currently failing |

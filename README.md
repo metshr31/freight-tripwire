@@ -34,7 +34,7 @@ GitHub scheduled starts are **best effort**. A 20-minute cron is not a guarantee
 
 ## Live status and durable state
 
-Latest live check: November 22, 2026, 4:26 p.m. Eastern. 268 of 292 direct endpoints succeeded; 42 of 49 newly added regional endpoints worked from GitHub. New sources seeded quietly and no historical news pushes were sent. See NORTH_AMERICA.md and health.json for country/mode details and explicit gaps. Automatic scheduled starts remain unverified until the next weekday window. SEC remains unconfigured.
+Latest live check: November 22, 2026, 4:29 p.m. Eastern. 265 of 295 direct endpoints succeeded; 41 of 52 added regional readers worked from GitHub. New sources seeded quietly and no historical news pushes were sent. Working readers fluctuate with access/rate limits. See NORTH_AMERICA.md and health.json for country/mode details and explicit gaps. Automatic scheduled starts remain unverified until the next weekday window. SEC remains unconfigured.
 
 [**health.json**](health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
 
