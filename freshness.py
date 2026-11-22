@@ -90,6 +90,9 @@ def publication_from_page(payload, target_url=None):
 
 def resolve(item, fetch, allowed_hosts):
     url = item.get("link", "")
+    # A homepage's own publication date does not date each inline notice on it.
+    if url.rstrip("/") == item.get("source", "").rstrip("/"):
+        return False
     host = urlsplit(url).netloc.lower().removeprefix("www.")
     if host not in allowed_hosts or urlsplit(url).path.lower().endswith((".pdf", ".zip")):
         return False
