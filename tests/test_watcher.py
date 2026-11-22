@@ -58,6 +58,15 @@ class WatcherTests(unittest.TestCase):
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0]["stb_id"], "313150")
 
+    def test_businesswire_public_release_cards(self):
+        html = '<div><a href="/news/home/20261122000001/en/Test"><h2>Union Pacific new intermodal service</h2></a><div class="rich-text">New rail lane opens Monday.</div></div>'
+        items = watcher.businesswire_items(html, "https://www.businesswire.com/newsroom/industry/transport")
+        self.assertEqual(items[0]["title"], "Union Pacific new intermodal service")
+        self.assertIn("opens Monday", items[0]["summary"])
+        self.assertEqual(items[0]["link"], "https://www.businesswire.com/news/home/20261122000001/en/Test")
+        with self.assertRaisesRegex(ValueError, "no release cards"):
+            watcher.businesswire_items('<html>Unavailable</html>', "https://www.businesswire.com/newsroom/industry/transport")
+
     def test_stb_loads_dynamic_rows(self):
         page = """<table class="stb-ajax-table" data-stb-action="stb_hook_table_filings" data-stb-nonce="test">
         <thead><tr><th></th><th>Official Filing Date</th><th>Docket Number</th><th>Filing ID</th><th>Filed For</th></tr></thead><tbody></tbody></table>"""

@@ -6,7 +6,7 @@ A public-source lead monitor for trucking, LTL, intermodal, rail, ports, airfrei
 
 ## Contents
 
-- `watchlist.json`: 195 supplied company-name/alias entries, 15 supplied feed URLs, official STB pages, FD 36873's dedicated docket feed, signal terms and source exclusions.
+- `watchlist.json`: 195 supplied company-name/alias entries, 14 RSS URLs and the Business Wire transport newsroom, official STB pages, FD 36873's dedicated docket feed, signal terms and source exclusions.
 - `watcher.py`: polling, RSS/Atom parsing, official STB docket filtering, per-source quiet baseline, duplicate handling, alert triage, queue-and-retry, deliveries, health status.
 - `.github/workflows/freight-watcher.yml`: timezone-aware schedule, permissions, non-overlapping runs, Python setup, manual test-push option and durable commit.
 - `tests/test_watcher.py`: offline unit tests.
@@ -47,7 +47,7 @@ A public-source lead monitor for trucking, LTL, intermodal, rail, ports, airfrei
 - FD 36873: purpose-built Docket Yard Atom feed, plus official STB filings, decisions and environmental comments pages. The reader loads each page’s public dynamic table endpoint and checks its latest 500 records, including subdockets. This is a bounded recent-record check; long outages or exceptionally busy periods can leave gaps. Docket Yard is independent and the underlying STB filing is authoritative. Docket Yard itself notes coverage can vary and recommends the live feed for changes.
 - SEC 8-K: polls 3 pages of the general SEC Atom feed each run (up to 300 entries), matching the company names in headlines/summaries. **This is not guaranteed comprehensive EDGAR coverage**. To monitor all relevant 8-Ks, add verified CIK identifiers and per-filer submissions monitoring in a future iteration.
 - Federal Register: supplied STB, FMCSA and FRA RSS URLs. Verify their current validity in Actions; feed endpoints can change.
-- EIA, press releases, trucker forums and Reddit: RSS feeds only, subject to their respective availability, filtering and rate policies. A working feed does not independently verify any claim made in an item.
+- Business Wire: the public transport newsroom’s latest release cards replace the retired supplied RSS channel. This bounded first-page check can miss releases during busy periods or long outages. EIA, other press releases, trucker forums and Reddit use RSS feeds, subject to their respective availability, filtering and rate policies. A working feed does not independently verify any claim made in an item.
 - The 195 entries include spelling/name variants, **not 195 independently polled company websites**. For truly primary-source coverage of each carrier, add separately verified IR/press/operational URLs and test each one.
 
 ## Local commands

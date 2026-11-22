@@ -14,7 +14,6 @@
     "https://www.eia.gov/rss/todayinenergy.xml",
     "https://www.prnewswire.com/rss/transportation-trucking-railroad-latest-news/transportation-trucking-railroad-latest-news-list.rss",
     "https://www.prnewswire.com/rss/supply-chain-logistics-latest-news/supply-chain-logistics-latest-news-list.rss",
-    "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRWQ==",
     "https://www.globenewswire.com/RssFeed/industry/2770-Transportation%20Services/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Transportation%20Services",
     "https://www.ttnews.com/rss.xml",
     "https://www.truckingboards.com/bb/forums/-/index.rss",
@@ -345,5 +344,8 @@
     "Prime Inc",
     "Mode Global",
     "Watco"
+  ],
+  "html_feeds": [
+    "https://www.businesswire.com/newsroom/industry/transport"
   ]
 }

@@ -137,6 +137,29 @@ def rss_items(payload, source):
     return entries
 
 
+def businesswire_items(payload, source):
+    """Read public release cards after retirement of the supplied RSS channel."""
+    soup = BeautifulSoup(payload, "html.parser")
+    entries = []
+    seen_links = set()
+    for anchor in soup.select('a[href*="/news/home/"]'):
+        heading = anchor.find(["h2", "h3"])
+        if not heading:
+            continue
+        link = urllib.parse.urljoin(source, anchor["href"])
+        if link in seen_links:
+            continue
+        seen_links.add(link)
+        summary = anchor.parent.select_one(".rich-text")
+        entries.append({"title": normal(heading.get_text(" ")),
+                        "link": link,
+                        "summary": normal(summary.get_text(" "))[:1200] if summary else "",
+                        "published": "", "source": source, "community": False})
+    if not entries:
+        raise ValueError("Business Wire page has no release cards (check page layout/access)")
+    return entries
+
+
 def load_official_stb(url):
     """Load the same public table endpoint used by STB's site (latest 500 records)."""
     payload = fetch(url)
@@ -289,6 +312,8 @@ def expanded_sources(cfg):
                                 parsed.path, urllib.parse.urlencode(query), parsed.fragment)), False))
         else:
             sources.append((url, url, False))
+    for url in cfg.get("html_feeds", []):
+        sources.append((url, url, False))
     for url in cfg["stb_official_pages"]:
         sources.append(("official:" + url, url, True))
     return sources
@@ -297,7 +322,12 @@ def expanded_sources(cfg):
 def collect_source(source):
     source_id, url, is_html = source
     try:
-        entries = load_official_stb(url) if is_html else rss_items(fetch(url, sec=source_id.startswith("sec:")), url)
+        if is_html:
+            entries = load_official_stb(url)
+        elif "businesswire.com/newsroom/" in url:
+            entries = businesswire_items(fetch(url), url)
+        else:
+            entries = rss_items(fetch(url, sec=source_id.startswith("sec:")), url)
         return entries, None
     except Exception as exc:
         return None, exc
@@ -402,7 +432,8 @@ def run(cfg, dry_run=False):
             break  # don't overwhelm a failing notification endpoint
 
     # Health check: one consolidated alert every 12h when any source fails 3+ times.
-    failing = [(sid, h) for sid, h in sources.items() if h.get("failures", 0) >= 3]
+    active_sources = {sid: sources[sid] for sid, _, _ in source_specs}
+    failing = [(sid, h) for sid, h in active_sources.items() if h.get("failures", 0) >= 3]
     if failing and not dry_run:
         last = state.get("last_health_alert_epoch", 0)
         if time.time() - last >= 43200:
@@ -423,8 +454,8 @@ def run(cfg, dry_run=False):
             del seen[k]
     state["last_run_utc"] = now()
     health_doc = {"last_run_utc": now(), "successful_sources": source_count,
-                  "source_count": len(sources), "queued_alerts": sum(r.get("status") == "pending" for r in seen.values()),
-                  "notification_batches_sent": delivered, "source_errors": len(errors), "sources": sources}
+                  "source_count": len(active_sources), "queued_alerts": sum(r.get("status") == "pending" for r in seen.values()),
+                  "notification_batches_sent": delivered, "source_errors": len(errors), "sources": active_sources}
     if not dry_run:
         atomic_save(STATE_FILE, state)
         atomic_save(HEALTH_FILE, health_doc)
@@ -447,6 +478,7 @@ def main():
     if args.check_config:
         print(json.dumps({"company_alias_entries": len(cfg["companies"]),
                           "rss_feeds": len(cfg["rss_feeds"]),
+                          "html_feeds": len(cfg.get("html_feeds", [])),
                           "stb_pages": len(cfg["stb_official_pages"]),
                           "docket_feed": cfg["stb_docket_feed"]}, indent=2))
         return 0
