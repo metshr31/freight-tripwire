@@ -52,6 +52,18 @@ class PrimarySourceTests(unittest.TestCase):
         self.assertEqual(watcher.label_item(item, CONFIG), ("P2", "Union Pacific", "Official company source"))
         self.assertIsNone(watcher.label_item({**item, "title": "FreightWaves announcement"}, CONFIG))
 
+    def test_marketing_card_body_does_not_create_a_news_event(self):
+        import copy
+        config = copy.deepcopy(CONFIG)
+        config["material_event_keywords"] += ["recall", "reports", "opens"]
+        item = {"primary_company": "RPM Freight", "primary_role": "news",
+                "title": "Effective Executive Fleet Vehicle Transport",
+                "summary": "Neighboring article reports a recall and a terminal opening.",
+                "link": "https://carrier.example/blog/executive-transport"}
+        self.assertIsNone(watcher.label_item(item, config))
+        self.assertIsNone(watcher.label_item({**item, "title": "Fleet Recall Campaigns: Moving Vehicles to Repair and Back Into Service"}, config))
+        self.assertEqual(watcher.label_item({**item, "title": "Carrier opens new terminal"}, config)[0], "P2")
+
     def test_advisory_revision_at_same_url_is_detectable(self):
         spec = {"url": "https://carrier.example/alerts", "company": "Union Pacific", "role": "service", "id": "up-service", "track_updates": True}
         first = decorate([{"title": "Terminal operating plan", "summary": "Gate closes at 5 PM.", "link": "https://carrier.example/alerts/plan"}], spec)[0]

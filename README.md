@@ -27,7 +27,7 @@ GitHub scheduled starts are **best effort**. A five-minute cron is not a guarant
 
 ## Live status and durable state
 
-Latest live check: November 22, 2026, 3:55 p.m. Eastern. 234 direct endpoints succeeded, covering 161 of 195 company names/aliases. Automatic scheduled starts have not yet been observed; successful manual runs alone do not prove unattended operation. All 18 unit tests and the isolated primary-source/real-ntfy pipeline test passed. SEC remains unconfigured; Reddit and TruckingBoards checks failed.
+Latest live check: November 22, 2026, 3:55 p.m. Eastern. 234 direct endpoints succeeded, covering 161 of 195 company names/aliases. Automatic scheduled starts have not yet been observed; successful manual runs alone do not prove unattended operation. All 19 unit tests and the isolated primary-source/real-ntfy pipeline test passed. SEC remains unconfigured; Reddit and TruckingBoards checks failed.
 
 [**health.json**](health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
 

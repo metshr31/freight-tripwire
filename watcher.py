@@ -249,10 +249,16 @@ def label_item(item, config):
         if item.get("require_freight_context") and not freight:
             return None
         name = item["primary_company"]
-        if urgent:
+        headline = item.get("title", "")
+        service = item.get("primary_role") == "service"
+        if not service and re.search(r"^(?:how to\b|a guide to\b|the guide to\b|fleet recall campaigns:)", headline, re.I):
+            return None
+        headline_urgent = matcher(config["priority_keywords"]).search(headline)
+        # News cards can contain unrelated neighboring text. Require the event
+        # in the headline; service notices retain their body-level signals.
+        if headline_urgent or (service and urgent):
             return ("P1", name, "Official company source")
-        # Customer notices need no redundant company-name mention or event keyword.
-        if item.get("primary_role") == "service" or event:
+        if service or matcher(config["material_event_keywords"]).search(headline):
             return ("P2", name, "Official company source")
         return None
     is_sec = "sec.gov" in item.get("source", "")
