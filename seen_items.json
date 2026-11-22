@@ -1,5 +1,6 @@
 {
-  "last_run_utc": "2026-11-22T19:12:07+00:00",
+  "last_health_alert_epoch": 1795374905.1592278,
+  "last_run_utc": "2026-11-22T19:15:05+00:00",
   "seen": {
     "013fde67d79a6025d313b6c7": {
       "entry": null,
@@ -63,6 +64,13 @@
       "label": null,
       "status": "baseline",
       "title": "TEN, Ltd. Reports Record Profits for the Nine Months and Third Quarter of 2026"
+    },
+    "0f944267d6ad9797f390519f": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Consortium of Advent, FedEx, A&R and PPF Completes Acquisition of InPost"
     },
     "109f7d64c8d9628cdb1057d1": {
       "entry": null,
@@ -162,6 +170,13 @@
       "status": "baseline",
       "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
     },
+    "2a80f9b8e2a5776adb975fda": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Tradlinx: AI Vessel ETAs Cut Logistics Costs 15.5% on Average, up to 56%"
+    },
     "2ec70d43ca9c125d1bfe28ae": {
       "entry": null,
       "first_seen": "2026-11-22T19:01:12+00:00",
@@ -218,6 +233,13 @@
       "status": "baseline",
       "title": "Refineries have shifted production away from gasoline to middle distillates"
     },
+    "3b96a4a993aa359c2e7c119d": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "McLane Company to Acquire Northeast Restaurant Distributor"
+    },
     "3ca1bd1030e8a3faacc183dd": {
       "entry": null,
       "first_seen": "2026-11-22T19:01:12+00:00",
@@ -252,6 +274,13 @@
       "label": null,
       "status": "baseline",
       "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against EyePoint, Inc. (NASDAQ: EYPT) -- Investors Who Suffered Losses Are Encouraged to Contact the Fir"
+    },
+    "4ed0cbe2efd0a95bbd58bcb2": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Comstock Announces Grand Opening of Ebbitt House at Reston Station"
     },
     "514d2323caeb1f40ac980fa2": {
       "entry": null,
@@ -421,6 +450,13 @@
       "status": "baseline",
       "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182"
     },
+    "9628bbb8e170d11c829a303f": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "NetJets Becomes Official Private Aviation Provider of the Hahnenkamm Races in Kitzbühel"
+    },
     "97049e40bf314ccad5f114ff": {
       "entry": null,
       "first_seen": "2026-11-22T19:01:12+00:00",
@@ -518,6 +554,13 @@
       "label": null,
       "status": "baseline",
       "title": "AutoShop Answers Adds 9 New Dates for Key2Key Weekends"
+    },
+    "a87b37f957c8d826a8351210": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Brittany Snow Partners with Bilt for December Rent Day® to Invite Members to Write a Letter of Their Own, and a Chance to Win Free Rent"
     },
     "aa6979c4c99abd0495ce8c03": {
       "entry": null,
@@ -651,6 +694,13 @@
       "label": null,
       "status": "baseline",
       "title": "Petro-Canada Lubricants unveils next-generation Duron oils"
+    },
+    "cb06cf29458cc9694249a8ca": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "All Aboard! Spend the Holidays with Trains at the Museum of Science"
     },
     "cb5890d031cd055d66cdc7cf": {
       "entry": null,
@@ -806,6 +856,13 @@
       "status": "baseline",
       "title": "Ladera Medical Presents Full FASTEN Results Showing Rapid Hemostasis and a Strong Safety Profile with its Large Bore Closure System"
     },
+    "e655ed293e0a61d9c5f71a52": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "RxERP Outlines What the FDA’s Move to 12-Digit NDCs Means for Pharma Product Data"
+    },
     "e87f4cb3f4e19d80cb91a530": {
       "entry": null,
       "first_seen": "2026-11-22T19:01:12+00:00",
@@ -861,6 +918,20 @@
       "label": null,
       "status": "baseline",
       "title": "Patriot Rail Company LLC, SteelRiver Transport Ventures LLC, Global Diversified Infrastructure Fund (North America) LP, First State Infrastructure Managers (International) Limited,"
+    },
+    "f1967975f236db9649be5c28": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "Porter awarded on TIME’s list of World’s Best Airlines"
+    },
+    "f1bf210c2c86f6a681a62c04": {
+      "entry": null,
+      "first_seen": "2026-11-22T19:15:05+00:00",
+      "label": null,
+      "status": "baseline",
+      "title": "2026 Sustainability Brief Highlights Emissions Reporting, Fleet Efficiency and Investments in People as Werner® Marks 70 Years of Service"
     },
     "fba9a5c69501fa573d5806a9": {
       "entry": null,
@@ -3780,7 +3851,7 @@
       "error": "",
       "failures": 0,
       "last_count": 100,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRWQ==": {
@@ -3789,129 +3860,136 @@
       "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
+    "https://www.businesswire.com/newsroom/industry/transport": {
+      "error": "",
+      "failures": 0,
+      "last_count": 10,
+      "last_success": "2026-11-22T19:15:05+00:00",
+      "seeded": true
+    },
     "https://www.eia.gov/rss/todayinenergy.xml": {
       "error": "",
       "failures": 0,
       "last_count": 30,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-motor-carrier-safety-administration": {
       "error": "",
       "failures": 0,
       "last_count": 15,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-railroad-administration": {
       "error": "",
       "failures": 0,
       "last_count": 10,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=surface-transportation-board": {
       "error": "",
       "failures": 0,
       "last_count": 11,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.globenewswire.com/RssFeed/industry/2770-Transportation%20Services/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Transportation%20Services": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.prnewswire.com/rss/supply-chain-logistics-latest-news/supply-chain-logistics-latest-news-list.rss": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.prnewswire.com/rss/transportation-trucking-railroad-latest-news/transportation-trucking-railroad-latest-news-list.rss": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "https://www.reddit.com/r/FreightBrokers/new/.rss": {
       "error": "HTTP Error 429: Too Many Requests",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/Truckers/new/.rss": {
       "error": "HTTP Error 404: Not Found",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/logistics/new/.rss": {
       "error": "HTTP Error 429: Too Many Requests",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/railroading/new/.rss": {
       "error": "HTTP Error 429: Too Many Requests",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "https://www.truckingboards.com/bb/forums/-/index.rss": {
       "error": "no element found: line 1, column 0",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "https://www.ttnews.com/rss.xml": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/decisions/": {
       "error": "",
       "failures": 0,
       "last_count": 48,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/environmental-comments/": {
       "error": "",
       "failures": 0,
       "last_count": 0,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/filings/": {
       "error": "",
       "failures": 0,
       "last_count": 393,
-      "last_success": "2026-11-22T19:12:07+00:00",
+      "last_success": "2026-11-22T19:15:05+00:00",
       "seeded": true
     },
     "sec:0": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "sec:100": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     },
     "sec:200": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 2,
-      "last_error": "2026-11-22T19:12:07+00:00",
+      "failures": 3,
+      "last_error": "2026-11-22T19:15:05+00:00",
       "seeded": false
     }
   },
