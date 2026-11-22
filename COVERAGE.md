@@ -1,6 +1,6 @@
 # Direct company coverage
 
-Verified public source registry: 242 endpoints, covering 163 of 195 watched company names/aliases.
+Verified public source registry: 243 endpoints, covering 163 of 195 watched company names/aliases.
 
 Latest live check (November 22, 2026, 3:55 p.m. Eastern): 234 primary endpoints succeeded, covering 161 of 195 company names/aliases. The 34 names without a working direct reader are listed in health.json. CSX news/IR works; its customer-advisory pages returned HTTP 403.
 
@@ -76,7 +76,7 @@ Discovery verification does not guarantee continued access. [health.json](health
 | Western Express | **Gap: no verified readable news/advisory source yet** |
 | Bison Transport | [news / rss](https://www.bisontransport.com/feed); [news / html](https://www.bisontransport.com/blog) |
 | Stevens Transport | [news / rss](https://www.stevenstransport.com/feed/); [news / html](https://www.stevenstransport.com/company/news/) |
-| Manitoulin | [news / rss](https://manitoulintransport.com/feed/); [news / html](https://manitoulintransport.com/news/) |
+| Manitoulin | [news / rss](https://manitoulintransport.com/feed/); [news / html](https://manitoulintransport.com/news/); [news / html — GitHub validation pending](https://manitoulintransport.com/) |
 | Hirschbach | [news / html](https://hirschbach.com/blog) |
 | RoadOne | [news / html](https://www.roadone.com/news); [news / html](https://www.roadone.com/) |
 | TMC Transportation | [news / html](https://www.tmctrans.com:443/news/); [news / html](https://www.tmctrans.com/news/) |

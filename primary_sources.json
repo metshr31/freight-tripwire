@@ -4142,6 +4142,24 @@
       "verification_status": "runtime_verified",
       "verified_at_utc": "2026-11-22T20:55:59Z",
       "verification_entry_count": 3
+    },
+    {
+      "url": "https://manitoulintransport.com/",
+      "kind": "html",
+      "role": "news",
+      "allow_headline_links": true,
+      "id": "manitoulin-homepage",
+      "company": "Manitoulin",
+      "aliases": [
+        "Manitoulin"
+      ],
+      "enabled": true,
+      "track_updates": false,
+      "require_freight_context": false,
+      "verification_status": "workspace_verified_pending_GitHub_runtime",
+      "verified_at_utc": "2026-11-22T21:20:00Z",
+      "verification_entry_count": 3,
+      "verification_sample_title": "Manitoulin Transport Opens New Geraldton Terminal to Support Ring of Fire"
     }
   ],
   "coverage": [
@@ -4802,7 +4820,8 @@
       "company": "Manitoulin",
       "source_ids": [
         "manitoulin-01d65954",
-        "manitoulin-1b9c564b"
+        "manitoulin-1b9c564b",
+        "manitoulin-homepage"
       ],
       "status": "direct_sources_verified",
       "note": "",
