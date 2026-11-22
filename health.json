@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-11-22T19:01:12+00:00",
+  "last_run_utc": "2026-11-22T19:12:07+00:00",
   "notification_batches_sent": 0,
   "queued_alerts": 0,
   "source_count": 21,
@@ -9,138 +9,138 @@
       "error": "",
       "failures": 0,
       "last_count": 100,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFpRWQ==": {
       "error": "No RSS/Atom entries found (check feed validity and endpoint)",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.eia.gov/rss/todayinenergy.xml": {
       "error": "",
       "failures": 0,
       "last_count": 30,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-motor-carrier-safety-administration": {
       "error": "",
       "failures": 0,
       "last_count": 15,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-railroad-administration": {
       "error": "",
       "failures": 0,
       "last_count": 10,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=surface-transportation-board": {
       "error": "",
       "failures": 0,
       "last_count": 11,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.globenewswire.com/RssFeed/industry/2770-Transportation%20Services/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Transportation%20Services": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.prnewswire.com/rss/supply-chain-logistics-latest-news/supply-chain-logistics-latest-news-list.rss": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.prnewswire.com/rss/transportation-trucking-railroad-latest-news/transportation-trucking-railroad-latest-news-list.rss": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "https://www.reddit.com/r/FreightBrokers/new/.rss": {
       "error": "HTTP Error 429: Too Many Requests",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/Truckers/new/.rss": {
-      "error": "HTTP Error 429: Too Many Requests",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/logistics/new/.rss": {
       "error": "HTTP Error 429: Too Many Requests",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.reddit.com/r/railroading/new/.rss": {
-      "error": "HTTP Error 404: Not Found",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "error": "HTTP Error 429: Too Many Requests",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.truckingboards.com/bb/forums/-/index.rss": {
       "error": "no element found: line 1, column 0",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "https://www.ttnews.com/rss.xml": {
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/decisions/": {
       "error": "",
       "failures": 0,
       "last_count": 48,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/environmental-comments/": {
       "error": "",
       "failures": 0,
       "last_count": 0,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/filings/": {
       "error": "",
       "failures": 0,
       "last_count": 393,
-      "last_success": "2026-11-22T19:01:12+00:00",
+      "last_success": "2026-11-22T19:12:07+00:00",
       "seeded": true
     },
     "sec:0": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "sec:100": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     },
     "sec:200": {
       "error": "SEC_USER_AGENT missing: configure the Actions secret",
-      "failures": 1,
-      "last_error": "2026-11-22T19:01:12+00:00",
+      "failures": 2,
+      "last_error": "2026-11-22T19:12:07+00:00",
       "seeded": false
     }
   },
