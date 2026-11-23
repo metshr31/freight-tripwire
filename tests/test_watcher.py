@@ -67,7 +67,7 @@ class WatcherFetchTests(unittest.TestCase):
 
         with patch(
             "urllib.request.urlopen", side_effect=[TimeoutError("timed out"), FakeResponse()]
-        ), patch("time.sleep") as mock_sleep:
+        ), patch.object(watcher, "_fetch_curl_cffi", return_value=None), patch("time.sleep") as mock_sleep:
             body = watcher.fetch("https://example.com/slow", timeout=20, attempts=2)
 
         self.assertEqual(body, "ok-after-retry")
