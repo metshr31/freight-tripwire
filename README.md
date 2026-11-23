@@ -1,67 +1,139 @@
-# Freight Tripwire
+# NoRecommendedSection theme for Windows 11 Start Menu Styler
 
-Direct company news, investor-relations releases, customer advisories, and freight/regulatory leads, delivered through ntfy.
+A simple theme which just removes the "Recommended" section from the Start menu.
 
-[![Freight and STB Tripwire](https://github.com/metshr31/freight-tripwire/workflows/Freight%20and%20STB%20Tripwire/badge.svg)](https://github.com/metshr31/freight-tripwire/actions/workflows/freight-watcher.yml)
+**Author**: [m417z](https://github.com/m417z)
 
-## Coverage
+![Screenshot](screenshot.png)
 
-Canada/Mexico expansion and gaps: [NORTH_AMERICA.md](NORTH_AMERICA.md). Added readers and English/French/Spanish event detection cover Canadian regional carriers, Mexican carriers, rail/intermodal providers and port authorities. Runtime verification is reported separately from local reader checks.
+## Theme selection
 
+The theme is integrated into the mod and can be selected directly from the mod's
+settings:
 
-[**COVERAGE.md**](COVERAGE.md) maps every watched company name/alias to its verified direct endpoints and explicitly lists remaining gaps. [**primary_sources.json**](primary_sources.json) contains the actual endpoints, parser types, source roles, verification dates and sample headlines. Some aliases and subsidiaries share parent-company releases. A company-name match in a shared news feed is additional coverage, and does not count as a working direct company source.
+* Open the Windows 11 Start Menu Styler mod in Windhawk.
+* Go to the "Settings" tab.
+* Select the theme and save the settings.
 
-Direct sources include all six Class I railroads, major public truckload/LTL carriers, private carriers, brokers and logistics companies. The railroad readers cover BNSF customer notifications; UP intermodal/pricing and customer announcements; CSX investor releases (customer news/service bulletins currently return HTTP 403); NS customer alerts/news releases; CN news including gate-hour notices; and CPKC's official investor-relations release feed. CPKC's authenticated customer portal is outside the public reader's reach.
+## Manual installation
 
-Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisions and environmental comments; STB/FMCSA/FRA Federal Register feeds; EIA; PR Newswire; Business Wire; GlobeNewswire; Transport Topics; and attempted community/forum RSS feeds. FreightWaves/SONAR mentions are excluded. Community posts are labeled unverified tips. Reddit/TruckingBoards access can fail; see runtime health. SEC checks remain unconfigured until an identified contact is approved and stored as a secret.
+The theme styles can also be imported manually. To do that, follow these steps:
 
-## Freshness
+* Open the Windows 11 Start Menu Styler mod in Windhawk.
+* Go to the "Settings" tab and select "Textual mode".
+* Copy the content below to the text box and click "Save settings".
 
-News pushes require a timezone-qualified publication time within the previous **120 minutes**. Discovery time is never treated as publication time. Undated, date-only, stale and future-dated stories are held; original-page publication metadata is checked when available. An Atom update time or page modification time alone does not make an old story new. Previously queued stories expire when they age out. First reads still seed quietly. Health reports include freshness holds. This conservative rule reduces alerts from sources that omit precise publication times.
+### Redesigned Start menu
 
-## Speed and alert handling
+A variant for the [redesigned Windows 11 Start
+menu](https://microsoft.design/articles/start-fresh-redesigning-windows-start-menu/)
+that is available on version 24H2 and later.
 
-- A 20-minute schedule is configured **Monday–Friday, 8:00 a.m. through 7:00 p.m. Eastern**: 08:00, 08:20, 08:40, and every 20 minutes through the final 19:00 check (34 checks per weekday). America/New_York adjusts for daylight saving time. Holidays that fall on weekdays remain included.
-- Direct operational notices are fetched first; direct news/IR sources follow. Sources run concurrently with bounded workers and timeouts.
-- A new qualifying direct-company item is sent **as soon as that source finishes**, without waiting for slow social feeds. Some per-run delivery capacity is reserved for urgent items.
-- Source excerpts and original URLs accompany alerts; publication times are included when supplied. A registered company source supplies the company identity even when its headline omits the company name.
-- Content revisions at the same advisory URL can be detected, but a push still requires a qualifying fresh publication timestamp. Other items are deduplicated by their canonical original URL. Separate URLs for syndicated versions can still generate duplicates.
-- Every new source gets a **quiet initial baseline**. Adding sources does not send a backlog of old stories.
-- Failed notifications remain queued for retry while still within the freshness window. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
-- HTTP 403/429 sources back off for 30 minutes. Repeated other direct-source failures back off for 15 minutes; failures remain visible.
+*This variant is missing for the redesigned Start menu, but you can find a
+variant that keeps the Recommended button below.*
 
-GitHub scheduled starts are **best effort**. A 20-minute cron is not a guaranteed 20-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
+> [!NOTE]
+> The redesigned Start menu [provides an
+> option](https://www.windowslatest.com/2025/06/15/remove-turn-off-windows-11-start-menu-recommended-section-version-24h2/)
+> to disable the Recommended section natively.
 
-## Live status and durable state
+### Classic Start menu
 
-Latest live check: November 22, 2026, 4:29 p.m. Eastern. 265 of 295 direct endpoints succeeded; 41 of 52 added regional readers worked from GitHub. New sources seeded quietly and no historical news pushes were sent. Working readers fluctuate with access/rate limits. See NORTH_AMERICA.md and health.json for country/mode details and explicit gaps. Automatic scheduled starts remain unverified until the next weekday window. SEC remains unconfigured.
+<details>
+<summary>Content to import (click to expand)</summary>
 
-[**health.json**](health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
-
-`seen_items.json` preserves baselines, deduplication, delivery queues and advisory revisions. `alerts.jsonl` records delivered news leads when there are any. Runs are serialized and checkout the current `main` branch so a queued run does not replay stale monitoring state. Source-health notifications are throttled to once per 12 hours.
-
-## Secrets
-
-The public repository contains no ntfy topic or credentials. Repository Actions secrets:
-
-- `NTFY_TOPIC`: the subscribed topic name, with no URL prefix.
-- `SEC_USER_AGENT`: an identified requester/contact, configured only with the account owner's approval.
-
-The ephemeral `GITHUB_TOKEN` handles state commits. Fork pull requests do not run this scheduled/manual workflow or receive its secrets.
-
-## Validation and manual controls
-
-```bash
-python -m pip install -r requirements.txt
-python watcher.py --check-config
-python -m unittest discover -s tests -v
-python watcher.py --dry-run
+```yaml
+controlStyles:
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Grid#NoTopLevelSuggestionsText
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsContainer
+    styles:
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.GridView#RecommendedList
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions
+    styles:
+      - Visibility=Collapsed
+  - target: StartMenu.PinnedList
+    styles:
+      - Height=504
 ```
+</details>
 
-Under **Actions → Freight and STB Tripwire → Run workflow**:
+## Keep Recommended button
 
-- Default inputs: poll live sources, quietly seed new sources, deliver new qualifying leads, and commit state.
-- `test_push=true`: send a real ntfy delivery test without changing monitoring baselines.
-- `pipeline_test=true`: use an isolated synthetic source to test the real primary parser, quiet baseline, new-item detection, ntfy delivery, persistence and duplicate suppression. Exactly one clearly labeled test notification is expected. Live news baselines are untouched.
+A modification of NoRecommendedSection that moves the "Recommended" button next
+to the "All" button. This way the "Recommended" list is still accessible without
+taking up space.
 
-Phone receipt has been confirmed by the subscriber for the original GitHub delivery test. A later server-accepted publish is not independent proof that a particular handset displayed it.
+**Note**: The button will only appear after a few entries are added to the
+Recommended list, so you may need to open a few files and restart explorer to
+see any difference.
+
+![Screenshot](screenshot-with-button.png)
+
+### Redesigned Start menu
+
+A variant for the [redesigned Windows 11 Start
+menu](https://microsoft.design/articles/start-fresh-redesigning-windows-start-menu/)
+that is available on version 24H2 and later.
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```yaml
+controlStyles:
+  - target: Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Height=0
+      - Visibility=>showMoreSuggestionsVisible
+  - target: Grid#TopLevelSuggestionsRoot
+    styles:
+      - Grid.Row=0
+      - MaxHeight=54
+      - RenderTransform:=<TranslateTransform Y="22"/>
+  - target: Grid#ShowMoreSuggestions
+    styles:
+      - Visibility={{showMoreSuggestionsVisible}}
+      - Margin=0
+  - target: Button#ShowMoreSuggestionsButton > Grid > ContentPresenter > StackPanel > TextBlock
+    styles:
+      - Text=Recommended
+  - target: Grid#TopLevelHeader > Grid[2] > Button
+    styles:
+      - RenderTransform:=<TranslateTransform X="{{(1-showMoreSuggestionsVisible)*-135}}"/>
+```
+</details>
+
+### Classic Start menu
+
+<details>
+<summary>Content to import (click to expand)</summary>
+
+```yaml
+controlStyles:
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Grid#NoTopLevelSuggestionsText
+    styles:
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsContainer
+    styles:
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions
+    styles:
+      - RenderTransform:=<TranslateTransform Y="-572" X="-55" />
+  - target: StartMenu.PinnedList
+    styles:
+      - Height=504
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions > Windows.UI.Xaml.Controls.Button > Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.StackPanel > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Text=Recommended
+```
+</details>

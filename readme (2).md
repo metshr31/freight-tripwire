@@ -1,0 +1,68 @@
+# Freight Tripwire
+
+Direct company news, investor-relations releases, customer advisories, and freight/regulatory leads, delivered through ntfy.
+
+[](https://github.com/metshr31/freight-tripwire/actions/workflows/freight-watcher.yml)
+
+## Coverage
+
+Canada/Mexico expansion and gaps: [NORTH\_AMERICA.md](https://www.google.com/search?q=NORTH_AMERICA.md). Added readers and English/French/Spanish event detection cover Canadian regional carriers, Mexican carriers, rail/intermodal providers and port authorities. Runtime verification is reported separately from local reader checks.
+
+
+[**COVERAGE.md**](COVERAGE.md) maps every watched company name/alias to its verified direct endpoints and explicitly lists remaining gaps. [primary\_sources.json](https://www.google.com/search?q=primary_sources.json) contains the actual endpoints, parser types, source roles, verification dates and sample headlines. Some aliases and subsidiaries share parent-company releases. A company-name match in a shared news feed is additional coverage, and does not count as a working direct company source.
+
+Direct sources include all six Class I railroads, major public truckload/LTL carriers, private carriers, brokers and logistics companies. The railroad readers cover BNSF customer notifications; UP intermodal/pricing and customer announcements; CSX investor releases (customer news/service bulletins currently return HTTP 403); NS customer alerts/news releases; CN news including gate-hour notices; and CPKC's official investor-relations release feed. CPKC's authenticated customer portal is outside the public reader's reach.
+
+Other sources remain: FD 36873's Docket Yard feed; official STB filings, decisions and environmental comments; STB/FMCSA/FRA Federal Register feeds; EIA; PR Newswire; Business Wire; GlobeNewswire; Transport Topics; and attempted community/forum RSS feeds. FreightWaves/SONAR mentions are excluded. Community posts are labeled unverified tips. Broken community feeds (`r/Truckers` and `truckingboards.com`) were removed; remaining Reddit feeds (`r/FreightBrokers`, `r/railroading`, `r/logistics`) use browser headers and `curl_cffi` Chrome TLS-impersonation fallback. When `SEC_USER_AGENT` is not configured, `watcher.py` logs a single informational line and skips `sec:*` EDGAR checks.
+
+## Freshness
+
+News pushes require a timezone-qualified publication time within the previous **120 minutes**. Discovery time is never treated as publication time. Undated, date-only, stale and future-dated stories are held; original-page publication metadata is checked when available. An Atom update time or page modification time alone does not make an old story new. Previously queued stories expire when they age out. First reads still seed quietly. Health reports include freshness holds. This conservative rule reduces alerts from sources that omit precise publication times.
+
+## Speed and alert handling
+
+- A 20-minute schedule is configured **Monday–Friday, 8:00 a.m. through 7:00 p.m. Eastern**: 08:00, 08:20, 08:40, and every 20 minutes through the final 19:00 check (34 checks per weekday). America/New_York adjusts for daylight saving time. Holidays that fall on weekdays remain included.
+- Direct operational notices are fetched first; direct news/IR sources follow. Sources run concurrently with bounded workers and timeouts.
+- A new qualifying direct-company item is sent **as soon as that source finishes**, without waiting for slow social feeds. Some per-run delivery capacity is reserved for urgent items.
+- Source excerpts and original URLs accompany alerts; publication times are included when supplied. A registered company source supplies the company identity even when its headline omits the company name.
+- Content revisions at the same advisory URL can be detected, but a push still requires a qualifying fresh publication timestamp. Other items are deduplicated by their canonical original URL. Separate URLs for syndicated versions can still generate duplicates.
+- Every new source gets a **quiet initial baseline**. Adding sources does not send a backlog of old stories.
+- Failed notifications remain queued for retry while still within the freshness window. Local state is saved immediately after direct deliveries; GitHub commits state at the end of the run. A runner/commit failure can still cause duplicate delivery.
+- Non-SEC fetches send standard browser headers and fall back to `curl_cffi` (`impersonate="chrome"`) on HTTP 403/429 responses; primary sources retry once with exponential backoff and a 20-second timeout.
+- Persistent HTTP 403/429 sources back off for 30 minutes. Repeated other direct-source failures back off for 15 minutes; failures remain visible.
+
+GitHub scheduled starts are **best effort**. A 20-minute cron is not a guaranteed 20-minute delivery SLA and cannot guarantee beating every rival publication. This detects published leads; it does not independently verify every assertion or access private customer emails/portals. Bounded source windows can miss items during long outages or very busy periods.
+
+## Live status and durable state
+
+Latest live check: November 22, 2026, 4:29 p.m. Eastern. 265 of 295 direct endpoints succeeded; 41 of 52 added regional readers worked from GitHub. New sources seeded quietly and no historical news pushes were sent. Working readers fluctuate with access/rate limits. See https://www.google.com/search?q=NORTH\_AMERICA.md and https://www.google.com/search?q=health.json for country/mode details and explicit gaps. Automatic scheduled starts remain unverified until the next weekday window. SEC remains unconfigured.
+
+[health.json](https://www.google.com/search?q=health.json) reports each source's last success, failure, article count, backoff, runtime, working-primary count, and `company_names_without_live_primary`. Discovery verification does not guarantee continued runtime access. An error or an empty/unparseable page is not counted as a working reader; a valid official JSON/table response can legitimately contain zero matching records.
+
+`seen_items.json` preserves baselines, deduplication, delivery queues and advisory revisions. `alerts.jsonl` records delivered news leads when there are any. Runs are serialized and checkout the current `main` branch so a queued run does not replay stale monitoring state. Source-health notifications are throttled to once per 12 hours.
+
+## Secrets
+
+The public repository contains no ntfy topic or credentials. Repository Actions secrets:
+
+- `NTFY_TOPIC`: the subscribed topic name, with no URL prefix.
+- `SEC_USER_AGENT`: an identified requester/contact, configured only with the account owner's approval.
+
+The ephemeral `GITHUB_TOKEN` handles state commits. Fork pull requests do not run this scheduled/manual workflow or receive its secrets.
+
+## Validation and manual controls
+
+```bash
+python -m pip install -r requirements.txt
+python watcher.py --check-config
+python -m unittest discover -s tests -v
+python watcher.py --dry-run
+```
+
+Under **Actions → Freight and STB Tripwire → Run workflow**:
+
+- Default inputs: poll live sources, quietly seed new sources, deliver new qualifying leads, and commit state.
+- `test_push=true`: send a real ntfy delivery test without changing monitoring baselines.
+- `pipeline_test=true`: use an isolated synthetic source to test the real primary parser, quiet baseline, new-item detection, ntfy delivery, persistence and duplicate suppression. Exactly one clearly labeled test notification is expected. Live news baselines are untouched.
+
+Phone receipt has been confirmed by the subscriber for the original GitHub delivery test. A later server-accepted publish is not independent proof that a particular handset displayed it.

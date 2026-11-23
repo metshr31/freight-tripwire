@@ -34,6 +34,18 @@ MAX_ALERTS_PER_RUN = 20
 LOG = logging.getLogger("freight-tripwire")
 UTC = timezone.utc
 USER_AGENT = "FreightTripwire/1.1 (news monitoring; public sources)"
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/131.0.0.0 Safari/537.36"
+)
+BROWSER_HEADERS = {
+    "User-Agent": BROWSER_USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,application/rss+xml,application/atom+xml;q=0.8,*/*;q=0.7",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Upgrade-Insecure-Requests": "1",
+    "Cache-Control": "no-cache",
+}
 
 
 def now():
@@ -55,29 +67,61 @@ def atomic_save(path: Path, data):
     temp.replace(path)
 
 
+def _fetch_curl_cffi(url: str, timeout=23, data=None, headers=None):
+    try:
+        from curl_cffi import requests as cffi_requests
+    except ImportError:
+        return None
+    kwargs = {
+        "impersonate": "chrome",
+        "timeout": timeout,
+        "headers": headers or {},
+    }
+    if data is not None:
+        resp = cffi_requests.post(url, data=data, **kwargs)
+    else:
+        resp = cffi_requests.get(url, **kwargs)
+    if resp.status_code >= 400:
+        raise urllib.error.HTTPError(url, resp.status_code, f"HTTP {resp.status_code}", resp.headers, None)
+    return resp.text[:7_000_000]
+
+
 def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_headers=None):
     # Explicit SEC contact is required by SEC access policy; configure via Actions secret.
-    ua = os.environ.get("SEC_USER_AGENT", "").strip() if sec else USER_AGENT
-    if not ua:
-        raise RuntimeError("SEC_USER_AGENT missing: configure the Actions secret")
-    request = urllib.request.Request(url, data=data, headers={
-        "User-Agent": ua,
-        "Accept": "application/atom+xml, application/rss+xml, application/xml, text/html;q=0.9, */*;q=0.7",
-        "Accept-Encoding": "identity",
-        "Cache-Control": "no-cache",
-        **(request_headers or {}),
-    })
+    if sec:
+        ua = os.environ.get("SEC_USER_AGENT", "").strip()
+        if not ua:
+            raise RuntimeError("SEC_USER_AGENT missing: configure the Actions secret")
+        base_headers = {
+            "User-Agent": ua,
+            "Accept": "application/atom+xml, application/rss+xml, application/xml, text/html;q=0.9, */*;q=0.7",
+            "Cache-Control": "no-cache",
+        }
+    else:
+        base_headers = dict(BROWSER_HEADERS)
+    cffi_headers = {**base_headers, **(request_headers or {})}
+    urllib_headers = {**cffi_headers, "Accept-Encoding": "identity"}
+    request = urllib.request.Request(url, data=data, headers=urllib_headers)
     for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read(7_000_000).decode("utf-8", errors="replace")
         except urllib.error.HTTPError as exc:
+            if not sec and exc.code in (403, 429):
+                try:
+                    cffi_body = _fetch_curl_cffi(url, timeout=timeout, data=data, headers=cffi_headers)
+                    if cffi_body is not None:
+                        return cffi_body
+                except urllib.error.HTTPError as cffi_exc:
+                    exc = cffi_exc
+                except Exception:
+                    pass
             if exc.code not in (429, 500, 502, 503, 504) or attempt == attempts - 1:
-                raise
+                raise exc
         except (TimeoutError, urllib.error.URLError):
             if attempt == attempts - 1:
                 raise
-        time.sleep(1 + attempt * 2)
+        time.sleep(min(8, 2 ** attempt))
     raise RuntimeError("Fetch retries exhausted")
 
 
@@ -368,7 +412,10 @@ def collect_source(source):
         if isinstance(is_html, dict):
             spec = is_html
             body = json.dumps(spec["post_json"]).encode() if spec.get("post_json") is not None else None
-            raw = fetch(spec.get("request_url", url), timeout=12, attempts=1, data=body,
+            raw = fetch(spec.get("request_url", url),
+                        timeout=spec.get("timeout", 20),
+                        attempts=spec.get("attempts", 2),
+                        data=body,
                         request_headers={"Content-Type": "application/json"} if body else None)
             parsers = {"rss": lambda raw, spec: rss_items(raw, spec["url"]), "html": primary_html_items,
                        "inline": inline_items, "documents": document_items, "central": central_items, "notices": notice_items, "lazaro": lazaro_items}
@@ -421,6 +468,9 @@ def run(cfg, dry_run=False):
     timestamp_lookups = 0
     max_age = cfg.get("max_alert_age_minutes", 120)
     source_specs = expanded_sources(cfg)
+    if not os.environ.get("SEC_USER_AGENT", "").strip():
+        LOG.info("SEC_USER_AGENT not configured; skipping sec:* EDGAR checks")
+        source_specs = [s for s in source_specs if not s[0].startswith("sec:")]
     for sid, url, spec in source_specs:
         sources.setdefault(sid, {"seeded": False, "failures": 0})
     due_specs = [s for s in source_specs if sources[s[0]].get("next_check_epoch", 0) <= time.time()]
