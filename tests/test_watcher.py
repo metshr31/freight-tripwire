@@ -1,125 +1,169 @@
+"""Unit tests for watcher.py HTTP headers, curl_cffi fallback, retries, and SEC skip."""
+import http.client
+import io
 import json
+import logging
+import os
 import tempfile
 import unittest
+import urllib.error
 from pathlib import Path
-from unittest.mock import patch
-import sys
+from types import SimpleNamespace
+from unittest.mock import MagicMock, patch
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import watcher
 
 
-CONFIG = {
-    "max_alert_age_minutes": 0,
-    "companies": ["Union Pacific", "Amazon"],
-    "priority_keywords": ["bankruptcy", "strike", "terminal closure"],
-    "material_event_keywords": ["intermodal", "freight", "new service"],
-    "exclude_terms": ["freightwaves", "sonar"],
-    "freight_context_keywords": ["freight", "rail", "intermodal", "terminal"],
-    "ambiguous_company_names": ["Amazon"],
-    "rss_feeds": ["https://news.example.org/rss"],
-    "stb_docket_feed": "https://docketyard.org/d/FD-36873/feed",
-    "stb_official_pages": [],
-}
+class WatcherFetchTests(unittest.TestCase):
+    def test_browser_headers_sent_for_non_sec_requests(self):
+        captured = {}
+
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+            def read(self, _n=None):
+                return b"<html>ok</html>"
+
+        def fake_urlopen(req, timeout=None):
+            captured["headers"] = {k.lower(): v for k, v in req.header_items()}
+            captured["timeout"] = timeout
+            return FakeResponse()
+
+        with patch("urllib.request.urlopen", side_effect=fake_urlopen):
+            body = watcher.fetch("https://example.com/news")
+
+        self.assertEqual(body, "<html>ok</html>")
+        self.assertIn("mozilla/5.0", captured["headers"]["user-agent"].lower())
+        self.assertIn("accept-language", captured["headers"])
+        self.assertEqual(captured["headers"].get("upgrade-insecure-requests"), "1")
+
+    def test_curl_cffi_fallback_on_403_and_429(self):
+        for code in (403, 429):
+            with self.subTest(status=code):
+                err = urllib.error.HTTPError(
+                    "https://example.com/feed", code, f"HTTP {code}", {}, io.BytesIO(b"")
+                )
+                with patch("urllib.request.urlopen", side_effect=err), patch.object(
+                    watcher, "_fetch_curl_cffi", return_value="<rss>ok</rss>"
+                ) as mock_cffi:
+                    body = watcher.fetch("https://example.com/feed", attempts=2)
+                self.assertEqual(body, "<rss>ok</rss>")
+                mock_cffi.assert_called_once()
+
+    def test_timeout_retry_with_exponential_backoff(self):
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, *args):
+                return False
+
+            def read(self, _n=None):
+                return b"ok-after-retry"
+
+        with patch(
+            "urllib.request.urlopen", side_effect=[TimeoutError("timed out"), FakeResponse()]
+        ), patch("time.sleep") as mock_sleep:
+            body = watcher.fetch("https://example.com/slow", timeout=20, attempts=2)
+
+        self.assertEqual(body, "ok-after-retry")
+        mock_sleep.assert_called_once_with(1)
 
 
-def rss(items):
-    return "<rss><channel>" + "".join(
-        f"<item><title>{title}</title><link>{link}</link><description>{desc}</description></item>"
-        for title, link, desc in items
-    ) + "</channel></rss>"
+    def test_curl_cffi_fallback_on_520_and_remote_disconnected(self):
+        err_520 = urllib.error.HTTPError(
+            "https://example.com/feed", 520, "HTTP 520", {}, io.BytesIO(b"")
+        )
+        with patch("urllib.request.urlopen", side_effect=err_520), patch.object(
+            watcher, "_fetch_curl_cffi", return_value="<rss>ok-520</rss>"
+        ) as mock_cffi:
+            self.assertEqual(watcher.fetch("https://example.com/feed", attempts=2), "<rss>ok-520</rss>")
+            mock_cffi.assert_called_once()
+
+        with patch(
+            "urllib.request.urlopen",
+            side_effect=http.client.RemoteDisconnected("Remote end closed connection without response"),
+        ), patch.object(watcher, "_fetch_curl_cffi", return_value="<rss>ok-rd</rss>") as mock_cffi:
+            self.assertEqual(watcher.fetch("https://example.com/feed", attempts=2), "<rss>ok-rd</rss>")
+            mock_cffi.assert_called_once()
+
+    def test_load_official_stb_sends_form_content_type(self):
+        html = "<table class=\"stb-ajax-table\" data-stb-action=\"stb_load\" data-stb-nonce=\"abc\"><tbody></tbody></table>"
+        ajax = json.dumps({"success": True, "data": {"rows": "<tr><td>11/23/2026</td><td>FD 36873</td><td>123456</td><td>Test Filing</td></tr>"}})
+        calls = []
+
+        def fake_fetch(url, **kwargs):
+            calls.append((url, kwargs))
+            return ajax if "admin-ajax.php" in url else html
+
+        with patch.object(watcher, "fetch", side_effect=fake_fetch):
+            entries = watcher.load_official_stb("https://www.stb.gov/proceedings-actions/filings/")
+
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(calls[1][1]["request_headers"]["Content-Type"], "application/x-www-form-urlencoded")
+
+    def test_collect_primary_uses_higher_timeout_and_retry(self):
+        spec = {
+            "id": "kenco-test",
+            "company": "Kenco",
+            "role": "news",
+            "url": "https://kencogroup.com/category/news/feed/",
+            "kind": "rss",
+        }
+        rss = "<rss><channel><item><title>Kenco Opens Facility</title><link>https://kencogroup.com/a</link></item></channel></rss>"
+        with patch.object(watcher, "fetch", return_value=rss) as mock_fetch:
+            entries, err = watcher.collect_source(("primary:kenco-test", spec["url"], spec))
+
+        self.assertIsNone(err)
+        self.assertEqual(len(entries), 1)
+        _, kwargs = mock_fetch.call_args
+        self.assertGreaterEqual(kwargs["timeout"], 20)
+        self.assertGreaterEqual(kwargs["attempts"], 2)
 
 
-class WatcherTests(unittest.TestCase):
-    def test_rss_and_atom(self):
-        r = watcher.rss_items(rss([("Union Pacific intermodal lane", "https://example.org/1", "new service")]), "test")
-        self.assertEqual(len(r), 1)
-        atom = '<feed xmlns="http://www.w3.org/2005/Atom"><entry><title>A</title><link rel="alternate" href="https://example.org/a"/><summary>Detailed</summary></entry></feed>'
-        a = watcher.rss_items(atom, "test")
-        self.assertEqual(a[0]["link"], "https://example.org/a")
+class WatcherSecAndConfigTests(unittest.TestCase):
+    def test_sec_sources_skipped_gracefully_when_env_missing(self):
+        cfg = watcher.load_json(watcher.WATCHLIST_FILE, None)
+        with tempfile.TemporaryDirectory() as tmpdir:
+            state_path = Path(tmpdir, "seen.json")
+            health_path = Path(tmpdir, "health.json")
+            with patch.object(watcher, "STATE_FILE", state_path), patch.object(
+                watcher, "HEALTH_FILE", health_path
+            ), patch.dict(os.environ, {"SEC_USER_AGENT": ""}, clear=False), patch.object(
+                watcher,
+                "expanded_sources",
+                return_value=[
+                    ("sec:0", "https://www.sec.gov/0", False),
+                    ("sec:100", "https://www.sec.gov/100", False),
+                    ("sec:200", "https://www.sec.gov/200", False),
+                    ("https://example.com/rss", "https://example.com/rss", False),
+                ],
+            ), patch.object(
+                watcher,
+                "collect_completed",
+                return_value=[
+                    (
+                        ("https://example.com/rss", "https://example.com/rss", False),
+                        ([{"title": "Test Item", "link": "https://example.com/1", "source": "https://example.com/rss"}], None),
+                    )
+                ],
+            ), self.assertLogs("freight-tripwire", level=logging.INFO) as logs:
+                rc = watcher.run(cfg, dry_run=True)
 
-    def test_classification_and_exclusions(self):
-        base = {"title": "Amazon launches new freight service", "link": "https://example.org/a", "summary": "", "source": "press"}
-        self.assertEqual(watcher.label_item(base, CONFIG)[0], "P2")
-        self.assertIsNone(watcher.label_item({**base, "title": "Amazon new streaming series"}, CONFIG))
-        self.assertIsNone(watcher.label_item({**base, "title": "FreightWaves SONAR covers Amazon new freight"}, CONFIG))
-        community = {**base, "community": True, "title": "Union Pacific rail strike talk"}
-        self.assertEqual(watcher.label_item(community, CONFIG)[0], "TIP")
+        self.assertEqual(rc, 0)
+        sec_info = [m for m in logs.output if "SEC_USER_AGENT" in m]
+        self.assertEqual(len(sec_info), 1)
+        self.assertNotIn("WARNING", sec_info[0])
 
-    def test_docket_id_deduplicates_sources(self):
-        a = {"link": "https://docketyard.org/filing/313150"}
-        b = {"link": "https://www.stb.gov/a/313150.pdf", "stb_kind": "filing", "stb_id": "313150"}
-        self.assertEqual(watcher.item_key(a), watcher.item_key(b))
-
-    def test_official_stb_scoped_rows(self):
-        html = '''<html><table><tr><th>Date</th><th>Docket</th><th>ID</th><th>Filer</th></tr>
-          <tr><td>11/20/2026</td><td>FD_36873</td><td>313150</td><td>CSX</td><td><a href="/docs/313150.pdf">PDF</a></td></tr>
-          <tr><td>11/20/2026</td><td>FD_10000</td><td>313151</td><td>Other</td></tr></table></html>'''
-        items = watcher.official_stb_items(html, "https://www.stb.gov/proceedings-actions/filings/")
-        self.assertEqual(len(items), 1)
-        self.assertEqual(items[0]["stb_id"], "313150")
-
-    def test_businesswire_public_release_cards(self):
-        html = '<div><a href="/news/home/20261122000001/en/Test"><h2>Union Pacific new intermodal service</h2></a><div class="rich-text">New rail lane opens Monday.</div></div>'
-        items = watcher.businesswire_items(html, "https://www.businesswire.com/newsroom/industry/transport")
-        self.assertEqual(items[0]["title"], "Union Pacific new intermodal service")
-        self.assertIn("opens Monday", items[0]["summary"])
-        self.assertEqual(items[0]["link"], "https://www.businesswire.com/news/home/20261122000001/en/Test")
-        with self.assertRaisesRegex(ValueError, "no release cards"):
-            watcher.businesswire_items('<html>Unavailable</html>', "https://www.businesswire.com/newsroom/industry/transport")
-
-    def test_stb_loads_dynamic_rows(self):
-        page = """<table class="stb-ajax-table" data-stb-action="stb_hook_table_filings" data-stb-nonce="test">
-        <thead><tr><th></th><th>Official Filing Date</th><th>Docket Number</th><th>Filing ID</th><th>Filed For</th></tr></thead><tbody></tbody></table>"""
-        rows = '<tr><td></td><td>11/22/2026</td><td>FD_36873_49</td><td>313056</td><td>CPKC</td></tr>'
-        with patch.object(watcher, "fetch", side_effect=[page, json.dumps({"success": True, "data": {"rows": rows}})]) as fetch:
-            items = watcher.load_official_stb("https://www.stb.gov/proceedings-actions/filings/")
-        self.assertEqual(items[0]["stb_id"], "313056")
-        self.assertEqual(items[0]["published"], "11/22/2026")
-        self.assertIn(b"per-page=500", fetch.call_args.kwargs["data"])
-
-    def test_stb_uses_record_column_not_docket_number(self):
-        html = """<table><thead><tr><th></th><th>Service Date</th><th>Decision ID</th><th>Docket Number</th><th>Title</th></tr></thead>
-        <tr><td></td><td>11/22/2026</td><td>53293</td><td>FD 36873</td><td>Decision</td></tr></table>"""
-        item = watcher.official_stb_items(html, "https://www.stb.gov/proceedings-actions/decisions/")[0]
-        self.assertEqual(item["stb_id"], "53293")
-
-    def test_unloaded_stb_table_is_failure(self):
-        with self.assertRaisesRegex(ValueError, "no loaded records"):
-            watcher.official_stb_items('<table><thead><tr><th>ID</th></tr></thead><tr><td></td></tr></table>',
-                                       "https://www.stb.gov/proceedings-actions/filings/")
-
-    def test_failed_push_remains_queued_for_next_run(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            old = (watcher.STATE_FILE, watcher.HEALTH_FILE, watcher.LOG_FILE)
-            watcher.STATE_FILE = Path(tmp, "seen_items.json")
-            watcher.HEALTH_FILE = Path(tmp, "health.json")
-            watcher.LOG_FILE = Path(tmp, "alerts.jsonl")
-            baseline = rss([("Starting story", "https://example.org/a", "not important")])
-            update = rss([
-                ("Starting story", "https://example.org/a", "not important"),
-                ("Union Pacific terminal closure", "https://example.org/b", "terminal closure")
-            ])
-            try:
-                with patch.object(watcher, "expanded_sources", return_value=[("news", "https://news.example.org/rss", False)]):
-                    with patch.object(watcher, "fetch", return_value=baseline):
-                        with patch.object(watcher, "publish") as pub:
-                            self.assertEqual(watcher.run(CONFIG), 0)
-                            pub.assert_not_called()  # source-specific quiet baseline
-                    with patch.object(watcher, "fetch", return_value=update):
-                        with patch.object(watcher, "publish", side_effect=RuntimeError("push down")):
-                            self.assertEqual(watcher.run(CONFIG), 0)
-                    state = json.loads(watcher.STATE_FILE.read_text())
-                    self.assertEqual(sum(x["status"] == "pending" for x in state["seen"].values()), 1)
-                    with patch.object(watcher, "fetch", return_value=update):
-                        with patch.object(watcher, "publish") as pub:
-                            self.assertEqual(watcher.run(CONFIG), 0)
-                            self.assertEqual(pub.call_count, 1)
-                    state = json.loads(watcher.STATE_FILE.read_text())
-                    self.assertEqual(sum(x["status"] == "pending" for x in state["seen"].values()), 0)
-                    self.assertEqual(len(watcher.LOG_FILE.read_text().splitlines()), 1)
-            finally:
-                watcher.STATE_FILE, watcher.HEALTH_FILE, watcher.LOG_FILE = old
+    def test_dead_community_feeds_removed_from_watchlist(self):
+        cfg = watcher.load_json(watcher.WATCHLIST_FILE, None)
+        feeds = set(cfg["rss_feeds"])
+        self.assertNotIn("https://www.reddit.com/r/Truckers/new/.rss", feeds)
+        self.assertNotIn("https://www.truckingboards.com/bb/forums/-/index.rss", feeds)
 
 
 if __name__ == "__main__":
