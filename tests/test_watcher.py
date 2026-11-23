@@ -13,6 +13,8 @@ from unittest.mock import MagicMock, patch
 
 import watcher
 
+CONFIG = watcher.load_json(watcher.WATCHLIST_FILE, None)
+
 
 class WatcherFetchTests(unittest.TestCase):
     def test_browser_headers_sent_for_non_sec_requests(self):
