@@ -119,7 +119,7 @@ def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_header
                     pass
             if exc.code not in (429, 500, 502, 503, 504, 520) or attempt == attempts - 1:
                 raise exc
-        except (TimeoutError, urllib.error.URLError, http.client.HTTPException):
+        except http.client.HTTPException:
             if not sec:
                 try:
                     cffi_body = _fetch_curl_cffi(url, timeout=timeout, data=data, headers=cffi_headers)
@@ -130,6 +130,9 @@ def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_header
                         raise cffi_exc
                 except Exception:
                     pass
+            if attempt == attempts - 1:
+                raise
+        except (TimeoutError, urllib.error.URLError):
             if attempt == attempts - 1:
                 raise
         time.sleep(min(8, 2 ** attempt))
