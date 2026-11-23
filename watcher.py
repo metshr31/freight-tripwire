@@ -6,6 +6,7 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from email.header import Header
 import hashlib
+import http.client
 import json
 import logging
 import os
@@ -107,7 +108,7 @@ def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_header
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return response.read(7_000_000).decode("utf-8", errors="replace")
         except urllib.error.HTTPError as exc:
-            if not sec and exc.code in (403, 429):
+            if not sec and exc.code in (403, 429, 520):
                 try:
                     cffi_body = _fetch_curl_cffi(url, timeout=timeout, data=data, headers=cffi_headers)
                     if cffi_body is not None:
@@ -116,9 +117,19 @@ def fetch(url: str, sec=False, timeout=23, data=None, attempts=3, request_header
                     exc = cffi_exc
                 except Exception:
                     pass
-            if exc.code not in (429, 500, 502, 503, 504) or attempt == attempts - 1:
+            if exc.code not in (429, 500, 502, 503, 504, 520) or attempt == attempts - 1:
                 raise exc
-        except (TimeoutError, urllib.error.URLError):
+        except (TimeoutError, urllib.error.URLError, http.client.HTTPException):
+            if not sec:
+                try:
+                    cffi_body = _fetch_curl_cffi(url, timeout=timeout, data=data, headers=cffi_headers)
+                    if cffi_body is not None:
+                        return cffi_body
+                except urllib.error.HTTPError as cffi_exc:
+                    if cffi_exc.code not in (429, 500, 502, 503, 504, 520) or attempt == attempts - 1:
+                        raise cffi_exc
+                except Exception:
+                    pass
             if attempt == attempts - 1:
                 raise
         time.sleep(min(8, 2 ** attempt))
@@ -224,7 +235,11 @@ def load_official_stb(url):
         if not params["action"] or not params["_ajax_nonce"]:
             raise ValueError("STB table endpoint metadata missing")
         endpoint = urllib.parse.urljoin(url, "/wp-admin/admin-ajax.php")
-        response = json.loads(fetch(endpoint, data=urllib.parse.urlencode(params).encode()))
+        response = json.loads(fetch(
+            endpoint,
+            data=urllib.parse.urlencode(params).encode(),
+            request_headers={"Content-Type": "application/x-www-form-urlencoded", "Referer": url},
+        ))
         data = response.get("data", {})
         if not response.get("success") or not isinstance(data, dict) or not data.get("rows"):
             raise ValueError("STB dynamic table endpoint returned no rows")
