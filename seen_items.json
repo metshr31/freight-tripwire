@@ -1,6 +1,6 @@
 {
-  "last_health_alert_epoch": 1795446886.6037536,
-  "last_run_utc": "2026-11-23T17:17:24+00:00",
+  "last_health_alert_epoch": 1795612997.1477807,
+  "last_run_utc": "2026-11-25T13:23:17+00:00",
   "seen": {
     "0008c08c16e5d34ba1583d7a": {
       "entry": null,
@@ -79,6 +79,13 @@
       "status": "baseline",
       "title": "Advanced Strategies for LTL Pricing and Cost Control"
     },
+    "00a7bf7287582ba93b0e87f5": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Notice of Petition for Extension of Waiver of Compliance"
+    },
     "00c6cc4fdbe236ea87884278": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -134,6 +141,13 @@
       "label": null,
       "status": "baseline",
       "title": "Two new Post-Panamax electric gantry cranes arrive at the Port of Montreal"
+    },
+    "01311d13b4074d8442c8a5e6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Climate Storytelling Shows That Nature Can Heal, but the World Must Care"
     },
     "0132de06d2590f2659d3aac3": {
       "entry": null,
@@ -618,6 +632,13 @@
       "status": "baseline",
       "title": "The easiest way to manage all your freight just got easier with Uber Freight Shipping"
     },
+    "04291c5aff7669715d43a703": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Founder and CEO, Ryan Petersen of Flexport speaks at Xeneta Summit, Munich 2026."
+    },
     "042b11d36ec7e139ff168a25": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -946,6 +967,13 @@
       "label": null,
       "status": "baseline",
       "title": "TFI International Announces 2022 Fourth Quarter and Full-Year Results"
+    },
+    "07014eb84b17624d6bf22df1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:38+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Lazer Logistics' Candice Mirasol Recognized with 2026 Women in Supply Chain Forum Award"
     },
     "07056321e4ad6a64702ebbc6": {
       "entry": null,
@@ -1346,6 +1374,13 @@
       "status": "baseline",
       "title": "RoadOne IntermodaLogistics adds rockstar sales executive team"
     },
+    "09d7ee9af3ba49f3a2209169": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
+    },
     "09e05f50554e352a12408a1f": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -1458,6 +1493,14 @@
       "status": "baseline",
       "title": "MODE Insight – October 2026"
     },
+    "0ac9eddeda3a4ac0fefd3a6f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Customer Advisory – London Gateway Port and Port of Felixstowe: Update on Empty Container Acceptance"
+    },
     "0b440a351f3bb41b0341e93d": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -1514,6 +1557,13 @@
       "status": "baseline",
       "title": "Ontario County Chamber Honors Leonard’s Express with ‘Visionary Investor’ Award"
     },
+    "0be3a670f30acca5eb029818": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:38+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Lazer Logistics' Melanie Sandlin Wins 2026 GeorgiaCIO ORBIE Award"
+    },
     "0c1ae5beea328bc2e839d7d2": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -1556,6 +1606,13 @@
       "status": "baseline",
       "title": "SBB: Quebec agility supporting infrastructure around the world"
     },
+    "0c67500073e272d0b7accfe4": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Autodesk to present at upcoming investor conferences"
+    },
     "0c8bbb448fc148eda4600dd7": {
       "entry": null,
       "first_seen": "2026-11-22T20:55:44+00:00",
@@ -1584,6 +1641,13 @@
       "status": "baseline",
       "title": "Wreaths Across America 2023: Driving to Remember, Honor, & Teach"
     },
+    "0ca00422a323560ad91a1b79": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "NACFE fuel study sees fleets bust myths, spread benefits"
+    },
     "0ca0713bcb6742d5e6e164be": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:21+00:00",
@@ -1604,6 +1668,13 @@
       "label": null,
       "status": "baseline",
       "title": "We’re proud to announce that TCI Transportation has been recognized as one of Heavy Duty Trucking’s (HDT) Top Green Fleets for 2025—marking the fourth consecutive year we've receiv"
+    },
+    "0cbd60b7f931170b10215458": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Climate Visual Storytelling Is Most Powerful When Message Meets Method"
     },
     "0cbd8868875562eb64375c0a": {
       "entry": null,
@@ -1675,6 +1746,13 @@
       "status": "baseline",
       "title": "Intermodal November 16, 2026 NS IM Thanksgiving Holiday Plan 2026 See the download link below for Norfolk Southern’s Intermodal 2026 Thanksgiving holiday operating plan. Our Custom"
     },
+    "0d2b129296634bfe92cc08ba": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Ryder CEO John Diez to Address Goldman Sachs Industrials and Materials Conference"
+    },
     "0d2e518d572e416a489e1227": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -1709,6 +1787,14 @@
       "label": null,
       "status": "baseline",
       "title": "The August Freight Market at a Glance"
+    },
+    "0d54cacfabf7e96dbd93aa1a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 Rate Announcement Letter"
     },
     "0d5bdcefc7806cd83202d3e4": {
       "entry": null,
@@ -2277,6 +2363,13 @@
       "status": "baseline",
       "title": "Hit Your Year-End Targets: Scale Capacity and Protect Margins with CJ Logistics"
     },
+    "11a9c7d0860979cf7dbca61f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Desicision on State Aid"
+    },
     "11adfa276414b6842bd1c188": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -2438,6 +2531,13 @@
       "status": "baseline",
       "title": "Diesel Fuel Update: Prices Ease but Market Risk Remains"
     },
+    "12eda2e7977ef0ab00968396": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Proficient Auto Logistics Secures New Asset-Based Lending Facility"
+    },
     "12f0dca9fb84af15fa77e6e1": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:57+00:00",
@@ -2479,6 +2579,13 @@
       "label": null,
       "status": "baseline",
       "title": "Estes Ranks No. 1 In Top Workplace – Mega Category Estes recognized in the Richmond Times-Dispatch’s annual rankings for the seventh year in a row."
+    },
+    "1358decc6492e77ddb0f576c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Former VW engineer pleads guilty in Rivian trade case"
     },
     "135e1915507ba51df2da02ab": {
       "entry": null,
@@ -2984,6 +3091,13 @@
       "status": "baseline",
       "title": "2026/06/25 NORTH AMERICA, CENTRAL & SOUTH AMERICA Adelta Logis holds ceremony to mark its 10th anniversary"
     },
+    "170bede56b739044686ffbf8": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How to Ship an RV: A Step-by-Step Guide From Quote to Delivery"
+    },
     "1711182b477787690b4aeb76": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -3222,6 +3336,14 @@
       "status": "baseline",
       "title": "What Is Supply Chain Management and Why Does It Matter?"
     },
+    "18b89acf9abbca1d1b6f9376": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "December 2026 Monthly Intermodal Fuel Surcharge"
+    },
     "18fd1370e8f2514a2df419fa": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:44+00:00",
@@ -3264,12 +3386,26 @@
       "status": "baseline",
       "title": "“TCI Transportation consistently identifies and shares ways to reduce total cost of logistics ownership while keeping service to the end customer at the highest levels.”"
     },
+    "1947b4e0af3bb449d3099e2b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Surface Transportation Project Delivery Program; Ohio Department of Transportation Audit Report"
+    },
     "194ca9f96f535353e82ee197": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:49+00:00",
       "label": null,
       "status": "baseline",
       "title": "What role does digital technology play in the marine industry’s move towards carbon neutrality?"
+    },
+    "194ed2621cb4e7a68f7c347a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "View all articles"
     },
     "19553730cb2f91b96e429085": {
       "entry": null,
@@ -3368,6 +3504,13 @@
       "label": null,
       "status": "baseline",
       "title": "View the News Room"
+    },
+    "1a79ebe60d7dd3656093cc48": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Growing an Auto Haul Fleet: The Financing Math Behind the Second and Fifth Truck"
     },
     "1a8d0ca610476cdaaf78a755": {
       "entry": null,
@@ -3775,6 +3918,13 @@
       "status": "baseline",
       "title": "Port Saint John CEO, Ontario and New Brunswick Premiers Meet to Discuss Gateway’s Growing National Impact"
     },
+    "1e5db54aaf7e62c82ef86700": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Over-Dimensional Vehicle Transport: Moving Buses, RVs, and Commercial Chassis"
+    },
     "1e6051143e738ede43ed3008": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -3816,6 +3966,13 @@
       "label": null,
       "status": "baseline",
       "title": "Archives by year: 2025 , 2024 , 2023 , 2022 , 2021 , 2020 , 2019 , 2018 , 2017 , 2016 , 2015 , 2014 , 2013 , 2012 , 2011 , 2010 , 2009"
+    },
+    "1eba1b9072b72d430632d55b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Commercial Driver's License: Yehonatan Kapach; Application for Exemption"
     },
     "1ed39662394dc88768f34554": {
       "entry": null,
@@ -3956,6 +4113,20 @@
       "label": null,
       "status": "baseline",
       "title": "U.S. small-scale solar generation has quadrupled in the last decade"
+    },
+    "209b3fa254d2290e39c54b65": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Union Pacific’s Legendary Steam Locomotives Draw Thousands of Fans and Raises $150,000 for the Make-A-Wish Foundation"
+    },
+    "209c656c4ad97acaa57cce8f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "CBP Announces Customs Broker Annual Permit User Fee Due Date"
     },
     "20de505f792989d855f7acf2": {
       "entry": null,
@@ -4160,6 +4331,13 @@
       "status": "baseline",
       "title": "Training the Trainers – a new standard in excellence!"
     },
+    "23271fa896ea431c5311c2c2": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "3PL for Online Business: Fulfillment, Costs & Scale"
+    },
     "2330620c7f8640da7310726a": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -4265,6 +4443,14 @@
       "status": "baseline",
       "title": "North Area 2021"
     },
+    "23e7ecdc62f66f763f1673aa": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Change to Emergency Contingency Surcharge Indian Sub-Continent to West Coast Latin America (B1S)"
+    },
     "23e97fa1c17a608fac312a2a": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -4279,6 +4465,13 @@
       "status": "baseline",
       "title": "Capacity, Cost, and Mode Volatility: Why Supply Chains Need More Optionality"
     },
+    "242153eaf1a51efd09d9e1c4": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "'God of War' on Prime Video: Everything to know about the video game adaptation"
+    },
     "2450737a148e434e91b7d01a": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -4292,6 +4485,13 @@
       "label": null,
       "status": "baseline",
       "title": "ASIPONA LÁZARO CÁRDENAS PARTICIPA EN EXPOMAR 2026 EN MORELIA, MICHOACÁN."
+    },
+    "246ad7cae4981c7b580f8f82": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "C.H. Robinson to Participate in Upcoming Investor Conferences"
     },
     "246bab7fc21ba2785739ed97": {
       "entry": null,
@@ -4440,6 +4640,13 @@
       "status": "baseline",
       "title": "Schneider named a Top Company for Women to Work in Transportation for eighth consecutive year"
     },
+    "25e89636e3dc07ac680fa240": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Transportation Industry Trends: November 23-27, 2026"
+    },
     "25f37124bcceae7022f26886": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -4558,6 +4765,13 @@
       "label": null,
       "status": "baseline",
       "title": "Drive for MVT | Luther Binford"
+    },
+    "26fb1337ab63aa6412a97c42": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How Global Trade Management Software Cuts Costs and Risk"
     },
     "2700ba08501135df018b61d9": {
       "entry": null,
@@ -4782,6 +4996,13 @@
       "label": null,
       "status": "baseline",
       "title": "All In to Zero: Living Safety Every Mile"
+    },
+    "288073538ea8abc834307698": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "DSV, 1183 - SHARE BUYBACK IN DSV A/S"
     },
     "288427e670ee8bfccfb9d03a": {
       "entry": null,
@@ -5406,6 +5627,13 @@
       "status": "baseline",
       "title": "PARS Appoints Caroline Costello as Vice President of Sales and Client Relations 08 Apr 2026"
     },
+    "2df429d0fce18f0acfa6c9c2": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "GoNoodle Named to Fast Company's Annual Brands That Matter List"
+    },
     "2e04f0f9499c33ccb0296467": {
       "entry": null,
       "first_seen": "2026-11-23T15:14:39+00:00",
@@ -5735,6 +5963,13 @@
       "status": "baseline",
       "title": "MegaCorp Logistics Named An Armstrong & Associates"
     },
+    "303134f1f43fef738f6a66da": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Fulfillment Software Selection Guide for Busy Shippers"
+    },
     "304216c2ab3da9d79fb65487": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -5882,6 +6117,13 @@
       "status": "baseline",
       "title": "U.S. exports of propane reached records in the first half of 2026"
     },
+    "313f7b98db5dbefa807e9cfe": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Small trucking firms scramble to survive diesel costs"
+    },
     "31414898aa69a564b7efe96b": {
       "entry": null,
       "first_seen": "2026-11-22T20:55:44+00:00",
@@ -5965,6 +6207,14 @@
       "label": null,
       "status": "baseline",
       "title": "Landstar Recognized as a Top Company for Women"
+    },
+    "3211ca7f8fc34eecc70455f6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "freshness_hold": "stale",
+      "label": null,
+      "status": "ignored",
+      "title": "2026/11/24 JAPAN NX Group signs capital and business alliance agreement with, and acquires stake in, Sun Metalon, a startup specializing in metal recycling technology"
     },
     "32130e613c699db5ea790084": {
       "entry": null,
@@ -6680,6 +6930,14 @@
       "status": "baseline",
       "title": "Ryder Ranks Among Top Companies for Women to Work in Trucking"
     },
+    "37d28eec8809efc2bcc4f0dc": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "stale",
+      "label": null,
+      "status": "ignored",
+      "title": "INAUGURACIÓN DEL EDIFICIO DE ALOJAMIENTO DEL PERSONAL DE LA UNIDAD NAVAL DE PROTECCIÓN PORTUARIA(UNAPROP)"
+    },
     "37dad82031cfc69f325914ee": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:00+00:00",
@@ -6707,6 +6965,13 @@
       "label": null,
       "status": "baseline",
       "title": "Continue reading NFI Introduces Vantage, a Next-Generation Transportation Intelligence Platform"
+    },
+    "38159a21a757d54acdcb337f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Strike averted at Los Angeles, Long Beach ports"
     },
     "381ab1960315f4e1c219fd2a": {
       "entry": null,
@@ -6784,6 +7049,14 @@
       "label": null,
       "status": "baseline",
       "title": "ArcBest Launches New Capabilities in ArcBest View"
+    },
+    "38a84426cc0c9850cd58b673": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:41+00:00",
+      "freshness_hold": "stale",
+      "label": null,
+      "status": "ignored",
+      "title": "Logistics Plus Opens New UAE Location to Support Growing Middle East Demand"
     },
     "38cf0d999c547baa115a653e": {
       "entry": null,
@@ -7422,6 +7695,13 @@
       "status": "baseline",
       "title": "Reporte Trimestral XBRL"
     },
+    "3d088001513180bd0e41d9d0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Oil prices rise with focus on Iran war diplomacy"
+    },
     "3d0c53cdbaf7a07edd679e4f": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -7828,12 +8108,26 @@
       "status": "baseline",
       "title": "Scotlynn Recognized as One of Gulfshore Business’ 2025 Best Places to Work, for the Fourth Straight Year"
     },
+    "41048c748fee60cc75025aa9": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Holy Pals Unveils December Holiday Promotions and Previews New Valentine's Day Collection"
+    },
     "4120babe9d3f04aa4ac2ff17": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
       "label": null,
       "status": "baseline",
       "title": "CN Submits Comments to STB on Completeness of UP-NS Amended Merger Application"
+    },
+    "4127b31ff434cbbbe9ef8780": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "HAFNIA LIMITED: Update Relating to Dividend for the Third Quarter 2026"
     },
     "413133514ab9aaa1089249ab": {
       "entry": null,
@@ -7849,12 +8143,27 @@
       "status": "baseline",
       "title": "L’Administration portuaire de Trois-Rivières souligne le prochain départ à la retraite de son PDG"
     },
+    "414b1adb98611bef8d52d6ec": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "TAT Technologies Announces Private Placement to Israeli Institutional Investors"
+    },
     "414e12fd4a06967785316f3e": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
       "label": null,
       "status": "baseline",
       "title": "Mullen Group Ltd. 2026 Third Quarter Earnings Conference Call and Webcast"
+    },
+    "41660815a72aa2016b57ba05": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Domestic Weekly Intermodal Fuel Surcharge - November 30, 2026"
     },
     "417db1a62f7b8ab7d71bc637": {
       "entry": null,
@@ -7932,6 +8241,13 @@
       "label": null,
       "status": "baseline",
       "title": "TFI International to Release 2024 First Quarter Results"
+    },
+    "41ee440d15205b02d80cf16a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How does EIA compare different types of energy?"
     },
     "41f7037419234d764e146045": {
       "entry": null,
@@ -8045,6 +8361,13 @@
       "status": "baseline",
       "title": "CN Statement on STB Rejection of Incomplete UP–NS Merger Application"
     },
+    "42e8e8028b74634aca847f7e": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "AI Back-End Ethernet Sales More Than Double in 3Q2026 as Scale-Up Deployments Enter Volume Production, According to Dell'Oro Group"
+    },
     "42f0082a1e2d53ef4dcc8ce1": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -8079,6 +8402,13 @@
       "label": null,
       "status": "baseline",
       "title": "The Port of Montreal’s Contrecœur expansion project crowned Project of the Year"
+    },
+    "43490b73560ad93244e9a1cd": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Palmetto Publishing Releases Dr. Naomi Hooks's New Guide to College and Career Readiness"
     },
     "4353bf97ba2c0b7c21f69594": {
       "entry": null,
@@ -8682,6 +9012,13 @@
       "status": "baseline",
       "title": "Congratulations to Travis Harris, Newest Driver of Maverick’s “Salute” Veteran Tribute Truck"
     },
+    "48c33ad9aacff5fcf6a9f924": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Union Pacific Corporation CEO Jim Vena and CFO Jennifer Hamann to Address the Goldman Sachs Industrials and Materials Conference"
+    },
     "48c57f91fad1977681a3a604": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -9039,6 +9376,13 @@
       "label": null,
       "status": "baseline",
       "title": "News and Insights"
+    },
+    "4abf8a164c09290bcc43d26c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Amazon Leo mission updates: More than 400 satellites deployed after fourth Ariane 6 mission of 2026"
     },
     "4ad55be49df7010fa1f9dedb": {
       "entry": null,
@@ -9418,6 +9762,13 @@
       "status": "baseline",
       "title": "CJ Logistics Launches New Website"
     },
+    "4e7212582f054b228bca78e1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Ryder Earns Top 10 3PL Recognition from Inbound Logistics for Fifth Consecutive Year"
+    },
     "4e7aac8025f215c507d9507b": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:00+00:00",
@@ -9522,6 +9873,13 @@
       "label": null,
       "status": "baseline",
       "title": "November 4, 2026 - CSX Executive Vice President and Chief Financial Officer to Address Baird Global Industrial Conference"
+    },
+    "4f14ddd7009a10a490ff5b7a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "CDL-A Owner-Operator Jobs: Find the Right Carrier for Your Business With Beemac Trucking"
     },
     "4f3450448159aaf8f12406a5": {
       "entry": null,
@@ -10090,6 +10448,13 @@
       "status": "baseline",
       "title": "Moving from good to great: Growing into the next stage of transportation maturity"
     },
+    "53d77d64ee77c238ca0df3c0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Imports bolster October freight market flows"
+    },
     "53da5a325ce03736ffcdb88a": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -10348,6 +10713,13 @@
       "label": null,
       "status": "baseline",
       "title": "Move For Hunger and Mayflower Transit Announce a New Partnership to Help Fight Hunger in the U.S"
+    },
+    "55f90a865826bc01651c9b2f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Petition for Rulemaking To Consider Amendments to Regulations Governing Interim Use of Rights-of-Way as Trails"
     },
     "560954714de11d8d3ed6435e": {
       "entry": null,
@@ -10629,6 +11001,13 @@
       "status": "baseline",
       "title": "COMPLEMENTO CARTA PORTE"
     },
+    "588b403a60d6b7160cc6c6e5": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "SOFIDEL ANNONCE DE NOUVELLES HAUSSES DE PRIX DANS TOUTE L'EUROPE À COMPTER DU 1ER JANVIER 2027"
+    },
     "588eea49f0ea08423cf7a90f": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -10684,6 +11063,13 @@
       "label": null,
       "status": "baseline",
       "title": "Scotlynn Recognized as Top 100 Logistics Providers in North America"
+    },
+    "58e1e96bc1e27c29f0d3e02a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:40+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Hellmann partners with Exotec to bring intelligent robotics to Siemens’ intralogistics operations"
     },
     "58e58c90ea8fc8ebf143bd6b": {
       "entry": null,
@@ -11217,6 +11603,13 @@
       "status": "baseline",
       "title": "Union Pacific Corporation Announces Third Quarter 2026 Earnings Release Date"
     },
+    "5d3d651c4103d7931f636653": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "RV Shipping Cost in 2026: What Drives the Price by RV Type and Method"
+    },
     "5d5a65e1f2f79aded62e7cec": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -11426,6 +11819,13 @@
       "label": null,
       "status": "baseline",
       "title": "ArcBest Announces Its Second Quarter 2026 Earnings Conference Call"
+    },
+    "5f0fd70a3619cb700dfbe4a7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Weekly Freight Trends: November 23-27, 2026"
     },
     "5f11afcba53d6b466b47ada4": {
       "entry": null,
@@ -11882,6 +12282,13 @@
       "status": "baseline",
       "title": "Challenger Logistics – Meet the team!"
     },
+    "6356e81f843e21421068b0f5": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Dauch to Present at the BofA Securities 2026 Leveraged Finance Conference on December 1"
+    },
     "638748a5d16d3b47954a912b": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -12036,6 +12443,14 @@
       "status": "baseline",
       "title": "Archives by year: 2025 , 2024 , 2023 , 2022 , 2021 , 2020 , 2019 , 2018 , 2017 , 2016 , 2015 , 2014 , 2013 , 2012 , 2011 , 2010 , 2009"
     },
+    "647638eb48b46b181bc3b393": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 On-Call Rates (PDF)"
+    },
     "64a6dd8cb7ab20c7b60ef249": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -12126,6 +12541,13 @@
       "label": null,
       "status": "baseline",
       "title": "FedEx Dataworks and Stripe to Join Forces to Reduce Friction in Global Commerce for SMBs"
+    },
+    "6528c9e89482720decb47869": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
     },
     "653dea846674512e20c6d1ff": {
       "entry": null,
@@ -12301,6 +12723,14 @@
       "label": null,
       "status": "baseline",
       "title": "Detailed Transit Time Map"
+    },
+    "66c12ab3e22d75491453884e": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 Complete Rate Package (ZIP)"
     },
     "66d0c38ac56437ccfc264fcc": {
       "entry": null,
@@ -12505,6 +12935,14 @@
       "status": "baseline",
       "title": "Press Release: Magnum Builds New Sioux City LTL Terminal"
     },
+    "6881e0ca94660e6ce02884fa": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Georgia Ports Authority Backs Union Pacific-Norfolk Southern Merger, Joining More Than 2,000 Supporters"
+    },
     "689558c6355829aa4ac7c612": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:00+00:00",
@@ -12525,6 +12963,13 @@
       "label": null,
       "status": "baseline",
       "title": "REPARA ASIPONA ACCESO A KÍNDER DE FRANCISCO VILLA"
+    },
+    "68d3f03f358fc8a41db0c849": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Commercial Driver's License: Nick Castello; Application for Exemption"
     },
     "68dcd2a892ff5ed2396ddab9": {
       "entry": null,
@@ -12841,6 +13286,13 @@
       "status": "baseline",
       "title": "Zero Base Fuel Recovery Program"
     },
+    "6b1df8baf27313e11e8211ed": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Shipping Prototype Lithium Batteries by Ground Under 49 CFR 173.185(e)"
+    },
     "6b2beaf0dd8e42ddb6c45f6d": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:04+00:00",
@@ -13058,6 +13510,13 @@
       "status": "baseline",
       "title": "Crete Carrier Raises Driver Pay"
     },
+    "6ca47365d6986769bb7689c0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "GenFlat CEO Drew Hall Featured on The Maritime Executive’s In the Know Podcast"
+    },
     "6cc1efbda6094f32d6adfde7": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:49+00:00",
@@ -13071,6 +13530,13 @@
       "label": null,
       "status": "baseline",
       "title": "Trucking and Logistics 2025: Beemac Trucking’s Response to Global Policy Changes"
+    },
+    "6cd96f59e071176f8fe029ea": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Core & Main to Announce Fiscal 2026 Third Quarter Results"
     },
     "6ce180c7be4214e67c34726d": {
       "entry": null,
@@ -13226,6 +13692,13 @@
       "status": "baseline",
       "title": "30 years of Million Mile drivers: How J.B. Hunt recognizes safety and raises the bar"
     },
+    "6dbea137f3e930b90d59ae93": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:33+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "CDL-A Owner-Operator Jobs: Find the Right Carrier for Your Business With Beemac Trucking"
+    },
     "6dea56a41b5726992691919b": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -13233,12 +13706,26 @@
       "status": "baseline",
       "title": "Advanced Strategies for LTL Pricing and Cost Control"
     },
+    "6df36a85797300da490c6cec": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 New Year Blank Sailing Asia Shuttle Services"
+    },
     "6e06bd76a3b464af74e60489": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:47+00:00",
       "label": null,
       "status": "baseline",
       "title": "Road and rail upgrades support increased cargo flow through Port of Vancouver terminals in Surrey Aug 24, 2026 arrow_forward"
+    },
+    "6e06d11485e3685638442b46": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Commercial Driver's License: Nikolai Kostarev; Application for Exemption"
     },
     "6e39b6f2c5c5f56d3d70a282": {
       "entry": null,
@@ -13274,6 +13761,13 @@
       "label": null,
       "status": "baseline",
       "title": "Detailed Transit Time Map"
+    },
+    "6e53a71f35c33e393a081a89": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Auto Transport Theft: How Finished Vehicles Get Stolen in Transit and at Release"
     },
     "6e6ca89dc7c2f962ce3980b1": {
       "entry": null,
@@ -13492,6 +13986,13 @@
       "status": "baseline",
       "title": "LTL Shippers Select Old Dominion Freight Line as Top National LTL Carrier for Quality for 17 Consecutive Years"
     },
+    "705142699705a9d94bc43341": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Why Small Stories Make a Big Impact in Climate Storytelling"
+    },
     "70672746386d398208900002": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:23+00:00",
@@ -13701,6 +14202,13 @@
       "label": null,
       "status": "baseline",
       "title": "Ports of Antwerp and Montreal continue their productive cooperation"
+    },
+    "7205e1e2eb3788cecf4c7d54": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How a leading toy company stays at the top of its game with distribution"
     },
     "7211e2771feb7916b2f4821c": {
       "entry": null,
@@ -14420,6 +14928,13 @@
       "status": "baseline",
       "title": "CN to Report First-Quarter 2026 Financial and Operating Results Tomorrow"
     },
+    "79085fba0d7775c530f4a537": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Wildcat Defense Names Vice Admiral John E. Gumbleton as Senior Military Advisor"
+    },
     "790f4df2df787451a08bffc4": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:49+00:00",
@@ -14620,6 +15135,21 @@
       "status": "baseline",
       "title": "The Port of Montreal’s vehicle repair shop earns Platinum certification from Clé verte"
     },
+    "7a4b301d4ac7746f45d33cd1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Notice of Petition for Extension of Waiver of Compliance"
+    },
+    "7a585d7705ac2428afe26728": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 Walk-In Counter Rates (PDF)"
+    },
     "7a7a280df1073f7a7dacfd3e": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:04+00:00",
@@ -14633,6 +15163,13 @@
       "label": null,
       "status": "baseline",
       "title": "CFS & Transloading"
+    },
+    "7aad051ce43b7182ff0cb3f2": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Navan to Announce Third Quarter Fiscal 2027 Financial Results on December 8, 2026"
     },
     "7acc513c41825854d899619d": {
       "entry": null,
@@ -14725,6 +15262,14 @@
       "status": "baseline",
       "title": "Prepare for Winter: Winter Fleet Maintenance Tips"
     },
+    "7bc36362bc804ff63d77f9fe": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "November 23, 2026"
+    },
     "7bd13c1e6739c0c676dbc577": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:57+00:00",
@@ -14803,12 +15348,26 @@
       "status": "ignored",
       "title": "Union Pacific and Norfolk Southern CEOs: A Year of Listening Reinforces the Need for a Simpler, More Competitive Rail Network"
     },
+    "7c67cb49724548c3948c7ec1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How Amazon Leo's satellites launch with help from 13 European countries"
+    },
     "7c844a216e94116fe81214dd": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:57+00:00",
       "label": null,
       "status": "baseline",
       "title": "Waybill Change on Los Angeles to Norfolk Southern Atlanta Shipments"
+    },
+    "7c8d263d007d85c4654f5aa6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Moroccan National Rail and Maersk sign MoU to strengthen rail and integrated logistics in Morocco"
     },
     "7c8e4e6dd26373d3f84d84a9": {
       "entry": null,
@@ -14985,6 +15544,13 @@
       "status": "baseline",
       "title": "Middle East Operational Update - Saudi Arabia Transportation Disruptions | October 21, 2026"
     },
+    "7dac5631a360d4b286e3fb47": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "HOZO Highlights Its Desktop Creative Tool Ecosystem with Black Friday Savings"
+    },
     "7dbb73d4e66078de432bfe48": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -15146,6 +15712,13 @@
       "status": "baseline",
       "title": "Mastering Freight Claims: The Essential Guide to Handling and Recouping Losses"
     },
+    "7eb7e3bfb11a807041fffa0b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "United Kingdom and Ireland (UKI) operational situation"
+    },
     "7edb921965a74722f8df044b": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -15180,6 +15753,13 @@
       "label": null,
       "status": "baseline",
       "title": "Josh England’s Thoughts on 15 Million Meals + The ONE Initiative"
+    },
+    "7f231cad3485c52dc7a069f1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Amazon CTO Werner Vogels’ 5 tech predictions for 2027 and beyond"
     },
     "7f33654757ba747f20b68707": {
       "entry": null,
@@ -15257,6 +15837,13 @@
       "label": null,
       "status": "baseline",
       "title": "Estes Earns Record-High Customer Satisfaction Score Estes received its highest scores to date for on-time pickups, on-time deliveries, and shipment condition."
+    },
+    "7fde56d391061a35c0be0345": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Benefits of a Warehouse Management System Implementation"
     },
     "7fdfa2ed16b554fe40a2c2eb": {
       "entry": null,
@@ -15496,6 +16083,13 @@
       "status": "baseline",
       "title": "ArcBest Declares a $0.12/Share Quarterly Dividend"
     },
+    "819823fa7c9432c6d951a033": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "DTNA weighs Texas option for largest U.S. plant"
+    },
     "819bfbad7899f4096de429c8": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:49+00:00",
@@ -15544,6 +16138,13 @@
       "label": null,
       "status": "baseline",
       "title": "Pittsburgh CDL-A Truck Driver Jobs | Local Flatbed Careers with Home Daily Routes"
+    },
+    "81ed2016785bcab146a48abd": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "DP World Expands Cold-Chain Logistics Capabilities at Punta Cana Air Cargo Hub"
     },
     "81ff73b528bbb49c5dc735ae": {
       "entry": null,
@@ -15656,6 +16257,13 @@
       "label": null,
       "status": "baseline",
       "title": "Celebrating seven years of innovation through the Smart Port Challenge"
+    },
+    "82b79c8a4b3c4b83e5c3cd7e": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Transit Time Differences: Intermodal vs Truckload Explained"
     },
     "82cbde6107747149e8cae5c9": {
       "entry": null,
@@ -16028,6 +16636,14 @@
       "status": "baseline",
       "title": "Autonomous Trucking Is Here: Why Rail Cannot Be the Industry That Waited"
     },
+    "85b2adfb5c937b3f1ca2738c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 DAS / EDAS Zip Code List (XLSX)"
+    },
     "85c1d2c7ee446193efbc58c5": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -16231,6 +16847,13 @@
       "status": "baseline",
       "title": "PGA Tour Coming to Wilmington, NC"
     },
+    "870fab70033b0933cc060eda": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Trucking Lifestyle Why Professional Drivers Use GOAL: Get Out And Look by Pride Transport | Nov 23, 2026 | 03:34 PM"
+    },
     "8711eaae9bf07a1823585761": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:00+00:00",
@@ -16293,6 +16916,13 @@
       "label": null,
       "status": "baseline",
       "title": "It Started With One Truck and A Napkin"
+    },
+    "880dae861f554daeeec5f431": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Chinese New Year Shipping Delays Start Earlier Than You Think"
     },
     "8827f4c9347de4375875040c": {
       "entry": null,
@@ -17204,6 +17834,13 @@
       "status": "baseline",
       "title": "Beemac Trucking CDL-A Driver Jobs: Former Drivers, Come Back to Beemac"
     },
+    "9035cc13ccceab5eb563b1f7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Uber, Nuro to start driverless testing of Lucid robotaxis"
+    },
     "905995bfa75f99a8473f73d6": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:21+00:00",
@@ -17673,6 +18310,13 @@
       "status": "baseline",
       "title": "BASES PARA LA LICITACIÓN PÚBLICA PRESENCIAL DE CARÁCTER NACIONAL NO. LA-13-J3E-N-01-2026, para llevar a cabo “LA ENAJENACIÓN POR VENTA DE RETIRO Y CHATARREO DE ESTRUCTURAS METÁLICA"
     },
+    "93cb6dee086c1eb2432346c5": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Commercial Driver's License: Amiran Morchiladze; Application for Exemption"
+    },
     "93d258568d9058d5fa423758": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -17876,6 +18520,14 @@
       "status": "baseline",
       "title": "Hub Group Announces Leadership Changes"
     },
+    "95684ed0bf2484845d70b4c3": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 Standard Rates (PDF)"
+    },
     "9569339e839ff5f67211721e": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -17995,6 +18647,13 @@
       "status": "baseline",
       "title": "CBSA Announces Changes to Health Canada Consumer Product Import Requirements"
     },
+    "96a130b975ad99dd25f2b1a1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Will a Green Wave Follow the Blue Wave?"
+    },
     "96a396a19d780ab895d30196": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -18086,6 +18745,13 @@
       "status": "baseline",
       "title": "MODE Global Named a 2026 Top Third-Party Logistics (3PL) Provider by Armstrong & Associates"
     },
+    "9758100513e415aaea57203c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "U.S. readies tariff hike on China, EU goods"
+    },
     "975a727acaed9fc3bb5e05ba": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -18135,12 +18801,27 @@
       "status": "baseline",
       "title": "Estes Expands Samsara Partnership Estes continues to enhance its equipment monitoring and fleet maintenance capabilities."
     },
+    "977b047a7f5b12cc9f92a66f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Revise Peak Season Surcharge (PSS) from Far East Asia to North Europe and Mediterranean (E1W/E2W)"
+    },
     "977fd2f389c8c6f7f90d7008": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
       "label": null,
       "status": "baseline",
       "title": "2026/09/30 SOUTHEAST ASIA, SOUTH ASIA, OCEANIA NX Bangladesh opens new air freight handling facility – Nippon Express Bangladesh Air Freight CFS Upgrading air logistics services by"
+    },
+    "978873b110e36351fa7b5dde": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How to Improve OTIF Performance Across Your Supply Chain"
     },
     "979d281515c1d6bbe100b208": {
       "entry": null,
@@ -18155,6 +18836,13 @@
       "label": null,
       "status": "baseline",
       "title": "Nissan North America Honors Penske Logistics with Partner of the Year Award"
+    },
+    "97ac45601ddad0e627f05cd4": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Union Pacific Corporation Declares Fourth Quarter 2026 Dividend"
     },
     "97c2e2d8ee5fa162116a462c": {
       "entry": null,
@@ -18345,6 +19033,13 @@
       "status": "baseline",
       "title": "990.- Delegación Chint Global en el Puerto de Progreso."
     },
+    "994db7c5d1b17583aeb5afa6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How to watch the UEFA Champions League on Prime Video outside the US"
+    },
     "995c3eb593673f8c0a9e04da": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -18379,6 +19074,13 @@
       "label": null,
       "status": "baseline",
       "title": "Intermodal gate hours for Labour Day, September 7, 2026 now available"
+    },
+    "998f7844c2f5ebf551dd23ff": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Lease-to-Own vs. Rent vs. Buy: Car Hauler Trailers From 3-Car to 8-Car and Stinger"
     },
     "99905d07970c5b5e9e794184": {
       "entry": null,
@@ -18996,6 +19698,13 @@
       "status": "baseline",
       "title": "A “Thank You” from our customer for servicing them through the COVID-19 pandemic"
     },
+    "9eda73a5c2373933ed8c02b0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
+    },
     "9ee18ea10c7edf87842ceff3": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:05+00:00",
@@ -19023,6 +19732,13 @@
       "label": null,
       "status": "baseline",
       "title": "KLLM Thanks Heroes During COVID-19 Crisis"
+    },
+    "9f176111d45dc8095ea5792c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "What Is High-Value Freight? Thresholds, Tiers, and Where Vehicles Fit"
     },
     "9f1dfb7d5525ee823166652d": {
       "entry": null,
@@ -19079,6 +19795,13 @@
       "label": null,
       "status": "baseline",
       "title": "What Warehouse Leaders Should Do Now Under OSHA’s Updated NEP"
+    },
+    "9fea67b4f664374556715480": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Ousted BP Chairman Manifold to join Aggreko board"
     },
     "9ff250c33be0a38937635a4f": {
       "entry": null,
@@ -19150,6 +19873,14 @@
       "status": "baseline",
       "title": "Union Pacific Brings Customers Together to Shape the Future Customer Experience"
     },
+    "a04bd7d86bee64523c2cb6f0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 Shipment Weight Rates (PDF)"
+    },
     "a04be5259b303f59c20ef0b8": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:21+00:00",
@@ -19170,6 +19901,13 @@
       "label": null,
       "status": "baseline",
       "title": "Interim Financial Report Q1 2025"
+    },
+    "a070bdad1a219a88c87d96ee": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Port truckers face cargo hurdles as imports hit record"
     },
     "a08759a60ddaebc4331637b4": {
       "entry": null,
@@ -19290,6 +20028,13 @@
       "status": "baseline",
       "title": "Southeastern Freight Lines Celebrates 70 Years of Service at its Charleston and Savannah Service Centers"
     },
+    "a1aeaf6d47379e9e49852651": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Brainomix to Present New Research on Advanced Stroke Imaging Biomarkers at RSNA 2026"
+    },
     "a1b1580cbb7b47b8222cc766": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -19395,6 +20140,13 @@
       "status": "baseline",
       "title": "El Papel Evolutivo del Transporte Intermodal en la Logística Moderna"
     },
+    "a2c6e38e60bc492c1c1f854a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Amazon Autos is coming to the UK—the first country outside the US"
+    },
     "a2d108a79d5dd748d556b33a": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:57+00:00",
@@ -19436,6 +20188,13 @@
       "label": null,
       "status": "baseline",
       "title": "Optimizing Logistics: A Complete Guide to Selecting Transportation Modes"
+    },
+    "a3585035a9c265e34d49db8b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Amazon launches satellites for network to rival Starlink"
     },
     "a35ae5fa90b509c931618264": {
       "entry": null,
@@ -19527,6 +20286,13 @@
       "label": null,
       "status": "baseline",
       "title": "Intrastate vs Interstate Trucking: What Is the Difference?"
+    },
+    "a42c74afb3c834376f1c474a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Court bars FMCSA from withholding $73M from New York"
     },
     "a458ee76eafd8e3f47de9ec2": {
       "entry": null,
@@ -19920,6 +20686,13 @@
       "status": "baseline",
       "title": "MPA to plant 40,000 plants, trees and shrubs in Contrecoeur"
     },
+    "a821c7866ee69bc3da9cf94d": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Datavault AI Founder Opposes Proposed Reverse Split, Seeks Board Changes"
+    },
     "a830eee2751cf1ff01e87d6e": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -20094,6 +20867,13 @@
       "label": null,
       "status": "baseline",
       "title": "The Port of Montreal extends its presence in Montérégie and reaches a key stage in its Contrecœur expansion"
+    },
+    "a99679592ed3924cc73536b7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Commercial Driver's License: Luca Donati; Application for Exemption"
     },
     "a99c4d322620cd1a34ec8afe": {
       "entry": null,
@@ -20277,6 +21057,13 @@
       "status": "baseline",
       "title": "How Tech, Data, and Clean Power Are Converging at Lazer Logistics"
     },
+    "aae2a06ac068c7ac08f11d36": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "EU Rettens beslutning i statsstøtte sag"
+    },
     "ab0e8422ccc3bcbe67ab858d": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -20417,6 +21204,13 @@
       "status": "baseline",
       "title": "Forklift Operator, Crane Operator, and Laborer Jobs in Leetsdale PA | Port of Beemac Trucking Hiring Near Pittsburgh"
     },
+    "ac2a9f866dd2701f46bde2a1": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Cognizant to Present at the 30th Annual UBS Global Technology and AI Conference"
+    },
     "ac5df3d15f0a2d5b74c321dd": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -20501,6 +21295,13 @@
       "status": "baseline",
       "title": "Polar Bear Trip Overview"
     },
+    "acf124b40b6230030075d84f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:30+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Everyday Hero Profile: Sandy Tretikoff"
+    },
     "ad06fcd82a909e82068752c5": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:23+00:00",
@@ -20521,6 +21322,14 @@
       "label": null,
       "status": "baseline",
       "title": "How to watch 'Perfect Liars,' the adaptation of the hit novel streaming now on Prime Video"
+    },
+    "ad56264d84d7b9ef02a13ea2": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Intermodal November 24, 2026 Important Reminder: Empty EMP Return Location in Atlanta Market As a reminder, effective November 17, 2026, and until further notice, all empty 53-foot"
     },
     "ad70e744ae89a903c8d5a090": {
       "entry": null,
@@ -20620,6 +21429,13 @@
       "status": "baseline",
       "title": "/ Performance Excellence"
     },
+    "ae11a7b6c805c57dbff1949b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "AeroVironment, Inc. to Announce Second Quarter of Fiscal Year 2027 Earnings and Host Conference Call"
+    },
     "ae256e757792a853bd07d46f": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:02+00:00",
@@ -20633,6 +21449,13 @@
       "label": null,
       "status": "baseline",
       "title": "Scotlynn Recognized Among Florida Trend’s 2026 Best Companies to Work For"
+    },
+    "ae64a6d478a0d8422de9c617": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Union Pacific Corporation CEO Jim Vena and CFO Jennifer Hamann to Address the Goldman Sachs Industrials and Materials Conference"
     },
     "ae6de6ca053ec362e2028246": {
       "entry": null,
@@ -20808,6 +21631,13 @@
       "label": null,
       "status": "ignored",
       "title": "SOAR AI Reports Third Quarter 2026 Results with $41.2 Million in Cash and $1.2 Billion Under Contract; Revenue Up 245%"
+    },
+    "afd93fac697315d5cd96fa25": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "TT Podcasts: RoadSigns"
     },
     "b001086ede7792f68d879489": {
       "entry": null,
@@ -21194,6 +22024,13 @@
       "status": "ignored",
       "title": "Trey Hicks Joins Maptician as Vice President of Strategic Partnerships and Growth"
     },
+    "b324c7f095977efbcb5bdbf6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Tier 1 Supplier Prototype and Pre-Production Vehicle Transport"
+    },
     "b327f582b40fcf9683e5d291": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:36+00:00",
@@ -21410,6 +22247,13 @@
       "label": null,
       "status": "baseline",
       "title": "Schneider named a Top Company for Women to Work in Transportation for eighth consecutive year"
+    },
+    "b4daa4b5abe14e98b0228237": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "18 holiday movies and shows to watch on Prime Video this season"
     },
     "b4f083a4abf793e20ca3083b": {
       "entry": null,
@@ -21992,6 +22836,13 @@
       "status": "baseline",
       "title": "Signs of a Freight Market Recovery?"
     },
+    "b9c79bd8d053b9187bbd9263": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How to watch 'Blade Runner 2099,' the new sci-fi series streaming now on Prime Video"
+    },
     "b9ed4cbfaf62a1afe2edd381": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -22048,6 +22899,13 @@
       "status": "baseline",
       "title": "Tesla shareholders urged to vote against board Chair Denholm"
     },
+    "bac0a4f5f568d4061f243144": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Freight Management System Selection for Manufacturers"
+    },
     "bad9bb6991ad59b4a8f2a283": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -22097,6 +22955,13 @@
       "status": "baseline",
       "title": "2026/10/13 SOUTHEAST ASIA, SOUTH ASIA, OCEANIA NX Group presents logistics strategy to support semiconductor ecosystem development at SEMICON India 2026"
     },
+    "bb098fba9a8dbc427c8ea566": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Museum and Exhibition Car Loans: Transport for Vehicles Going on Display"
+    },
     "bb101379976370d6227bea10": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -22145,6 +23010,13 @@
       "label": null,
       "status": "baseline",
       "title": "SEFL Delivers Quality Without Question Service into Canada"
+    },
+    "bb894bcaa2d866ca30f77a8b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Huawei e CMA lanciano congiuntamente una soluzione per i sistemi di pagamento nazionali per accelerare la trasformazione dei pagamenti a livello globale"
     },
     "bbb894c4dcc91af07d1eb842": {
       "entry": null,
@@ -22215,6 +23087,13 @@
       "label": null,
       "status": "baseline",
       "title": "Interim Financial Report Q1 2026"
+    },
+    "bc1d55e9ec9ecb47f6666f17": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "CBP Provides Updated ACE Development and Deployment Schedule"
     },
     "bc367130703fa3dde574708c": {
       "entry": null,
@@ -22433,6 +23312,13 @@
       "status": "baseline",
       "title": "CANACAR, QUÁLITAS E INNOVAZIONE FIRMAN CONVENIO DE COLABORACIÓN"
     },
+    "bdeea48261e0ac640b9428ac": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Decision Intelligence vs. Transportation Reporting"
+    },
     "bdf886506b06e6aaebbc0755": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -22643,6 +23529,13 @@
       "status": "baseline",
       "title": "Manitoulin Transport Earns Elite Status By Northbridge Insurance"
     },
+    "bf350115e2b998e46af922cf": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "MegaCorp Market Pulse: November 23 – 29, 2026: Th"
+    },
     "bf61402e111204026fca90fc": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -22782,6 +23675,13 @@
       "label": null,
       "status": "baseline",
       "title": "Arrive Logistics Celebrates Dawn Foods 2023 Broker of the Year Award"
+    },
+    "c08af90097f8cd80340772fd": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "E-Bike and Scooter Battery Freight: Lithium Rules for Micromobility Companies"
     },
     "c08e0461c28aaf0c039389a2": {
       "entry": null,
@@ -23013,6 +23913,13 @@
       "label": null,
       "status": "baseline",
       "title": "Estes Expands Network With 17 Terminal Openings After adding 1,038 terminal doors in 2025, Estes now has 13,200 doors."
+    },
+    "c240c92bbbf2133f2112f86b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Ryder Earns Top 10 3PL Recognition from Inbound Logistics for Fifth Consecutive Year"
     },
     "c24c20fe51a34db280ba00ec": {
       "entry": null,
@@ -23539,6 +24446,13 @@
       "status": "baseline",
       "title": "TFI International to Release 2024 Fourth Quarter Results"
     },
+    "c6724563adc6009afcdff1df": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Merit AirFinance Prices MERIT Aviation 2026-2, Backed by $655 Million Aviation Loan Portfolio"
+    },
     "c6800bb7725884d61f786547": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:23+00:00",
@@ -23616,6 +24530,13 @@
       "status": "baseline",
       "title": "INDUSTRIAL MACHINERY LOGISTICS EXCELLENCE"
     },
+    "c6fe1bf567d0051dfa51048f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "PNC Executives to Speak at Goldman Sachs Financial Services Conference"
+    },
     "c71f60ed9d77b09b3344dd49": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -23664,6 +24585,13 @@
       "label": null,
       "status": "baseline",
       "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Safety Vision, LLC"
+    },
+    "c780f862f1e44773094a00ba": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "NeuraLight's Precision Brain Function Biomarkers Detect Statistically Significant Treatment Effect in NeuroSense's Phase 2b ALS Clinical Trial"
     },
     "c796c0788e7ae660cc75a403": {
       "entry": null,
@@ -23959,6 +24887,13 @@
       "status": "baseline",
       "title": "One Platform for Complete Supply Chain Visibility"
     },
+    "c9e157b9f98f1ebd15a0ebc2": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "For FedEx Freight’s Chuck Jensen, a tree delivery to remember"
+    },
     "c9e8ca37d6869425573a4c98": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:59+00:00",
@@ -24035,6 +24970,13 @@
       "label": null,
       "status": "baseline",
       "title": "KLLM Transport Services Acquires Quest Global Inc."
+    },
+    "caacf2222f57c4621dc685e0": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "A customs declaration is a legal document through which you state your intention to assign a customs procedure to goods you are importing or exporting..."
     },
     "cac6d567c872fde43919b3d9": {
       "entry": null,
@@ -24988,6 +25930,13 @@
       "status": "baseline",
       "title": "Vélotour SP et Défi kayak Desgagnés 2026"
     },
+    "d25f168ee83f9abed05f5d05": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Proposed Agency Information Collection Activities; Comment Request"
+    },
     "d265fcc2b3e035e3b1a24554": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -25499,6 +26448,14 @@
       "status": "baseline",
       "title": "Qualification of Drivers; Exemption Applications; Epilepsy and Seizure Disorders"
     },
+    "d6639881d3ec1c60cd386849": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:27+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "2027 LTL Rates (PDF)"
+    },
     "d6672a02d3a9196e6fa64b9c": {
       "entry": null,
       "first_seen": "2026-11-22T19:01:12+00:00",
@@ -25610,6 +26567,13 @@
       "label": null,
       "status": "baseline",
       "title": "Turn Your Internship into a Job: PGT’s Top Five Tips for Success"
+    },
+    "d76cc3ae56da163087b284b7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Zoomlion stellt seine neue strategische Ausrichtung vor und präsentiert auf der bauma CHINA 2026 Lösungen in den Bereichen KI und Elektrifizierung"
     },
     "d77106f4576f5cacd7a516cb": {
       "entry": null,
@@ -26150,6 +27114,13 @@
       "status": "baseline",
       "title": "Safety is our G.O.A.L."
     },
+    "db2054194f674ba72b6c4121": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:34+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "‘The Lord of the Rings: The Rings of Power’ Season 4 is confirmed. Here’s what we know."
+    },
     "db21129138fce1031a1fbbe4": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -26507,6 +27478,13 @@
       "status": "baseline",
       "title": "SHAREHOLDER ALERT: Bronstein Gewirtz & Grossman, LLC Announces Class Action Against Build-A-Bear Workshop, Inc. (NYSE: BBW) -- Investors Who Suffered Losses Are Encouraged to Conta"
     },
+    "de68ede7d89e41ab9bd17141": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:41+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "2026 U.S. Holiday Schedules for Ground Services"
+    },
     "de82a0c377a9332a38d0762f": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -26696,6 +27674,13 @@
       "status": "baseline",
       "title": "RoadOne adds Ace Transport Miami to national network"
     },
+    "dfe8713ca7a89288e4eb376f": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Kenco Earns Two Supply Chain Excellence Awards Honors for AI and Warehouse Innovation"
+    },
     "dfef10be33ee43eaef0cf920": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:19+00:00",
@@ -26843,6 +27828,13 @@
       "status": "baseline",
       "title": "MegaCorp Logistics Again Named As A Top Logistics Compa"
     },
+    "e14b0d0dd92d1ffd99ae14fc": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Subprime auto dealer America’s Car-Mart files for Chapter 11"
+    },
     "e161c8e9aaf8023de99d6508": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:04+00:00",
@@ -26989,6 +27981,14 @@
       "label": null,
       "status": "baseline",
       "title": "Amtrak's Request To Amend Its Positive Train Control Safety Plan and Positive Train Control System"
+    },
+    "e28283d226d3c4b41a155dff": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:36+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Emergency Inland Fuel/Energy surcharge"
     },
     "e28fc72e580854b347d5f983": {
       "entry": null,
@@ -27894,6 +28894,13 @@
       "status": "baseline",
       "title": "Melton Truck Lines Wins Logistics Management’s 2026 Quest for Quality Award"
     },
+    "eb780ef565a32b3128304d41": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Emergency supply prices climb after tech outages"
+    },
     "eb7de55a88dc96cb98362ea1": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:20+00:00",
@@ -27998,6 +29005,13 @@
       "label": null,
       "status": "baseline",
       "title": "Forward's 5th Annual Drive for Hope Golf Tournament Raises Record-Breaking $700,000 for Hope For The Warriors"
+    },
+    "ec6d2963b2c08f6566dc862d": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Independent Proxy Advisory Firm Egan-Jones Recommends Vail Resorts Shareholders Vote \"FOR\" ALL of Vail Resorts' Nine Director Nominees on the WHITE Proxy Card"
     },
     "ec6db0984695f9311c6c81b6": {
       "entry": null,
@@ -28174,6 +29188,13 @@
       "status": "baseline",
       "title": "Anik Trudel appointed to the Board of Directors of the Montreal Port Authority"
     },
+    "edb5851198055bbc2817f8c7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Towaway vs. Driveaway for RVs: Choosing the Right Method for Your Unit"
+    },
     "edf30a8216c6143e3a0c6701": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:03+00:00",
@@ -28272,6 +29293,13 @@
       "status": "baseline",
       "title": "CTA Appointed to Federal Trade Digitalization Task Force to Modernize Supply Chains"
     },
+    "eeccb0f8d95f360f26845345": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Linkind Expands Light Stick Collection with New Pendant and Wall Light Fixtures"
+    },
     "eecde4d98d073f7eeef38607": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:58+00:00",
@@ -28313,6 +29341,13 @@
       "label": null,
       "status": "baseline",
       "title": "Agency Information Collection Activities; Renewal of an Approved Information Collection Request: Hazardous Materials Safety Permits"
+    },
+    "ef5b64026e948a6c6883cdc3": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Innovative Eyewear, Inc. Announces Distribution Partnership with Euro Vision International, Inc. for Mexico and the Caribbean"
     },
     "ef650ad3bb67752c8f766d6f": {
       "entry": null,
@@ -28741,6 +29776,13 @@
       "status": "baseline",
       "title": "Company Announcement 35"
     },
+    "f322951c62676c2fe566abcb": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Mongolia's Mobicom Joins Telcoin Network as Launch Validator"
+    },
     "f331ba6f4eb27249c4acee5d": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:48+00:00",
@@ -28874,6 +29916,13 @@
       "status": "baseline",
       "title": "Everyday Hero Profile: Margaret Odya"
     },
+    "f421a72cd28eb94193633b05": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "What Is VIN Cloning? How Cloned Cars Slip Into the Transport Chain"
+    },
     "f43f433b8bb25c79a0b84ef8": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:23+00:00",
@@ -28943,6 +29992,13 @@
       "label": null,
       "status": "baseline",
       "title": "BEAUPORT CONTAINER TERMINAL PROJECT : QUÉBEC PORT AUTHORITY ACKNOWLEDGES IMPACT ASSESSMENT AGENCY OF CANADA DECISION"
+    },
+    "f4f02e53e1311b38629cb01b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "PRESS RELEASE: CMB.TECH announces Q3 2026 results"
     },
     "f4f1dcabc2a84e70eee4dd1f": {
       "entry": null,
@@ -29105,6 +30161,13 @@
       "status": "baseline",
       "title": "987.- Ingreso de la Manifestación de Impacto Ambiental del Proyecto de Ampliación y Modernización del Puerto de Progreso para la Fase 2."
     },
+    "f6967cb6d39f95f4e9883d3a": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:39+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Maserati Transport: Shipping MC20, GranTurismo and Classic Maseratis"
+    },
     "f6a65d12e96fdb92b423920c": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -29168,6 +30231,20 @@
       "status": "baseline",
       "title": "How to reduce transportation costs with load planning"
     },
+    "f6ff00efb58b91e4b6d8b70b": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "BingEx Limited Announces Third Quarter 2026 Financial Results"
+    },
+    "f72c448f0f367f1a8d8ca1b6": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "SPL ANT Saudi Receives Major EMI Licence from the Saudi Central Bank (SAMA)"
+    },
     "f72cb6fdfc2fe300af4120d3": {
       "entry": null,
       "first_seen": "2026-11-22T21:26:21+00:00",
@@ -29195,6 +30272,14 @@
       "label": null,
       "status": "baseline",
       "title": "Notice of amendment to Port Information Guide Nov 5, 2026 arrow_forward"
+    },
+    "f7742a31e54307ccc7b5131c": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:28+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "Georgia Ports Authority Backs Union Pacific-Norfolk Southern Merger, Joining More Than 2,000 Supporters"
     },
     "f77cff94b6677c9db08fc8a6": {
       "entry": null,
@@ -29343,6 +30428,13 @@
       "status": "baseline",
       "title": "Stories September 15, 2026 Purolator Tackle Hunger National Red Bag campaign returns with more ways to give TORONTO, Sept. 15, 2026 — Purolator today kicked off its fourth annual P"
     },
+    "f85c70a6b44cb14edd6f7577": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:37+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Dimensional Rating: What LTL Shippers Need to Know"
+    },
     "f8685a0d771369e5e96a59d3": {
       "entry": null,
       "first_seen": "2026-11-22T19:49:01+00:00",
@@ -29469,6 +30561,13 @@
       "status": "baseline",
       "title": "Penske Logistics Recipient of Innovation Award from Toyota North America"
     },
+    "f94d1edd243ad3b4cf256275": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Hormuz blacklists tugboats, pressuring tanker traffic"
+    },
     "f999c03949fb164bda36fdac": {
       "entry": null,
       "first_seen": "2026-11-22T19:48:57+00:00",
@@ -29511,6 +30610,13 @@
       "status": "baseline",
       "title": "Quality Carriers Named a Quest for Quality Award Winner"
     },
+    "f9de5e9f962e020f4aad69c7": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Covenant Logistics Group Announces Quarterly Cash Dividend"
+    },
     "f9f12d88e2f2b12e82b200a6": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:51+00:00",
@@ -29531,6 +30637,13 @@
       "label": null,
       "status": "baseline",
       "title": "2027 Notice of Tariff Revision"
+    },
+    "fa50dd05f1cabf27b9389d95": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:44+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "Notice of Petition for Waiver of Compliance"
     },
     "fa557412f4ef3ee56bcb624b": {
       "entry": null,
@@ -29650,6 +30763,13 @@
       "label": null,
       "status": "baseline",
       "title": "Subscribe to Newsletter"
+    },
+    "fb2207c00a46473ee4346cad": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "DSV enters into long-term agreement with Cathay Cargo as their first partner in Asia to scale sustainable aviation fuel"
     },
     "fb27d3cc1148eade2dbaa28a": {
       "entry": null,
@@ -29993,6 +31113,13 @@
       "label": null,
       "status": "baseline",
       "title": "16 DE MARZO 2026 NO HABRÁ SERVICIO DE CAJA"
+    },
+    "fe493e598b965f68db778865": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:35+00:00",
+      "label": null,
+      "status": "ignored",
+      "title": "How to watch ‘The Lord of the Rings: The Rings of Power’ Season 3, streaming now on Prime Video"
     },
     "fe4d79c2e9a9f67011ed8f0b": {
       "entry": null,
@@ -30484,6 +31611,14 @@
       "status": "baseline",
       "title": "FD 36873 — new decision 53329, 11/20/2026"
     },
+    "stb:decision:53335": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new decision 53335, 11/24/2026"
+    },
     "stb:filing:312524": {
       "entry": null,
       "first_seen": "2026-11-23T15:14:41+00:00",
@@ -30491,6 +31626,14 @@
       "label": null,
       "status": "ignored",
       "title": "FD 36873 — the Board replaced a file on filing 312524"
+    },
+    "stb:filing:312541": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — the Board replaced a file on filing 312541"
     },
     "stb:filing:312680": {
       "entry": null,
@@ -33083,6 +34226,54 @@
       "status": "ignored",
       "title": "FD 36873 — new filing 313158, 11/23/2026"
     },
+    "stb:filing:313159": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313159, 11/23/2026"
+    },
+    "stb:filing:313160": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313160, 11/18/2026"
+    },
+    "stb:filing:313162": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 (Sub-No. 18) — new filing 313162, 11/20/2026"
+    },
+    "stb:filing:313163": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 (Sub-No. 17) — new filing 313163, 11/20/2026"
+    },
+    "stb:filing:313164": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 (Sub-No. 24) — new filing 313164, 11/23/2026"
+    },
+    "stb:filing:313165": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313165, 11/23/2026"
+    },
     "stb:filing:313166": {
       "entry": null,
       "first_seen": "2026-11-23T17:16:51+00:00",
@@ -33090,6 +34281,198 @@
       "label": null,
       "status": "ignored",
       "title": "FD 36873 — new filing 313166, 11/18/2026"
+    },
+    "stb:filing:313167": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 (Sub-No. 27) — new filing 313167, 11/23/2026"
+    },
+    "stb:filing:313168": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313168, 11/23/2026"
+    },
+    "stb:filing:313169": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313169, 11/23/2026"
+    },
+    "stb:filing:313170": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313170, 11/18/2026"
+    },
+    "stb:filing:313171": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313171, 11/23/2026"
+    },
+    "stb:filing:313172": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313172, 11/18/2026"
+    },
+    "stb:filing:313173": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313173, 11/23/2026"
+    },
+    "stb:filing:313174": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313174, 11/18/2026"
+    },
+    "stb:filing:313175": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313175, 11/18/2026"
+    },
+    "stb:filing:313176": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313176, 11/23/2026"
+    },
+    "stb:filing:313178": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313178, 11/18/2026"
+    },
+    "stb:filing:313179": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313179, 11/18/2026"
+    },
+    "stb:filing:313180": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313180, 11/23/2026"
+    },
+    "stb:filing:313181": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313181, 11/23/2026"
+    },
+    "stb:filing:313182": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313182, 11/23/2026"
+    },
+    "stb:filing:313183": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313183, 11/18/2026"
+    },
+    "stb:filing:313184": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313184, 11/23/2026"
+    },
+    "stb:filing:313185": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313185, 11/18/2026"
+    },
+    "stb:filing:313187": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313187, 11/24/2026"
+    },
+    "stb:filing:313188": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313188, 11/24/2026"
+    },
+    "stb:filing:313189": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313189, 11/18/2026"
+    },
+    "stb:filing:313191": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313191, 11/24/2026"
+    },
+    "stb:filing:313192": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313192, 11/24/2026"
+    },
+    "stb:filing:313193": {
+      "entry": null,
+      "first_seen": "2026-11-25T13:22:43+00:00",
+      "freshness_hold": "unverified_publication_time",
+      "label": null,
+      "status": "ignored",
+      "title": "FD 36873 — new filing 313193, 11/18/2026"
     }
   },
   "sources": {
@@ -33097,7 +34480,7 @@
       "error": "",
       "failures": 0,
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
@@ -33111,39 +34494,39 @@
       "error": "",
       "failures": 0,
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:52+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "https://www.eia.gov/rss/todayinenergy.xml": {
       "error": "",
       "failures": 0,
-      "last_count": 30,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_count": 31,
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-motor-carrier-safety-administration": {
       "error": "",
       "failures": 0,
-      "last_count": 14,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_count": 19,
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=federal-railroad-administration": {
       "error": "",
       "failures": 0,
-      "last_count": 9,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_count": 17,
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=surface-transportation-board": {
       "error": "",
       "failures": 0,
-      "last_count": 11,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_count": 12,
+      "last_success": "2026-11-25T13:22:43+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
@@ -33151,7 +34534,7 @@
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:52+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
@@ -33159,7 +34542,7 @@
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
@@ -33167,15 +34550,15 @@
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:52+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "https://www.reddit.com/r/FreightBrokers/new/.rss": {
-      "error": "HTTP Error 404: Not Found",
-      "failures": 9,
-      "last_error": "2026-11-23T17:16:51+00:00",
-      "next_check_epoch": 1795448685.800804,
+      "error": "HTTP Error 429: HTTP 429",
+      "failures": 10,
+      "last_error": "2026-11-25T13:22:48+00:00",
+      "next_check_epoch": 1795614768.0092626,
       "seeded": false
     },
     "https://www.reddit.com/r/Truckers/new/.rss": {
@@ -33187,15 +34570,15 @@
     },
     "https://www.reddit.com/r/logistics/new/.rss": {
       "error": "HTTP Error 429: HTTP 429",
-      "failures": 8,
-      "last_error": "2026-11-23T17:16:55+00:00",
-      "next_check_epoch": 1795456015.806331,
+      "failures": 9,
+      "last_error": "2026-11-25T13:22:48+00:00",
+      "next_check_epoch": 1795614768.1617815,
       "seeded": false
     },
     "https://www.reddit.com/r/railroading/new/.rss": {
-      "error": "HTTP Error 429: HTTP 429",
-      "failures": 8,
-      "last_error": "2026-11-23T17:16:55+00:00",
+      "error": "HTTP Error 404: Not Found",
+      "failures": 9,
+      "last_error": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 1795456015.6133888,
       "seeded": false
     },
@@ -33210,35 +34593,35 @@
       "error": "",
       "failures": 0,
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "next_check_epoch": 0,
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/decisions/": {
-      "error": "HTTP Error 400: HTTP 400",
-      "failures": 2,
+      "error": "HTTP Error 403: HTTP 403",
+      "failures": 3,
       "last_count": 48,
-      "last_error": "2026-11-23T17:16:52+00:00",
+      "last_error": "2026-11-25T13:22:44+00:00",
       "last_success": "2026-11-22T21:29:33+00:00",
-      "next_check_epoch": 1795448681.483879,
+      "next_check_epoch": 1795614764.9606354,
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/environmental-comments/": {
-      "error": "HTTP Error 400: HTTP 400",
-      "failures": 2,
+      "error": "HTTP Error 403: HTTP 403",
+      "failures": 3,
       "last_count": 0,
-      "last_error": "2026-11-23T17:16:52+00:00",
+      "last_error": "2026-11-25T13:22:45+00:00",
       "last_success": "2026-11-22T21:29:33+00:00",
-      "next_check_epoch": 1795448681.7551892,
+      "next_check_epoch": 1795614765.090174,
       "seeded": true
     },
     "official:https://www.stb.gov/proceedings-actions/filings/": {
-      "error": "HTTP Error 400: HTTP 400",
-      "failures": 1,
+      "error": "HTTP Error 403: HTTP 403",
+      "failures": 2,
       "last_count": 393,
-      "last_error": "2026-11-23T17:16:52+00:00",
+      "last_error": "2026-11-25T13:22:44+00:00",
       "last_success": "2026-11-23T15:14:45+00:00",
-      "next_check_epoch": 0,
+      "next_check_epoch": 1795614764.6622536,
       "seeded": true
     },
     "primary:a-duie-pyle-3c2fa364": {
@@ -33248,7 +34631,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33262,7 +34645,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33276,7 +34659,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33290,7 +34673,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33304,7 +34687,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33318,7 +34701,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33331,8 +34714,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 11,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_count": 12,
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33346,7 +34729,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33360,7 +34743,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33374,7 +34757,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33388,7 +34771,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33402,7 +34785,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33416,7 +34799,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 21,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33430,7 +34813,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33444,7 +34827,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33458,7 +34841,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33472,7 +34855,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33486,7 +34869,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33500,7 +34883,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33514,7 +34897,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33528,7 +34911,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33542,7 +34925,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33556,7 +34939,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33570,7 +34953,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33584,7 +34967,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33598,7 +34981,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33612,7 +34995,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33626,7 +35009,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33640,7 +35023,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [
         "truckload"
       ],
@@ -33656,7 +35039,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [
         "truckload"
       ],
@@ -33672,7 +35055,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33686,7 +35069,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -33700,7 +35083,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33714,7 +35097,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33728,7 +35111,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33742,7 +35125,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33756,7 +35139,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33771,7 +35154,7 @@
       "kind": "rss",
       "last_count": 12,
       "last_error": "2026-11-22T21:26:25+00:00",
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -33788,7 +35171,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [
         "rail",
         "intermodal"
@@ -33805,7 +35188,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 97,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [
         "rail",
         "intermodal"
@@ -33822,7 +35205,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33836,7 +35219,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33851,7 +35234,7 @@
       "kind": "central",
       "last_count": 0,
       "last_error": "2026-11-23T15:14:40+00:00",
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33866,7 +35249,7 @@
       "kind": "html",
       "last_count": 6,
       "last_error": "2026-11-23T15:14:33+00:00",
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33881,7 +35264,7 @@
       "kind": "html",
       "last_count": 10,
       "last_error": "2026-11-23T15:14:33+00:00",
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33895,7 +35278,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33909,7 +35292,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33923,7 +35306,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 31,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33937,7 +35320,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33951,7 +35334,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33965,7 +35348,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -33979,7 +35362,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "rail",
         "intermodal"
@@ -33996,7 +35379,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 13,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34010,7 +35393,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34024,7 +35407,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34038,7 +35421,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34052,7 +35435,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34067,7 +35450,7 @@
       "kind": "html",
       "last_count": 10,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -34081,7 +35464,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34096,7 +35479,7 @@
       "kind": "html",
       "last_count": 2,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34111,7 +35494,7 @@
       "kind": "html",
       "last_count": 10,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -34126,7 +35509,7 @@
       "kind": "html",
       "last_count": 10,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34140,7 +35523,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -34157,7 +35540,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -34174,7 +35557,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34188,7 +35571,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34199,10 +35582,10 @@
       "company": "DHL Supply Chain",
       "country": null,
       "error": "The read operation timed out",
-      "failures": 1,
+      "failures": 2,
       "kind": "html",
       "last_count": 5,
-      "last_error": "2026-11-23T17:17:22+00:00",
+      "last_error": "2026-11-25T13:23:16+00:00",
       "last_success": "2026-11-23T15:14:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -34214,10 +35597,10 @@
       "company": "DHL Supply Chain",
       "country": null,
       "error": "The read operation timed out",
-      "failures": 1,
+      "failures": 2,
       "kind": "html",
       "last_count": 7,
-      "last_error": "2026-11-23T17:17:22+00:00",
+      "last_error": "2026-11-25T13:23:16+00:00",
       "last_success": "2026-11-23T15:14:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -34232,7 +35615,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34246,7 +35629,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34260,7 +35643,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34274,7 +35657,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34288,7 +35671,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34302,7 +35685,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34316,7 +35699,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 25,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34330,7 +35713,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -34344,7 +35727,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -34362,7 +35745,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34376,7 +35759,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34389,8 +35772,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 4,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_count": 2,
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34404,7 +35787,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34418,7 +35801,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34432,7 +35815,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34446,7 +35829,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34460,7 +35843,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34474,7 +35857,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34488,7 +35871,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -34501,8 +35884,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 3,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_count": 4,
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34516,7 +35899,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34530,7 +35913,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 37,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34544,7 +35927,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34559,7 +35942,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:49:01+00:00",
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34573,7 +35956,7 @@
       "failures": 0,
       "kind": "documents",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34587,7 +35970,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34601,7 +35984,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34622,7 +36005,7 @@
       "kind": "html",
       "last_count": 3,
       "last_error": "2026-11-22T19:48:58+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34637,7 +36020,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:48:58+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34651,7 +36034,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34665,7 +36048,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34679,7 +36062,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34690,10 +36073,10 @@
       "company": "Integrity Express",
       "country": null,
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "rss",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:44+00:00",
+      "last_error": "2026-11-25T13:22:39+00:00",
       "last_success": "2026-11-23T15:14:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -34708,7 +36091,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34722,7 +36105,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34736,7 +36119,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34750,7 +36133,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34764,7 +36147,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34774,12 +36157,12 @@
     "primary:kenco-a7aa135c": {
       "company": "Kenco",
       "country": null,
-      "error": "<urlopen error timed out>",
-      "failures": 2,
+      "error": "",
+      "failures": 0,
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-23T17:17:24+00:00",
-      "last_success": "2026-11-22T21:29:23+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34789,12 +36172,12 @@
     "primary:kenco-c48d12b1": {
       "company": "Kenco",
       "country": null,
-      "error": "<urlopen error timed out>",
-      "failures": 2,
+      "error": "",
+      "failures": 0,
       "kind": "html",
       "last_count": 14,
       "last_error": "2026-11-23T17:17:24+00:00",
-      "last_success": "2026-11-22T21:29:23+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34808,7 +36191,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34822,7 +36205,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34836,7 +36219,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34850,7 +36233,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34864,7 +36247,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34878,7 +36261,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34893,7 +36276,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:48:58+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34907,7 +36290,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34921,7 +36304,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 50,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34934,8 +36317,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 46,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_count": 48,
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34949,7 +36332,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34963,7 +36346,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -34974,10 +36357,10 @@
       "company": "Lily Transportation",
       "country": null,
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "rss",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:40+00:00",
+      "last_error": "2026-11-25T13:22:35+00:00",
       "last_success": "2026-11-23T15:14:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -34992,7 +36375,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35006,7 +36389,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35020,7 +36403,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35034,7 +36417,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35048,7 +36431,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35062,7 +36445,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 19,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35076,7 +36459,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35090,7 +36473,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 21,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35105,7 +36488,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-23T15:14:30+00:00",
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35123,7 +36506,7 @@
       "kind": "html",
       "last_count": 34,
       "last_error": "2026-11-23T15:14:30+00:00",
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35141,7 +36524,7 @@
       "kind": "html",
       "last_count": 3,
       "last_error": "2026-11-23T15:14:37+00:00",
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35158,7 +36541,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35172,7 +36555,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35187,7 +36570,7 @@
       "kind": "html",
       "last_count": 3,
       "last_error": "2026-11-22T21:29:24+00:00",
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35202,7 +36585,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:49:04+00:00",
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35216,7 +36599,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35230,7 +36613,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35244,7 +36627,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 34,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35258,7 +36641,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35268,11 +36651,11 @@
     "primary:mercer-transportation-e92ccdcf": {
       "company": "Mercer Transportation",
       "country": null,
-      "error": "HTTP Error 520: <none>",
-      "failures": 1,
+      "error": "HTTP Error 520: HTTP 520",
+      "failures": 2,
       "kind": "rss",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:40+00:00",
+      "last_error": "2026-11-25T13:22:36+00:00",
       "last_success": "2026-11-23T15:14:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -35287,7 +36670,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 30,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35301,7 +36684,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35315,7 +36698,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35329,7 +36712,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -35343,7 +36726,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35360,7 +36743,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload"
       ],
@@ -35376,7 +36759,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "truckload"
       ],
@@ -35393,7 +36776,7 @@
       "kind": "html",
       "last_count": 1,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35410,7 +36793,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35424,10 +36807,10 @@
       "company": "Kriska",
       "country": "CA",
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "rss",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:47+00:00",
+      "last_error": "2026-11-25T13:22:42+00:00",
       "last_success": "2026-11-23T15:14:39+00:00",
       "modes": [
         "truckload"
@@ -35444,7 +36827,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 86,
-      "last_success": "2026-11-23T17:16:53+00:00",
+      "last_success": "2026-11-25T13:22:47+00:00",
       "modes": [
         "ports"
       ],
@@ -35460,7 +36843,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35478,7 +36861,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35495,7 +36878,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35513,7 +36896,7 @@
       "kind": "rss",
       "last_count": 271,
       "last_error": "2026-11-23T15:14:38+00:00",
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35531,7 +36914,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T21:29:26+00:00",
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports"
       ],
@@ -35547,7 +36930,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "modes": [
         "rail",
         "intermodal"
@@ -35564,7 +36947,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "modes": [
         "ports"
       ],
@@ -35580,7 +36963,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports"
       ],
@@ -35596,7 +36979,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 29,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35614,7 +36997,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 13,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports"
       ],
@@ -35631,7 +37014,7 @@
       "kind": "html",
       "last_count": 19,
       "last_error": "2026-11-23T15:14:38+00:00",
-      "last_success": "2026-11-23T17:16:52+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35648,7 +37031,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35666,7 +37049,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports"
       ],
@@ -35683,7 +37066,7 @@
       "kind": "html",
       "last_count": 3,
       "last_error": "2026-11-23T15:14:40+00:00",
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "ports"
       ],
@@ -35699,7 +37082,7 @@
       "failures": 0,
       "kind": "notices",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "LTL",
         "truckload"
@@ -35717,7 +37100,7 @@
       "kind": "html",
       "last_count": 15,
       "last_error": "2026-11-23T15:14:37+00:00",
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35736,7 +37119,7 @@
       "kind": "notices",
       "last_count": 2,
       "last_error": "2026-11-23T15:14:38+00:00",
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [
         "LTL",
         "truckload"
@@ -35753,7 +37136,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 24,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "LTL"
       ],
@@ -35769,7 +37152,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "ports"
       ],
@@ -35785,7 +37168,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports"
       ],
@@ -35802,7 +37185,7 @@
       "kind": "html",
       "last_count": 15,
       "last_error": "2026-11-23T15:14:26+00:00",
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "ports"
       ],
@@ -35818,7 +37201,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35835,7 +37218,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -35852,7 +37235,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 16,
-      "last_success": "2026-11-23T17:16:48+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35870,7 +37253,7 @@
       "kind": "html",
       "last_count": 7,
       "last_error": "2026-11-23T15:14:40+00:00",
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35888,7 +37271,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 57,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "intermodal",
         "rail"
@@ -35905,7 +37288,7 @@
       "failures": 0,
       "kind": "lazaro",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:51+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35923,7 +37306,7 @@
       "kind": "html",
       "last_count": 20,
       "last_error": "2026-11-23T15:14:40+00:00",
-      "last_success": "2026-11-23T17:16:54+00:00",
+      "last_success": "2026-11-25T13:22:44+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -35940,7 +37323,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "LTL"
       ],
@@ -35956,7 +37339,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -35974,7 +37357,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "LTL",
         "truckload"
@@ -35991,7 +37374,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 93,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -36008,7 +37391,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 25,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -36025,7 +37408,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports"
       ],
@@ -36041,7 +37424,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "truckload",
         "LTL",
@@ -36059,7 +37442,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload",
         "intermodal"
@@ -36076,7 +37459,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -36093,7 +37476,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -36110,7 +37493,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -36127,7 +37510,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 13,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports",
         "intermodal"
@@ -36145,7 +37528,7 @@
       "kind": "html",
       "last_count": 14,
       "last_error": "2026-11-23T15:14:38+00:00",
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "ports"
       ],
@@ -36161,7 +37544,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "intermodal",
         "rail"
@@ -36178,7 +37561,7 @@
       "failures": 0,
       "kind": "notices",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [
         "intermodal"
       ],
@@ -36194,7 +37577,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 24,
-      "last_success": "2026-11-23T17:16:47+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [
         "LTL"
       ],
@@ -36210,7 +37593,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:49+00:00",
+      "last_success": "2026-11-25T13:22:42+00:00",
       "modes": [
         "ports"
       ],
@@ -36226,7 +37609,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:43+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -36243,7 +37626,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:50+00:00",
+      "last_success": "2026-11-25T13:22:40+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36257,7 +37640,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:41+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36268,10 +37651,10 @@
       "company": "NFI",
       "country": null,
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "html",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:37+00:00",
+      "last_error": "2026-11-25T13:22:32+00:00",
       "last_success": "2026-11-23T15:14:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -36286,7 +37669,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 28,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36296,10 +37679,11 @@
     "primary:nolan-transportation-999f2552": {
       "company": "Nolan Transportation",
       "country": null,
-      "error": "",
-      "failures": 0,
+      "error": "No article/advisory links parsed; source is not verified operational",
+      "failures": 1,
       "kind": "html",
       "last_count": 1,
+      "last_error": "2026-11-25T13:22:35+00:00",
       "last_success": "2026-11-23T17:16:42+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -36314,7 +37698,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36328,7 +37712,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -36342,7 +37726,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36356,7 +37740,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36370,7 +37754,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36384,7 +37768,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36398,7 +37782,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 16,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36412,7 +37796,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36426,7 +37810,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36440,7 +37824,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36454,7 +37838,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36468,7 +37852,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36482,7 +37866,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 14,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36496,7 +37880,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36510,7 +37894,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 30,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36524,7 +37908,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 30,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36534,14 +37918,14 @@
     "primary:pgt-holdings-197edb1e": {
       "company": "PGT Holdings",
       "country": null,
-      "error": "HTTP Error 403: HTTP 403",
-      "failures": 1,
+      "error": "",
+      "failures": 0,
       "kind": "rss",
       "last_count": 100,
       "last_error": "2026-11-23T17:16:40+00:00",
-      "last_success": "2026-11-23T15:14:32+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
-      "next_check_epoch": 1795456000.6498227,
+      "next_check_epoch": 0,
       "role": "news",
       "seeded": true,
       "url": "https://www.pgttrucking.com/feed/"
@@ -36553,7 +37937,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36567,7 +37951,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36581,7 +37965,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36595,7 +37979,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36609,7 +37993,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36623,7 +38007,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36637,7 +38021,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 14,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [
         "LTL"
       ],
@@ -36653,7 +38037,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "LTL"
       ],
@@ -36669,7 +38053,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [
         "LTL"
       ],
@@ -36682,10 +38066,10 @@
       "company": "Quality Carriers",
       "country": null,
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "rss",
       "last_count": 20,
-      "last_error": "2026-11-23T17:16:39+00:00",
+      "last_error": "2026-11-25T13:22:34+00:00",
       "last_success": "2026-11-23T15:14:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -36700,7 +38084,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36714,7 +38098,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 13,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36728,7 +38112,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36742,7 +38126,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 7,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36756,7 +38140,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36770,7 +38154,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36784,7 +38168,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 15,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36798,7 +38182,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36813,7 +38197,7 @@
       "kind": "html",
       "last_count": 18,
       "last_error": "2026-11-22T21:29:31+00:00",
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36828,7 +38212,7 @@
       "kind": "html",
       "last_count": 3,
       "last_error": "2026-11-22T21:29:31+00:00",
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36842,7 +38226,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36856,7 +38240,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 33,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36869,8 +38253,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 10,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_count": 24,
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36884,7 +38268,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36898,7 +38282,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 3,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36912,7 +38296,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:41+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36926,7 +38310,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36940,7 +38324,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36954,7 +38338,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36975,7 +38359,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:48:58+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -36990,7 +38374,7 @@
       "kind": "html",
       "last_count": 23,
       "last_error": "2026-11-22T19:48:58+00:00",
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37004,7 +38388,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 18,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37018,7 +38402,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37032,7 +38416,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37046,7 +38430,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37057,10 +38441,10 @@
       "company": "Scotlynn",
       "country": null,
       "error": "Remote end closed connection without response",
-      "failures": 1,
+      "failures": 2,
       "kind": "html",
       "last_count": 50,
-      "last_error": "2026-11-23T17:16:43+00:00",
+      "last_error": "2026-11-25T13:22:38+00:00",
       "last_success": "2026-11-23T15:14:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -37075,7 +38459,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37089,7 +38473,7 @@
       "failures": 0,
       "kind": "inline",
       "last_count": 87,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37102,8 +38486,8 @@
       "error": "",
       "failures": 0,
       "kind": "html",
-      "last_count": 26,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_count": 34,
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -37117,7 +38501,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:44+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37131,7 +38515,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 6,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37145,7 +38529,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:32+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37159,7 +38543,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37173,7 +38557,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37187,7 +38571,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 1,
-      "last_success": "2026-11-23T17:16:38+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37201,7 +38585,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37215,7 +38599,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 9,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37229,7 +38613,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37243,7 +38627,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:45+00:00",
+      "last_success": "2026-11-25T13:22:38+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37257,7 +38641,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37271,7 +38655,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 26,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37285,7 +38669,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 93,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [
         "truckload",
         "LTL"
@@ -37302,7 +38686,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37316,7 +38700,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 5,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:33+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37330,7 +38714,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37340,11 +38724,11 @@
     "primary:transervice-logistics-5d6c133b": {
       "company": "Transervice Logistics",
       "country": null,
-      "error": "HTTP Error 520: <none>",
-      "failures": 1,
+      "error": "HTTP Error 520: HTTP 520",
+      "failures": 2,
       "kind": "rss",
       "last_count": 10,
-      "last_error": "2026-11-23T17:16:40+00:00",
+      "last_error": "2026-11-25T13:22:35+00:00",
       "last_success": "2026-11-23T15:14:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
@@ -37359,7 +38743,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37373,7 +38757,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:43+00:00",
+      "last_success": "2026-11-25T13:22:37+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37387,7 +38771,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 100,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37401,7 +38785,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 2,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:36+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37415,7 +38799,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:31+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37429,7 +38813,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 50,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -37443,7 +38827,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37457,7 +38841,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:27+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "service",
@@ -37471,7 +38855,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:35+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37485,7 +38869,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:39+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37499,7 +38883,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 4,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37513,7 +38897,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:28+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37527,7 +38911,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 8,
-      "last_success": "2026-11-23T17:16:40+00:00",
+      "last_success": "2026-11-25T13:22:34+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37541,7 +38925,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 11,
-      "last_success": "2026-11-23T17:16:46+00:00",
+      "last_success": "2026-11-25T13:22:39+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37555,7 +38939,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 12,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37569,7 +38953,7 @@
       "failures": 0,
       "kind": "rss",
       "last_count": 10,
-      "last_success": "2026-11-23T17:16:37+00:00",
+      "last_success": "2026-11-25T13:22:30+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37583,7 +38967,7 @@
       "failures": 0,
       "kind": "html",
       "last_count": 20,
-      "last_success": "2026-11-23T17:16:42+00:00",
+      "last_success": "2026-11-25T13:22:35+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37598,7 +38982,7 @@
       "kind": "rss",
       "last_count": 10,
       "last_error": "2026-11-22T19:48:57+00:00",
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
@@ -37619,7 +39003,7 @@
       "kind": "html",
       "last_count": 10,
       "last_error": "2026-11-22T19:48:57+00:00",
-      "last_success": "2026-11-23T17:16:36+00:00",
+      "last_success": "2026-11-25T13:22:29+00:00",
       "modes": [],
       "next_check_epoch": 0,
       "role": "news",
