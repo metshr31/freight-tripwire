@@ -147,7 +147,9 @@ class PrimarySourceTests(unittest.TestCase):
 
     def test_primary_alert_is_sent_and_saved_before_later_sources_finish(self):
         spec = {"id": "up", "company": "Union Pacific", "role": "service", "url": "https://carrier.example/alerts", "kind": "html"}
-        item = decorate([{"title": "New gate operating plan", "link": "https://carrier.example/alerts/new", "source": spec["url"], "summary": "Gate closes at 5 PM."}], spec)[0]
+        # Delivery requires a verified publication time; keep this fixture fresh
+        # on every run rather than bypassing the production freshness filter.
+        item = decorate([{"title": "New gate operating plan", "link": "https://carrier.example/alerts/new", "source": spec["url"], "summary": "Gate closes at 5 PM.", "published": watcher.now()}], spec)[0]
         with tempfile.TemporaryDirectory() as directory:
             state = Path(directory, "state.json")
             watcher.atomic_save(state, {"version": 2, "seen": {}, "sources": {"primary:up": {"seeded": True, "failures": 0}}})
