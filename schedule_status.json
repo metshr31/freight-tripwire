@@ -1,0 +1,12 @@
+{
+  "last_scan": {
+    "completed_at": null,
+    "event": "workflow_dispatch",
+    "exit_code": null,
+    "run_url": "https://github.com/metshr31/freight-tripwire/actions/runs/45850383988",
+    "slot": null,
+    "started_at": "2026-11-26T15:34:23.572753+00:00",
+    "status": "running"
+  },
+  "version": 1
+}
