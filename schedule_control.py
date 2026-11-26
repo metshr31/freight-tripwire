@@ -77,6 +77,8 @@ def begin(current=None, requested='', event='schedule', manual=False):
         return False
     record = {'slot': slot, 'started_at': current.isoformat(), 'completed_at': None,
               'status': 'running', 'event': event,
+              'trigger_kind': 'manual' if manual else ('external' if event == 'workflow_dispatch' else 'native'),
+              'requested_slot': requested or None,
               'run_url': os.getenv('SCAN_RUN_URL', ''), 'exit_code': None}
     if slot:
         doc['last_claimed_slot'] = slot

@@ -125,3 +125,29 @@ UTC offsets; duplicate/stale triggers; failed durable claims; failed completion;
 secret transport in headers; transient dispatch retries; and off-hours silence.
 External service dispatch has only mocked network tests until deployment.
 Three consecutive automatic executions remain unverified until observed live.
+
+## Live verification results (November 26, 2026, Eastern Standard Time)
+
+Manual verification run:
+https://github.com/metshr31/freight-tripwire/actions/runs/45850383988
+
+- Workflow created/started: 10:34:09.
+- Scan start recorded: 10:34:23.573; persisted before scanning in commit
+  b27672f790f4fc8a0454507ed3aab92a057f68c0.
+- Scan completion: 10:35:15.813, exit 0. Workflow completed successfully 10:35:21.
+- 311 sources checked, 292 successful, 19 source errors; no source backoff this
+  run. Those source errors are recorded by the existing health mechanism and
+  are separate from trigger reliability. Zero notification batches, zero pending
+  alerts. Existing source and notification settings were preserved.
+- Durable completion, health and monitoring state saved in commit
+  2bd925bd7ed6b2f592b7c8db6c485ea2e092f0b0. Retrieved status from main to verify
+  last_successful_check and successful completion survived the runner.
+- The workflow ran all 36 Python and three Node tests successfully.
+- An independent ChatGPT watchdog was enabled for weekdays, hourly at :12,
+  08:12 through 20:12 Eastern (including DST), starting November 26 at 11:12.
+  It audits slots after this deployment and reports here. Its first automatic
+  invocation is pending; hourly detection is best effort.
+- Automatic schedule verification: **0 of 3 consecutive executions observed**.
+  This manual scan does not validate schedule reliability. The operating window
+  is open, but the independent trigger is not deployed. No precise timing or
+  successful schedule repair is claimed.
