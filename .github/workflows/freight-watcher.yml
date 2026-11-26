@@ -8,6 +8,15 @@ on:
       timezone: 'America/New_York'
   workflow_dispatch:
     inputs:
+      scheduled_for:
+        description: 'External scheduler: exact intended UTC slot (ISO 8601); stale slots are refused'
+        required: false
+        type: string
+      automatic:
+        description: 'Apply operating window and slot guard (external scheduler must set true)'
+        required: false
+        type: boolean
+        default: false
       test_push:
         description: 'Send a real test notification to ntfy (no baseline changes)'
         required: false
@@ -44,8 +53,24 @@ jobs:
       - name: Check configuration
         run: python watcher.py --check-config
       - name: Run unit tests
-        run: python -m unittest discover -s tests -v
+        run: |
+          python -m unittest discover -s tests -v
+          node --test scheduler/worker.test.mjs
+      - name: Configure state commit identity
+        run: |
+          git config user.name 'freight-tripwire[bot]'
+          git config user.email 'freight-tripwire[bot]@users.noreply.github.com'
+      - name: Claim slot and persist actual scan start
+        id: admission
+        if: inputs.test_push != true && inputs.pipeline_test != true
+        env:
+          SCHEDULED_FOR: ${{ inputs.scheduled_for }}
+          MANUAL_SCAN: ${{ github.event_name == 'workflow_dispatch' && inputs.automatic != true }}
+          SCAN_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python schedule_control.py begin
       - name: Run watcher or test notification
+        id: watcher
+        if: steps.admission.outputs.scan == 'true' || inputs.test_push == true || inputs.pipeline_test == true
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
@@ -59,12 +84,22 @@ jobs:
           else
             python watcher.py
           fi
+      - name: Record actual completion and last successful check
+        if: always() && steps.admission.outputs.scan == 'true'
+        env:
+          SCAN_OUTCOME: ${{ steps.watcher.outcome }}
+        run: |
+          if [[ "$SCAN_OUTCOME" == 'success' ]]; then
+            python schedule_control.py finish 0
+          else
+            python schedule_control.py finish 1
+          fi
       - name: Commit durable state and alert log
         if: always()
         run: |
           git config user.name 'freight-tripwire[bot]'
           git config user.email 'freight-tripwire[bot]@users.noreply.github.com'
-          for file in seen_items.json health.json alerts.jsonl; do
+          for file in seen_items.json health.json alerts.jsonl schedule_status.json scan_history.jsonl; do
             if [[ -f "$file" ]]; then git add -- "$file"; fi
           done
           if ! git diff --staged --quiet; then
@@ -76,3 +111,6 @@ jobs:
             echo 'State push failed after retries' >&2
             exit 1
           fi
+      - name: Display durable scan status
+        if: always()
+        run: python schedule_control.py summary
