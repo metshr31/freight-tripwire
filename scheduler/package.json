@@ -1,0 +1,7 @@
+{
+  "name": "freight-tripwire-scheduler",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test worker.test.mjs"},
+  "devDependencies": {"wrangler": "4.168.0"}
+}

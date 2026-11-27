@@ -151,3 +151,14 @@ https://github.com/metshr31/freight-tripwire/actions/runs/45850383988
   This manual scan does not validate schedule reliability. The operating window
   is open, but the independent trigger is not deployed. No precise timing or
   successful schedule repair is claimed.
+
+## Deployment path after account creation
+
+The owner confirmed creating a Cloudflare account on November 26. Browser login
+still returned HTTP 403, so the deployment path is now prepared in
+`.github/workflows/deploy-scheduler.yml`; see `scheduler/SETUP.md` for the three
+repository secrets required. Those credentials are not yet configured or
+verified. Pushes run tests/packaging only. Actual deployment requires a manual
+workflow dispatch with `deploy: true`, and cannot occur without all secrets.
+The independent trigger is still **not deployed**, and automatic scan timing is
+still unverified. No plan upgrade or paid service has been introduced.
